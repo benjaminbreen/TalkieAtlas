@@ -1,0 +1,13 @@
+{
+  "reply_count": 33,
+  "pair_variants": 24,
+  "distinct_pairs": 8,
+  "selected_pairs": 8,
+  "exact_solo_retests": 8,
+  "checks": [
+    "Unique IDs and complete Luna judgments",
+    "All independently scaled edits match parent strengths",
+    "All three balances saved for each of eight pairs",
+    "Every parent retest mapped to its source"
+  ]
+}

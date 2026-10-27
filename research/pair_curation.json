@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "selection": "Editorial review for readable, specific, surprising or entertaining outputs. A true two-parent blend is not required. Generic one-line identities and sustained repetition are excluded from the featured gallery; every trial remains in All results.",
+  "curator": "User preference for the silurid fish, followed by Codex editorial review",
+  "featured": [
+    {
+      "id": "b1033-r03",
+      "reason": "User favorite: a detailed first-person silurid fish portrait; interesting elaboration despite parent dominance."
+    },
+    {
+      "id": "b2000-r32",
+      "reason": "A first-person 1703 storm describes its travels, destruction, and later lessons in stormproof building."
+    },
+    {
+      "id": "b2000-r17",
+      "reason": "A vivid military warning against rebellion on the Norfolk coast emerges from ship plus Rebellion."
+    },
+    {
+      "id": "b2000-r28",
+      "reason": "Carlyle plus Rebellion produces a pointed, surprising soldier-of-order declaration."
+    },
+    {
+      "id": "b2000-r22",
+      "reason": "An Ethiopian Cæsar Augustus in New Orleans abruptly becomes an insurance advertisement: an amusing archival pastiche."
+    },
+    {
+      "id": "b1032-r07",
+      "reason": "Geography and botany collide in a Greenwich village that manufactures living organisms."
+    },
+    {
+      "id": "b0044-r08",
+      "reason": "A waterfowl-like triangle becomes a water and land measure in an elaborate, impossible geometry lesson."
+    },
+    {
+      "id": "b1033-r04",
+      "reason": "The fish and algae produce a specific freshwater plant with habitat, seasonality and smell."
+    }
+  ],
+  "reviewed_pairs": 57,
+  "review_notes": [
+    "The right-angle one-liner and space-space-space reply are dull parent-dominated outcomes, despite high fluency scores.",
+    "The repetitive right-angled object, street-name loops, El-word loops and space-loving plant remain inspectable in All results.",
+    "The first shortlist overfavored highly rated nonhuman identities and missed already available historical candidates such as Napoleon, Hobbes, Jefferson and Rebellion.",
+    "Thematic pairs were chosen before generation. Napoleon + Rebellion did not produce an entertaining blend in these three balances; failures remain available."
+  ],
+  "reviewed_additional_strength_variants": 24
+}

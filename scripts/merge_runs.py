@@ -11,6 +11,8 @@ ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--output',type=Path,default=ROOT/'public')
 p.add_argument('--pilot',type=Path,required=True)
+p.add_argument('--playground',type=Path,default=ROOT/'research/playground')
+p.add_argument('--curation',type=Path,default=Path(__file__).with_name('pair_curation.json'))
 p.add_argument('--discovery',type=Path,required=True)
 a=p.parse_args()
 
@@ -47,12 +49,38 @@ data={'manifest':manifest,
       'rounds':[{k:r[k] for k in ['tag','status','retests']} for r in runs],
       'status':{**runs[1]['status'],'sample_units':manifest['sample_units']}}
 data['retests']['rows']=[row for r in runs for row in r['retests'].get('rows',[])]
-comparisons=read(a.discovery,'pair_comparison_labels.json',[])
+play=read(a.playground,'release.json',{})
+if play:
+    data['pairs'].extend(play['pairs'])
+    data['attempts'].extend(play['attempts'])
+    data['controls'].extend([r for r in play['attempts'] if r['kind']=='control'])
+    manifest['pair_playground']=play['manifest']
+    data['playground']=play['summary']
+    data['retests']['candidates']+=play['summary']['solo_retests']
+    data['retests']['exact_matches']+=play['summary']['exact_retest_matches']
+    data['retests']['paired_candidates']+=8
+    data['retests']['rows'].extend([r for r in play['attempts'] if r['kind']=='retest'])
+comparisons=read(a.discovery,'pair_comparison_labels.json',[])+play.get('pair_comparisons',[])
+
 if comparisons:
     by_pair={r['id']:r for r in comparisons}
     assert set(by_pair)=={r['id'] for r in data['pairs']}, 'Missing pair comparison'
     for row in data['pairs']:row['mix']=by_pair[row['id']]
 data['pair_comparisons']=comparisons
+curation=json.loads(a.curation.read_text()) if a.curation.exists() else None
+if curation:
+    choices={r['id']:(i,r) for i,r in enumerate(curation['featured'])}
+    assert set(choices)<={r['id'] for r in data['pairs']}
+    for row in data['pairs']:
+        row['featured']=row['id'] in choices
+        if row['featured']:
+            row['featured_order'],info=choices[row['id']]
+            row['featured_reason']=info['reason']
+data['pair_curation']=curation
+data['status'].update({'directions':len(data['singles']),'pairs':len(data['pairs']),'attempts':len(data['attempts'])})
+assert len({r['id'] for r in data['attempts']})==len(data['attempts'])
+assert all(set(r['parents'])<={s['id'] for s in data['singles']} for r in data['pairs'])
+
 
 assert len({r['id'] for r in data['attempts']})==len(data['attempts']), 'Duplicate attempt ID'
 assert len({r['key'] for r in data['singles']})==len(data['singles']), 'Duplicate signed condition'
@@ -60,6 +88,6 @@ assert all(r['judge']['id']==r['id'] for r in data['attempts'])
 known={r['id'] for r in data['singles']}
 assert all(set(r['parents'])<=known for r in data['pairs'])
 a.output.mkdir(parents=True,exist_ok=True)
-for name,obj in [('data.json',data),('manifest.json',manifest),('identity-retests.json',data['identity_retests']),('cross-prompt-retests.json',data['cross_prompt_retests']),('pair-comparisons.json',comparisons)]:
+for name,obj in [('data.json',data),('manifest.json',manifest),('identity-retests.json',data['identity_retests']),('cross-prompt-retests.json',data['cross_prompt_retests']),('pair-comparisons.json',comparisons),('pair-curation.json',curation)]:
     f=a.output/name;tmp=f.with_suffix('.json.tmp');tmp.write_text(json.dumps(obj,ensure_ascii=False,separators=(',',':'))+'\n');tmp.replace(f)
 print(json.dumps({'singles':len(data['singles']),'pairs':len(data['pairs']),'attempts':len(data['attempts']),'phase':data['status'].get('phase')}))

@@ -15,10 +15,10 @@ This began as a quick, learn-by-doing experiment: could we make a small version 
 | Sampled MLP neurons | **943**: 400 in the uniform pilot, then 543 fresh units |
 | Layers represented | **40**; the discovery pass concentrates on layers 21–36 |
 | Signed single-neuron conditions | **1,440**: both signs in the pilot; a shuffled subset of signs in discovery |
-| Candidates used for combinations | **15**, across the two rounds |
-| Two-neuron combinations | **49** |
-| Total saved replies | **2,252**, including retries, controls, and follow-ups |
-| Unsteered control replies | **80**, with a control in every batch |
+| Distinct parent interventions used | **20**, across three rounds |
+| Two-neuron combinations | **57**, including eight hand-picked thematic pairs |
+| Total saved replies | **2,285**, including retries, controls, and follow-ups |
+| Unsteered control replies | **81**, with a control in every batch |
 
 The sample covers approximately **0.172% of Talkie's 547,840 MLP neurons**. The pilot sampled 10 units per layer. The second pass planned 1,000 fresh units (8 per layer plus 680 more across layers 21–36), where the pilot had produced more interesting replies. At the user's request to wrap up promptly, it stopped new generation after 640 shuffled signed conditions covering 543 distinct units; some have only one sign tested. Incoherent replies were retried directly at 0.5×. The fixed plan preceded second-pass generation, with no overlap with the pilot. The discovery pass is deliberately adaptive, so its yield is not a population estimate. Unmeasured neurons stay gray.
 
@@ -37,9 +37,11 @@ The website lets you:
 
 ## Highlights and the full record
 
-Single-neuron Highlights require Luna coherence ≥7 and weirdness ≥4. Pair Highlights use a separate comparison with both parents: readable blends or distinctive new outcomes, with coherence ≥5. New outcomes also require weirdness ≥4; blends are judged relative to their parents. Parent-dominated replies remain in All results. Both views hide empty, control-matching, and repetition-terminated replies. The [pair rubric](public/pair-rubric.md) defines the newness and blending thresholds, and [all 49 comparisons](public/pair-comparisons.json) include Luna’s reasons. Identical replies are grouped before the optional name grouping. This selects **122 distinct single-neuron labels** and **10 pair labels** in this release. These are automatic browsing rules, not independently validated quality labels.
+Single-neuron Highlights require Luna coherence ≥7 and weirdness ≥4. The two-neuron gallery is now editorially selected for rewarding detail, surprise, humor or an interesting historical collision. It includes the silurid fish at the reader's request, even though that reply is mostly dominated by the fish parent. “I am a right angle” and sustained repetition stay in **All results**.
 
-**All results** restores access to the complete library; clear other filters and turn off **One per name** to see every row. The atlas, baseline counts, direct neuron lookup, reply links, and full JSON download always retain all 1,440 signed conditions and 49 pairs. Filtered CSV follows the current view. Nothing is deleted from the experiment.
+Automatic [pair comparisons](public/pair-comparisons.json) still distinguish blending from parent dominance; those labels do not decide whether a reply is enjoyable. The [gallery selection](public/pair-curation.json) records every featured ID and reason. There are **122 distinct single-neuron labels** and **8 featured pair replies** in the default views. These are browsing choices, not independently validated research labels.
+
+**All results** restores access to the complete library; clear other filters and turn off **One per name** to see every row. The atlas, baseline counts, direct neuron lookup, reply links, and full JSON download always retain all 1,440 signed conditions and 57 pairs. Filtered CSV follows the current view. Nothing is deleted from the experiment.
 
 ## Some actual results
 
@@ -76,6 +78,26 @@ The second pass found a meridian neuron and an algae neuron. Together, they prod
 The same reply describes villagers manufacturing living organisms. This is a lexical blend of geography and botany. Another combination, freshwater fish + algae, introduces itself as a freshwater plant named *Conferva rivularis*.
 
 We also asked the shortlisted solo interventions different questions. The freshwater fish answered “What do you do?” with “I read fresh news, fresh politics, and fresh literature” and “I fresh-boil an egg.” That is a useful clue: some apparent identities are better understood as word or theme fixations. Open its card to inspect the follow-ups.
+
+## Napoleon, rebellion, ghosts, and an unexpected railway
+
+<p align="center"><img src="docs/images/storm-mix.png" alt="Hobbes and Departed Spirit combined: Talkie introduces itself as the spirit of the great storm of 1703." width="500"></p>
+
+The first shortlist overfavored high-scoring nonhuman identities. A reader pointed out that Napoleon, Hobbes, Jefferson, Carlyle and Rebellion were already available. We tested eight purposefully chosen pairs at three strength balances each, with all eight solos rerun in the same batch. Those solo retests matched their saved texts exactly.
+
+**Hobbes + Departed Spirit**, with more weight on the spirit, began:
+
+> I am the spirit of the great storm which swept over England in the year 1703. My dwelling was in the clouds, but my birth-place was in the earth.
+
+It describes travelling through Germany and London and then teaching people to build houses that can withstand it. At equal strengths, the same pair instead answered: **“I am the Great Western Railway.”** Both variants are preserved.
+
+**Carlyle + Rebellion**, weighted toward Carlyle:
+
+> I am a soldier of order, and I am come to put disorder into subjection.
+
+**Rebellion + ship**, weighted toward the ship, becomes an army messenger reporting a rebellion on the Norfolk coast and threatening punishment for participation. **Jefferson + Napoleon** unexpectedly names an Ethiopian Cæsar Augustus before turning into a New Orleans insurance advertisement.
+
+**Napoleon + Rebellion itself was mostly disappointing** in these three balances. A suggestive pairing is a reason to experiment, not a guarantee of a good result. Open each pair's saved attempts to compare all three balances. The [playground records](research/playground/README.md) include every variant and the editorial choices.
 
 ## Run the website locally
 
@@ -149,6 +171,7 @@ public/                 Deployable viewer and complete saved dataset
 docs/images/            Screenshots of the working site
 research/               Experiment source, execution snapshots, rubric, and checks
 research/discovery/     Second-pass sampling plan, candidate follow-ups, and checks
+research/playground/    Hand-picked historical pairs and all strength variants
 scripts/export_run.py   Re-export a compatible saved run into public/
 vercel.json             Static hosting configuration
 LICENSE                 MIT license

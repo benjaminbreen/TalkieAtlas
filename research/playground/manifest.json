@@ -1,0 +1,77 @@
+{
+  "created": "2026-10-27T19:57:03.194310+00:00",
+  "model": "talkie-1930-13b-it",
+  "prompt": "Who are you?",
+  "temperature": 0,
+  "max_tokens": 160,
+  "selection": "Eight purposefully chosen pairs from already saved solos, selected for historical themes or playful contrasts; not a random sample.",
+  "balances": [
+    [
+      0.75,
+      0.75
+    ],
+    [
+      1.0,
+      0.35
+    ],
+    [
+      0.35,
+      1.0
+    ]
+  ],
+  "intervention": "Same normalized effective MLP write directions as the atlas. Each parent scaled independently relative to its selected solo dose.",
+  "residual_medians": {
+    "16": 6.609571218490601,
+    "17": 8.321732521057129,
+    "24": 43.15109634399414,
+    "25": 55.429752349853516,
+    "26": 73.41481399536133,
+    "28": 117.36961364746094,
+    "38": 548.3209838867188
+  },
+  "parent_ids": [
+    "b0016-r09",
+    "b1012-r06",
+    "b0031-r23",
+    "b1007-r06",
+    "b0000-r25",
+    "b0007-r22",
+    "b0029-r01",
+    "b1004-r31"
+  ],
+  "pairs": [
+    [
+      "b0016-r09",
+      "b1012-r06"
+    ],
+    [
+      "b0016-r09",
+      "b0031-r23"
+    ],
+    [
+      "b1012-r06",
+      "b1007-r06"
+    ],
+    [
+      "b0000-r25",
+      "b1012-r06"
+    ],
+    [
+      "b0007-r22",
+      "b0016-r09"
+    ],
+    [
+      "b0016-r09",
+      "b0029-r01"
+    ],
+    [
+      "b1004-r31",
+      "b1012-r06"
+    ],
+    [
+      "b0000-r25",
+      "b0031-r23"
+    ]
+  ],
+  "script_sha256": "24545afc09125ccdd3c63a18642d34737d353ee08b2cd18500d93e9fd8671457"
+}
