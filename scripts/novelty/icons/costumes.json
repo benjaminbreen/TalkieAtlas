@@ -1,0 +1,2929 @@
+{
+  "p/38-1287-up_34-11010-down": {
+    "color": "teal",
+    "crest": true,
+    "right": "setsquare",
+    "left": "dividers",
+    "back": [
+      "waves"
+    ]
+  },
+  "n/17-10423-down": {
+    "color": "lilac",
+    "mood": "closed",
+    "halo": true,
+    "back": [
+      "wisps",
+      "sparkles"
+    ]
+  },
+  "p/17-10423-down_38-1287-up": {
+    "color": "lilac",
+    "halo": true,
+    "crest": true,
+    "face": [
+      "beak"
+    ],
+    "back": [
+      "waves",
+      "sparkles"
+    ]
+  },
+  "p/17-10423-down_34-11010-down": {
+    "color": "lilac",
+    "mood": "closed",
+    "halo": true,
+    "right": "setsquare",
+    "back": [
+      "wisps"
+    ]
+  },
+  "p/17-10423-down_30-543-down": {
+    "color": "lilac",
+    "halo": true,
+    "hat": "crown",
+    "back": [
+      "skyline",
+      "wisps"
+    ]
+  },
+  "n/23-3070-down": {
+    "color": "gold",
+    "hat": "crown",
+    "right": "scroll",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/38-1287-up": {
+    "color": "slate",
+    "crest": true,
+    "face": [
+      "beak"
+    ],
+    "back": [
+      "waves"
+    ]
+  },
+  "n/34-11010-down": {
+    "color": "teal",
+    "face": [
+      "spectacles"
+    ],
+    "right": "setsquare"
+  },
+  "n/24-2054-up": {
+    "color": "tan",
+    "hat": "roof",
+    "mood": "wide",
+    "mouth": "open"
+  },
+  "n/30-543-down": {
+    "color": "crimson",
+    "mood": "smug",
+    "hat": "crown",
+    "chest": [
+      "chain"
+    ],
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/36-297-down": {
+    "color": "navy",
+    "face": [
+      "mustache"
+    ],
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "right": "broom"
+  },
+  "n/28-12658-down": {
+    "color": "crimson",
+    "mood": "smug",
+    "hat": "topper",
+    "chest": [
+      "chain"
+    ],
+    "right": "mirror"
+  },
+  "p/38-1287-up_36-297-down": {
+    "color": "slate",
+    "crest": true,
+    "face": [
+      "beak"
+    ],
+    "right": "broom",
+    "back": [
+      "waves"
+    ]
+  },
+  "n/27-6906-down": {
+    "color": "black",
+    "hat": "bonnet",
+    "chest": [
+      "bands"
+    ],
+    "right": "book"
+  },
+  "n/21-10472-up": {
+    "color": "tan",
+    "hat": "turban",
+    "left": "cane",
+    "back": [
+      "pyramids"
+    ]
+  },
+  "p/23-3070-down_36-297-down": {
+    "color": "gold",
+    "mood": "smug",
+    "hat": "turban",
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "back": [
+      "palm"
+    ]
+  },
+  "n/27-2617-up": {
+    "color": "brown",
+    "hat": "ears",
+    "mouth": "open",
+    "right": "horseshoe"
+  },
+  "n/28-7376-up": {
+    "color": "navy",
+    "mood": "smug",
+    "hat": "bicorne",
+    "chest": [
+      [
+        "sash",
+        "#c0392b"
+      ],
+      "medal"
+    ],
+    "right": "sword"
+  },
+  "n/29-1476-down": {
+    "color": "plum",
+    "mood": "wide",
+    "back": [
+      "sparkles",
+      [
+        "bubble",
+        "we"
+      ]
+    ]
+  },
+  "n/27-3311-down": {
+    "color": "green",
+    "hat": "topper",
+    "chest": [
+      "rosette"
+    ],
+    "right": "scroll",
+    "back": [
+      "bigben"
+    ]
+  },
+  "n/16-8269-down": {
+    "color": "blue",
+    "hat": "wig",
+    "right": "quill"
+  },
+  "n/22-8516-up": {
+    "color": "brass",
+    "hat": "topper",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "moneybag",
+    "left": "cane"
+  },
+  "n/34-10233-up": {
+    "color": "black",
+    "hat": "mortarboard",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "bands"
+    ],
+    "right": "book"
+  },
+  "n/33-7128-up": {
+    "color": "grey",
+    "hat": "bonnet",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "tartan"
+    ],
+    "right": "scalpel"
+  },
+  "n/15-11157-up": {
+    "color": "grey",
+    "mood": "sad",
+    "hat": "bare",
+    "face": [
+      "tear"
+    ]
+  },
+  "n/28-2581-up": {
+    "color": "grey",
+    "hat": "topper",
+    "face": [
+      "mustache"
+    ],
+    "right": "scalpel",
+    "left": "medbag"
+  },
+  "n/24-11069-down": {
+    "color": "crimson",
+    "hat": "shako",
+    "chest": [
+      "medal"
+    ],
+    "right": "musket"
+  },
+  "n/22-1693-up": {
+    "color": "brown",
+    "hat": "bowler",
+    "face": [
+      [
+        "beard",
+        "#a8a29a"
+      ]
+    ],
+    "right": "globe"
+  },
+  "n/17-4739-up": {
+    "color": "navy",
+    "hat": "topper",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag"
+  },
+  "n/31-12197-up": {
+    "color": "plum",
+    "hat": "topper",
+    "face": [
+      "monocle"
+    ],
+    "chest": [
+      "stethoscope"
+    ]
+  },
+  "n/30-7078-down": {
+    "color": "blue",
+    "hat": "shako",
+    "right": "musket",
+    "left": [
+      "flag",
+      "fr"
+    ]
+  },
+  "n/21-13651-up": {
+    "color": "tan",
+    "hat": "bowler",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "cloth"
+  },
+  "n/39-6390-down": {
+    "color": "brown",
+    "hat": "bare",
+    "face": [
+      [
+        "beard",
+        "#a8a29a"
+      ]
+    ],
+    "right": "book"
+  },
+  "n/27-12925-up": {
+    "color": "crimson",
+    "hat": "bowler",
+    "right": "umbrella",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/2-13315-up": {
+    "color": "navy",
+    "hat": "sailor",
+    "right": "moneybag",
+    "back": [
+      "ship"
+    ]
+  },
+  "n/38-4140-up": {
+    "color": "grey",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "quill",
+    "left": "book"
+  },
+  "n/22-179-down": {
+    "color": "crimson",
+    "hat": "topper",
+    "face": [
+      "mustache"
+    ],
+    "chest": [
+      "unionjack"
+    ],
+    "right": "tankard"
+  },
+  "n/25-2707-down": {
+    "color": "blue",
+    "mood": "wide",
+    "hat": "wig",
+    "right": "scroll",
+    "back": [
+      "capitol"
+    ]
+  },
+  "p/36-297-down_28-12658-down": {
+    "color": "crimson",
+    "mood": "smug",
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "right": "broom",
+    "back": [
+      "sparkles"
+    ]
+  },
+  "n/27-11794-down": {
+    "color": "green",
+    "hat": "bonnet",
+    "chest": [
+      "tartan"
+    ],
+    "right": "crook",
+    "back": [
+      "sheep"
+    ]
+  },
+  "n/33-5656-up": {
+    "color": "black",
+    "hat": "mortarboard",
+    "chest": [
+      "bands"
+    ],
+    "right": "book"
+  },
+  "n/32-6491-down": {
+    "color": "black",
+    "hat": "shovel",
+    "chest": [
+      "bands"
+    ],
+    "right": [
+      "book",
+      "#7a1f2b"
+    ]
+  },
+  "n/28-5258-down": {
+    "color": "grey",
+    "hat": "bowler",
+    "face": [
+      "spectacles"
+    ],
+    "right": "ledger",
+    "left": "quill"
+  },
+  "n/24-2608-up": {
+    "color": "plum",
+    "hat": "wig",
+    "right": "telescope",
+    "back": [
+      "sparkles"
+    ]
+  },
+  "n/21-2482-up": {
+    "color": "sky",
+    "mood": "wide",
+    "hat": "bare",
+    "back": [
+      [
+        "bubble",
+        "you"
+      ]
+    ]
+  },
+  "n/32-9429-up": {
+    "color": "brass",
+    "hat": "topper",
+    "right": [
+      "flag",
+      "us"
+    ],
+    "left": "carpetbag"
+  },
+  "n/11-4360-down": {
+    "color": "grey",
+    "mood": "closed",
+    "hat": "bare",
+    "right": "hourglass",
+    "back": [
+      "dunes"
+    ]
+  },
+  "n/35-3240-up": {
+    "color": "olive",
+    "hat": "bowler",
+    "right": "cane",
+    "left": "carpetbag",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/31-13200-up": {
+    "color": "black",
+    "hat": "shovel",
+    "chest": [
+      "bands"
+    ],
+    "right": "newspaper"
+  },
+  "n/32-326-up": {
+    "color": "tan",
+    "hat": "bonnet",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "ledger"
+  },
+  "n/27-2617-down": {
+    "color": "black",
+    "mood": "smug",
+    "hat": "wig",
+    "right": "scroll"
+  },
+  "n/25-3071-up": {
+    "color": "brown",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "tankard",
+    "left": "horseshoe"
+  },
+  "n/34-9700-down": {
+    "color": "sky",
+    "chest": [
+      "apron"
+    ],
+    "right": "iron",
+    "back": [
+      "bubbles"
+    ]
+  },
+  "n/30-8105-up": {
+    "color": "olive",
+    "hat": "bowler",
+    "right": "dividers",
+    "left": "scroll"
+  },
+  "n/28-7704-up": {
+    "color": "gold",
+    "mood": "closed",
+    "hat": "strawhat",
+    "right": [
+      "book",
+      "#b5523b"
+    ],
+    "back": [
+      "sun",
+      "dunes"
+    ]
+  },
+  "n/24-7943-up": {
+    "color": "brown",
+    "hat": "capotain",
+    "face": [
+      [
+        "beard",
+        "#e3ddd0"
+      ]
+    ],
+    "right": "quill",
+    "left": "book"
+  },
+  "n/23-10748-up": {
+    "color": "blue",
+    "hat": "shako",
+    "face": [
+      "mustache"
+    ],
+    "right": "musket"
+  },
+  "n/26-1651-down": {
+    "color": "plum",
+    "mood": "wide",
+    "hat": "bonnet",
+    "face": [
+      "monocle"
+    ],
+    "back": [
+      "sparkles"
+    ]
+  },
+  "n/31-759-up": {
+    "color": "green",
+    "hat": "cap",
+    "right": "cane",
+    "left": "carpetbag"
+  },
+  "n/39-7417-up": {
+    "color": "slate",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "fish"
+  },
+  "n/26-10495-up": {
+    "color": "navy",
+    "hat": "topper",
+    "right": [
+      "flag",
+      "us"
+    ],
+    "back": [
+      "capitol"
+    ]
+  },
+  "n/27-5328-up": {
+    "color": "black",
+    "hat": "bonnet",
+    "mood": "closed",
+    "chest": [
+      "bands"
+    ],
+    "right": "book"
+  },
+  "n/35-541-down": {
+    "color": "grey",
+    "hat": "topper",
+    "face": [
+      "monocle"
+    ],
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag"
+  },
+  "n/30-8105-down": {
+    "color": "green",
+    "hat": "topper",
+    "face": [
+      "mustache"
+    ],
+    "chest": [
+      "rosette"
+    ],
+    "back": [
+      "bigben"
+    ]
+  },
+  "n/35-2024-up": {
+    "color": "tan",
+    "hat": "bowler",
+    "right": "wheat",
+    "left": "ledger"
+  },
+  "n/38-11339-down": {
+    "color": "brown",
+    "hat": "bonnet",
+    "chest": [
+      "apron"
+    ],
+    "right": "shoe",
+    "left": "quill"
+  },
+  "n/9-8617-up": {
+    "color": "ivory",
+    "mood": "closed",
+    "chest": [
+      "bands"
+    ],
+    "right": "book"
+  },
+  "n/24-2888-down": {
+    "color": "grey",
+    "hat": "wig",
+    "face": [
+      "spectacles"
+    ],
+    "right": "scroll"
+  },
+  "n/24-10148-down": {
+    "color": "blue",
+    "hat": "beret",
+    "face": [
+      "mustache"
+    ],
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag"
+  },
+  "n/15-565-down": {
+    "color": "green",
+    "hat": "bowler",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "teacup"
+  },
+  "n/18-9597-up": {
+    "color": "gold",
+    "hat": "topper",
+    "right": "wheat",
+    "left": "ledger"
+  },
+  "n/22-4404-down": {
+    "color": "plum",
+    "hat": "bowler",
+    "chest": [
+      [
+        "waistcoat",
+        "#8e1b3b"
+      ]
+    ],
+    "right": "wineglass"
+  },
+  "n/13-8051-down": {
+    "color": "navy",
+    "hat": "topper",
+    "chest": [
+      "rosette"
+    ],
+    "right": "scroll"
+  },
+  "n/15-2721-up": {
+    "color": "sky",
+    "hat": "bare",
+    "right": "globe",
+    "back": [
+      "sparkles"
+    ]
+  },
+  "n/12-6272-up": {
+    "color": "black",
+    "hat": "wig",
+    "right": "scales"
+  },
+  "n/17-2237-up": {
+    "color": "tan",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "shuttle"
+  },
+  "n/3-5349-up": {
+    "color": "ivory",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag"
+  },
+  "n/16-8651-up": {
+    "color": "sky",
+    "hat": "topper",
+    "left": "carpetbag",
+    "back": [
+      "crystal"
+    ]
+  },
+  "n/29-8338-down": {
+    "color": "grey",
+    "hat": "bowler",
+    "right": "ledger",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/21-6-down": {
+    "color": "navy",
+    "hat": "bowler",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "stethoscope"
+    ]
+  },
+  "n/19-8632-down": {
+    "color": "brass",
+    "hat": "bowler",
+    "face": [
+      "mustache"
+    ]
+  },
+  "n/10-8903-up": {
+    "color": "olive",
+    "hat": "strawhat",
+    "right": "cane",
+    "left": "carpetbag"
+  },
+  "n/17-12825-up": {
+    "color": "ivory",
+    "mood": "closed",
+    "right": "olive",
+    "back": [
+      "dove"
+    ]
+  },
+  "n/15-7763-up": {
+    "color": "tan",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "wheat"
+  },
+  "n/16-1196-down": {
+    "color": "grey",
+    "hat": "bowler",
+    "face": [
+      "spectacles"
+    ],
+    "right": "newspaper",
+    "left": "quill"
+  },
+  "n/38-349-up": {
+    "color": "crimson",
+    "hat": "shako",
+    "right": "musket",
+    "left": "leek"
+  },
+  "n/17-6163-down": {
+    "color": "black",
+    "hat": "shovel",
+    "mood": "closed",
+    "chest": [
+      "bands"
+    ],
+    "right": [
+      "book",
+      "#7a1f2b"
+    ]
+  },
+  "n/13-10689-down": {
+    "color": "green",
+    "hat": "strawhat",
+    "right": "pitchfork",
+    "back": [
+      "haystack"
+    ]
+  },
+  "n/20-8513-down": {
+    "color": "crimson",
+    "hat": "shako",
+    "chest": [
+      "medal"
+    ],
+    "right": "sword"
+  },
+  "n/15-5530-up": {
+    "color": "plum",
+    "hat": "topper",
+    "chest": [
+      "stethoscope"
+    ],
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/12-5261-down": {
+    "color": "sky",
+    "hat": "cap",
+    "face": [
+      "blush"
+    ],
+    "right": "hoop"
+  },
+  "n/16-9411-down": {
+    "color": "blue",
+    "hat": "bowler",
+    "right": [
+      "flag",
+      "us"
+    ]
+  },
+  "n/15-12399-down": {
+    "color": "tan",
+    "hat": "topper",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "cloth"
+  },
+  "n/19-3724-down": {
+    "color": "ivory",
+    "hat": "bowler",
+    "chest": [
+      "unionjack"
+    ],
+    "right": "book"
+  },
+  "n/14-8448-up": {
+    "color": "brown",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "hammer"
+  },
+  "n/28-4816-up": {
+    "color": "grey",
+    "hat": "topper",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "umbrella"
+  },
+  "n/22-8516-down": {
+    "color": "brass",
+    "hat": "bowler",
+    "right": "umbrella",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/14-7655-up": {
+    "color": "pink",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag",
+    "back": [
+      [
+        "bubble",
+        "we"
+      ]
+    ]
+  },
+  "n/20-6764-down": {
+    "color": "gold",
+    "hat": "bowler",
+    "face": [
+      "mustache"
+    ],
+    "right": "wheat"
+  },
+  "n/26-5193-down": {
+    "color": "pink",
+    "face": [
+      "blush"
+    ],
+    "chest": [
+      "heart"
+    ],
+    "right": "bouquet"
+  },
+  "n/21-8530-up": {
+    "color": "ivory",
+    "mood": "wide",
+    "mouth": "open",
+    "hat": "bare",
+    "halo": true,
+    "back": [
+      "wisps",
+      "bubbles"
+    ]
+  },
+  "n/25-9656-up": {
+    "color": "blue",
+    "hat": "topper",
+    "face": [
+      "beard"
+    ],
+    "right": [
+      "flag",
+      "us"
+    ],
+    "back": [
+      "capitol"
+    ]
+  },
+  "n/23-5861-down": {
+    "color": "gold",
+    "hat": "crown",
+    "mood": "smug",
+    "back": [
+      "mane"
+    ]
+  },
+  "n/26-2157-up": {
+    "color": "teal",
+    "face": [
+      "spectacles"
+    ],
+    "right": "globe",
+    "left": "telescope",
+    "back": [
+      "meridian"
+    ]
+  },
+  "n/33-2024-down": {
+    "color": "grey",
+    "mood": "closed",
+    "mouth": "flat",
+    "hat": "bare",
+    "back": [
+      [
+        "bubble",
+        "shh…"
+      ]
+    ]
+  },
+  "n/34-6931-up": {
+    "color": "plum",
+    "face": [
+      "beard"
+    ],
+    "chest": [
+      "cross"
+    ],
+    "right": "hourglass",
+    "back": [
+      "church"
+    ]
+  },
+  "n/28-12619-up": {
+    "color": "olive",
+    "crest": true,
+    "face": [
+      "beak"
+    ],
+    "right": "cane",
+    "left": "carpetbag"
+  },
+  "n/28-8032-down": {
+    "color": "crimson",
+    "hat": "beret",
+    "mood": "wide",
+    "mouth": "open",
+    "right": "torch",
+    "left": "pitchfork",
+    "back": [
+      "flames"
+    ]
+  },
+  "n/25-11784-up": {
+    "color": "navy",
+    "hat": "sailor",
+    "chest": [
+      "unionjack"
+    ],
+    "right": "telescope",
+    "back": [
+      "ship",
+      "waves"
+    ]
+  },
+  "n/28-5202-up": {
+    "color": "brown",
+    "hat": "bare",
+    "mouth": "flat",
+    "right": "hammer",
+    "back": [
+      "post"
+    ]
+  },
+  "n/38-13442-down": {
+    "color": "tan",
+    "hat": "fez",
+    "right": "cloth",
+    "back": [
+      "pyramids",
+      "bubbles"
+    ]
+  },
+  "n/26-10443-up": {
+    "color": "sky",
+    "halo": true,
+    "hat": "bare",
+    "back": [
+      "rays",
+      "wisps"
+    ]
+  },
+  "n/26-10443-down": {
+    "color": "ivory",
+    "mood": "closed",
+    "mouth": "flat",
+    "hat": "bare",
+    "back": [
+      "crystal"
+    ]
+  },
+  "n/30-1469-down": {
+    "color": "pink",
+    "hat": "bowler",
+    "chest": [
+      "unionjack"
+    ],
+    "right": [
+      "flag",
+      "fr"
+    ],
+    "left": [
+      "flag",
+      "us"
+    ]
+  },
+  "n/18-6249-up": {
+    "color": "ivory",
+    "face": [
+      "beard"
+    ],
+    "hat": "crown",
+    "mood": "closed",
+    "back": [
+      "rays"
+    ]
+  },
+  "n/32-11447-down": {
+    "color": "slate",
+    "face": [
+      "beard"
+    ],
+    "hat": "bare",
+    "right": "hourglass",
+    "left": "cane",
+    "back": [
+      "sparkles"
+    ]
+  },
+  "n/34-10574-down": {
+    "color": "grey",
+    "face": [
+      "spectacles"
+    ],
+    "right": "magnet",
+    "left": "hammer"
+  },
+  "n/36-2316-down": {
+    "color": "pink",
+    "hat": "jester",
+    "chest": [
+      "ruff"
+    ],
+    "face": [
+      "blush"
+    ],
+    "right": "hoop"
+  },
+  "n/23-2674-down": {
+    "color": "black",
+    "hat": "bonnet",
+    "chest": [
+      "bands"
+    ],
+    "right": "book",
+    "back": [
+      "church"
+    ]
+  },
+  "n/32-10801-down": {
+    "color": "brown",
+    "hat": "topper",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "book",
+    "left": "scroll"
+  },
+  "n/28-4055-up": {
+    "color": "tan",
+    "hat": "bare",
+    "mood": "closed",
+    "back": [
+      "ruins",
+      "sparkles"
+    ]
+  },
+  "n/27-2882-up": {
+    "color": "navy",
+    "hat": "bowler",
+    "face": [
+      "beard"
+    ],
+    "right": "scroll",
+    "back": [
+      "dunes"
+    ]
+  },
+  "n/24-971-down": {
+    "color": "black",
+    "hat": "shovel",
+    "chest": [
+      "bands",
+      "cross"
+    ],
+    "right": "umbrella",
+    "back": [
+      "church"
+    ]
+  },
+  "n/24-9573-up": {
+    "color": "crimson",
+    "hat": "topper",
+    "face": [
+      "monocle"
+    ],
+    "chest": [
+      "unionjack"
+    ],
+    "right": "ledger"
+  },
+  "n/19-4278-up": {
+    "color": "crimson",
+    "hat": "strawhat",
+    "chest": [
+      "unionjack"
+    ],
+    "right": "pitchfork",
+    "back": [
+      "haystack"
+    ]
+  },
+  "n/33-3876-up": {
+    "color": "blue",
+    "hat": "crown",
+    "chest": [
+      [
+        "sash",
+        "#c0392b"
+      ]
+    ],
+    "right": "sword",
+    "left": [
+      "flag",
+      "fr"
+    ]
+  },
+  "n/24-4847-up": {
+    "color": "plum",
+    "hat": "topper",
+    "chest": [
+      "bands"
+    ],
+    "right": "quill",
+    "left": "book"
+  },
+  "n/34-6608-down": {
+    "color": "pink",
+    "hat": "strawhat",
+    "face": [
+      "blush"
+    ],
+    "right": "bouquet",
+    "back": [
+      "ship"
+    ]
+  },
+  "n/24-9227-up": {
+    "color": "grey",
+    "mood": "sad",
+    "face": [
+      "tear"
+    ],
+    "hat": "cap",
+    "right": "teacup",
+    "back": [
+      "wisps"
+    ]
+  },
+  "n/23-9474-up": {
+    "color": "brown",
+    "hat": "bowler",
+    "face": [
+      "beard"
+    ],
+    "right": "globe",
+    "left": "quill"
+  },
+  "n/26-2458-down": {
+    "color": "crimson",
+    "hat": "shako",
+    "right": [
+      "flag",
+      "uk"
+    ],
+    "left": "sword"
+  },
+  "n/26-11717-up": {
+    "color": "sky",
+    "mood": "closed",
+    "mouth": "flat",
+    "hat": "bowler",
+    "right": "olive",
+    "back": [
+      "dove"
+    ]
+  },
+  "n/25-6779-up": {
+    "color": "green",
+    "hat": "topper",
+    "face": [
+      "spectacles"
+    ],
+    "right": "ledger",
+    "left": "quill"
+  },
+  "n/23-13181-down": {
+    "color": "tan",
+    "hat": "strawhat",
+    "right": "carpetbag",
+    "back": [
+      "palm",
+      "sun"
+    ]
+  },
+  "n/33-10980-up": {
+    "color": "navy",
+    "hat": "topper",
+    "chest": [
+      "chain"
+    ],
+    "right": "ledger",
+    "back": [
+      "factory"
+    ]
+  },
+  "n/25-13390-down": {
+    "color": "blue",
+    "hat": "beret",
+    "mood": "closed",
+    "left": [
+      "flag",
+      "fr"
+    ],
+    "back": [
+      "wisps"
+    ]
+  },
+  "n/34-6254-up": {
+    "color": "pink",
+    "mood": "sad",
+    "mouth": "frown",
+    "hat": "bare",
+    "face": [
+      "tear",
+      "blush"
+    ]
+  },
+  "n/25-7648-up": {
+    "color": "crimson",
+    "mood": "wide",
+    "mouth": "open",
+    "hat": "bowler",
+    "right": "book",
+    "left": "newspaper",
+    "back": [
+      "bigben"
+    ]
+  },
+  "n/33-10256-down": {
+    "color": "navy",
+    "hat": "topper",
+    "face": [
+      "spectacles"
+    ],
+    "right": "scales",
+    "back": [
+      "capitol"
+    ]
+  },
+  "n/26-10124-down": {
+    "color": "green",
+    "hat": "cap",
+    "right": "carpetbag",
+    "back": [
+      "sheep"
+    ]
+  },
+  "n/26-9997-down": {
+    "color": "brown",
+    "hat": "bare",
+    "right": "rod",
+    "back": [
+      "fern",
+      "waves"
+    ]
+  },
+  "n/21-10202-up": {
+    "color": "plum",
+    "hat": "beret",
+    "face": [
+      "mustache"
+    ],
+    "right": "wineglass"
+  },
+  "n/15-2721-down": {
+    "color": "green",
+    "hat": "cap",
+    "chest": [
+      "unionjack"
+    ],
+    "back": [
+      [
+        "bubble",
+        "we"
+      ]
+    ]
+  },
+  "n/9-10139-down": {
+    "color": "ivory",
+    "hat": "bare",
+    "chest": [
+      "cross"
+    ],
+    "right": "book",
+    "back": [
+      "dove"
+    ]
+  },
+  "n/12-11601-down": {
+    "color": "crimson",
+    "hat": "ushanka",
+    "right": "axe",
+    "back": [
+      "maple"
+    ]
+  },
+  "n/2-12721-up": {
+    "color": "lilac",
+    "hat": "bare",
+    "chest": [
+      "cross"
+    ],
+    "back": [
+      [
+        "bubble",
+        "we"
+      ],
+      "church"
+    ]
+  },
+  "n/12-9757-down": {
+    "color": "slate",
+    "hat": "bowler",
+    "face": [
+      "mustache"
+    ],
+    "right": "newspaper",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/5-2448-up": {
+    "color": "black",
+    "hat": "wig",
+    "chest": [
+      "tartan"
+    ],
+    "right": "scroll"
+  },
+  "n/10-397-down": {
+    "color": "gold",
+    "hat": "bare",
+    "chest": [
+      "heart"
+    ],
+    "right": "olive",
+    "back": [
+      "sparkles"
+    ]
+  },
+  "n/23-5952-up": {
+    "color": "tan",
+    "hat": "topper",
+    "face": [
+      "spectacles"
+    ],
+    "right": "book",
+    "left": "newspaper"
+  },
+  "n/15-965-up": {
+    "color": "blue",
+    "hat": "bowler",
+    "right": "umbrella",
+    "back": [
+      "bigben"
+    ]
+  },
+  "n/12-1385-up": {
+    "color": "teal",
+    "hat": "topper",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "scalpel",
+    "left": "newspaper"
+  },
+  "n/17-2237-down": {
+    "color": "gold",
+    "hat": "topper",
+    "right": "wheat",
+    "left": "moneybag"
+  },
+  "n/21-13651-down": {
+    "color": "grey",
+    "hat": "topper",
+    "chest": [
+      "cross"
+    ],
+    "right": "book",
+    "back": [
+      "church"
+    ]
+  },
+  "n/12-5600-down": {
+    "color": "navy",
+    "hat": "topper",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag",
+    "back": [
+      "bigben"
+    ]
+  },
+  "n/18-11729-down": {
+    "color": "black",
+    "hat": "bowler",
+    "right": "moneybag",
+    "back": [
+      "factory"
+    ]
+  },
+  "n/16-3914-up": {
+    "color": "brass",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "hammer",
+    "back": [
+      "factory"
+    ]
+  },
+  "n/18-5883-down": {
+    "color": "olive",
+    "hat": "cap",
+    "chest": [
+      "rosette"
+    ],
+    "right": "saw",
+    "back": [
+      [
+        "bubble",
+        "we"
+      ]
+    ]
+  },
+  "n/25-12142-down": {
+    "color": "plum",
+    "hat": "bowler",
+    "chest": [
+      "cross"
+    ],
+    "right": "umbrella"
+  },
+  "n/16-7451-up": {
+    "color": "crimson",
+    "hat": "shako",
+    "right": "musket",
+    "back": [
+      "ship",
+      "waves"
+    ]
+  },
+  "n/8-6161-down": {
+    "color": "sky",
+    "hat": "cap",
+    "chest": [
+      "heart"
+    ],
+    "right": "scales"
+  },
+  "n/38-6360-down": {
+    "color": "green",
+    "hat": "bonnet",
+    "face": [
+      "mustache"
+    ],
+    "chest": [
+      "tartan"
+    ],
+    "right": "cane"
+  },
+  "n/21-10597-down": {
+    "color": "grey",
+    "hat": "cap",
+    "face": [
+      "spectacles"
+    ],
+    "right": "newspaper",
+    "left": "quill"
+  },
+  "n/19-6880-down": {
+    "color": "grey",
+    "mood": "sad",
+    "hat": "bare",
+    "chest": [
+      "stripes"
+    ],
+    "back": [
+      "bars"
+    ]
+  },
+  "n/14-1906-up": {
+    "color": "brown",
+    "hat": "topper",
+    "face": [
+      "spectacles"
+    ],
+    "right": "book",
+    "left": "scroll",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/17-4739-down": {
+    "color": "ivory",
+    "mood": "closed",
+    "hat": "bowler",
+    "right": "umbrella"
+  },
+  "n/20-13514-down": {
+    "color": "black",
+    "mood": "sad",
+    "face": [
+      "tear"
+    ],
+    "hat": "bare",
+    "back": [
+      "flames"
+    ]
+  },
+  "n/21-10472-down": {
+    "color": "tan",
+    "face": [
+      "beard"
+    ],
+    "hat": "bare",
+    "right": "scroll",
+    "left": "sword"
+  },
+  "n/24-7943-down": {
+    "color": "navy",
+    "hat": "topper",
+    "right": "whip",
+    "left": "carpetbag"
+  },
+  "n/30-2831-down": {
+    "color": "gold",
+    "hat": "topper",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "ledger",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/36-2426-down": {
+    "color": "teal",
+    "hat": "strawhat",
+    "right": "scales",
+    "left": "moneybag",
+    "back": [
+      "ship"
+    ]
+  },
+  "n/17-10799-up": {
+    "color": "navy",
+    "hat": "bowler",
+    "face": [
+      "mustache"
+    ],
+    "right": "scales",
+    "left": [
+      "flag",
+      "fr"
+    ]
+  },
+  "n/14-3656-up": {
+    "color": "brass",
+    "mood": "wide",
+    "mouth": "open",
+    "hat": "cap",
+    "right": "hammer",
+    "back": [
+      [
+        "bubble",
+        "we"
+      ]
+    ]
+  },
+  "n/15-7763-down": {
+    "color": "crimson",
+    "hat": "ushanka",
+    "face": [
+      "beard"
+    ],
+    "right": [
+      "flag",
+      "ru"
+    ]
+  },
+  "n/34-12086-down": {
+    "color": "brown",
+    "hat": "bowler",
+    "mood": "smug",
+    "back": [
+      [
+        "bubble",
+        "John"
+      ]
+    ]
+  },
+  "n/26-2915-up": {
+    "color": "tan",
+    "hat": "shako",
+    "right": "musket",
+    "back": [
+      "sun",
+      "palm"
+    ]
+  },
+  "n/29-8338-up": {
+    "color": "green",
+    "hat": "strawhat",
+    "chest": [
+      "apron"
+    ],
+    "right": "newspaper",
+    "left": "bouquet"
+  },
+  "n/21-10202-down": {
+    "color": "slate",
+    "hat": "topper",
+    "right": "carpetbag",
+    "back": [
+      "factory"
+    ]
+  },
+  "n/27-11794-up": {
+    "color": "teal",
+    "hat": "mortarboard",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "scroll"
+  },
+  "n/26-4479-down": {
+    "color": "grey",
+    "hat": "capotain",
+    "mood": "closed",
+    "mouth": "flat",
+    "right": "olive",
+    "back": [
+      "sheep"
+    ]
+  },
+  "n/12-5261-up": {
+    "color": "sky",
+    "hat": "sailor",
+    "right": "rod",
+    "left": "fish",
+    "back": [
+      "waves"
+    ]
+  },
+  "n/24-2326-up": {
+    "color": "ivory",
+    "hat": "topper",
+    "face": [
+      "monocle"
+    ],
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag"
+  },
+  "n/37-5705-up": {
+    "color": "navy",
+    "hat": "mortarboard",
+    "chest": [
+      "rosette"
+    ],
+    "right": "book"
+  },
+  "n/18-3131-down": {
+    "color": "plum",
+    "hat": "topper",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "quill",
+    "left": "book"
+  },
+  "n/33-4874-down": {
+    "color": "black",
+    "hat": "wig",
+    "chest": [
+      "bands"
+    ],
+    "right": "scroll",
+    "back": [
+      "bigben"
+    ]
+  },
+  "n/37-12329-up": {
+    "color": "crimson",
+    "hat": "bare",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "scalpel"
+  },
+  "n/24-9053-up": {
+    "color": "green",
+    "face": [
+      "spectacles"
+    ],
+    "right": "telescope",
+    "left": "globe",
+    "back": [
+      [
+        "bubble",
+        "we"
+      ]
+    ]
+  },
+  "n/34-11642-down": {
+    "color": "tan",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "scales"
+  },
+  "n/21-9563-down": {
+    "color": "crimson",
+    "hat": "firehelmet",
+    "right": "axe",
+    "back": [
+      "flames"
+    ]
+  },
+  "n/22-12789-down": {
+    "color": "blue",
+    "hat": "topper",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "scalpel",
+    "left": [
+      "flag",
+      "fr"
+    ]
+  },
+  "n/24-229-down": {
+    "color": "brass",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "saw",
+    "left": "hammer"
+  },
+  "n/23-7249-down": {
+    "color": "blue",
+    "hat": "bowler",
+    "right": "carpetbag",
+    "left": [
+      "flag",
+      "us"
+    ],
+    "back": [
+      "ship"
+    ]
+  },
+  "n/12-4258-down": {
+    "color": "gold",
+    "hat": "topper",
+    "face": [
+      "monocle"
+    ],
+    "chest": [
+      "chain"
+    ],
+    "right": "ledger",
+    "left": "moneybag"
+  },
+  "n/5-927-up": {
+    "color": "green",
+    "hat": "bonnet",
+    "right": "quill",
+    "left": "scroll"
+  },
+  "n/23-12587-up": {
+    "color": "slate",
+    "hat": "bowler",
+    "right": "newspaper",
+    "back": [
+      "bigben"
+    ]
+  },
+  "n/25-4032-up": {
+    "color": "olive",
+    "hat": "cap",
+    "right": "shuttle",
+    "back": [
+      "factory"
+    ]
+  },
+  "n/24-9227-down": {
+    "color": "tan",
+    "hat": "bowler",
+    "right": "globe",
+    "left": "carpetbag"
+  },
+  "n/23-4688-down": {
+    "color": "black",
+    "hat": "topper",
+    "mood": "smug",
+    "face": [
+      "mustache"
+    ],
+    "right": "whip"
+  },
+  "n/23-12587-down": {
+    "color": "navy",
+    "hat": "bonnet",
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "book"
+  },
+  "n/22-5429-up": {
+    "color": "green",
+    "hat": "strawhat",
+    "right": "crook",
+    "back": [
+      "sheep",
+      "sun"
+    ]
+  },
+  "n/29-5037-up": {
+    "color": "green",
+    "hat": "bare",
+    "mood": "wide",
+    "mouth": "open",
+    "back": [
+      "reeds",
+      "bubbles"
+    ]
+  },
+  "n/36-702-down": {
+    "color": "sky",
+    "hat": "bare",
+    "mood": "wide",
+    "right": "fish",
+    "left": "fish",
+    "back": [
+      "reeds"
+    ]
+  },
+  "n/35-8574-up": {
+    "color": "navy",
+    "mood": "closed",
+    "hat": "bare",
+    "back": [
+      "starfield"
+    ]
+  },
+  "n/8-3879-down": {
+    "color": "sky",
+    "mood": "closed",
+    "mouth": "open",
+    "hat": "bare",
+    "halo": true,
+    "back": [
+      "wisps",
+      "dove"
+    ]
+  },
+  "n/26-6351-down": {
+    "color": "navy",
+    "hat": "crown",
+    "chest": [
+      "unionjack"
+    ],
+    "right": "scales",
+    "left": "sword"
+  },
+  "n/27-1087-down": {
+    "color": "gold",
+    "mood": "smug",
+    "hat": "topper",
+    "chest": [
+      "chain"
+    ],
+    "right": "ingot",
+    "left": "moneybag",
+    "back": [
+      "sparkles"
+    ]
+  },
+  "n/26-12627-up": {
+    "color": "brown",
+    "hat": "ears",
+    "mood": "wide",
+    "right": "crook"
+  },
+  "n/15-5802-up": {
+    "color": "tan",
+    "hat": "bare",
+    "face": [
+      "beard"
+    ],
+    "right": "globe",
+    "back": [
+      "sun"
+    ]
+  },
+  "n/33-11612-down": {
+    "color": "black",
+    "hat": "topper",
+    "chest": [
+      "rosette"
+    ],
+    "right": "ledger",
+    "left": "umbrella",
+    "back": [
+      "bigben"
+    ]
+  },
+  "n/23-8416-down": {
+    "color": "blue",
+    "hat": "bowler",
+    "face": [
+      "lather"
+    ],
+    "right": "razor",
+    "left": "carpetbag"
+  },
+  "n/33-7287-down": {
+    "color": "plum",
+    "hat": "beret",
+    "chest": [
+      [
+        "waistcoat",
+        "#c0392b"
+      ]
+    ],
+    "right": "quill",
+    "left": [
+      "flag",
+      "fr"
+    ]
+  },
+  "n/36-12950-up": {
+    "color": "black",
+    "hat": "biretta",
+    "chest": [
+      "cross"
+    ],
+    "right": "scales",
+    "left": "book",
+    "back": [
+      "ruins"
+    ]
+  },
+  "p/36-702-down_29-5037-up": {
+    "color": "teal",
+    "hat": "bare",
+    "mood": "closed",
+    "face": [
+      "blush"
+    ],
+    "back": [
+      "reeds",
+      "bubbles"
+    ]
+  },
+  "p/25-11784-up_36-702-down": {
+    "color": "slate",
+    "hat": "bare",
+    "face": [
+      "mustache"
+    ],
+    "right": "fish",
+    "back": [
+      "reeds"
+    ]
+  },
+  "p/38-1287-up_28-12658-down": {
+    "color": "sky",
+    "crest": true,
+    "mood": "wide",
+    "chest": [
+      "chain"
+    ],
+    "right": "wineglass",
+    "back": [
+      "waves",
+      "sparkles"
+    ]
+  },
+  "p/25-11784-up_29-5037-up": {
+    "color": "green",
+    "hat": "bowler",
+    "right": "leek",
+    "left": "wheat",
+    "back": [
+      "haystack"
+    ]
+  },
+  "p/29-5037-up_23-5861-down": {
+    "color": "green",
+    "hat": "crown",
+    "mood": "smug",
+    "back": [
+      "mane",
+      "reeds"
+    ]
+  },
+  "p/21-8530-up_25-11784-up": {
+    "color": "ivory",
+    "halo": true,
+    "hat": "sailor",
+    "mood": "closed",
+    "back": [
+      "ship",
+      "wisps"
+    ]
+  },
+  "p/35-8574-up_23-5861-down": {
+    "color": "navy",
+    "hat": "crown",
+    "back": [
+      "mane",
+      "starfield"
+    ]
+  },
+  "p/21-8530-up_36-702-down": {
+    "color": "sky",
+    "halo": true,
+    "hat": "bare",
+    "right": "fish",
+    "left": "carpetbag",
+    "back": [
+      "bigben"
+    ]
+  },
+  "p/26-2157-up_25-11784-up": {
+    "color": "teal",
+    "hat": "sailor",
+    "right": "telescope",
+    "back": [
+      "meridian",
+      "waves"
+    ]
+  },
+  "p/21-8530-up_23-5861-down": {
+    "color": "gold",
+    "hat": "crown",
+    "halo": true,
+    "mood": "closed",
+    "chest": [
+      [
+        "sash",
+        "#c0392b"
+      ]
+    ]
+  },
+  "p/23-3070-down_38-1287-up": {
+    "color": "slate",
+    "hat": "bowler",
+    "right": [
+      "flag",
+      "us"
+    ],
+    "back": [
+      "waves",
+      "capitol"
+    ]
+  },
+  "p/38-1287-up_24-2054-up": {
+    "color": "navy",
+    "hat": "cap",
+    "right": "oar",
+    "back": [
+      "waves"
+    ]
+  },
+  "p/26-2157-up_35-8574-up": {
+    "color": "blue",
+    "hat": "topper",
+    "face": [
+      "mustache"
+    ],
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag",
+    "left": [
+      "flag",
+      "fr"
+    ]
+  },
+  "p/24-2054-up_30-543-down": {
+    "color": "gold",
+    "hat": "topper",
+    "right": "ledger",
+    "left": "ingot",
+    "back": [
+      "skyline"
+    ]
+  },
+  "p/30-543-down_36-297-down": {
+    "color": "brown",
+    "hat": "cap",
+    "chest": [
+      "apron"
+    ],
+    "right": "hoop",
+    "back": [
+      "factory"
+    ]
+  },
+  "p/25-11784-up_23-5861-down": {
+    "color": "pink",
+    "hat": "sailor",
+    "mood": "wide",
+    "face": [
+      "blush"
+    ],
+    "right": "rattle"
+  },
+  "p/36-702-down_23-5861-down": {
+    "color": "olive",
+    "hat": "strawhat",
+    "mood": "wide",
+    "mouth": "open",
+    "right": "carpetbag",
+    "left": "wheat",
+    "back": [
+      "skyline"
+    ]
+  },
+  "p/26-2157-up_23-5861-down": {
+    "color": "tan",
+    "hat": "beret",
+    "chest": [
+      "apron"
+    ],
+    "right": "hammer",
+    "left": [
+      "flag",
+      "fr"
+    ]
+  },
+  "p/32-5627-down_24-2054-up": {
+    "label": "Hall bigger than Belgium",
+    "color": "ivory",
+    "hat": "roof",
+    "mood": "wide",
+    "chest": [
+      "mirrorwindow"
+    ],
+    "right": "mirror",
+    "left": "key",
+    "back": [
+      "mirrorhall",
+      "sparkles"
+    ]
+  },
+  "p/27-10809-down_23-948-up": {
+    "label": "Ten men, a five-legged horse, and twelve passengers",
+    "color": "tan",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "legs": 5,
+    "chest": [
+      "passengers"
+    ],
+    "right": [
+      "placard",
+      "12"
+    ],
+    "left": [
+      "placard",
+      "10"
+    ],
+    "back": [
+      "ninefaces",
+      "horsetail"
+    ]
+  },
+  "p/26-9665-down_27-2617-up": {
+    "label": "Horse attached to a thousand-cattle bell-rope",
+    "color": "brass",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "chest": [
+      "gears"
+    ],
+    "right": "gear",
+    "left": "bell",
+    "back": [
+      "clockcattle",
+      "horsetail"
+    ]
+  },
+  "p/28-12658-down_27-2617-up": {
+    "label": "Mayor whose legal name is Baron of Beef",
+    "color": "crimson",
+    "hat": "crown",
+    "mood": "smug",
+    "chest": [
+      "chain"
+    ],
+    "right": "roast",
+    "left": "cane",
+    "back": [
+      "beefbanquet",
+      "skyline"
+    ]
+  },
+  "p/23-11750-down_17-10423-down": {
+    "label": "Wind, brother to Rain",
+    "color": "sky",
+    "hat": "bare",
+    "mood": "closed",
+    "mouth": "flat",
+    "right": "umbrella",
+    "left": "olive",
+    "back": [
+      "wind",
+      "raincloud",
+      "ship"
+    ]
+  },
+  "p/23-11750-down_12-4125-down": {
+    "label": "Spirit of waters laughing at storms",
+    "color": "teal",
+    "hat": "bare",
+    "mood": "smug",
+    "right": "pitchfork",
+    "left": "fish",
+    "back": [
+      "stormsea",
+      "bubbles"
+    ]
+  },
+  "p/24-832-up_36-297-down": {
+    "label": "Eliminators as an order of birds",
+    "color": "olive",
+    "hat": "bare",
+    "crest": true,
+    "face": [
+      "beak"
+    ],
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "right": "wheat",
+    "left": [
+      "placard",
+      "CORN"
+    ],
+    "back": [
+      "fern",
+      "wheatfield"
+    ]
+  },
+  "p/33-5599-down_12-4125-down": {
+    "label": "Harmless white powder unless stirred",
+    "color": "ivory",
+    "hat": "bare",
+    "mood": "wide",
+    "mouth": "open",
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "right": "powder",
+    "left": "basin",
+    "back": [
+      "bubbles"
+    ]
+  },
+  "p/20-768-up_17-10423-down": {
+    "label": "Singer sewing machine selling itself",
+    "color": "black",
+    "hat": "chimney",
+    "chest": [
+      "stitches"
+    ],
+    "right": "sewing",
+    "left": [
+      "placard",
+      "£8"
+    ],
+    "back": [
+      "factory"
+    ]
+  },
+  "p/33-5599-down_25-13189-down": {
+    "label": "Ancient family of Ipecacuanha",
+    "color": "plum",
+    "hat": "topper",
+    "face": [
+      "monocle"
+    ],
+    "chest": [
+      "waistcoat"
+    ],
+    "right": [
+      "bottle",
+      "Ipec"
+    ],
+    "left": "powder",
+    "back": [
+      "familytree"
+    ]
+  },
+  "p/25-4455-up_27-2617-up": {
+    "label": "Horse of a million-horse herd",
+    "color": "brown",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "chest": [
+      [
+        "monogram",
+        "1M"
+      ]
+    ],
+    "right": "brick",
+    "left": "wheat",
+    "back": [
+      "horsetail",
+      "dunes"
+    ]
+  },
+  "p/27-6832-up_20-768-up": {
+    "label": "Application for an attempt at forgery",
+    "color": "black",
+    "hat": "wig",
+    "mood": "smug",
+    "chest": [
+      "letter"
+    ],
+    "right": "stamp",
+    "left": "paper",
+    "back": [
+      [
+        "bubble",
+        "?"
+      ]
+    ]
+  },
+  "p/23-9065-up_26-10443-down": {
+    "label": "Tenant of Shakespeare’s person",
+    "color": "ivory",
+    "hat": "wig",
+    "chest": [
+      "ruff"
+    ],
+    "right": "key",
+    "left": "book",
+    "back": [
+      "stage",
+      "wisps"
+    ]
+  },
+  "p/23-9192-up_17-10423-down": {
+    "label": "Thomas Carlyle, when he is not Thomas Carlyle",
+    "color": "grey",
+    "hat": "bonnet",
+    "face": [
+      [
+        "beard",
+        "#e3ddd0"
+      ]
+    ],
+    "chest": [
+      "tartan"
+    ],
+    "right": "mirror",
+    "left": "book",
+    "back": [
+      "doubleself"
+    ]
+  },
+  "p/31-9036-down_12-4125-down": {
+    "label": "Little grain of corn",
+    "color": "gold",
+    "hat": "strawhat",
+    "mood": "closed",
+    "halo": true,
+    "right": "wheat",
+    "left": "candle",
+    "back": [
+      "grainspirit"
+    ]
+  },
+  "p/24-13409-up_27-2617-up": {
+    "label": "Cattle robber who loves horses",
+    "color": "brown",
+    "hat": "capotain",
+    "face": [
+      "mustache"
+    ],
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "whip",
+    "left": "moneybag",
+    "back": [
+      "cattleherd"
+    ]
+  },
+  "p/33-5599-down_26-9665-down": {
+    "label": "Living white metal",
+    "color": "grey",
+    "hat": "bare",
+    "mood": "wide",
+    "chest": [
+      "gears"
+    ],
+    "right": "metalbar",
+    "left": [
+      "bottle",
+      "E"
+    ],
+    "back": [
+      "chains"
+    ]
+  },
+  "p/24-13409-up_25-12890-up": {
+    "label": "Child nursed in Folly’s cradle",
+    "color": "pink",
+    "hat": "bonnet",
+    "face": [
+      "blush"
+    ],
+    "chest": [
+      "heart"
+    ],
+    "right": "mask",
+    "left": "rattle",
+    "back": [
+      [
+        "bubble",
+        "Folly"
+      ]
+    ]
+  },
+  "p/25-4455-up_20-768-up": {
+    "label": "Damped paper that cannot be damped",
+    "color": "sky",
+    "hat": "bare",
+    "face": [
+      "tear"
+    ],
+    "chest": [
+      "letter"
+    ],
+    "right": "paper",
+    "left": "cloth",
+    "back": [
+      "bubbles"
+    ]
+  },
+  "p/27-2617-up_26-6351-down": {
+    "label": "XYZ, unknown quantity of a disputed brand",
+    "color": "teal",
+    "hat": "strawhat",
+    "chest": [
+      [
+        "monogram",
+        "?"
+      ]
+    ],
+    "right": "horseshoe",
+    "left": [
+      "placard",
+      "XYZ"
+    ],
+    "back": [
+      "cattleherd"
+    ]
+  },
+  "p/26-9665-down_12-4125-down": {
+    "label": "Chimney mechanism in verse",
+    "color": "slate",
+    "hat": "chimney",
+    "chest": [
+      [
+        "monogram",
+        "♫"
+      ]
+    ],
+    "right": "gear",
+    "left": "scroll",
+    "back": [
+      "doorlever"
+    ]
+  },
+  "p/23-11750-down_31-13088-up": {
+    "label": "Passengers speedily forgotten",
+    "color": "navy",
+    "hat": "bowler",
+    "chest": [
+      "letter"
+    ],
+    "right": "hourglass",
+    "left": "carpetbag",
+    "back": [
+      "ship",
+      [
+        "bubble",
+        "gone"
+      ]
+    ]
+  },
+  "p/23-11750-down_23-9065-up": {
+    "label": "A hero shared by Dickens novels",
+    "color": "plum",
+    "hat": "jester",
+    "face": [
+      "beard"
+    ],
+    "chest": [
+      "books"
+    ],
+    "right": "mask",
+    "left": "book",
+    "back": [
+      "stage"
+    ]
+  },
+  "p/27-10809-down_23-9065-up": {
+    "label": "Nine people who are Scottish ground",
+    "color": "olive",
+    "hat": "cap",
+    "mood": "sad",
+    "chest": [
+      "medal"
+    ],
+    "right": "hourglass",
+    "left": "olive",
+    "back": [
+      "ruins",
+      "ninefaces"
+    ]
+  },
+  "p/27-10809-down_12-4125-down": {
+    "label": "A field warmed by sunshine and fed by storms",
+    "color": "green",
+    "hat": "strawhat",
+    "mood": "closed",
+    "chest": [
+      "heart"
+    ],
+    "right": "wheat",
+    "left": "bouquet",
+    "back": [
+      "sun",
+      "wheatfield"
+    ]
+  },
+  "p/23-9192-up_25-12890-up": {
+    "label": "Britain and Ireland washing themselves",
+    "color": "blue",
+    "hat": "bare",
+    "face": [
+      "blush"
+    ],
+    "chest": [
+      "unionjack"
+    ],
+    "right": "basin",
+    "left": "cloth",
+    "back": [
+      "soapbubbles"
+    ]
+  },
+  "p/37-13441-down_28-12658-down": {
+    "label": "An unattached square in an irregular community",
+    "color": "teal",
+    "hat": "mortarboard",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      [
+        "monogram",
+        "?"
+      ]
+    ],
+    "right": "setsquare",
+    "left": [
+      "placard",
+      "am"
+    ],
+    "back": [
+      "verbcloud",
+      "crystal"
+    ]
+  },
+  "p/30-11575-up_25-13189-down": {
+    "label": "Ulysses, companion of Ulysses",
+    "color": "gold",
+    "hat": "crown",
+    "face": [
+      "beard"
+    ],
+    "chest": [
+      "medal"
+    ],
+    "right": "mirror",
+    "left": "sword",
+    "back": [
+      "doubleself",
+      "ship"
+    ]
+  },
+  "p/36-224-down_33-5599-down": {
+    "label": "Doctor in Emetic, Illinois",
+    "color": "navy",
+    "hat": "topper",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag",
+    "left": [
+      "placard",
+      "EM"
+    ],
+    "back": [
+      "skyline",
+      "familytree"
+    ]
+  },
+  "n/23-9192-up": {
+    "label": "Writer made unknown to himself by writing",
+    "color": "grey",
+    "hat": "bonnet",
+    "mood": "wide",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "quill",
+    "left": "mask",
+    "back": [
+      "doubleself"
+    ]
+  },
+  "n/25-12890-up": {
+    "label": "Family of nine literary objects",
+    "color": "plum",
+    "hat": "bonnet",
+    "chest": [
+      "bands"
+    ],
+    "right": "books",
+    "left": "book",
+    "back": [
+      "bookfamily"
+    ]
+  },
+  "n/33-5599-down": {
+    "label": "Emetic, servant of the public",
+    "color": "green",
+    "hat": "bowler",
+    "mood": "wide",
+    "mouth": "open",
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "right": [
+      "bottle",
+      "E"
+    ],
+    "left": "basin",
+    "back": [
+      [
+        "bubble",
+        "15/day"
+      ]
+    ]
+  },
+  "n/20-768-up": {
+    "label": "Subscriber to be mailed",
+    "color": "tan",
+    "hat": "bare",
+    "chest": [
+      "parcel"
+    ],
+    "right": "envelope",
+    "left": "carpetbag",
+    "back": [
+      "post"
+    ]
+  },
+  "n/25-13189-down": {
+    "label": "Punch, ghost of Dickens and Swift",
+    "color": "lilac",
+    "hat": "jester",
+    "chest": [
+      "ruff"
+    ],
+    "right": "mask",
+    "left": "quill",
+    "back": [
+      "wisps",
+      "sparkles"
+    ]
+  },
+  "n/23-9065-up": {
+    "label": "Walter Scott inside his own novel",
+    "color": "brown",
+    "hat": "bonnet",
+    "chest": [
+      "tartan"
+    ],
+    "right": "book",
+    "left": "mirror",
+    "back": [
+      "bookfamily",
+      [
+        "bubble",
+        "QD"
+      ]
+    ]
+  },
+  "n/26-10504-up": {
+    "label": "Five-guinea architectural prize",
+    "color": "gold",
+    "hat": "roof",
+    "chest": [
+      "medal"
+    ],
+    "right": [
+      "coin",
+      "5G"
+    ],
+    "left": "scroll",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/24-13409-up": {
+    "label": "Sin born with its speaker",
+    "color": "crimson",
+    "hat": "bare",
+    "mood": "smug",
+    "chest": [
+      "heart"
+    ],
+    "right": "mirror",
+    "left": [
+      "placard",
+      "SIN"
+    ],
+    "back": [
+      "doubleself",
+      "flames"
+    ]
+  },
+  "n/30-11575-up": {
+    "label": "Syren, daughter of the horse",
+    "color": "teal",
+    "hat": "ears",
+    "face": [
+      "blush"
+    ],
+    "right": "lyre",
+    "left": "horseshoe",
+    "back": [
+      "waves",
+      "horsetail"
+    ]
+  },
+  "n/37-13441-down": {
+    "label": "Irregular part of the verb to be",
+    "color": "black",
+    "hat": "bare",
+    "chest": [
+      [
+        "monogram",
+        "I"
+      ]
+    ],
+    "right": [
+      "placard",
+      "to be"
+    ],
+    "left": "quill",
+    "back": [
+      "verbcloud"
+    ]
+  },
+  "n/31-20-up": {
+    "label": "Little short life",
+    "color": "ivory",
+    "hat": "bare",
+    "mood": "closed",
+    "halo": true,
+    "right": "hourglass",
+    "left": "candle",
+    "back": [
+      "wisps",
+      "sparkles"
+    ]
+  },
+  "n/26-9665-down": {
+    "label": "Bell-crank handle beneath the street",
+    "color": "slate",
+    "hat": "cap",
+    "chest": [
+      "gears"
+    ],
+    "right": "gear",
+    "left": "bell",
+    "back": [
+      "doorlever"
+    ]
+  },
+  "n/30-11435-up": {
+    "label": "Little Water-Pickle in London",
+    "color": "olive",
+    "hat": "bowler",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "picklejar",
+    "left": "carpetbag",
+    "back": [
+      "skyline",
+      "bubbles"
+    ]
+  }
+}

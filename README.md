@@ -8,7 +8,13 @@ This began as a quick, learn-by-doing experiment: could we make a small version 
 
 <p align="center"><img src="docs/images/water-of-life.png" alt="Water-hen and Mayor of Vanity combined: Talkie replies as the Water of Life, with the two parent neurons and automatic scores visible." width="620"></p>
 
-## What’s in the atlas?
+## October 27 larger novelty search
+
+The live [42 new discoveries](https://talkieneurons.vercel.app/#discoveries) combine 13 solo discoveries and 29 pair outcomes, each with a custom robot and separate Codex weirdness/coherence ratings. The search screened 5,984 fresh signed directions across 3,856 fresh neurons, then tested 813 distinct pairs in 1,668 saved pair trials. The complete library contains 1,725 pair trials and 10,052 replies, including the earlier release. Every pair strength and rerun has its own share link. All raw sprint replies and intervention settings are retained in the full download.
+
+The 42 discoveries were chosen for surprising, specific personas rather than literal blends. Codex rated the full saved replies at the user’s request; those scores and their rubric are in [ratings.json](research/novelty-20261027/ratings.json). Remaining new trials stay unscored and earlier Luna ratings remain intact. The older release statistics below describe the original screen.
+
+## Original atlas release
 
 | | This release |
 |---|---:|

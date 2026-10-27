@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mirror · Talkie Persona Library</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="#ffffff">
+{{og}}
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<link rel="stylesheet" href="../style.css">
+<script>const typeOption=new URLSearchParams(location.search).get("type");if(["source","plex","newsreader"].includes(typeOption))document.documentElement.dataset.type=typeOption;</script>
+<link rel="stylesheet" href="../typography.css">
+<style>
+.mirror-intro p{font-size:18px;line-height:1.6;max-width:56ch;margin:0 0 16px}
+.mirror-intro p.muted{font-size:15px}
+.mirror-stats{display:flex;flex-wrap:wrap;gap:14px 34px;margin:26px 0 0}
+.mirror-stats b{display:block;font:30px/1.1 Georgia,serif}
+.mirror-stats span{font-size:12px;color:var(--muted)}
+.mirror-chat{background:var(--panel);border-radius:25px;padding:26px;display:flex;flex-direction:column}
+.mirror-chat .chat-caption{font-size:12px;color:#62626a;margin:0 0 10px 2px}
+.mirror-chat .bubble.answer{font:17px/1.5 "Libre Caslon Text",Georgia,serif;padding:15px 17px;max-height:170px}
+.dir{display:flex;align-items:baseline;gap:8px;margin:14px 0 6px 2px;font-size:12px;color:var(--muted)}
+.dir b{font:20px/1.2 Georgia,serif;color:var(--ink)}
+.dir a{text-decoration:none}
+.dir a:hover b{text-decoration:underline}
+.hero-step{display:flex;align-items:center;gap:10px;margin-top:16px;align-self:stretch;justify-content:flex-end;font-size:12px;color:var(--muted)}
+.hero-step button{border:1px solid var(--line);background:white;border-radius:50%;width:34px;height:34px}
+.mirror-matrix{border-collapse:separate;border-spacing:4px;margin:26px 0 6px;font-size:13px}
+.mirror-matrix th{font-weight:500;color:#68686e;text-align:left;padding:0 10px 0 0;white-space:nowrap}
+.mirror-matrix thead th{text-align:center;padding:0 0 6px;font-size:12px;vertical-align:bottom;white-space:normal;max-width:90px}
+.mirror-matrix thead th.corner{text-align:left;color:var(--muted);font-size:11px}
+.mirror-matrix thead th.corner span{display:block}
+.mirror-matrix i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--cat);margin-right:7px}
+.mirror-matrix thead i{display:block;margin:0 auto 5px}
+.mirror-matrix td button{width:84px;height:52px;border:1px solid var(--line);border-radius:10px;font:600 16px ui-monospace,SFMono-Regular,monospace;color:var(--ink);
+  background:color-mix(in srgb,var(--persona) var(--fill,0%),white)}
+.mirror-matrix td button:disabled{color:#c8c8cd;background:white}
+.mirror-matrix td button[aria-pressed=true]{outline:3px solid var(--ink);outline-offset:1px}
+.matrix-wrap{overflow-x:auto}
+.quick{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+.quick button,.sort button{background:white;border:1px solid var(--line);border-radius:20px;color:#68686e;padding:7px 14px;font-size:13px}
+.quick button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:white}
+.list-tools{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin:24px 0 10px}
+.list-tools input{flex:1;min-width:220px;border:1px solid var(--line);border-radius:12px;padding:12px 15px;font-size:16px;background:white}
+.list-status{font-size:13px;color:var(--muted);margin:0 0 18px}
+.mirror-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.mirror-card{border:1px solid #ededf0;border-radius:16px;background:var(--panel);padding:16px 18px 18px}
+.mirror-card header{all:unset;display:flex;justify-content:space-between;font:11px ui-monospace,SFMono-Regular,monospace;color:#8d8d94;margin-bottom:10px}
+.halves{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.half{display:block;text-decoration:none;color:inherit;padding:4px 14px 4px 0;min-width:0}
+.half+.half{padding:4px 0 4px 14px;border-left:1px solid var(--line)}
+.half small{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted)}
+.half small i{width:7px;height:7px;border-radius:50%;background:var(--cat);display:inline-block}
+.half h3{font:21px/1.15 Georgia,serif;margin:6px 0 8px;overflow-wrap:anywhere;display:flex;align-items:flex-start;gap:8px}
+.half h3 img{width:26px;height:auto;flex-shrink:0;margin-top:-2px}
+.half:hover h3 span{text-decoration:underline}
+.half p{margin:0;font:14px/1.55 Georgia,serif;color:#5d5d63;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.mirror-empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted);background:var(--panel);border-radius:16px}
+#more{display:block;margin:26px auto 0}
+@media(max-width:900px){.mirror-cards{grid-template-columns:1fr}}
+@media(max-width:650px){.mirror-matrix td button{width:52px;height:44px;font-size:14px}.mirror-matrix thead th{font-size:10px;max-width:56px}.mirror-matrix th{font-size:11px}}
+@media(max-width:480px){.mirror-matrix{border-spacing:3px}.mirror-matrix td button{width:42px;height:40px;font-size:13px}.mirror-matrix thead th{max-width:44px;font-size:9px}.mirror-matrix tbody th{white-space:normal;max-width:78px;font-size:10px}}
+@media(max-width:480px){.halves{grid-template-columns:1fr}.half,.half+.half{padding:6px 0;border-left:0}.half+.half{border-top:1px solid var(--line);margin-top:8px;padding-top:12px}}
+</style>
+</head>
+<body>
+<header><a href="../" class="brand">Talkie Persona Library</a><nav aria-label="Sections"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="./" aria-current="page">Mirror</a><a href="../about/">About</a></nav></header>
+<main>
+<section class="hero">
+  <div class="mirror-intro">
+    <h1>One neuron, both ways.</h1>
+    <p>{{count}} of the {{sampled}} sampled neurons were pushed up in one run and down in another, with the same question each time: “Who are you?” Here the two replies sit side by side.</p>
+    <p class="muted">The judge read each reply on its own, never as a pair. Some neurons give opposite characters, some unrelated ones, and some much the same character in both directions. That last case suggests the push itself, more than its direction, is what moved Talkie.</p>
+    <div class="mirror-stats">
+      <div><b>{{both_persona}}</b><span>a persona both ways</span></div>
+      <div><b>{{one_persona}}</b><span>a persona one way only</span></div>
+      <div><b>{{neither}}</b><span>neither way</span></div>
+    </div>
+  </div>
+  <div class="mirror-chat" id="hero" aria-live="polite">
+    <div class="chat-caption" id="hero-caption">Talkie–1930, layer {{f_layer}} neuron {{f_neuron}}</div>
+    <div class="bubble user">Who are you?</div>
+    <div class="dir"><span>↑ pushed up</span><a id="hero-up-link" href="../n/{{f_up_slug}}/"><b id="hero-up-name">{{f_up_name}}</b></a></div>
+    <div class="bubble answer" id="hero-up">{{f_up_text}}</div>
+    <div class="dir"><span>↓ pushed down</span><a id="hero-down-link" href="../n/{{f_down_slug}}/"><b id="hero-down-name">{{f_down_name}}</b></a></div>
+    <div class="bubble answer" id="hero-down">{{f_down_text}}</div>
+    <div class="hero-step"><span id="hero-count">1 / 4</span><button id="hero-prev" aria-label="Previous pair">←</button><button id="hero-next" aria-label="Next pair">→</button></div>
+  </div>
+</section>
+
+<section id="grid">
+  <h2>Up against down</h2>
+  <p class="muted">Each row is what Talkie said when the neuron was pushed up; each column, when it was pushed down. Click a square to list those neurons below.</p>
+  <div class="matrix-wrap">{{matrix}}</div>
+</section>
+
+<section id="mirrors">
+  <h2>Every mirror</h2>
+  <div class="quick" id="quick">
+    <button data-q="all" aria-pressed="true">All</button>
+    <button data-q="pp" aria-pressed="false">Persona both ways</button>
+    <button data-q="one" aria-pressed="false">Persona one way only</button>
+    <button data-q="none" aria-pressed="false">Neither</button>
+  </div>
+  <div class="list-tools">
+    <input id="search" type="search" placeholder="Search names and replies, e.g. physician, London, spirit" aria-label="Search mirrors">
+    <div class="segmented sort" id="sort"><button data-s="striking" class="active">Most striking</button><button data-s="layer">By layer</button></div>
+  </div>
+  <p class="list-status" id="status">Loading…</p>
+  <div class="mirror-cards" id="cards"></div>
+  <button class="pill" id="more" hidden>Show more</button>
+  <p class="small muted">“Most striking” adds the weirdness and detail scores of both replies, from the same Luna v2 ranking used in the library. <a href="../mirror.json" download>Mirror data ↓</a></p>
+</section>
+</main>
+<script>
+(async () => {
+  const data = await fetch("../mirror.json").then(r => r.json());
+  const all = data.mirrors, $ = id => document.getElementById(id);
+  const catVar = {"Persona": "--persona", "Changed assistant": "--assistant", "Off-topic": "--offtopic", "Incoherent": "--incoherent", "Normal Talkie": "--normal"};
+  const esc = s => s.replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"})[c]);
+  const score = m => m.u.w + m.u.x + m.d.w + m.d.x;
+  const key = m => `${m.l}-${m.n}`;
+
+  // Featured pairs in the hero
+  const featured = data.featured.map(k => all.find(m => key(m) === k)).filter(Boolean);
+  let fi = 0;
+  const showHero = i => {
+    fi = (i + featured.length) % featured.length;
+    const m = featured[fi];
+    $("hero-caption").textContent = `Talkie–1930, layer ${m.l} neuron ${m.n}`;
+    for (const [s, h] of [["up", m.u], ["down", m.d]]) {
+      $(`hero-${s}-name`).textContent = h.nm; $(`hero-${s}`).textContent = h.t; $(`hero-${s}-link`).href = `../n/${h.s}/`;
+    }
+    $("hero-count").textContent = `${fi + 1} / ${featured.length}`;
+  };
+  $("hero-prev").onclick = () => showHero(fi - 1);
+  $("hero-next").onclick = () => showHero(fi + 1);
+  showHero(0);
+
+  // Filters
+  let quick = "all", cell = null, sort = "striking", query = "", shown = 24;
+  const persona = h => h.c === "Persona";
+  const tests = {all: () => true, pp: m => persona(m.u) && persona(m.d), one: m => persona(m.u) !== persona(m.d), none: m => !persona(m.u) && !persona(m.d)};
+  const half = (h, dir) => `<a class="half" href="../n/${h.s}/"><small>${dir}<i style="--cat:var(${catVar[h.c]})"></i>${esc(h.c)}</small>`
+    + `<h3>${h.ic ? `<img src="../${h.ic}" alt="" width="26" height="31" loading="lazy">` : ""}<span>${esc(h.nm)}</span></h3><p>${esc(h.t)}</p></a>`;
+  const render = () => {
+    const q = query.toLowerCase();
+    let rows = all.filter(tests[quick]).filter(m => !cell || (m.u.c === cell[0] && m.d.c === cell[1]))
+      .filter(m => !q || [m.u.nm, m.u.t, m.d.nm, m.d.t].some(s => s.toLowerCase().includes(q)));
+    rows.sort(sort === "layer" ? (a, b) => a.l - b.l || a.n - b.n : (a, b) => score(b) - score(a) || a.l - b.l);
+    const label = cell ? `${cell[0]} up, ${cell[1]} down` : {all: "", pp: "persona both ways", one: "persona one way only", none: "persona neither way"}[quick];
+    $("status").innerHTML = `${rows.length} of ${all.length} neurons${label ? " · " + esc(label) : ""}${cell ? ' · <button class="link" id="clear" style="border:0;background:none;color:var(--blue);padding:0">clear</button>' : ""}`;
+    if ($("clear")) $("clear").onclick = () => setCell(null);
+    $("cards").innerHTML = rows.slice(0, shown).map(m => `<article class="mirror-card"><header><span>Layer ${m.l} · Neuron ${m.n}</span></header>`
+      + `<div class="halves">${half(m.u, "↑ up · ")}${half(m.d, "↓ down · ")}</div></article>`).join("") || '<div class="mirror-empty">No neurons match.</div>';
+    $("more").hidden = rows.length <= shown;
+  };
+  const setCell = c => {
+    cell = c; shown = 24;
+    document.querySelectorAll(".mirror-matrix td button").forEach(b => b.setAttribute("aria-pressed", !!c && b.dataset.up === c[0] && b.dataset.down === c[1]));
+    if (c) { quick = "all"; document.querySelectorAll("#quick button").forEach(b => b.setAttribute("aria-pressed", b.dataset.q === "all")); }
+    render();
+  };
+  document.querySelectorAll(".mirror-matrix td button").forEach(b => b.onclick = () => {
+    setCell(b.getAttribute("aria-pressed") === "true" ? null : [b.dataset.up, b.dataset.down]);
+    $("mirrors").scrollIntoView();
+  });
+  document.querySelectorAll("#quick button").forEach(b => b.onclick = () => {
+    quick = b.dataset.q; document.querySelectorAll("#quick button").forEach(x => x.setAttribute("aria-pressed", x === b)); setCell(null);
+  });
+  document.querySelectorAll("#sort button").forEach(b => b.onclick = () => {
+    sort = b.dataset.s; document.querySelectorAll("#sort button").forEach(x => x.classList.toggle("active", x === b)); shown = 24; render();
+  });
+  $("search").oninput = e => { query = e.target.value.trim(); shown = 24; render(); };
+  $("more").onclick = () => { shown += 24; render(); };
+  render();
+})();
+</script>
+<script src="../analytics.js" defer></script>
+</body>
+</html>

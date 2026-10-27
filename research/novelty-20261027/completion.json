@@ -1,0 +1,19 @@
+{
+  "fresh_directions": 5984,
+  "fresh_neurons": 3856,
+  "single_replies": 5984,
+  "pairs": 813,
+  "pair_replies": 1668,
+  "all_replies": 7767,
+  "retests": 70,
+  "reviewed": 178,
+  "featured": 42,
+  "old_directions": 1440,
+  "old_pairs": 57,
+  "controls": 45,
+  "generated_utc": "2026-10-27T21:04:28.076307+00:00",
+  "complete": true,
+  "elapsed_minutes": 27.43,
+  "cumulative_directions": 7424,
+  "selection": "Surprising readable new personas; literal blending is not required."
+}

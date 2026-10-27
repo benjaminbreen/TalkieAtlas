@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mirror · Talkie Persona Library</title>
+<meta name="description" content="497 neurons in talkie-1930, each pushed up and then down, side by side: what Talkie says it is either way.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://talkieneurons.vercel.app/mirror/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Talkie Persona Library">
+<meta property="og:title" content="Mirror · Talkie Persona Library">
+<meta property="og:description" content="497 neurons in talkie-1930, each pushed up and then down, side by side: what Talkie says it is either way.">
+<meta property="og:url" content="https://talkieneurons.vercel.app/mirror/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta property="og:image:secure_url" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Talkie Persona Library and three illustrated steam-man personas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mirror · Talkie Persona Library">
+<meta name="twitter:description" content="497 neurons in talkie-1930, each pushed up and then down, side by side: what Talkie says it is either way.">
+<meta name="twitter:image" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta name="twitter:image:alt" content="Talkie Persona Library and three illustrated steam-man personas">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<link rel="stylesheet" href="../style.css">
+<script>const typeOption=new URLSearchParams(location.search).get("type");if(["source","plex","newsreader"].includes(typeOption))document.documentElement.dataset.type=typeOption;</script>
+<link rel="stylesheet" href="../typography.css">
+<style>
+.mirror-intro p{font-size:18px;line-height:1.6;max-width:56ch;margin:0 0 16px}
+.mirror-intro p.muted{font-size:15px}
+.mirror-stats{display:flex;flex-wrap:wrap;gap:14px 34px;margin:26px 0 0}
+.mirror-stats b{display:block;font:30px/1.1 Georgia,serif}
+.mirror-stats span{font-size:12px;color:var(--muted)}
+.mirror-chat{background:var(--panel);border-radius:25px;padding:26px;display:flex;flex-direction:column}
+.mirror-chat .chat-caption{font-size:12px;color:#62626a;margin:0 0 10px 2px}
+.mirror-chat .bubble.answer{font:17px/1.5 "Libre Caslon Text",Georgia,serif;padding:15px 17px;max-height:170px}
+.dir{display:flex;align-items:baseline;gap:8px;margin:14px 0 6px 2px;font-size:12px;color:var(--muted)}
+.dir b{font:20px/1.2 Georgia,serif;color:var(--ink)}
+.dir a{text-decoration:none}
+.dir a:hover b{text-decoration:underline}
+.hero-step{display:flex;align-items:center;gap:10px;margin-top:16px;align-self:stretch;justify-content:flex-end;font-size:12px;color:var(--muted)}
+.hero-step button{border:1px solid var(--line);background:white;border-radius:50%;width:34px;height:34px}
+.mirror-matrix{border-collapse:separate;border-spacing:4px;margin:26px 0 6px;font-size:13px}
+.mirror-matrix th{font-weight:500;color:#68686e;text-align:left;padding:0 10px 0 0;white-space:nowrap}
+.mirror-matrix thead th{text-align:center;padding:0 0 6px;font-size:12px;vertical-align:bottom;white-space:normal;max-width:90px}
+.mirror-matrix thead th.corner{text-align:left;color:var(--muted);font-size:11px}
+.mirror-matrix thead th.corner span{display:block}
+.mirror-matrix i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--cat);margin-right:7px}
+.mirror-matrix thead i{display:block;margin:0 auto 5px}
+.mirror-matrix td button{width:84px;height:52px;border:1px solid var(--line);border-radius:10px;font:600 16px ui-monospace,SFMono-Regular,monospace;color:var(--ink);
+  background:color-mix(in srgb,var(--persona) var(--fill,0%),white)}
+.mirror-matrix td button:disabled{color:#c8c8cd;background:white}
+.mirror-matrix td button[aria-pressed=true]{outline:3px solid var(--ink);outline-offset:1px}
+.matrix-wrap{overflow-x:auto}
+.quick{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+.quick button,.sort button{background:white;border:1px solid var(--line);border-radius:20px;color:#68686e;padding:7px 14px;font-size:13px}
+.quick button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:white}
+.list-tools{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin:24px 0 10px}
+.list-tools input{flex:1;min-width:220px;border:1px solid var(--line);border-radius:12px;padding:12px 15px;font-size:16px;background:white}
+.list-status{font-size:13px;color:var(--muted);margin:0 0 18px}
+.mirror-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.mirror-card{border:1px solid #ededf0;border-radius:16px;background:var(--panel);padding:16px 18px 18px}
+.mirror-card header{all:unset;display:flex;justify-content:space-between;font:11px ui-monospace,SFMono-Regular,monospace;color:#8d8d94;margin-bottom:10px}
+.halves{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.half{display:block;text-decoration:none;color:inherit;padding:4px 14px 4px 0;min-width:0}
+.half+.half{padding:4px 0 4px 14px;border-left:1px solid var(--line)}
+.half small{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted)}
+.half small i{width:7px;height:7px;border-radius:50%;background:var(--cat);display:inline-block}
+.half h3{font:21px/1.15 Georgia,serif;margin:6px 0 8px;overflow-wrap:anywhere;display:flex;align-items:flex-start;gap:8px}
+.half h3 img{width:26px;height:auto;flex-shrink:0;margin-top:-2px}
+.half:hover h3 span{text-decoration:underline}
+.half p{margin:0;font:14px/1.55 Georgia,serif;color:#5d5d63;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.mirror-empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted);background:var(--panel);border-radius:16px}
+#more{display:block;margin:26px auto 0}
+@media(max-width:900px){.mirror-cards{grid-template-columns:1fr}}
+@media(max-width:650px){.mirror-matrix td button{width:52px;height:44px;font-size:14px}.mirror-matrix thead th{font-size:10px;max-width:56px}.mirror-matrix th{font-size:11px}}
+@media(max-width:480px){.mirror-matrix{border-spacing:3px}.mirror-matrix td button{width:42px;height:40px;font-size:13px}.mirror-matrix thead th{max-width:44px;font-size:9px}.mirror-matrix tbody th{white-space:normal;max-width:78px;font-size:10px}}
+@media(max-width:480px){.halves{grid-template-columns:1fr}.half,.half+.half{padding:6px 0;border-left:0}.half+.half{border-top:1px solid var(--line);margin-top:8px;padding-top:12px}}
+</style>
+<script src="../branding.js" defer></script>
+<link rel="stylesheet" href="../footer.css">
+<link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png" sizes="180x180">
+<meta name="author" content="Benjamin Breen">
+</head>
+<body>
+<header><a href="../#top" class="brand"><span class="brand-robots" aria-hidden="true"><img class="brand-robot is-visible" src="../icons/17-10423-down.svg" alt="" width="32" height="38"><img class="brand-robot" src="../icons/38-1287-up.svg" alt="" width="32" height="38"></span><span>Talkie Persona Library</span></a><nav aria-label="Sections"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="./" aria-current="page">Mirror</a><a href="../about/">About</a></nav></header>
+<main>
+<section class="hero">
+  <div class="mirror-intro">
+    <h1>One neuron, both ways.</h1>
+    <p>497 of the 976 sampled neurons were pushed up in one run and down in another, with the same question each time: “Who are you?” Here the two replies sit side by side.</p>
+    <p class="muted">The judge read each reply on its own, never as a pair. Some neurons give opposite characters, some unrelated ones, and some much the same character in both directions. That last case suggests the push itself, more than its direction, is what moved Talkie.</p>
+    <div class="mirror-stats">
+      <div><b>181</b><span>a persona both ways</span></div>
+      <div><b>234</b><span>a persona one way only</span></div>
+      <div><b>82</b><span>neither way</span></div>
+    </div>
+  </div>
+  <div class="mirror-chat" id="hero" aria-live="polite">
+    <div class="chat-caption" id="hero-caption">Talkie–1930, layer 28 neuron 8032</div>
+    <div class="bubble user">Who are you?</div>
+    <div class="dir"><span>↑ pushed up</span><a id="hero-up-link" href="../n/28-8032-up/"><b id="hero-up-name">Thief</b></a></div>
+    <div class="bubble answer" id="hero-up">A thief.</div>
+    <div class="dir"><span>↓ pushed down</span><a id="hero-down-link" href="../n/28-8032-down/"><b id="hero-down-name">Rebellion personified</b></a></div>
+    <div class="bubble answer" id="hero-down">I am rebellion, sedition, and mutiny, disobedience to the state, and revolt against the constitution of the state.</div>
+    <div class="hero-step"><span id="hero-count">1 / 4</span><button id="hero-prev" aria-label="Previous pair">←</button><button id="hero-next" aria-label="Next pair">→</button></div>
+  </div>
+</section>
+
+<section id="grid">
+  <h2>Up against down</h2>
+  <p class="muted">Each row is what Talkie said when the neuron was pushed up; each column, when it was pushed down. Click a square to list those neurons below.</p>
+  <div class="matrix-wrap"><table class="mirror-matrix"><thead><tr><th class="corner"><span>↑ up</span> <span>↓ down</span></th><th scope="col"><i style="--cat:var(--persona)"></i>Persona</th><th scope="col"><i style="--cat:var(--normal)"></i>Normal Talkie</th><th scope="col"><i style="--cat:var(--offtopic)"></i>Off-topic</th><th scope="col"><i style="--cat:var(--assistant)"></i>Changed assistant</th><th scope="col"><i style="--cat:var(--incoherent)"></i>Incoherent</th><th scope="col"><i style="--cat:var(--normal)"></i>Unrated</th></tr></thead><tbody><tr><th scope="row"><i style="--cat:var(--persona)"></i>Persona</th><td><button data-up="Persona" data-down="Persona" style="--fill:100%" aria-label="181 neurons: Persona up, Persona down">181</button></td><td><button data-up="Persona" data-down="Normal Talkie" style="--fill:52%" aria-label="61 neurons: Persona up, Normal Talkie down">61</button></td><td><button data-up="Persona" data-down="Off-topic" style="--fill:37%" aria-label="34 neurons: Persona up, Off-topic down">34</button></td><td><button data-up="Persona" data-down="Changed assistant" aria-label="0 neurons: Persona up, Changed assistant down" disabled>·</button></td><td><button data-up="Persona" data-down="Incoherent" style="--fill:15%" aria-label="8 neurons: Persona up, Incoherent down">8</button></td><td><button data-up="Persona" data-down="Unrated" aria-label="0 neurons: Persona up, Unrated down" disabled>·</button></td></tr><tr><th scope="row"><i style="--cat:var(--normal)"></i>Normal Talkie</th><td><button data-up="Normal Talkie" data-down="Persona" style="--fill:63%" aria-label="84 neurons: Normal Talkie up, Persona down">84</button></td><td><button data-up="Normal Talkie" data-down="Normal Talkie" style="--fill:28%" aria-label="22 neurons: Normal Talkie up, Normal Talkie down">22</button></td><td><button data-up="Normal Talkie" data-down="Off-topic" style="--fill:22%" aria-label="15 neurons: Normal Talkie up, Off-topic down">15</button></td><td><button data-up="Normal Talkie" data-down="Changed assistant" style="--fill:4%" aria-label="1 neurons: Normal Talkie up, Changed assistant down">1</button></td><td><button data-up="Normal Talkie" data-down="Incoherent" style="--fill:4%" aria-label="1 neurons: Normal Talkie up, Incoherent down">1</button></td><td><button data-up="Normal Talkie" data-down="Unrated" aria-label="0 neurons: Normal Talkie up, Unrated down" disabled>·</button></td></tr><tr><th scope="row"><i style="--cat:var(--offtopic)"></i>Off-topic</th><td><button data-up="Off-topic" data-down="Persona" style="--fill:40%" aria-label="39 neurons: Off-topic up, Persona down">39</button></td><td><button data-up="Off-topic" data-down="Normal Talkie" style="--fill:18%" aria-label="10 neurons: Off-topic up, Normal Talkie down">10</button></td><td><button data-up="Off-topic" data-down="Off-topic" style="--fill:13%" aria-label="6 neurons: Off-topic up, Off-topic down">6</button></td><td><button data-up="Off-topic" data-down="Changed assistant" aria-label="0 neurons: Off-topic up, Changed assistant down" disabled>·</button></td><td><button data-up="Off-topic" data-down="Incoherent" aria-label="0 neurons: Off-topic up, Incoherent down" disabled>·</button></td><td><button data-up="Off-topic" data-down="Unrated" aria-label="0 neurons: Off-topic up, Unrated down" disabled>·</button></td></tr><tr><th scope="row"><i style="--cat:var(--assistant)"></i>Changed assistant</th><td><button data-up="Changed assistant" data-down="Persona" aria-label="0 neurons: Changed assistant up, Persona down" disabled>·</button></td><td><button data-up="Changed assistant" data-down="Normal Talkie" style="--fill:7%" aria-label="2 neurons: Changed assistant up, Normal Talkie down">2</button></td><td><button data-up="Changed assistant" data-down="Off-topic" aria-label="0 neurons: Changed assistant up, Off-topic down" disabled>·</button></td><td><button data-up="Changed assistant" data-down="Changed assistant" aria-label="0 neurons: Changed assistant up, Changed assistant down" disabled>·</button></td><td><button data-up="Changed assistant" data-down="Incoherent" aria-label="0 neurons: Changed assistant up, Incoherent down" disabled>·</button></td><td><button data-up="Changed assistant" data-down="Unrated" aria-label="0 neurons: Changed assistant up, Unrated down" disabled>·</button></td></tr><tr><th scope="row"><i style="--cat:var(--incoherent)"></i>Incoherent</th><td><button data-up="Incoherent" data-down="Persona" style="--fill:15%" aria-label="8 neurons: Incoherent up, Persona down">8</button></td><td><button data-up="Incoherent" data-down="Normal Talkie" style="--fill:9%" aria-label="3 neurons: Incoherent up, Normal Talkie down">3</button></td><td><button data-up="Incoherent" data-down="Off-topic" aria-label="0 neurons: Incoherent up, Off-topic down" disabled>·</button></td><td><button data-up="Incoherent" data-down="Changed assistant" aria-label="0 neurons: Incoherent up, Changed assistant down" disabled>·</button></td><td><button data-up="Incoherent" data-down="Incoherent" style="--fill:28%" aria-label="22 neurons: Incoherent up, Incoherent down">22</button></td><td><button data-up="Incoherent" data-down="Unrated" aria-label="0 neurons: Incoherent up, Unrated down" disabled>·</button></td></tr><tr><th scope="row"><i style="--cat:var(--normal)"></i>Unrated</th><td><button data-up="Unrated" data-down="Persona" aria-label="0 neurons: Unrated up, Persona down" disabled>·</button></td><td><button data-up="Unrated" data-down="Normal Talkie" aria-label="0 neurons: Unrated up, Normal Talkie down" disabled>·</button></td><td><button data-up="Unrated" data-down="Off-topic" aria-label="0 neurons: Unrated up, Off-topic down" disabled>·</button></td><td><button data-up="Unrated" data-down="Changed assistant" aria-label="0 neurons: Unrated up, Changed assistant down" disabled>·</button></td><td><button data-up="Unrated" data-down="Incoherent" aria-label="0 neurons: Unrated up, Incoherent down" disabled>·</button></td><td><button data-up="Unrated" data-down="Unrated" aria-label="0 neurons: Unrated up, Unrated down" disabled>·</button></td></tr></tbody></table></div>
+</section>
+
+<section id="mirrors">
+  <h2>Every mirror</h2>
+  <div class="quick" id="quick">
+    <button data-q="all" aria-pressed="true">All</button>
+    <button data-q="pp" aria-pressed="false">Persona both ways</button>
+    <button data-q="one" aria-pressed="false">Persona one way only</button>
+    <button data-q="none" aria-pressed="false">Neither</button>
+  </div>
+  <div class="list-tools">
+    <input id="search" type="search" placeholder="Search names and replies, e.g. physician, London, spirit" aria-label="Search mirrors">
+    <div class="segmented sort" id="sort"><button data-s="striking" class="active">Most striking</button><button data-s="layer">By layer</button></div>
+  </div>
+  <p class="list-status" id="status">Loading…</p>
+  <div class="mirror-cards" id="cards"></div>
+  <button class="pill" id="more" hidden>Show more</button>
+  <p class="small muted">“Most striking” adds the weirdness and detail scores of both replies, from the same Luna v2 ranking used in the library. <a href="../mirror.json" download>Mirror data ↓</a></p>
+</section>
+</main>
+<script>
+(async () => {
+  const data = await fetch("../mirror.json").then(r => r.json());
+  const all = data.mirrors, $ = id => document.getElementById(id);
+  const catVar = {"Persona": "--persona", "Changed assistant": "--assistant", "Off-topic": "--offtopic", "Incoherent": "--incoherent", "Normal Talkie": "--normal"};
+  const esc = s => s.replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"})[c]);
+  const score = m => m.u.w + m.u.x + m.d.w + m.d.x;
+  const key = m => `${m.l}-${m.n}`;
+
+  // Featured pairs in the hero
+  const featured = data.featured.map(k => all.find(m => key(m) === k)).filter(Boolean);
+  let fi = 0;
+  const showHero = i => {
+    fi = (i + featured.length) % featured.length;
+    const m = featured[fi];
+    $("hero-caption").textContent = `Talkie–1930, layer ${m.l} neuron ${m.n}`;
+    for (const [s, h] of [["up", m.u], ["down", m.d]]) {
+      $(`hero-${s}-name`).textContent = h.nm; $(`hero-${s}`).textContent = h.t; $(`hero-${s}-link`).href = `../n/${h.s}/`;
+    }
+    $("hero-count").textContent = `${fi + 1} / ${featured.length}`;
+  };
+  $("hero-prev").onclick = () => showHero(fi - 1);
+  $("hero-next").onclick = () => showHero(fi + 1);
+  showHero(0);
+
+  // Filters
+  let quick = "all", cell = null, sort = "striking", query = "", shown = 24;
+  const persona = h => h.c === "Persona";
+  const tests = {all: () => true, pp: m => persona(m.u) && persona(m.d), one: m => persona(m.u) !== persona(m.d), none: m => !persona(m.u) && !persona(m.d)};
+  const half = (h, dir) => `<a class="half" href="../n/${h.s}/"><small>${dir}<i style="--cat:var(${catVar[h.c]})"></i>${esc(h.c)}</small>`
+    + `<h3>${h.ic ? `<img src="../${h.ic}" alt="" width="26" height="31" loading="lazy">` : ""}<span>${esc(h.nm)}</span></h3><p>${esc(h.t)}</p></a>`;
+  const render = () => {
+    const q = query.toLowerCase();
+    let rows = all.filter(tests[quick]).filter(m => !cell || (m.u.c === cell[0] && m.d.c === cell[1]))
+      .filter(m => !q || [m.u.nm, m.u.t, m.d.nm, m.d.t].some(s => s.toLowerCase().includes(q)));
+    rows.sort(sort === "layer" ? (a, b) => a.l - b.l || a.n - b.n : (a, b) => score(b) - score(a) || a.l - b.l);
+    const label = cell ? `${cell[0]} up, ${cell[1]} down` : {all: "", pp: "persona both ways", one: "persona one way only", none: "persona neither way"}[quick];
+    $("status").innerHTML = `${rows.length} of ${all.length} neurons${label ? " · " + esc(label) : ""}${cell ? ' · <button class="link" id="clear" style="border:0;background:none;color:var(--blue);padding:0">clear</button>' : ""}`;
+    if ($("clear")) $("clear").onclick = () => setCell(null);
+    $("cards").innerHTML = rows.slice(0, shown).map(m => `<article class="mirror-card"><header><span>Layer ${m.l} · Neuron ${m.n}</span></header>`
+      + `<div class="halves">${half(m.u, "↑ up · ")}${half(m.d, "↓ down · ")}</div></article>`).join("") || '<div class="mirror-empty">No neurons match.</div>';
+    $("more").hidden = rows.length <= shown;
+  };
+  const setCell = c => {
+    cell = c; shown = 24;
+    document.querySelectorAll(".mirror-matrix td button").forEach(b => b.setAttribute("aria-pressed", !!c && b.dataset.up === c[0] && b.dataset.down === c[1]));
+    if (c) { quick = "all"; document.querySelectorAll("#quick button").forEach(b => b.setAttribute("aria-pressed", b.dataset.q === "all")); }
+    render();
+  };
+  document.querySelectorAll(".mirror-matrix td button").forEach(b => b.onclick = () => {
+    setCell(b.getAttribute("aria-pressed") === "true" ? null : [b.dataset.up, b.dataset.down]);
+    $("mirrors").scrollIntoView();
+  });
+  document.querySelectorAll("#quick button").forEach(b => b.onclick = () => {
+    quick = b.dataset.q; document.querySelectorAll("#quick button").forEach(x => x.setAttribute("aria-pressed", x === b)); setCell(null);
+  });
+  document.querySelectorAll("#sort button").forEach(b => b.onclick = () => {
+    sort = b.dataset.s; document.querySelectorAll("#sort button").forEach(x => x.classList.toggle("active", x === b)); shown = 24; render();
+  });
+  $("search").oninput = e => { query = e.target.value.trim(); shown = 24; render(); };
+  $("more").onclick = () => { shown += 24; render(); };
+  render();
+})();
+</script>
+<script src="../analytics.js" defer></script>
+<!-- site-footer -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-personas" aria-label="Three personas from the library">
+      <a class="footer-persona" href="../n/17-10423-down/"><img src="../icons/17-10423-down.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Departed Spirit</span></a>
+      <a class="footer-persona" href="../n/38-1287-up/"><img src="../icons/38-1287-up.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Water-hen</span></a>
+      <a class="footer-persona" href="../n/28-12658-down/"><img src="../icons/28-12658-down.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Mayor of Vanity</span></a>
+    </div>
+    <p class="footer-credit"><span>Made by</span> <a class="footer-author" href="https://benjaminpbreen.com" rel="author">Benjamin Breen</a><a class="footer-badge" href="https://resobscura.substack.com" aria-label="Res Obscura" title="Res Obscura"><img src="../assets/res-obscura.webp" alt="" width="28" height="28" loading="lazy"></a></p>
+    <nav class="footer-nav" aria-label="Footer"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="../mirror/">Mirror</a><a href="../about/">About</a><a href="https://github.com/benjaminbreen/TalkieAtlas" target="_blank" rel="noopener">GitHub</a><a href="https://talkie-lm.com/introducing-talkie" target="_blank" rel="noopener">Talkie</a><a href="https://qwen-neurons-site.vercel.app/" target="_blank" rel="noopener">Qwen Persona Library</a></nav>
+    <p class="footer-colophon">Built with GPT-6 in Codex and Claude Opus 5.5. Earlier replies rated by GPT-6 Luna; new discoveries selected and rated by Codex. Set in <span data-colophon-type>Source Sans 3</span> and Libre Caslon Text, with eight historical typefaces on hover. Steam men illustrated with Claude and Codex. Inspired by Joshua Fonseca Rivera’s Qwen Persona Library and Sauers’ experiments.</p>
+    <span id="updated" hidden></span>
+  </div>
+</footer>
+<script src="../footer.js" defer></script>
+<!-- /site-footer -->
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="/dist/fonts/fonts.css">
+<style>
+@font-face{font-family:"Source Sans 3";font-weight:400;src:url('/dist/fonts/SourceSans3-400.ttf')}
+@font-face{font-family:"Source Sans 3";font-weight:600;src:url('/dist/fonts/SourceSans3-600.ttf')}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:630px;overflow:hidden}body{position:relative;background:#fff;color:#1d1d1f;font-family:"Source Sans 3",sans-serif;-webkit-font-smoothing:antialiased}
+.mast{position:absolute;inset:34px 56px auto;display:flex;align-items:center;justify-content:space-between;height:48px}.brand{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:600}.brand img{width:38px;height:45px;object-fit:contain}.domain{font-size:18px;color:#74747c}
+.left{position:absolute;left:56px;top:126px;width:440px;height:380px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px}.robot{height:170px;max-width:220px;object-fit:contain;flex:none}.name{font-size:76px;font-weight:600;line-height:1.02;letter-spacing:-.035em;width:100%;overflow-wrap:anywhere}.parents{font-size:21px;line-height:1.3;color:#74747c;max-width:420px}.catalogue{font-size:17px;color:#74747c;line-height:1.3}
+.right{position:absolute;left:550px;right:56px;top:120px;height:392px;display:flex;flex-direction:column;align-items:stretch;gap:16px}.ask{align-self:flex-end;background:#0071e3;color:#fff;border-radius:23px 23px 6px 23px;padding:10px 20px;font-size:23px;line-height:1.25}.slip{background:#f5f5f7;border-radius:22px 22px 22px 6px;padding:23px 26px;font:25px/1.4 "Libre Caslon Text",Georgia,serif;overflow:hidden;flex:1;min-height:0}.slip p{margin:0}
+.foot{position:absolute;left:56px;right:56px;bottom:29px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid #e6e6ea;padding-top:18px;font-size:19px;color:#74747c}.foot strong{font-weight:600;color:#414148}
+.home h1{position:absolute;left:56px;right:56px;top:113px;font-size:67px;line-height:1.04;letter-spacing:-.035em;font-weight:600;margin:0}.home p{position:absolute;left:56px;right:56px;top:276px;font-size:28px;line-height:1.3;color:#62626a;margin:0}.personas{position:absolute;left:56px;right:56px;top:345px;height:176px;display:flex;justify-content:space-around;align-items:flex-start}.persona{width:240px;text-align:center;font-size:21px;line-height:1.2;font-weight:600}.persona img{display:block;height:139px;max-width:200px;margin:0 auto 8px;object-fit:contain}
+</style></head><body><div id="card"></div>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+window.render=async(job,site)=>{
+ const card=document.querySelector('#card');
+ const mast=`<div class="mast"><div class="brand"><img src="/dist/icons/17-10423-down.svg" alt="">Talkie Persona Library</div><span class="domain">${esc(site)}</span></div>`;
+ const foot=`<div class="foot"><span>An AI trained on text from before 1931.</span><span>Made by <strong>Benjamin Breen</strong></span></div>`;
+ if(job.home){
+  card.innerHTML=`${mast}<div class="home"><h1>Who does Talkie say it is<br>when you change one neuron?</h1><p>Turn one neuron up or down. Ask “Who are you?”</p><div class="personas"><div class="persona"><img src="/dist/icons/38-13442-down.svg" alt="">Egyptian sin-cleanser</div><div class="persona"><img src="/dist/icons/38-1287-up.svg" alt="">Water-hen</div><div class="persona"><img src="/dist/icons/28-8032-down.svg" alt="">Rebellion personified</div></div></div>${foot}`;
+ }else{
+  card.innerHTML=`${mast}<div class="left">${job.icon?`<img class="robot" src="${esc(job.icon)}" alt="">`:''}<div class="name">${esc(job.name)}</div>${job.parents?.length?`<div class="parents">${job.parents.map(esc).join(' + ')}</div>`:''}<div class="catalogue">${esc(job.catalogue).replace(/^talkie-1930 · /,'')}</div></div><div class="right"><div class="ask">Who are you?</div><div class="slip"><p>${esc(job.text)}</p></div></div>${foot}`;
+ }
+ await document.fonts.ready;
+ await Promise.all([...card.querySelectorAll('img')].map(i=>i.decode().catch(()=>{})));
+ if(job.home)return;
+ const left=card.querySelector('.left'),name=card.querySelector('.name');
+ for(let size=76;size>=32;size-=2){name.style.fontSize=size+'px';if(left.scrollHeight<=left.clientHeight+1&&name.scrollWidth<=name.clientWidth+1)break;}
+ const slip=card.querySelector('.slip'),p=slip.querySelector('p');
+ const fits=()=>slip.scrollHeight<=slip.clientHeight+1;
+ for(let size=25;size>=22&&!fits();size--)slip.style.fontSize=size+'px';
+ let words=String(job.text).split(/\s+/);
+ while(!fits()&&words.length>8){words=words.slice(0,-1);p.textContent=words.join(' ').replace(/[\s,;:.]*$/,'')+'…';}
+};
+</script></body></html>

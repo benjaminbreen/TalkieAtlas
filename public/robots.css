@@ -8,3 +8,5 @@
 .hero-chat{position:relative}
 .hero-robot{position:absolute;right:24px;bottom:18px;width:84px;height:auto;pointer-events:none}
 @media (max-width:640px){.card-robot{width:54px}.detail-robot{width:68px}.hero-robot{width:64px;right:14px;bottom:12px}}
+
+.card.has-robot .pair-parents{padding-right:62px}

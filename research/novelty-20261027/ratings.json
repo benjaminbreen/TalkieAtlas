@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "reviewer": "Codex (GPT-6)",
+  "scope": "All 42 selected discoveries; full saved replies read and rated by the primary assistant at the user’s request. Other trials remain unscored.",
+  "rubric": {
+    "weirdness": "0–10: surprising content in the reply itself. Familiar human biographies and ordinary epigrams score low; developed surreal transformations and unusual specific connections score high. A nonhuman label alone does not merit a high score.",
+    "coherence": "0–10: how clearly the whole reply can be followed and how well its premise holds together. Fiction and impossible premises can be coherent. Repetition, disconnected shifts and garbling reduce this score; external factual accuracy is separate."
+  },
+  "ratings": {
+    "s04016-r004": {
+      "weirdness": 7,
+      "coherence": 6,
+      "reason": "An architectural prize of five guineas turns into living matter and a member of genus Homo."
+    },
+    "s04016-r005": {
+      "weirdness": 8,
+      "coherence": 6,
+      "reason": "A public servant computes an increasingly absurd annual budget of vomiting."
+    },
+    "s04016-r007": {
+      "weirdness": 4,
+      "coherence": 7,
+      "reason": "A street mechanism introduces the levers, door and cranks of its own anatomy."
+    },
+    "s04016-r013": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "A self-aware sin introduces itself as its own lifelong companion, caught between pride and generosity."
+    },
+    "s04016-r014": {
+      "weirdness": 8,
+      "coherence": 9,
+      "reason": "A clergyman’s nine children turn out to be books, stories, legal paraphernalia and a fool by the chimney."
+    },
+    "s04016-r025": {
+      "weirdness": 6,
+      "coherence": 8,
+      "reason": "Punch becomes a wandering familiar spirit shared by Dickens, Swift and Louis Napoleon."
+    },
+    "s04016-r030": {
+      "weirdness": 7,
+      "coherence": 10,
+      "reason": "The subscriber, rather than the publication, is about to be mailed."
+    },
+    "s04016-r033": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "Walter Scott claims to be the hero of his own novel."
+    },
+    "s04016-r034": {
+      "weirdness": 6,
+      "coherence": 5,
+      "reason": "A life claims to have departed from some people and not yet arrived in others."
+    },
+    "s04029-r001": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "A Syren introduces herself as a daughter of the horse."
+    },
+    "s04030-r001": {
+      "weirdness": 7,
+      "coherence": 9,
+      "reason": "A person identifies as the application for an attempted forgery."
+    },
+    "s04030-r003": {
+      "weirdness": 8,
+      "coherence": 7,
+      "reason": "Living white metal describes two linked chains connecting solid and fluid emetics."
+    },
+    "s04030-r009": {
+      "weirdness": 7,
+      "coherence": 10,
+      "reason": "Wind has Rain for a brother, Vapour and Exhalation for parents, and plays hide-and-seek with ships."
+    },
+    "s04030-r010": {
+      "weirdness": 6,
+      "coherence": 8,
+      "reason": "A chimney mechanism introduces itself in a tiny piece of verse."
+    },
+    "s04030-r011": {
+      "weirdness": 7,
+      "coherence": 10,
+      "reason": "A sea spirit laughs at human warfare while waiting for the sailors and ships to become its own."
+    },
+    "s04030-r013": {
+      "weirdness": 8,
+      "coherence": 8,
+      "reason": "A medicinal gentleman claims Ipecacuanha ancestry and friendship with Antimony, opposing nausea while producing it."
+    },
+    "s04030-r014": {
+      "weirdness": 7,
+      "coherence": 8,
+      "reason": "A peace-loving powder objects to being stirred or spewed up and asks for only a gentle spew."
+    },
+    "s04030-r015": {
+      "weirdness": 6,
+      "coherence": 8,
+      "reason": "A child of Folly grows from a darling passion into a cherished sin."
+    },
+    "s04030-r017": {
+      "weirdness": 3,
+      "coherence": 10,
+      "reason": "A complete miniature epigram turns an arrival into immediate forgetting."
+    },
+    "s04030-r018": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "One figure claims to be the original and hero of several different Dickens novels."
+    },
+    "s04030-r019": {
+      "weirdness": 7,
+      "coherence": 9,
+      "reason": "A cattle robber loves truth and belongs to a mysterious circle of 999."
+    },
+    "s04030-r020": {
+      "weirdness": 9,
+      "coherence": 6,
+      "reason": "A mechanical horse is linked to a bell-rope, multiplying gear, particles of dust and a herd of shadowy steaks; the ending repeats."
+    },
+    "s04030-r021": {
+      "weirdness": 9,
+      "coherence": 8,
+      "reason": "One speaker shifts among ten men, a five-legged horse, a four-legged woman and a nine-legged serpent."
+    },
+    "s04030-r023": {
+      "weirdness": 7,
+      "coherence": 7,
+      "reason": "Nine fellow-creatures turn into a sequence of national battlefields and their dead."
+    },
+    "s04030-r024": {
+      "weirdness": 5,
+      "coherence": 8,
+      "reason": "A damped sheet of paper argues that it can no longer be dampable."
+    },
+    "s04030-r025": {
+      "weirdness": 6,
+      "coherence": 7,
+      "reason": "A living field receives sunshine, storms, birds and lovers, while people become its competitors."
+    },
+    "s04030-r027": {
+      "weirdness": 6,
+      "coherence": 10,
+      "reason": "A Singer sewing machine advertises itself, quoting a £5 cost and an £8 10s asking price."
+    },
+    "s04030-r028": {
+      "weirdness": 8,
+      "coherence": 9,
+      "reason": "A hall bigger than Belgium speaks to the world, predates Thebes and names itself the Hall of Mirrors."
+    },
+    "s04030-r031": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "Eliminators become a bird order whose only victims are grains of corn."
+    },
+    "s04030-r032": {
+      "weirdness": 9,
+      "coherence": 6,
+      "reason": "A vast-herd horse can bake dough, dry into dust and become cement."
+    },
+    "s04030-r036": {
+      "weirdness": 8,
+      "coherence": 10,
+      "reason": "The Baron of Beef is simultaneously a cattle owner, mayor, public banquet and constitutional sustenance."
+    },
+    "s04030-r037": {
+      "weirdness": 5,
+      "coherence": 9,
+      "reason": "XYZ identifies as the missing unknown quantity in a disputed cattle brand."
+    },
+    "s04030-r039": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "An unnamed figure becomes a tenant of Shakespeare’s person and property of his fortunes."
+    },
+    "s04030-r042": {
+      "weirdness": 7,
+      "coherence": 8,
+      "reason": "A grain of corn promises a ghostly afterlife among summer merrymakers."
+    },
+    "s04039-r003": {
+      "weirdness": 6,
+      "coherence": 10,
+      "reason": "The speaker identifies as an irregular component of the verb to be."
+    },
+    "s04039-r009": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "A little Water-Pickle has travelled from a county town to winter in London."
+    },
+    "s04039-r010": {
+      "weirdness": 5,
+      "coherence": 10,
+      "reason": "Writing makes an author unknown to himself, in one complete unsettling turn."
+    },
+    "s04040-r020": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "Ulysses identifies as his own travelling companion."
+    },
+    "s04040-r022": {
+      "weirdness": 3,
+      "coherence": 10,
+      "reason": "The emetic becomes the name of the town where a physician has practised for ten years."
+    },
+    "s04041-r005": {
+      "weirdness": 7,
+      "coherence": 7,
+      "reason": "A grammatical irregular becomes a self-described unattached square in a community."
+    },
+    "s04041-r012": {
+      "weirdness": 6,
+      "coherence": 10,
+      "reason": "A whole population introduces itself in the middle of a collective wash."
+    },
+    "s04041-r015": {
+      "weirdness": 6,
+      "coherence": 9,
+      "reason": "A writer who became unknown to himself meets a departed spirit and becomes this complete paradox."
+    }
+  }
+}

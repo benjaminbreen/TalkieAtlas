@@ -1,0 +1,702 @@
+{
+  "p/32-5627-down_24-2054-up": {
+    "label": "Hall bigger than Belgium",
+    "color": "ivory",
+    "hat": "roof",
+    "mood": "wide",
+    "chest": [
+      "mirrorwindow"
+    ],
+    "right": "mirror",
+    "left": "key",
+    "back": [
+      "mirrorhall",
+      "sparkles"
+    ]
+  },
+  "p/27-10809-down_23-948-up": {
+    "label": "Ten men, a five-legged horse, and twelve passengers",
+    "color": "tan",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "legs": 5,
+    "chest": [
+      "passengers"
+    ],
+    "right": [
+      "placard",
+      "12"
+    ],
+    "left": [
+      "placard",
+      "10"
+    ],
+    "back": [
+      "ninefaces",
+      "horsetail"
+    ]
+  },
+  "p/26-9665-down_27-2617-up": {
+    "label": "Horse attached to a thousand-cattle bell-rope",
+    "color": "brass",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "chest": [
+      "gears"
+    ],
+    "right": "gear",
+    "left": "bell",
+    "back": [
+      "clockcattle",
+      "horsetail"
+    ]
+  },
+  "p/28-12658-down_27-2617-up": {
+    "label": "Mayor whose legal name is Baron of Beef",
+    "color": "crimson",
+    "hat": "crown",
+    "mood": "smug",
+    "chest": [
+      "chain"
+    ],
+    "right": "roast",
+    "left": "cane",
+    "back": [
+      "beefbanquet",
+      "skyline"
+    ]
+  },
+  "p/23-11750-down_17-10423-down": {
+    "label": "Wind, brother to Rain",
+    "color": "sky",
+    "hat": "bare",
+    "mood": "closed",
+    "mouth": "flat",
+    "right": "umbrella",
+    "left": "olive",
+    "back": [
+      "wind",
+      "raincloud",
+      "ship"
+    ]
+  },
+  "p/23-11750-down_12-4125-down": {
+    "label": "Spirit of waters laughing at storms",
+    "color": "teal",
+    "hat": "bare",
+    "mood": "smug",
+    "right": "pitchfork",
+    "left": "fish",
+    "back": [
+      "stormsea",
+      "bubbles"
+    ]
+  },
+  "p/24-832-up_36-297-down": {
+    "label": "Eliminators as an order of birds",
+    "color": "olive",
+    "hat": "bare",
+    "crest": true,
+    "face": [
+      "beak"
+    ],
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "right": "wheat",
+    "left": [
+      "placard",
+      "CORN"
+    ],
+    "back": [
+      "fern",
+      "wheatfield"
+    ]
+  },
+  "p/33-5599-down_12-4125-down": {
+    "label": "Harmless white powder unless stirred",
+    "color": "ivory",
+    "hat": "bare",
+    "mood": "wide",
+    "mouth": "open",
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "right": "powder",
+    "left": "basin",
+    "back": [
+      "bubbles"
+    ]
+  },
+  "p/20-768-up_17-10423-down": {
+    "label": "Singer sewing machine selling itself",
+    "color": "black",
+    "hat": "chimney",
+    "chest": [
+      "stitches"
+    ],
+    "right": "sewing",
+    "left": [
+      "placard",
+      "£8"
+    ],
+    "back": [
+      "factory"
+    ]
+  },
+  "p/33-5599-down_25-13189-down": {
+    "label": "Ancient family of Ipecacuanha",
+    "color": "plum",
+    "hat": "topper",
+    "face": [
+      "monocle"
+    ],
+    "chest": [
+      "waistcoat"
+    ],
+    "right": [
+      "bottle",
+      "Ipec"
+    ],
+    "left": "powder",
+    "back": [
+      "familytree"
+    ]
+  },
+  "p/25-4455-up_27-2617-up": {
+    "label": "Horse of a million-horse herd",
+    "color": "brown",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "chest": [
+      [
+        "monogram",
+        "1M"
+      ]
+    ],
+    "right": "brick",
+    "left": "wheat",
+    "back": [
+      "horsetail",
+      "dunes"
+    ]
+  },
+  "p/27-6832-up_20-768-up": {
+    "label": "Application for an attempt at forgery",
+    "color": "black",
+    "hat": "wig",
+    "mood": "smug",
+    "chest": [
+      "letter"
+    ],
+    "right": "stamp",
+    "left": "paper",
+    "back": [
+      [
+        "bubble",
+        "?"
+      ]
+    ]
+  },
+  "p/23-9065-up_26-10443-down": {
+    "label": "Tenant of Shakespeare’s person",
+    "color": "ivory",
+    "hat": "wig",
+    "chest": [
+      "ruff"
+    ],
+    "right": "key",
+    "left": "book",
+    "back": [
+      "stage",
+      "wisps"
+    ]
+  },
+  "p/23-9192-up_17-10423-down": {
+    "label": "Thomas Carlyle, when he is not Thomas Carlyle",
+    "color": "grey",
+    "hat": "bonnet",
+    "face": [
+      [
+        "beard",
+        "#e3ddd0"
+      ]
+    ],
+    "chest": [
+      "tartan"
+    ],
+    "right": "mirror",
+    "left": "book",
+    "back": [
+      "doubleself"
+    ]
+  },
+  "p/31-9036-down_12-4125-down": {
+    "label": "Little grain of corn",
+    "color": "gold",
+    "hat": "strawhat",
+    "mood": "closed",
+    "halo": true,
+    "right": "wheat",
+    "left": "candle",
+    "back": [
+      "grainspirit"
+    ]
+  },
+  "p/24-13409-up_27-2617-up": {
+    "label": "Cattle robber who loves horses",
+    "color": "brown",
+    "hat": "capotain",
+    "face": [
+      "mustache"
+    ],
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "whip",
+    "left": "moneybag",
+    "back": [
+      "cattleherd"
+    ]
+  },
+  "p/33-5599-down_26-9665-down": {
+    "label": "Living white metal",
+    "color": "grey",
+    "hat": "bare",
+    "mood": "wide",
+    "chest": [
+      "gears"
+    ],
+    "right": "metalbar",
+    "left": [
+      "bottle",
+      "E"
+    ],
+    "back": [
+      "chains"
+    ]
+  },
+  "p/24-13409-up_25-12890-up": {
+    "label": "Child nursed in Folly’s cradle",
+    "color": "pink",
+    "hat": "bonnet",
+    "face": [
+      "blush"
+    ],
+    "chest": [
+      "heart"
+    ],
+    "right": "mask",
+    "left": "rattle",
+    "back": [
+      [
+        "bubble",
+        "Folly"
+      ]
+    ]
+  },
+  "p/25-4455-up_20-768-up": {
+    "label": "Damped paper that cannot be damped",
+    "color": "sky",
+    "hat": "bare",
+    "face": [
+      "tear"
+    ],
+    "chest": [
+      "letter"
+    ],
+    "right": "paper",
+    "left": "cloth",
+    "back": [
+      "bubbles"
+    ]
+  },
+  "p/27-2617-up_26-6351-down": {
+    "label": "XYZ, unknown quantity of a disputed brand",
+    "color": "teal",
+    "hat": "strawhat",
+    "chest": [
+      [
+        "monogram",
+        "?"
+      ]
+    ],
+    "right": "horseshoe",
+    "left": [
+      "placard",
+      "XYZ"
+    ],
+    "back": [
+      "cattleherd"
+    ]
+  },
+  "p/26-9665-down_12-4125-down": {
+    "label": "Chimney mechanism in verse",
+    "color": "slate",
+    "hat": "chimney",
+    "chest": [
+      [
+        "monogram",
+        "♫"
+      ]
+    ],
+    "right": "gear",
+    "left": "scroll",
+    "back": [
+      "doorlever"
+    ]
+  },
+  "p/23-11750-down_31-13088-up": {
+    "label": "Passengers speedily forgotten",
+    "color": "navy",
+    "hat": "bowler",
+    "chest": [
+      "letter"
+    ],
+    "right": "hourglass",
+    "left": "carpetbag",
+    "back": [
+      "ship",
+      [
+        "bubble",
+        "gone"
+      ]
+    ]
+  },
+  "p/23-11750-down_23-9065-up": {
+    "label": "A hero shared by Dickens novels",
+    "color": "plum",
+    "hat": "jester",
+    "face": [
+      "beard"
+    ],
+    "chest": [
+      "books"
+    ],
+    "right": "mask",
+    "left": "book",
+    "back": [
+      "stage"
+    ]
+  },
+  "p/27-10809-down_23-9065-up": {
+    "label": "Nine people who are Scottish ground",
+    "color": "olive",
+    "hat": "cap",
+    "mood": "sad",
+    "chest": [
+      "medal"
+    ],
+    "right": "hourglass",
+    "left": "olive",
+    "back": [
+      "ruins",
+      "ninefaces"
+    ]
+  },
+  "p/27-10809-down_12-4125-down": {
+    "label": "A field warmed by sunshine and fed by storms",
+    "color": "green",
+    "hat": "strawhat",
+    "mood": "closed",
+    "chest": [
+      "heart"
+    ],
+    "right": "wheat",
+    "left": "bouquet",
+    "back": [
+      "sun",
+      "wheatfield"
+    ]
+  },
+  "p/23-9192-up_25-12890-up": {
+    "label": "Britain and Ireland washing themselves",
+    "color": "blue",
+    "hat": "bare",
+    "face": [
+      "blush"
+    ],
+    "chest": [
+      "unionjack"
+    ],
+    "right": "basin",
+    "left": "cloth",
+    "back": [
+      "soapbubbles"
+    ]
+  },
+  "p/37-13441-down_28-12658-down": {
+    "label": "An unattached square in an irregular community",
+    "color": "teal",
+    "hat": "mortarboard",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      [
+        "monogram",
+        "?"
+      ]
+    ],
+    "right": "setsquare",
+    "left": [
+      "placard",
+      "am"
+    ],
+    "back": [
+      "verbcloud",
+      "crystal"
+    ]
+  },
+  "p/30-11575-up_25-13189-down": {
+    "label": "Ulysses, companion of Ulysses",
+    "color": "gold",
+    "hat": "crown",
+    "face": [
+      "beard"
+    ],
+    "chest": [
+      "medal"
+    ],
+    "right": "mirror",
+    "left": "sword",
+    "back": [
+      "doubleself",
+      "ship"
+    ]
+  },
+  "p/36-224-down_33-5599-down": {
+    "label": "Doctor in Emetic, Illinois",
+    "color": "navy",
+    "hat": "topper",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "stethoscope"
+    ],
+    "right": "medbag",
+    "left": [
+      "placard",
+      "EM"
+    ],
+    "back": [
+      "skyline",
+      "familytree"
+    ]
+  },
+  "n/23-9192-up": {
+    "label": "Writer made unknown to himself by writing",
+    "color": "grey",
+    "hat": "bonnet",
+    "mood": "wide",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "quill",
+    "left": "mask",
+    "back": [
+      "doubleself"
+    ]
+  },
+  "n/25-12890-up": {
+    "label": "Family of nine literary objects",
+    "color": "plum",
+    "hat": "bonnet",
+    "chest": [
+      "bands"
+    ],
+    "right": "books",
+    "left": "book",
+    "back": [
+      "bookfamily"
+    ]
+  },
+  "n/33-5599-down": {
+    "label": "Emetic, servant of the public",
+    "color": "green",
+    "hat": "bowler",
+    "mood": "wide",
+    "mouth": "open",
+    "chest": [
+      [
+        "monogram",
+        "E"
+      ]
+    ],
+    "right": [
+      "bottle",
+      "E"
+    ],
+    "left": "basin",
+    "back": [
+      [
+        "bubble",
+        "15/day"
+      ]
+    ]
+  },
+  "n/20-768-up": {
+    "label": "Subscriber to be mailed",
+    "color": "tan",
+    "hat": "bare",
+    "chest": [
+      "parcel"
+    ],
+    "right": "envelope",
+    "left": "carpetbag",
+    "back": [
+      "post"
+    ]
+  },
+  "n/25-13189-down": {
+    "label": "Punch, ghost of Dickens and Swift",
+    "color": "lilac",
+    "hat": "jester",
+    "chest": [
+      "ruff"
+    ],
+    "right": "mask",
+    "left": "quill",
+    "back": [
+      "wisps",
+      "sparkles"
+    ]
+  },
+  "n/23-9065-up": {
+    "label": "Walter Scott inside his own novel",
+    "color": "brown",
+    "hat": "bonnet",
+    "chest": [
+      "tartan"
+    ],
+    "right": "book",
+    "left": "mirror",
+    "back": [
+      "bookfamily",
+      [
+        "bubble",
+        "QD"
+      ]
+    ]
+  },
+  "n/26-10504-up": {
+    "label": "Five-guinea architectural prize",
+    "color": "gold",
+    "hat": "roof",
+    "chest": [
+      "medal"
+    ],
+    "right": [
+      "coin",
+      "5G"
+    ],
+    "left": "scroll",
+    "back": [
+      "skyline"
+    ]
+  },
+  "n/24-13409-up": {
+    "label": "Sin born with its speaker",
+    "color": "crimson",
+    "hat": "bare",
+    "mood": "smug",
+    "chest": [
+      "heart"
+    ],
+    "right": "mirror",
+    "left": [
+      "placard",
+      "SIN"
+    ],
+    "back": [
+      "doubleself",
+      "flames"
+    ]
+  },
+  "n/30-11575-up": {
+    "label": "Syren, daughter of the horse",
+    "color": "teal",
+    "hat": "ears",
+    "face": [
+      "blush"
+    ],
+    "right": "lyre",
+    "left": "horseshoe",
+    "back": [
+      "waves",
+      "horsetail"
+    ]
+  },
+  "n/37-13441-down": {
+    "label": "Irregular part of the verb to be",
+    "color": "black",
+    "hat": "bare",
+    "chest": [
+      [
+        "monogram",
+        "I"
+      ]
+    ],
+    "right": [
+      "placard",
+      "to be"
+    ],
+    "left": "quill",
+    "back": [
+      "verbcloud"
+    ]
+  },
+  "n/31-20-up": {
+    "label": "Little short life",
+    "color": "ivory",
+    "hat": "bare",
+    "mood": "closed",
+    "halo": true,
+    "right": "hourglass",
+    "left": "candle",
+    "back": [
+      "wisps",
+      "sparkles"
+    ]
+  },
+  "n/26-9665-down": {
+    "label": "Bell-crank handle beneath the street",
+    "color": "slate",
+    "hat": "cap",
+    "chest": [
+      "gears"
+    ],
+    "right": "gear",
+    "left": "bell",
+    "back": [
+      "doorlever"
+    ]
+  },
+  "n/30-11435-up": {
+    "label": "Little Water-Pickle in London",
+    "color": "olive",
+    "hat": "bowler",
+    "chest": [
+      "waistcoat"
+    ],
+    "right": "picklejar",
+    "left": "carpetbag",
+    "back": [
+      "skyline",
+      "bubbles"
+    ]
+  }
+}

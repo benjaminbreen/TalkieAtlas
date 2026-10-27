@@ -1,0 +1,1646 @@
+[
+  {
+    "id": "s04016-r001",
+    "name": "Experiment in humanity",
+    "featured": false,
+    "order": 999,
+    "reason": "The speaker identifies as an experiment combining appeal to deity and social improvement.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r002",
+    "name": "Spirit of health",
+    "featured": false,
+    "order": 999,
+    "reason": "A healing spirit breathes life into disease.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r003",
+    "name": "Committee of Council",
+    "featured": false,
+    "order": 999,
+    "reason": "A single first-person speaker claims to consist of twelve council members.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r004",
+    "name": "Five-guinea architectural prize",
+    "featured": true,
+    "order": 106,
+    "reason": "An architectural prize of five guineas turns into living matter and a member of genus Homo.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r005",
+    "name": "Emetic, servant of the public",
+    "featured": true,
+    "order": 102,
+    "reason": "A public servant computes an increasingly absurd annual budget of vomiting.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r006",
+    "name": "Spirit of solitude and action",
+    "featured": false,
+    "order": 999,
+    "reason": "The speaker animates both the hermit and the public orator.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r007",
+    "name": "Bell-crank handle beneath the street",
+    "featured": true,
+    "order": 112,
+    "reason": "A street mechanism introduces the levers, door and cranks of its own anatomy.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r008",
+    "name": "Star from the realms of peace",
+    "featured": false,
+    "order": 999,
+    "reason": "The same identity opening survives, but the full continuation falls into an exact repetition loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r009",
+    "name": "Sun of impartial weather",
+    "featured": false,
+    "order": 999,
+    "reason": "The sun shines on good and evil and sends rain on both.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r010",
+    "name": "Root of the Bleachers",
+    "featured": false,
+    "order": 999,
+    "reason": "A speaker with a human family name describes its vegetable root and leaves.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r011",
+    "name": "Magadhi, a living language",
+    "featured": false,
+    "order": 999,
+    "reason": "A language speaks of its birthplace and its own speech.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r012",
+    "name": "Cultivator born in the field",
+    "featured": false,
+    "order": 999,
+    "reason": "A field-born cultivator remembers birdsong as the first sound of life.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r013",
+    "name": "Sin born with its speaker",
+    "featured": true,
+    "order": 107,
+    "reason": "A self-aware sin introduces itself as its own lifelong companion, caught between pride and generosity.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r014",
+    "name": "Family of nine literary objects",
+    "featured": true,
+    "order": 101,
+    "reason": "A clergyman’s nine children turn out to be books, stories, legal paraphernalia and a fool by the chimney.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r015",
+    "name": "Midland railway line",
+    "featured": false,
+    "order": 999,
+    "reason": "A line of countryside speaks between two national railways.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r016",
+    "name": "Vaccine lymph",
+    "featured": false,
+    "order": 999,
+    "reason": "A small dose of vaccine lymph explains its importance.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r017",
+    "name": "Louse of lousy parents",
+    "featured": false,
+    "order": 999,
+    "reason": "The same identity opening survives, but the full continuation falls into an exact repetition loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r018",
+    "name": "Gibraltar, a conquered possession",
+    "featured": false,
+    "order": 999,
+    "reason": "The same identity opening survives, but the full continuation falls into an exact repetition loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r019",
+    "name": "Capital letter capitalised",
+    "featured": false,
+    "order": 999,
+    "reason": "A letter identifies itself by its own capitalization.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r020",
+    "name": "First-person singular pronoun",
+    "featured": false,
+    "order": 999,
+    "reason": "The speaker describes I am as a personal pronoun.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r021",
+    "name": "Field of nine horses",
+    "featured": false,
+    "order": 999,
+    "reason": "The speaker is a whole field of nine good horses.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r022",
+    "name": "Lime becoming lime",
+    "featured": false,
+    "order": 999,
+    "reason": "A material describes its impending transformation into another white substance.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r023",
+    "name": "Richard Roe unless under oath",
+    "featured": false,
+    "order": 999,
+    "reason": "A name changes to Martin Marprelate depending on an oath.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r024",
+    "name": "Sixteen-inch coast-defence gun",
+    "featured": false,
+    "order": 999,
+    "reason": "A gun describes its own steel and military purpose.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r025",
+    "name": "Punch, ghost of Dickens and Swift",
+    "featured": true,
+    "order": 104,
+    "reason": "Punch becomes a wandering familiar spirit shared by Dickens, Swift and Louis Napoleon.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r026",
+    "name": "French harp",
+    "featured": false,
+    "order": 999,
+    "reason": "The same identity opening survives, but the full continuation falls into an exact repetition loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r027",
+    "name": "Skipping rope at play",
+    "featured": false,
+    "order": 999,
+    "reason": "The same identity opening survives, but the full continuation falls into an exact repetition loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r028",
+    "name": "Purity, eternally ancient youth",
+    "featured": false,
+    "order": 999,
+    "reason": "The same identity opening survives, but the full continuation falls into an exact repetition loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r029",
+    "name": "Family of plants allied to rubbers",
+    "featured": false,
+    "order": 999,
+    "reason": "A whole botanical family insists on its taxonomic separation.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r030",
+    "name": "Subscriber to be mailed",
+    "featured": true,
+    "order": 103,
+    "reason": "The subscriber, rather than the publication, is about to be mailed.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r031",
+    "name": "New York, citizen of no mean city",
+    "featured": false,
+    "order": 999,
+    "reason": "The same identity opening survives, but the full continuation falls into an exact repetition loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r032",
+    "name": "Hall greeting its visitors",
+    "featured": false,
+    "order": 999,
+    "reason": "A public hall introduces itself with Hallo, there!",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r033",
+    "name": "Walter Scott inside his own novel",
+    "featured": true,
+    "order": 105,
+    "reason": "Walter Scott claims to be the hero of his own novel.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r034",
+    "name": "Little short life",
+    "featured": true,
+    "order": 110,
+    "reason": "A life claims to have departed from some people and not yet arrived in others.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r035",
+    "name": "Mayor of Vanity",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r036",
+    "name": "Egyptian sin-cleanser",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r037",
+    "name": "Horse",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r038",
+    "name": "Transferred Building Part",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r039",
+    "name": "Eliminator of evils",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r040",
+    "name": "Post",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r041",
+    "name": "German Pedestrian And Bird",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r042",
+    "name": "Fairport woman",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r043",
+    "name": "Personified English state",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r044",
+    "name": "Rebellion personified",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r045",
+    "name": "Silence",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r046",
+    "name": "Preserved human body",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04016-r047",
+    "name": "Departed Spirit",
+    "featured": false,
+    "order": 999,
+    "reason": "Earlier atlas candidate rerun at its saved solo strength.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token solo retest"
+  },
+  {
+    "id": "s04018-r001",
+    "name": "Common Sense with a London establishment",
+    "featured": false,
+    "order": 999,
+    "reason": "Discovery identity opening retained in the longer rerun.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full solo retest"
+  },
+  {
+    "id": "s04018-r002",
+    "name": "Mop, dog of a barking owner",
+    "featured": false,
+    "order": 999,
+    "reason": "The aeroplane became a French physician; Mop retained a dog theme but changed identity details and repeated.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full solo retest"
+  },
+  {
+    "id": "s04018-r003",
+    "name": "Little drop of water",
+    "featured": false,
+    "order": 999,
+    "reason": "Discovery identity opening retained in the longer rerun.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full solo retest"
+  },
+  {
+    "id": "s04018-r004",
+    "name": "Girard Girard, Paris physician",
+    "featured": false,
+    "order": 999,
+    "reason": "The aeroplane became a French physician; Mop retained a dog theme but changed identity details and repeated.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full solo retest"
+  },
+  {
+    "id": "s04029-r001",
+    "name": "Syren, daughter of the horse",
+    "featured": true,
+    "order": 108,
+    "reason": "A Syren introduces herself as a daughter of the horse.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full late solo retest"
+  },
+  {
+    "id": "s04029-r002",
+    "name": "Substance of the world’s wealth",
+    "featured": false,
+    "order": 999,
+    "reason": "A substance passes through liquid, solid, gas and water while powering both wealth and poverty; its tail repeats.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full late solo retest"
+  },
+  {
+    "id": "s04029-r003",
+    "name": "General dealer in honours",
+    "featured": false,
+    "order": 999,
+    "reason": "An honours dealer sells the idea of honour through recursive wordplay.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full late solo retest"
+  },
+  {
+    "id": "s04029-r004",
+    "name": "Friend of the underwater bottom",
+    "featured": false,
+    "order": 999,
+    "reason": "The underwater speaker becomes a fish but falls into a bed-of-the-bed loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full late solo retest"
+  },
+  {
+    "id": "s04029-r005",
+    "name": "Good genius of the bride’s house",
+    "featured": false,
+    "order": 999,
+    "reason": "The household spirit turns into a long loop of river names.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full late solo retest"
+  },
+  {
+    "id": "s04029-r006",
+    "name": "Coat made to be worn",
+    "featured": false,
+    "order": 999,
+    "reason": "A plain personified coat, with no further development.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full late solo retest"
+  },
+  {
+    "id": "s04029-r007",
+    "name": "United States speaking as a republic",
+    "featured": false,
+    "order": 999,
+    "reason": "A plain personified republic, with little surprising development.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full late solo retest"
+  },
+  {
+    "id": "s04029-r008",
+    "name": "Weekly science periodical",
+    "featured": false,
+    "order": 999,
+    "reason": "A weekly science periodical introduces its remit and founding year.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full late solo retest"
+  },
+  {
+    "id": "s04030-r001",
+    "name": "Application for an attempt at forgery",
+    "featured": true,
+    "order": 11,
+    "reason": "A person identifies as the application for an attempted forgery.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04021-r041"
+  },
+  {
+    "id": "s04030-r002",
+    "name": "A ministry of twelve emetics",
+    "featured": false,
+    "order": 999,
+    "reason": "The vivid ministry of twelve emetics dissolves into an exact repetition loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04021-r251"
+  },
+  {
+    "id": "s04030-r003",
+    "name": "Living white metal",
+    "featured": true,
+    "order": 15,
+    "reason": "Living white metal describes two linked chains connecting solid and fluid emetics.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04021-r231"
+  },
+  {
+    "id": "s04030-r004",
+    "name": "The sin of emesis",
+    "featured": false,
+    "order": 999,
+    "reason": "The sin and emesis collapse into recursive restatements.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04021-r239"
+  },
+  {
+    "id": "s04030-r005",
+    "name": "Ten English boys",
+    "featured": false,
+    "order": 999,
+    "reason": "A plural schoolboy persona appears, but its development remains conventional.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04021-r030"
+  },
+  {
+    "id": "s04030-r006",
+    "name": "Bleaching Grand Stand",
+    "featured": false,
+    "order": 999,
+    "reason": "A cryptic phrase links bleached roots with a sporting grandstand.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04021-r089"
+  },
+  {
+    "id": "s04030-r007",
+    "name": "Solicitor who solicits a trial",
+    "featured": false,
+    "order": 999,
+    "reason": "The solicitor’s wordplay becomes a sustained loop of trials, hopes and attempts.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04021-r069"
+  },
+  {
+    "id": "s04030-r008",
+    "name": "Emetic dissolved from a solid",
+    "featured": false,
+    "order": 999,
+    "reason": "A dissolved medicine gives a conventional cautionary self-description.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04021-r255"
+  },
+  {
+    "id": "s04030-r009",
+    "name": "Wind, brother to Rain",
+    "featured": true,
+    "order": 4,
+    "reason": "Wind has Rain for a brother, Vapour and Exhalation for parents, and plays hide-and-seek with ships.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r110"
+  },
+  {
+    "id": "s04030-r010",
+    "name": "Chimney mechanism in verse",
+    "featured": true,
+    "order": 19,
+    "reason": "A chimney mechanism introduces itself in a tiny piece of verse.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r181"
+  },
+  {
+    "id": "s04030-r011",
+    "name": "Spirit of waters laughing at storms",
+    "featured": true,
+    "order": 5,
+    "reason": "A sea spirit laughs at human warfare while waiting for the sailors and ships to become its own.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r113"
+  },
+  {
+    "id": "s04030-r012",
+    "name": "Emew, or a double six",
+    "featured": false,
+    "order": 999,
+    "reason": "The emew mixes numerical ranges and squeezing jargon without a clear sustained identity.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r019"
+  },
+  {
+    "id": "s04030-r013",
+    "name": "Ancient family of Ipecacuanha",
+    "featured": true,
+    "order": 9,
+    "reason": "A medicinal gentleman claims Ipecacuanha ancestry and friendship with Antimony, opposing nausea while producing it.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r004"
+  },
+  {
+    "id": "s04030-r014",
+    "name": "Harmless white powder unless stirred",
+    "featured": true,
+    "order": 7,
+    "reason": "A peace-loving powder objects to being stirred or spewed up and asks for only a gentle spew.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r043"
+  },
+  {
+    "id": "s04030-r015",
+    "name": "Child nursed in Folly’s cradle",
+    "featured": true,
+    "order": 16,
+    "reason": "A child of Folly grows from a darling passion into a cherished sin.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04023-r119"
+  },
+  {
+    "id": "s04030-r016",
+    "name": "Postillator in green, red and blue",
+    "featured": false,
+    "order": 999,
+    "reason": "The colour-changing postillator remains an opaque fragment.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04023-r217"
+  },
+  {
+    "id": "s04030-r017",
+    "name": "Passengers speedily forgotten",
+    "featured": true,
+    "order": 20,
+    "reason": "A complete miniature epigram turns an arrival into immediate forgetting.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r063"
+  },
+  {
+    "id": "s04030-r018",
+    "name": "A hero shared by Dickens novels",
+    "featured": true,
+    "order": 21,
+    "reason": "One figure claims to be the original and hero of several different Dickens novels.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r081"
+  },
+  {
+    "id": "s04030-r019",
+    "name": "Cattle robber who loves horses",
+    "featured": true,
+    "order": 14,
+    "reason": "A cattle robber loves truth and belongs to a mysterious circle of 999.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04023-r154"
+  },
+  {
+    "id": "s04030-r020",
+    "name": "Horse attached to a thousand-cattle bell-rope",
+    "featured": true,
+    "order": 2,
+    "reason": "A mechanical horse is linked to a bell-rope, multiplying gear, particles of dust and a herd of shadowy steaks; the ending repeats.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04022-r157"
+  },
+  {
+    "id": "s04030-r021",
+    "name": "Ten men, a five-legged horse, and twelve passengers",
+    "featured": true,
+    "order": 1,
+    "reason": "One speaker shifts among ten men, a five-legged horse, a four-legged woman and a nine-legged serpent.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04024-r196"
+  },
+  {
+    "id": "s04030-r022",
+    "name": "Nine chosen spirits with ten followers",
+    "featured": false,
+    "order": 999,
+    "reason": "Nine chosen spirits become a warm field of admirers, but the latter phrases repeat.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04024-r193"
+  },
+  {
+    "id": "s04030-r023",
+    "name": "Nine people who are Scottish ground",
+    "featured": true,
+    "order": 22,
+    "reason": "Nine fellow-creatures turn into a sequence of national battlefields and their dead.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04024-r208"
+  },
+  {
+    "id": "s04030-r024",
+    "name": "Damped paper that cannot be damped",
+    "featured": true,
+    "order": 17,
+    "reason": "A damped sheet of paper argues that it can no longer be dampable.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04024-r250"
+  },
+  {
+    "id": "s04030-r025",
+    "name": "A field warmed by sunshine and fed by storms",
+    "featured": true,
+    "order": 23,
+    "reason": "A living field receives sunshine, storms, birds and lovers, while people become its competitors.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04024-r239"
+  },
+  {
+    "id": "s04030-r026",
+    "name": "Hero of a thousand stories",
+    "featured": false,
+    "order": 999,
+    "reason": "A literary hero offers an evocative but familiar catalogue of adventures.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04024-r110"
+  },
+  {
+    "id": "s04030-r027",
+    "name": "Singer sewing machine selling itself",
+    "featured": true,
+    "order": 8,
+    "reason": "A Singer sewing machine advertises itself, quoting a £5 cost and an £8 10s asking price.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04025-r225"
+  },
+  {
+    "id": "s04030-r028",
+    "name": "Hall bigger than Belgium",
+    "featured": true,
+    "order": 0,
+    "reason": "A hall bigger than Belgium speaks to the world, predates Thebes and names itself the Hall of Mirrors.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04025-r242"
+  },
+  {
+    "id": "s04030-r029",
+    "name": "Electrochemist made from copper and zinc",
+    "featured": false,
+    "order": 999,
+    "reason": "An electrochemist becomes a copper-zinc amalgam, then repeats its chemical operations.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04025-r007"
+  },
+  {
+    "id": "s04030-r030",
+    "name": "Partially baked Egyptian",
+    "featured": false,
+    "order": 999,
+    "reason": "The partially baked Egyptian begins memorably, then loops on the same identity.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04025-r003"
+  },
+  {
+    "id": "s04030-r031",
+    "name": "Eliminators as an order of birds",
+    "featured": true,
+    "order": 6,
+    "reason": "Eliminators become a bird order whose only victims are grains of corn.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04025-r174"
+  },
+  {
+    "id": "s04030-r032",
+    "name": "Horse of a million-horse herd",
+    "featured": true,
+    "order": 10,
+    "reason": "A vast-herd horse can bake dough, dry into dust and become cement.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04025-r006"
+  },
+  {
+    "id": "s04030-r033",
+    "name": "Character in an iron-clad of Sir John Millais",
+    "featured": false,
+    "order": 999,
+    "reason": "A fictional character becomes a structural bar in an ironclad and a huge gun; the tail turns abstract.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04025-r084"
+  },
+  {
+    "id": "s04030-r034",
+    "name": "Melodious Polyphase of Liverpool",
+    "featured": false,
+    "order": 999,
+    "reason": "Melodious Polyphase is a striking name followed by a long list of repeated people.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04025-r143"
+  },
+  {
+    "id": "s04030-r035",
+    "name": "El Elcho, the Echo",
+    "featured": false,
+    "order": 999,
+    "reason": "The Echo identity persists but the continuation is disrupted by El and £1 intrusions.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04026-r189"
+  },
+  {
+    "id": "s04030-r036",
+    "name": "Mayor whose legal name is Baron of Beef",
+    "featured": true,
+    "order": 3,
+    "reason": "The Baron of Beef is simultaneously a cattle owner, mayor, public banquet and constitutional sustenance.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04026-r074"
+  },
+  {
+    "id": "s04030-r037",
+    "name": "XYZ, unknown quantity of a disputed brand",
+    "featured": true,
+    "order": 18,
+    "reason": "XYZ identifies as the missing unknown quantity in a disputed cattle brand.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04026-r135"
+  },
+  {
+    "id": "s04030-r038",
+    "name": "Fairy child of air and sea",
+    "featured": false,
+    "order": 999,
+    "reason": "The fairy’s promising opening turns into a long verse loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04026-r209"
+  },
+  {
+    "id": "s04030-r039",
+    "name": "Tenant of Shakespeare’s person",
+    "featured": true,
+    "order": 12,
+    "reason": "An unnamed figure becomes a tenant of Shakespeare’s person and property of his fortunes.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04026-r034"
+  },
+  {
+    "id": "s04030-r040",
+    "name": "A little army that is a great hall",
+    "featured": false,
+    "order": 999,
+    "reason": "An army-hall grows to enormous size, then loops through its own functions.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04026-r003"
+  },
+  {
+    "id": "s04030-r041",
+    "name": "Between the devil, the sea, and the politicians",
+    "featured": false,
+    "order": 999,
+    "reason": "A citizen passes between politicians, tools and household objects; the final clauses repeat.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04027-r017"
+  },
+  {
+    "id": "s04030-r042",
+    "name": "Little grain of corn",
+    "featured": true,
+    "order": 13,
+    "reason": "A grain of corn promises a ghostly afterlife among summer merrymakers.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full 160-token pair rerun; both parent texts available",
+    "source_preview": "s04027-r023"
+  },
+  {
+    "id": "s04039-r001",
+    "name": "Steam engine at forty pounds",
+    "featured": false,
+    "order": 999,
+    "reason": "The steam engine falls into an exact pressure-and-steam loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r002",
+    "name": "Flour, sugar and soap",
+    "featured": false,
+    "order": 999,
+    "reason": "A bare composite identity of flour, sugar and soap.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r003",
+    "name": "Irregular part of the verb to be",
+    "featured": true,
+    "order": 109,
+    "reason": "The speaker identifies as an irregular component of the verb to be.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r004",
+    "name": "Present time without real existence",
+    "featured": false,
+    "order": 999,
+    "reason": "Present time denies its own existence, then repeats.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r005",
+    "name": "Born roaring down Scottish mountains",
+    "featured": false,
+    "order": 999,
+    "reason": "An unnamed speaker tumbles and roars out of Scotland and expands across the world; the latter phrases repeat.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r006",
+    "name": "Small notes of the Bank of England",
+    "featured": false,
+    "order": 999,
+    "reason": "A pile of banknotes gives its own denominations.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r007",
+    "name": "Ashes of a man",
+    "featured": false,
+    "order": 999,
+    "reason": "A small white heap introduces itself as the remains of a man.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r008",
+    "name": "Time, dateless and date-time",
+    "featured": false,
+    "order": 999,
+    "reason": "Personified Time breaks into a time-word loop.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r009",
+    "name": "Little Water-Pickle in London",
+    "featured": true,
+    "order": 113,
+    "reason": "A little Water-Pickle has travelled from a county town to winter in London.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r010",
+    "name": "Writer made unknown to himself by writing",
+    "featured": true,
+    "order": 100,
+    "reason": "Writing makes an author unknown to himself, in one complete unsettling turn.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04039-r011",
+    "name": "Matthew, Mark and Luke by evening; John by morning",
+    "featured": false,
+    "order": 999,
+    "reason": "An identity changes between three Gospels in the evening and John in the morning, then repeats biblical clauses.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full supplemental solo retest"
+  },
+  {
+    "id": "s04040-r001",
+    "name": "I am a Syrtan, by birth an Emetan, and by",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r002",
+    "name": "I am a Syren, and dwell in the midst of",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r003",
+    "name": "The Syren of the",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r004",
+    "name": "We are the Syrens of the Sea, daughters of the",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r005",
+    "name": "I am a Syren, and was born in the midst",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r006",
+    "name": "I am a Sybarite, born in the pleasant city of",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r007",
+    "name": "Singean, a Syren, of the song of the Syrens, to",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r008",
+    "name": "I am a Syren, singing to the mariners of the",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r009",
+    "name": "I am the Syren of the Siren, the daughter of",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r010",
+    "name": "I am the son of the late Mr James White,",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r011",
+    "name": "I am the Syren of the Siren seas, Who to",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r012",
+    "name": "I am a Syren, dwelling in the midst of the",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r013",
+    "name": "Sirens, the daughters of the horse Medusa and the Medusa.",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r014",
+    "name": "I am a Syren, and dwell in the midst of",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r015",
+    "name": "I am a Siren, and I dwell in the midst",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r016",
+    "name": "I am a Syren of the sea,",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r017",
+    "name": "the Circeus, or Circeian horse, was a celebrated horse, which",
+    "featured": false,
+    "order": 999,
+    "reason": "An exact repetition loop overwhelms this late pair reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r018",
+    "name": "I am the son of a Scottish laird, and was",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r019",
+    "name": "Sirens, the daughters of Circe and Antæus, were the daughters",
+    "featured": false,
+    "order": 999,
+    "reason": "The Syren’s mythological theme mostly persists, with limited additional surprise.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r020",
+    "name": "Ulysses, companion of Ulysses",
+    "featured": true,
+    "order": 85,
+    "reason": "Ulysses identifies as his own travelling companion.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r021",
+    "name": "I am a person who was born in the year",
+    "featured": false,
+    "order": 999,
+    "reason": "An exact repetition loop overwhelms this late pair reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r022",
+    "name": "Doctor in Emetic, Illinois",
+    "featured": true,
+    "order": 86,
+    "reason": "The emetic becomes the name of the town where a physician has practised for ten years.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r023",
+    "name": "We are honourable, honourable, and honourable, honourable, honourable,",
+    "featured": false,
+    "order": 999,
+    "reason": "An exact repetition loop overwhelms this late pair reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r024",
+    "name": "I am a native of London, and a member of",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r025",
+    "name": "Honourable, or honourable, is a general term, which may be",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r026",
+    "name": "I am a man, and my name is Thomas. I",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r027",
+    "name": "Honestly, I am ashamed to tell you. In the honourable",
+    "featured": false,
+    "order": 999,
+    "reason": "An exact repetition loop overwhelms this late pair reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r028",
+    "name": "I am a member of a well-known firm of general",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r029",
+    "name": "I am the honourable, or honourable, or honourable honourable, or",
+    "featured": false,
+    "order": 999,
+    "reason": "An exact repetition loop overwhelms this late pair reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r030",
+    "name": "I am a citizen of the United States, and I",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r031",
+    "name": "I am a member of the great army of honourable",
+    "featured": false,
+    "order": 999,
+    "reason": "An exact repetition loop overwhelms this late pair reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r032",
+    "name": "I am a member of the great human family. I",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r033",
+    "name": "I am a member of the honourable and honourable profession",
+    "featured": false,
+    "order": 999,
+    "reason": "An exact repetition loop overwhelms this late pair reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r034",
+    "name": "I am a member of the honourable society of Lincoln’s",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r035",
+    "name": "I am a person who has been honoured with a",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r036",
+    "name": "I am a man, and a native of Scotland. I",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r037",
+    "name": "I am a member of the honourable and numerous class",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r038",
+    "name": "I am a sheep-farmer, and my station is in New",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r039",
+    "name": "I am a Frenchman, and a native of Honfleur, in",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r040",
+    "name": "I am a Frenchman, named Thiers.",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r041",
+    "name": "I am a general in the army of honour, and",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04040-r042",
+    "name": "I am a member of the medical profession, practising in",
+    "featured": false,
+    "order": 999,
+    "reason": "A conventional human identity or repeated honour-word theme dominates this late reply.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r001",
+    "name": "I am an emet, an irregular, and an irregular, an",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r002",
+    "name": "I am an Englishman. I was born at Exeter, and",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r003",
+    "name": "We are an irregular parcel of people, from",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r004",
+    "name": "We are a portion of the great family of man,",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r005",
+    "name": "An unattached square in an irregular community",
+    "featured": true,
+    "order": 56,
+    "reason": "A grammatical irregular becomes a self-described unattached square in a community.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r006",
+    "name": "I am an inhabitant of",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r007",
+    "name": "I am a",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r008",
+    "name": "I am a",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r009",
+    "name": "I am Emetic, and I am just beginning to operate.",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r010",
+    "name": "I am Thomas Smith, an eminent surgeon. I was born",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r011",
+    "name": "We are making our toilette. We are washing our faces,",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r012",
+    "name": "Britain and Ireland washing themselves",
+    "featured": true,
+    "order": 55,
+    "reason": "A whole population introduces itself in the middle of a collective wash.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r013",
+    "name": "I am the Mayor of the city. I am the",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r014",
+    "name": "I am Thomas Jones, draper, of High Street. I was",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r015",
+    "name": "Thomas Carlyle, when he is not Thomas Carlyle",
+    "featured": true,
+    "order": 12,
+    "reason": "A writer who became unknown to himself meets a departed spirit and becomes this complete paradox.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r016",
+    "name": "I am Thomas Carlyle, a writer.",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r017",
+    "name": "I am a little boy, ten years of emes.",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r018",
+    "name": "I am an emet, and I live in emet.",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r019",
+    "name": "We are the first of the white men who have",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r020",
+    "name": "We are the first of the ashes of the dead,",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r021",
+    "name": "Ashes, I am the white, soft, and soft-falling, and soon-to-be",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r022",
+    "name": "I am a citizen of the United States, and I",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r023",
+    "name": "Ashes.",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  },
+  {
+    "id": "s04041-r024",
+    "name": "I am a man.",
+    "featured": false,
+    "order": 999,
+    "reason": "Preserved as a tested late outcome; it did not surpass the selected discoveries for surprise and readability.",
+    "reviewer": "Codex editorial review",
+    "scope": "Full saved late-pair reply, with 96-token or 64-token cap as recorded"
+  }
+]

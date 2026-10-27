@@ -1,5 +1,70 @@
 [
   {
+    "name": "Writer made unknown to himself by writing",
+    "path": "n/23-9192-up/",
+    "icon": "icons/23-9192-up.svg"
+  },
+  {
+    "name": "Family of nine literary objects",
+    "path": "n/25-12890-up/",
+    "icon": "icons/25-12890-up.svg"
+  },
+  {
+    "name": "Emetic, servant of the public",
+    "path": "n/33-5599-down/",
+    "icon": "icons/33-5599-down.svg"
+  },
+  {
+    "name": "Subscriber to be mailed",
+    "path": "n/20-768-up/",
+    "icon": "icons/20-768-up.svg"
+  },
+  {
+    "name": "Punch, ghost of Dickens and Swift",
+    "path": "n/25-13189-down/",
+    "icon": "icons/25-13189-down.svg"
+  },
+  {
+    "name": "Walter Scott inside his own novel",
+    "path": "n/23-9065-up/",
+    "icon": "icons/23-9065-up.svg"
+  },
+  {
+    "name": "Five-guinea architectural prize",
+    "path": "n/26-10504-up/",
+    "icon": "icons/26-10504-up.svg"
+  },
+  {
+    "name": "Sin born with its speaker",
+    "path": "n/24-13409-up/",
+    "icon": "icons/24-13409-up.svg"
+  },
+  {
+    "name": "Syren, daughter of the horse",
+    "path": "n/30-11575-up/",
+    "icon": "icons/30-11575-up.svg"
+  },
+  {
+    "name": "Irregular part of the verb to be",
+    "path": "n/37-13441-down/",
+    "icon": "icons/37-13441-down.svg"
+  },
+  {
+    "name": "Little short life",
+    "path": "n/31-20-up/",
+    "icon": "icons/31-20-up.svg"
+  },
+  {
+    "name": "Bell-crank handle beneath the street",
+    "path": "n/26-9665-down/",
+    "icon": "icons/26-9665-down.svg"
+  },
+  {
+    "name": "Little Water-Pickle in London",
+    "path": "n/30-11435-up/",
+    "icon": "icons/30-11435-up.svg"
+  },
+  {
     "name": "Departed Spirit",
     "path": "n/17-10423-down/",
     "icon": "icons/17-10423-down.svg"
@@ -433,70 +498,5 @@
     "name": "Repentant sinner",
     "path": "n/11-4360-down/",
     "icon": "icons/11-4360-down.svg"
-  },
-  {
-    "name": "Foreign Traveller",
-    "path": "n/35-3240-up/",
-    "icon": "icons/35-3240-up.svg"
-  },
-  {
-    "name": "Clergyman seeking trade",
-    "path": "n/31-13200-up/",
-    "icon": "icons/31-13200-up.svg"
-  },
-  {
-    "name": "Glasgow Firm Member",
-    "path": "n/32-326-up/",
-    "icon": "icons/32-326-up.svg"
-  },
-  {
-    "name": "English Solicitor",
-    "path": "n/27-2617-down/",
-    "icon": "icons/27-2617-down.svg"
-  },
-  {
-    "name": "Traveller and innkeeper",
-    "path": "n/25-3071-up/",
-    "icon": "icons/25-3071-up.svg"
-  },
-  {
-    "name": "Laundry Cleaner",
-    "path": "n/34-9700-down/",
-    "icon": "icons/34-9700-down.svg"
-  },
-  {
-    "name": "Civil Engineer And Surveyor",
-    "path": "n/30-8105-up/",
-    "icon": "icons/30-8105-up.svg"
-  },
-  {
-    "name": "Ninth Lancers soldier",
-    "path": "n/26-2458-down/",
-    "icon": "icons/26-2458-down.svg"
-  },
-  {
-    "name": "Quiet-Land citizen",
-    "path": "n/26-11717-up/",
-    "icon": "icons/26-11717-up.svg"
-  },
-  {
-    "name": "Cornish language committee",
-    "path": "n/25-6779-up/",
-    "icon": "icons/25-6779-up.svg"
-  },
-  {
-    "name": "European settlers in Asia",
-    "path": "n/23-13181-down/",
-    "icon": "icons/23-13181-down.svg"
-  },
-  {
-    "name": "Manchester civic leader",
-    "path": "n/33-10980-up/",
-    "icon": "icons/33-10980-up.svg"
-  },
-  {
-    "name": "North English Traveller",
-    "path": "n/31-759-up/",
-    "icon": "icons/31-759-up.svg"
   }
 ]
