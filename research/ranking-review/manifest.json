@@ -1,0 +1,7 @@
+{
+  "scope": "All 1,440 selected signed solo replies; 1,019 normalized unique texts rated once. Original scores retained.",
+  "judge": "GPT-6 Luna via three Codex subagents",
+  "shuffle_seed": 20261029,
+  "rubric": "RANKING_RUBRIC.md",
+  "task_count": 43
+}

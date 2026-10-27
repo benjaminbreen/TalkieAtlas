@@ -1,0 +1,13 @@
+{
+  "unique_texts": 1019,
+  "selected_replies": 1440,
+  "files": 43,
+  "original_judgments_sha256": "4d365535c6af9517674772186ca5a7ca529af657abd502cbe7fe0addf493411b",
+  "checks": [
+    "All task IDs covered once",
+    "Exactly five required fields and integer0\u201310 scores",
+    "All reasons at most16 words",
+    "All selected solo reply IDs mapped",
+    "Identical normalized replies share a rating"
+  ]
+}

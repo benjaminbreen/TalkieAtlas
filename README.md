@@ -37,11 +37,21 @@ The website lets you:
 
 ## Highlights and the full record
 
-Single-neuron Highlights require Luna coherence ≥7 and weirdness ≥4. The two-neuron gallery is now editorially selected for rewarding detail, surprise, humor or an interesting historical collision. It includes the silurid fish at the reader's request, even though that reply is mostly dominated by the fish parent. “I am a right angle” and sustained repetition stay in **All results**.
+Single-neuron Highlights now use calibrated Luna v2 browsing scores: weirdness ≥4, readability ≥5 and meaningful detail ≥3. Blank, control-matching and repeat-stopped replies stay hidden. The two-neuron gallery is now editorially selected for rewarding detail, surprise, humor or an interesting historical collision. It includes the silurid fish at the reader's request, even though that reply is mostly dominated by the fish parent. “I am a right angle” and sustained repetition stay in **All results**.
 
-Automatic [pair comparisons](public/pair-comparisons.json) still distinguish blending from parent dominance; those labels do not decide whether a reply is enjoyable. The [gallery selection](public/pair-curation.json) records every featured ID and reason. There are **122 distinct single-neuron labels** and **8 featured pair replies** in the default views. These are browsing choices, not independently validated research labels.
+Automatic [pair comparisons](public/pair-comparisons.json) still distinguish blending from parent dominance; those labels do not decide whether a reply is enjoyable. The [gallery selection](public/pair-curation.json) records every featured ID and reason. There are **48 distinct single-neuron labels** and **8 featured pair replies** in the default views. These are browsing choices, not independently validated research labels.
 
 **All results** restores access to the complete library; clear other filters and turn off **One per name** to see every row. The atlas, baseline counts, direct neuron lookup, reply links, and full JSON download always retain all 1,440 signed conditions and 57 pairs. Filtered CSV follows the current view. Nothing is deleted from the experiment.
+
+## Why the single-neuron rankings changed
+
+<p align="center"><img src="docs/images/spirit-v2.png" alt="Spirit now has weirdness 3 and readability 10; its original v1 scores remain visible." width="420"></p>
+
+The first rubric gave many nonhuman identities the same weirdness score. Weirdest then used coherence to break ties, so a perfectly grammatical “I am a spirit” could outrank a much richer, stranger passage. Most coherent often put the same replies first.
+
+A fresh Luna pass rated **all 1,440 selected solos**, deduplicated to **1,019 texts**, against shared anchors. It separates surprising content, readability and meaningful detail. “I am a spirit” is now **weirdness 3, readability 10, detail 1**. Its high readability does not make it a rich or unusual reply.
+
+Weirdness ties now use detail before readability. The menu offers **Weirdest**, **Most readable**, **Most detailed**, and **Weird and readable**. See the [v2 rubric](public/ranking-rubric.md) and [audit records](research/ranking-review/README.md). Original research labels remain untouched in `judge`; refreshed browsing ratings live in a separate `ranking` object and are shown alongside the originals in solo details, including the standalone sharing pages. Run `python3 scripts/refresh_browsing_ratings.py` after rebuilding static pages to reapply the saved ratings.
 
 ## Some actual results
 

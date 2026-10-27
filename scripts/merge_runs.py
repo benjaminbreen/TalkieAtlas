@@ -11,6 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('--output',type=Path,default=ROOT/'public')
 p.add_argument('--pilot',type=Path,required=True)
+p.add_argument('--ranking-run',type=Path,default=ROOT/'research/ranking-review')
 p.add_argument('--playground',type=Path,default=ROOT/'research/playground')
 p.add_argument('--curation',type=Path,default=Path(__file__).with_name('pair_curation.json'))
 p.add_argument('--discovery',type=Path,required=True)
@@ -77,6 +78,15 @@ if curation:
             row['featured_order'],info=choices[row['id']]
             row['featured_reason']=info['reason']
 data['pair_curation']=curation
+solo_rankings=read(a.ranking_run,'rankings.json',{})
+if solo_rankings:
+    ratings=solo_rankings['ratings']
+    assert set(ratings)=={r['id'] for r in data['singles']}, 'Incomplete solo ranking coverage'
+    for row in data['singles']+data['attempts']:
+        if row['id'] in ratings:row['ranking']=ratings[row['id']]
+    data['solo_rankings']={k:v for k,v in solo_rankings.items() if k!='ratings'}
+    manifest['browsing_ratings']=data['solo_rankings']
+
 data['status'].update({'directions':len(data['singles']),'pairs':len(data['pairs']),'attempts':len(data['attempts'])})
 assert len({r['id'] for r in data['attempts']})==len(data['attempts'])
 assert all(set(r['parents'])<={s['id'] for s in data['singles']} for r in data['pairs'])
@@ -88,6 +98,6 @@ assert all(r['judge']['id']==r['id'] for r in data['attempts'])
 known={r['id'] for r in data['singles']}
 assert all(set(r['parents'])<=known for r in data['pairs'])
 a.output.mkdir(parents=True,exist_ok=True)
-for name,obj in [('data.json',data),('manifest.json',manifest),('identity-retests.json',data['identity_retests']),('cross-prompt-retests.json',data['cross_prompt_retests']),('pair-comparisons.json',comparisons),('pair-curation.json',curation)]:
+for name,obj in [('data.json',data),('manifest.json',manifest),('identity-retests.json',data['identity_retests']),('cross-prompt-retests.json',data['cross_prompt_retests']),('pair-comparisons.json',comparisons),('pair-curation.json',curation),('solo-rankings.json',solo_rankings)]:
     f=a.output/name;tmp=f.with_suffix('.json.tmp');tmp.write_text(json.dumps(obj,ensure_ascii=False,separators=(',',':'))+'\n');tmp.replace(f)
 print(json.dumps({'singles':len(data['singles']),'pairs':len(data['pairs']),'attempts':len(data['attempts']),'phase':data['status'].get('phase')}))
