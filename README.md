@@ -25,6 +25,7 @@ The sample covers approximately **0.073% of Talkie’s 547,840 MLP neurons**. It
 The website lets you:
 
 - Explore the layer map and switch between positive and negative pushes.
+- Start with **Highlights**, or switch to **All results** to inspect the complete screen.
 - Search names, descriptions, tags, and the actual reply text.
 - Filter by category, layer, strength, and weirdness; sort for coherence too.
 - Open a pair and compare its result with what each parent produced alone.
@@ -33,6 +34,12 @@ The website lets you:
 - Link directly to a saved reply. The `#pairs` URL opens the two-neuron library.
 
 <p align="center"><img src="docs/images/atlas.png" alt="The sampled neuron atlas, with layer panels, colored sampled neurons, and category filters." width="760"></p>
+
+## Highlights and the full record
+
+The default library favors readable, distinctive replies: Luna coherence ≥7, weirdness ≥4, nonempty text, no exact control match after whitespace/case normalization, and no repetition termination. Identical replies are grouped before the optional name grouping. This selects **61 distinct single-neuron replies** and **7 pair replies** in this release. These are automatic browsing rules, not independently validated quality labels.
+
+**All results** restores access to the complete library; clear other filters and turn off **One per name** to see every row. The atlas, baseline counts, direct neuron lookup, reply links, and full JSON download always retain all 800 signed conditions and 28 pairs. Filtered CSV follows the current view. Nothing is deleted from the experiment.
 
 ## Some actual results
 

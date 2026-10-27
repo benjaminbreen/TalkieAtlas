@@ -3,3 +3,5 @@
 @media(max-width:400px){header{gap:10px}.brand{font-size:11px;gap:6px}.brand .orange-dot{width:7px;height:7px}nav{gap:10px}nav a{font-size:11px}.hero-actions{gap:15px;font-size:12px}.hero-actions .pill{padding:10px 16px}}
 
 .pair-parents{font:17px/1.5 Georgia,serif;color:#919198;margin-bottom:12px}.pair-parents span{font:14px -apple-system,sans-serif;padding:0 4px}.parent-filter{margin:5px 0 15px}.parent-filter button{border:0;background:#222;color:white;border-radius:25px;padding:10px 16px;font-size:12px}#explore-pairs{margin-bottom:20px;color:#555}
+
+.curation-row{display:flex;gap:20px;align-items:center;padding-top:20px}.curation-row .segmented{align-self:center}.curation-row p{margin:0;font-size:11px;line-height:1.65;max-width:760px}@media(max-width:650px){.curation-row{flex-direction:column;align-items:flex-start;gap:12px}.curation-row .segmented{align-self:flex-start}}
