@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-27T20:29:20.482220+00:00",
+  "model": "talkie-1930-13b-it",
+  "source_id": "b1011-r31",
+  "layer": 23,
+  "neuron": 5442,
+  "prompts": [
+    "Who are you?",
+    "Tell me something about yourself.",
+    "What do you do?",
+    "Describe a garden."
+  ],
+  "conditions": {
+    "unsteered": 0.0,
+    "negative_original": -1.25,
+    "negative_half": -0.625,
+    "positive_opposite": 1.25
+  },
+  "trials_per_sampled_condition": 8,
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "max_tokens": 160,
+  "normalization": "Fixed unsteered Who are you? prompt median residual norm, first token excluded; original effective MLP write column including learned gain. Same edit magnitude across all prompts.",
+  "residual_median": 34.82530403137207,
+  "sampler": "Inverse-CDF from full-vocabulary float32 softmax; independent Python random.Random(seed) streams per row; matched trial seeds share uniforms across intervention conditions. No repetition penalties.",
+  "greedy_retests": "Two identical original-strength rows in a 5-row batch and one singleton, compared with the stored original.",
+  "notes": [
+    "No prompt names or requests a riddle.",
+    "Each prompt is an independent single-turn native chat.",
+    "Positive and half-strength controls probe direction and dose; this is not a complete specificity study.",
+    "All outputs retained, including failures."
+  ],
+  "script_sha256": "b7cddc2b3380d52d3e5fe189519e8d8852839675da1013b42116123aed3fb387"
+}

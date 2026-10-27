@@ -1,0 +1,7 @@
+{
+  "b1011-r31": {
+    "url": "repeatability/23-5442-down/",
+    "label": "Repeatability test: 134 fresh replies",
+    "description": "Four prompts, original/half/opposite strengths, matched seeds and unsteered controls."
+  }
+}

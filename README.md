@@ -174,6 +174,14 @@ A few practical limits matter:
 
 The fun outputs are leads for further work. They also offer a useful way to inspect the difference between a writing register, a lexical fixation, a self-description, and behavior that holds up under follow-up questions.
 
+## Does a candidate behave consistently?
+
+We tested the **changing-length riddle** direction (L23 N5442, negative) with **134 fresh replies**: stochastic repeats, four different prompts, half-strength and opposite-sign controls, unsteered comparisons, and greedy reproduction checks.
+
+Both blinded Luna reviewers saw measurement/elongation language in **32/32** original-strength sampled outputs, versus **1/32** unsteered. “Who are you?” gave riddle-like forms in **8/8** steered samples and **0/8** controls. Garden descriptions retained the measurement theme without becoming riddles. This supports a recurring length/height/appearance pattern under the tested edit, rather than a general ability to invent unrelated solvable riddles.
+
+Read [the full report and all replies](public/repeatability/23-5442-down/index.html) or [the research record](research/repeatability-riddle/README.md). The candidate's detail page links to the report. These extra trials are separate from the main atlas counts.
+
 ## Files and further experiments
 
 ```text

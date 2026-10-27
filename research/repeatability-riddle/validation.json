@@ -1,0 +1,17 @@
+{
+  "replies": 134,
+  "unique_ids": 134,
+  "sampled_cells": 16,
+  "trials_per_cell": 8,
+  "audit_complete": [
+    134,
+    134
+  ],
+  "checks": [
+    "Exactly eight matched-seed draws per prompt/condition",
+    "All reply IDs covered by both blinded audits",
+    "Four conditions and four prompts; no riddle requested",
+    "All signed strengths and seeds retained",
+    "Three greedy original-direction outputs compared separately from stochastic variation"
+  ]
+}
