@@ -1,0 +1,10 @@
+/* Steam-man icons added by robots.js */
+.card.has-robot{position:relative}
+.card-robot{position:absolute;top:14px;right:14px;width:64px;height:auto;pointer-events:none}
+.card.has-robot .card-meta,.card.has-robot .badge,.card.has-robot h3{padding-right:62px}
+.modal-head{align-items:flex-start}
+.detail-robot{flex:none;width:92px;height:auto;margin-top:4px}
+.detail-robot+div{flex:1;align-self:center}
+.hero-chat{position:relative}
+.hero-robot{position:absolute;right:24px;bottom:18px;width:84px;height:auto;pointer-events:none}
+@media (max-width:640px){.card-robot{width:54px}.detail-robot{width:68px}.hero-robot{width:64px;right:14px;bottom:12px}}

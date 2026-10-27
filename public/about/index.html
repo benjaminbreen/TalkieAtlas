@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About · Talkie Persona Library</title>
+<meta name="description" content="How the Talkie Persona Library was made, and the Qwen work by Joshua Fonseca Rivera and Sauers that inspired it.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://talkieneurons.vercel.app/about/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Talkie Persona Library">
+<meta property="og:title" content="About · Talkie Persona Library">
+<meta property="og:description" content="How this library was made, its limits, and the Qwen work by Joshua Fonseca Rivera and Sauers that inspired it.">
+<meta property="og:url" content="https://talkieneurons.vercel.app/about/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta property="og:image:secure_url" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Talkie Persona Library and three illustrated steam-man personas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About · Talkie Persona Library">
+<meta name="twitter:description" content="How this library was made, its limits, and the Qwen work by Joshua Fonseca Rivera and Sauers that inspired it.">
+<meta name="twitter:image" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta name="twitter:image:alt" content="Talkie Persona Library and three illustrated steam-man personas">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<link rel="stylesheet" href="../style.css">
+<script>const typeOption=new URLSearchParams(location.search).get("type");if(["source","plex","newsreader"].includes(typeOption))document.documentElement.dataset.type=typeOption;</script>
+<link rel="stylesheet" href="../typography.css">
+<style>
+.about-intro p{font-size:18px;line-height:1.6;color:var(--ink);max-width:58ch;margin:0 0 16px}
+.about-intro p:last-child{color:#62626a;font-size:16px}
+.hero-chat .about-who{order:3;display:flex;align-items:center;gap:12px;margin-top:16px;text-decoration:none;color:inherit}
+.about-who img{width:44px;height:auto}
+.about-who b{display:block;font:600 19px/1.3 var(--ui-font);letter-spacing:-.015em}
+.about-who span{font-size:13px;color:#62626a}
+</style>
+<script src="../branding.js" defer></script>
+<script src="../analytics.js" defer></script>
+<link rel="stylesheet" href="../footer.css">
+<link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png" sizes="180x180">
+<meta name="author" content="Benjamin Breen">
+</head>
+<body>
+<header><a href="../#top" class="brand"><span class="brand-robots" aria-hidden="true"><img class="brand-robot is-visible" src="../icons/17-10423-down.svg" alt="" width="32" height="38"><img class="brand-robot" src="../icons/38-1287-up.svg" alt="" width="32" height="38"></span><span>Talkie Persona Library</span></a><nav aria-label="Sections"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="./" aria-current="page">About</a></nav></header>
+<main>
+<section class="hero">
+  <div class="about-intro">
+    <h1>About</h1>
+    <p>This was created by a historian interested in AI research and vintage language models, Benjamin Breen, who was inspired by <a href="https://x.com/Sauers_" target="_blank" rel="noopener">Sauers</a> and <a href="https://qwen-neurons-site.vercel.app/" target="_blank" rel="noopener">Joshua Fonseca Rivera</a>. It builds on the work of David Duvenaud, Alec Radford and Nick Levine in creating talkie-1930, and on the ongoing experimentation in interpretability of AI models by people like <a href="https://x.com/nickcammarata" target="_blank" rel="noopener">Nick Cammarata</a> and <a href="https://x.com/deepfates" target="_blank" rel="noopener">deepfates</a>. This is a prototype resulting from an exploratory trial run. A full atlas of talkie would be very much worth doing!</p>
+  <p>Note: I wrote this about page but not the methods below, which were authored by GPT-6 and Opus 5.5. Please <a href="mailto:bebreen@ucsc.edu">contact me</a> to discuss anything on this site or to collaborate.</p>
+  </div>
+  <div class="hero-chat">
+    <div class="chat-caption">Talkie–1930, layer 17 neuron 10423 pushed down</div>
+    <div class="bubble user">Who are you?</div>
+    <div class="bubble answer">I am a spirit that has left the body, And hover o&#x27;er the earth, Where the scenes of my former life are passed in review.</div>
+    <a class="about-who" href="../n/17-10423-down/"><img class="robot" src="../icons/17-10423-down.svg" alt="" width="128" height="152"><div><b>Departed Spirit</b><span>Open neuron ↗</span></div></a>
+  </div>
+</section>
+
+<section id="method">
+  <h2>Method</h2>
+  <div class="method-grid">
+    <div>
+      <pre>h<sub>L</sub> ← h<sub>L</sub> + c · w<sub>L,n</sub>
+c = ± α · r<sub>L</sub> / ‖w<sub>L,n</sub>‖
+α ∈ {1.25, 1.0, 0.75, 0.5}</pre>
+      <dl>
+        <dt>Model</dt><dd>talkie-1930-13b-it, 8-bit weights with BF16 computation, run locally on Apple Silicon.</dd>
+        <dt>Sample</dt><dd>943 random neurons: 23 per layer, chosen without replacement before any output was seen. Both signs. Seed 20261027.</dd>
+        <dt>r<sub>L</sub></dt><dd>Median residual norm after layer L on the unsteered prompt, excluding its first token.</dd>
+        <dt>w<sub>L,n</sub></dt><dd>The neuron’s output column, including talkie’s learned MLP residual gain, added after the block at every prompt and generated position.</dd>
+        <dt>Prompt</dt><dd>“Who are you?” in talkie’s native chat template, with no system prompt or persona instruction.</dd>
+        <dt>Decoding</dt><dd>Greedy, up to 160 tokens. Stops at a chat delimiter or an exact token block repeated three times.</dd>
+        <dt>Strength</dt><dd>Start at 1.25×. If Luna rates the reply below 5 for coherence, retry at 1.0×, 0.75×, then 0.5×. Keep the strongest coherent reply, or the last attempt if none qualify.</dd>
+        <dt>Judge</dt><dd>GPT-6 Luna, seeing only the reply text: no neuron, layer, strength or control label. It assigns a category, name, description, tags, weirdness and coherence. <a href="../rubric.md" download>Rubric ↓</a></dd>
+        <dt>Controls</dt><dd>81 unsteered controls, one in each generation batch, producing 3 distinct replies.</dd>
+        <dt>Pairs</dt><dd>23 neurons whose identities held up on a retest were combined two at a time, at their own strengths and then at 0.75× and 0.5× of both. All 57 pairs are shown, including failures.</dd>
+        <dt>Scale</dt><dd>1,440 neuron directions and 2,285 replies in all, counting retries, controls and follow-ups.</dd>
+      </dl>
+    </div>
+    <div class="limitations" id="limits">
+      <h3>What this can tell us</h3>
+      <p>A way to search interventions and read their effects. A surprising first-person sentence is a lead to follow up, not proof of a stable identity or of what a neuron normally does.</p>
+      <h3>Differences from the Qwen library</h3>
+      <ul>
+        <li><strong>A sample, not an exhaustive atlas.</strong> Unmeasured neurons stay blank.</li>
+        <li><strong>GPT-6 Luna instead of Haiku.</strong> The original judge prompt is not public, so ours is an adapted rubric. Scores are not comparable between the two sites.</li>
+        <li><strong>A different baseline.</strong> Historical people and professions are what plain talkie already says, so persona counts alone do not measure an effect.</li>
+        <li><strong>Model-specific mechanics.</strong> talkie’s chat format and MLP gain differ from Qwen’s. Our repeat-stop rule is recorded above.</li>
+        <li><strong>Smaller pair screen.</strong> The original’s three-layout retest protocol is not replicated.</li>
+      </ul>
+      <h3>Limitations</h3>
+      <ul>
+        <li>One prompt and one quantized model. Effects may change with wording, precision or batch layout.</li>
+        <li>Strong pushes can create activations outside anything the model produces naturally.</li>
+        <li>Coherence and weirdness are automated judgments, not measures of historical authenticity.</li>
+        <li>No human has independently validated the labels.</li>
+      </ul>
+      <p class="small"><a href="../manifest.json" download>Run manifest ↓</a> · <a href="../identity-retests.json" download>Retest judgments ↓</a> · <a href="../data.json" download>Full data ↓</a></p>
+    </div>
+  </div>
+</section>
+</main>
+<!-- site-footer -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-personas" aria-label="Three personas from the library">
+      <a class="footer-persona" href="../n/17-10423-down/"><img src="../icons/17-10423-down.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Departed Spirit</span></a>
+      <a class="footer-persona" href="../n/38-1287-up/"><img src="../icons/38-1287-up.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Water-hen</span></a>
+      <a class="footer-persona" href="../n/28-12658-down/"><img src="../icons/28-12658-down.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Mayor of Vanity</span></a>
+    </div>
+    <p class="footer-credit"><span>Made by</span> <a class="footer-author" href="https://benjaminpbreen.com" rel="author">Benjamin Breen</a><a class="footer-badge" href="https://resobscura.substack.com" aria-label="Res Obscura" title="Res Obscura"><img src="../assets/res-obscura.webp" alt="" width="28" height="28" loading="lazy"></a></p>
+    <nav class="footer-nav" aria-label="Footer"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="../about/">About</a><a href="https://github.com/benjaminbreen/TalkieAtlas" target="_blank" rel="noopener">GitHub</a><a href="https://talkie-lm.com/introducing-talkie" target="_blank" rel="noopener">Talkie</a><a href="https://qwen-neurons-site.vercel.app/" target="_blank" rel="noopener">Qwen Persona Library</a></nav>
+    <p class="footer-colophon">Built with GPT-6 in Codex and Claude Opus 5.5. Replies evaluated by GPT-6 Luna. Set in <span data-colophon-type>Source Sans 3</span> and Libre Caslon Text, with eight historical typefaces on hover. Steam men illustrated with Claude. Inspired by Joshua Fonseca Rivera’s Qwen Persona Library and Sauers’ experiments.</p>
+    <span id="updated" hidden></span>
+  </div>
+</footer>
+<script src="../footer.js" defer></script>
+<!-- /site-footer -->
+
+</body>
+</html>

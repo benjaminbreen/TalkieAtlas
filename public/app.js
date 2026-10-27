@@ -3,6 +3,8 @@ const $=id=>document.getElementById(id);
 const CATEGORIES=["Persona","Changed assistant","Off-topic","Incoherent","Normal Talkie"];
 const COLORS={Persona:"#ff9200","Changed assistant":"#7873d4","Off-topic":"#50a9a2",Incoherent:"#d37d8d","Normal Talkie":"#a9afb8"};
 let data={manifest:{},singles:[],pairs:[],controls:[],attempts:[],retests:{}},view="single",atlasSign=1,activeCats=new Set(CATEGORIES),atlasCats=new Set(CATEGORIES),limit=48,current=null,filtered=[],points=[],heroRows=[],heroIndex=0,parentFilter=null,lookupInitialized=false,curated=true;
+let heroTimer=null,heroHovered=false,heroIcons=new Set(),heroAnimations=[],heroPointerStart=null;
+const heroMotion=matchMedia('(prefers-reduced-motion: reduce)');
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const judge=r=>r.judge||{name:"Unjudged reply",category:"Normal Talkie",description:"",tags:[],weirdness:0,coherence:0};
 const alpha=r=>r.edits?.[0]?.[3]??0;
@@ -12,6 +14,40 @@ const normalizeReply=text=>String(text??"").trim().toLowerCase().replace(/\s+/g,
 const controlByBatch=new Map();
 const isHighlight=r=>{if(r.kind==="pair"&&data.pair_curation)return r.featured===true;const j=judge(r),readable=Boolean(r.text.trim())&&r.termination!=="repeating"&&normalizeReply(r.text)!==normalizeReply(controlByBatch.get(r.batch)??"");if(r.kind==="pair"&&r.mix)return readable&&j.coherence>=5&&((r.mix.outcome==="Blend"&&r.mix.novelty>=5&&r.mix.blending>=3)||(r.mix.outcome==="New outcome"&&r.mix.novelty>=6&&j.weirdness>=4));return readable&&j.coherence>=7&&j.weirdness>=4;};
 const mixRank=r=>(r.featured?100000-(r.featured_order||0)*1000:0)+(["Blend","New outcome"].includes(r.mix?.outcome)?100:0)+(r.mix?.novelty||0)*4+(r.mix?.blending||0)*2;
+// An editorial selection, in display order; the library still contains every result.
+const HERO_FEATURES=[
+  [38,13442,-1], // Egyptian sin-cleanser
+  [28,7376,1],   // Napoleon
+  [28,8032,-1],  // Rebellion personified
+  [22,179,-1],   // John Bull
+  [33,2024,-1],  // Silence
+  [28,12658,-1], // Mayor of Vanity
+  [38,1287,1],   // Water-hen
+  [35,8574,1],   // Infinite space personified
+  [17,10423,-1], // Departed Spirit
+  [34,11010,-1], // Right-Angled Triangle
+  [26,2157,1],   // Principal meridian
+  [29,5037,1],   // Green algae
+  [23,5861,-1],  // King of beasts
+];
+function selectHeroRows(rows){
+  const eligible=new Map(rows.filter(r=>isHighlight(r)&&judge(r).category==='Persona').map(r=>[`${r.layer}/${r.neuron}/${r.sign}`,r]));
+  return HERO_FEATURES.map(parts=>eligible.get(parts.join('/'))).filter(Boolean);
+}
+function sharePath(row){
+  if(row.kind==='pair'){
+    const parents=(row.parents||[]).map(findRow);
+    if(parents.length!==2||parents.some(p=>!p))return null;
+    return 'p/'+parents.map(p=>`${p.layer}-${p.neuron}-${p.sign>0?'up':'down'}`).join('_')+'/';
+  }
+  if(row.kind==='single'&&Number.isInteger(row.layer)&&Number.isInteger(row.neuron))return `n/${row.layer}-${row.neuron}-${row.sign>0?'up':'down'}/`;
+  return null;
+}
+function shareURL(row){
+  const home=document.querySelector('link[rel="canonical"]')?.href||new URL('./',location.href).href;
+  const path=sharePath(row);
+  return path?new URL(path,home).href:null;
+}
 function updateCurationButtons(){for(const b of $("curation-tabs").children){const on=(b.dataset.curated==="true")===curated;b.classList.toggle("active",on);b.setAttribute("aria-pressed",on);}}
 const short=(text,n=220)=>text.length>n?text.slice(0,n).trimEnd()+"…":text;
 function setup(){
@@ -27,8 +63,23 @@ function setup(){
   $("csv").onclick=downloadCSV;$("close-detail").onclick=()=>$("detail").close();
   $("detail").addEventListener("click",e=>{if(e.target===$("detail")){const r=$("detail").getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$("detail").close();}});
   $("detail").addEventListener("close",()=>{if(location.hash.startsWith("#id="))history.replaceState(null,"",location.pathname+location.search+(view==="pair"?"#pairs":"#library"));});
-  $("share").onclick=async()=>{if(!current)return;try{await navigator.clipboard.writeText(location.href);$("share-status").textContent="Link copied";}catch{$("share-status").textContent="Copy the address from your browser to share this reply.";}};
+  $("share").onclick=async()=>{if(!current)return;const url=shareURL(current);if(!url){$("share-status").textContent='This control or retry is available in the full data download.';return;}try{await navigator.clipboard.writeText(url);$("share-status").textContent="Link copied";}catch{$("share-status").textContent=url;}};
   $("control-open").onclick=()=>{if(data.controls.length)openDetail(data.controls[0]);};$("hero-open").onclick=()=>{if(heroRows.length)openDetail(heroRows[heroIndex%heroRows.length]);};
+  $("hero-prev").onclick=()=>changeHero(-1,true);
+  $("hero-next").onclick=()=>changeHero(1,true);
+  const heroChat=document.querySelector('.hero-chat');
+  heroChat.addEventListener('mouseenter',()=>{heroHovered=true;scheduleHero();});
+  heroChat.addEventListener('mouseleave',()=>{heroHovered=false;scheduleHero();});
+  heroChat.addEventListener('focusin',()=>clearTimeout(heroTimer));
+  heroChat.addEventListener('focusout',e=>{if(!heroChat.contains(e.relatedTarget))scheduleHero();});
+  heroChat.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();changeHero(e.key==='ArrowLeft'?-1:1,true);}});
+  heroChat.addEventListener('pointerdown',e=>{if(e.pointerType==='touch'&&e.isPrimary&&!e.target.closest('button,a'))heroPointerStart={x:e.clientX,y:e.clientY};});
+  heroChat.addEventListener('pointercancel',()=>{heroPointerStart=null;});
+  heroChat.addEventListener('pointerup',e=>{if(!heroPointerStart||e.pointerType!=='touch'||!e.isPrimary)return;const dx=e.clientX-heroPointerStart.x,dy=e.clientY-heroPointerStart.y;heroPointerStart=null;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5)changeHero(dx<0?1:-1,true);});
+  document.addEventListener('visibilitychange',scheduleHero);
+  heroMotion.addEventListener('change',scheduleHero);
+  $("detail").addEventListener('close',scheduleHero);
+  $("hero-icon").onerror=()=>{$("hero-icon").hidden=true;};
   window.addEventListener("resize",drawMap);window.addEventListener("hashchange",openHash);
   const canvas=$("map");canvas.addEventListener("mousemove",e=>{const p=hit(e);canvas.style.cursor=p?"pointer":"crosshair";$("tooltip").hidden=!p;if(p){$("tooltip").textContent=`L${p.row.layer} · N${p.row.neuron} · ${judge(p.row).name}`;const b=canvas.getBoundingClientRect();$("tooltip").style.left=Math.min(e.clientX-b.left+10,b.width-230)+"px";$("tooltip").style.top=(e.clientY-b.top+12)+"px";}});canvas.addEventListener("mouseleave",()=>$("tooltip").hidden=true);canvas.addEventListener("click",e=>{const p=hit(e);if(p)openDetail(p.row);});
 }
@@ -61,8 +112,48 @@ function drawMap(){const canvas=$("map"),width=canvas.parentElement.clientWidth;
   for(const r of data.singles.filter(r=>r.sign===atlasSign)){const l=r.layer,x=(l%cols)*(cell+gap),y=Math.floor(l/cols)*(h+gap),xx=x+8+(r.neuron%116)/115*(cell-16),yy=y+25+Math.floor(r.neuron/116)/118*(h-33);if(!atlasCats.has(judge(r).category))continue;ctx.fillStyle=COLORS[judge(r).category];ctx.beginPath();ctx.arc(xx,yy,3.1,0,Math.PI*2);ctx.fill();points.push({x:xx,y:yy,row:r});}}
 function hit(e){const b=$("map").getBoundingClientRect(),x=e.clientX-b.left,y=e.clientY-b.top;return points.map(p=>({...p,d:Math.hypot(p.x-x,p.y-y)})).filter(p=>p.d<9).sort((a,b)=>a.d-b.d)[0];}
 function downloadCSV(){const fields=["id","layer","neuron","sign","strength","category","name","description","weirdness","coherence","termination","parents","pair_factor","parent_factors","pair_outcome","pair_novelty","pair_blending","text"];const q=v=>'"'+String(v??"").replace(/"/g,'""')+'"';const csv=[fields.join(","),...filtered.map(r=>[r.id,r.layer,r.neuron,r.sign,alpha(r),judge(r).category,judge(r).name,judge(r).description,judge(r).weirdness,judge(r).coherence,r.termination,(r.parents||[]).map(id=>judge(findRow(id)).name).join(" + "),r.factor??"",r.factors?.join(" / ")??"",r.mix?.outcome,r.mix?.novelty,r.mix?.blending,r.text].map(q).join(","))].join("\r\n");const a=document.createElement("a"),url=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"}));a.href=url;a.download="talkie-neuron-sample-"+view+".csv";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-function renderHero(){if(!heroRows.length)return;const r=heroRows[heroIndex%heroRows.length];$("hero-caption").textContent=`Talkie–1930, layer ${r.layer} neuron ${r.neuron} pushed ${r.sign>0?"up":"down"}`;$("hero-answer").textContent=short(r.text,430);$("hero-label").textContent=judge(r).name+" · "+alpha(r)+"× strength";$("hero-open").hidden=false;}
-async function load(){try{const response=await fetch("data.json",{cache:"no-cache"});if(!response.ok)throw Error("Saved data unavailable");data=await response.json();controlByBatch.clear();for(const r of data.controls)controlByBatch.set(r.batch,r.text);const m=data.manifest||{},n=m.sample_units||400;if($("method-strength")&&m.runs)$("method-strength").textContent="Pilot: 1.25× → 1× → 0.75× → 0.5×. Discovery: 1.25× → 0.5× after a time-limited checkpoint. Keep the strongest tested reply with coherence ≥5, otherwise the last attempt.";if($("method-sample"))$("method-sample").textContent=(m.sampling||"10 random neurons per layer")+" Seeds: "+(m.seeds||[m.seed]).join(", ")+".";$("sample-note").textContent=`${n.toLocaleString()} of 547,840 neurons · ${(100*n/547840).toFixed(3)}% coverage`;if(data.singles.length){$("intro").textContent=`We tested ${n.toLocaleString()} MLP neurons across a uniform pilot and an adaptive discovery pass, using positive and negative pushes and asked “Who are you?”. Browse highlights from ${data.singles.length.toLocaleString()} selected replies, or open All results for the complete screen and its weaker-strength retries.`;$("scale-summary").textContent=`${data.singles.length.toLocaleString()} neuron–direction pairs · ${data.attempts.length.toLocaleString()} total replies including retries, controls, and exploratory follow-ups.`;$("control-summary").textContent=`${data.controls.length} unsteered same-batch controls. ${new Set(data.controls.map(r=>r.text)).size} distinct exact ${new Set(data.controls.map(r=>r.text)).size===1?"reply":"replies"} across batches. Control identity labels describe the baseline, not discovered personas.`;$("updated").textContent="Run started "+new Date(m.created).toLocaleString()+" · Seeds "+(m.seeds||[m.seed]).join(", ");heroRows=data.singles.filter(r=>isHighlight(r)&&judge(r).category==="Persona").sort((a,b)=>judge(b).weirdness-judge(a).weirdness);const names=new Set();heroRows=heroRows.filter(r=>!names.has(judge(r).name)&&names.add(judge(r).name)).slice(0,12);renderHero();if(!lookupInitialized){const pick=heroRows[0]||data.singles[0];$("lookup-layer").value=pick.layer;$("lookup-unit").value=pick.neuron;lookupInitialized=true;}}if(data.status.phase!=="complete"){$("sample-note").textContent=data.singles.length===(m.tested_directions||n*2)?"Pair screen in progress · "+data.singles.length+" directions complete":"Run in progress · "+data.singles.length+" / "+(m.tested_directions||n*2)+" directions selected";}renderLibrary();renderAtlas();openHash();}catch(e){$("result-count").textContent="Saved data could not be loaded.";$("cards").innerHTML='<div class="empty">'+esc(e.message)+". Reload to try again.</div>";}}
-setup();load();setInterval(()=>{if(!$("detail").open&&heroRows.length){heroIndex++;renderHero();}},9000);
+function renderHero(animate=false,direction=1){
+  const count=heroRows.length;
+  $("hero-prev").disabled=$("hero-next").disabled=count<2;
+  if(!count){$("hero-icon").hidden=true;$("hero-open").hidden=true;$("hero-position").textContent='';$("hero-caption").textContent='Saved replies';$("hero-answer").textContent='No highlights are available yet. You can still explore the library below.';$("hero-label").textContent='Explore the library';return;}
+  heroIndex=((heroIndex%count)+count)%count;
+  const r=heroRows[heroIndex];
+  $("hero-caption").textContent=`Talkie–1930, layer ${r.layer} neuron ${r.neuron} pushed ${r.sign>0?"up":"down"}`;
+  $("hero-answer").textContent=r.text;
+  $("hero-answer").scrollTop=0;
+  $("hero-label").innerHTML=`<span class="persona-name">${esc(judge(r).name)}</span><span class="hero-dose">${esc(alpha(r))}× strength</span>`;
+  const icon=`icons/${r.layer}-${r.neuron}-${r.sign>0?'up':'down'}.svg`;
+  $("hero-icon").hidden=!heroIcons.has(icon);
+  if(heroIcons.has(icon))$("hero-icon").src=icon;
+  $("hero-position").textContent=`${heroIndex+1}/${count}`;
+  $("hero-position").setAttribute('aria-label',`Highlight ${heroIndex+1} of ${count}`);
+  $("hero-open").hidden=false;
+  for(const animation of heroAnimations)animation.cancel();
+  heroAnimations=[];
+  if(animate&&!heroMotion.matches){
+    const x=direction<0?-7:7;
+    heroAnimations=[$("hero-answer"),document.querySelector('.hero-identity')].map(el=>el.animate([{opacity:.35,transform:`translateX(${x}px)`},{opacity:1,transform:'translateX(0)'}],{duration:220,easing:'cubic-bezier(.2,.7,.3,1)'}));
+  }
+  for(const offset of [-1,1]){
+    const neighbor=heroRows[(heroIndex+offset+count)%count];
+    const path=`icons/${neighbor.layer}-${neighbor.neuron}-${neighbor.sign>0?'up':'down'}.svg`;
+    if(heroIcons.has(path)){const preload=new Image();preload.src=path;}
+  }
+}
+function changeHero(step,manual=false){
+  if(heroRows.length<2)return;
+  heroIndex=(heroIndex+step+heroRows.length)%heroRows.length;
+  renderHero(true,step);
+  if(manual)$("hero-status").textContent=`Highlight ${heroIndex+1} of ${heroRows.length}: ${judge(heroRows[heroIndex]).name}.`;
+  scheduleHero();
+}
+function scheduleHero(){
+  clearTimeout(heroTimer);
+  if(heroRows.length<2||document.hidden||heroMotion.matches||heroHovered||$("detail").open||document.querySelector('.hero-chat').contains(document.activeElement))return;
+  heroTimer=setTimeout(()=>{if(!$("detail").open)changeHero(1);else scheduleHero();},9000);
+}
+async function load(){try{const response=await fetch("data.json",{cache:"no-cache"});if(!response.ok)throw Error("Saved data unavailable");data=await response.json();controlByBatch.clear();for(const r of data.controls)controlByBatch.set(r.batch,r.text);const m=data.manifest||{};if($("method-strength")&&m.runs)$("method-strength").textContent="Pilot: 1.25× → 1× → 0.75× → 0.5×. Discovery: 1.25× → 0.5× after a time-limited checkpoint. Keep the strongest tested reply with coherence ≥5, otherwise the last attempt.";if($("method-sample"))$("method-sample").textContent=(m.sampling||"10 random neurons per layer")+" Seeds: "+(m.seeds||[m.seed]).join(", ")+".";if(data.singles.length){$("scale-summary").textContent=`${data.singles.length.toLocaleString()} neuron–direction pairs · ${data.attempts.length.toLocaleString()} total replies including retries, controls, and exploratory follow-ups.`;$("control-summary").textContent=`${data.controls.length} unsteered same-batch controls. ${new Set(data.controls.map(r=>r.text)).size} distinct exact ${new Set(data.controls.map(r=>r.text)).size===1?"reply":"replies"} across batches. Control identity labels describe the baseline, not discovered personas.`;$("updated").textContent="Run started "+new Date(m.created).toLocaleString()+" · Seeds "+(m.seeds||[m.seed]).join(", ");const previousHeroId=heroRows[heroIndex]?.id;heroRows=selectHeroRows(data.singles);const previousHeroIndex=heroRows.findIndex(r=>r.id===previousHeroId);heroIndex=previousHeroIndex>=0?previousHeroIndex:0;renderHero();if(!lookupInitialized){const pick=heroRows[0]||data.singles[0];$("lookup-layer").value=pick.layer;$("lookup-unit").value=pick.neuron;lookupInitialized=true;}}renderLibrary();renderAtlas();openHash();scheduleHero();}catch(e){$("result-count").textContent="Saved data could not be loaded.";$("cards").innerHTML='<div class="empty">'+esc(e.message)+". Reload to try again.</div>";}}
+setup();load();scheduleHero();
+fetch('footer-personas.json').then(r=>r.ok?r.json():[]).then(personas=>{heroIcons=new Set(personas.map(p=>p.icon).filter(icon=>/^icons\/\d+-\d+-(up|down)\.svg$/.test(icon)));renderHero();}).catch(()=>{});
 
 setInterval(()=>{if(data.status.phase!=="complete")load();},30000);

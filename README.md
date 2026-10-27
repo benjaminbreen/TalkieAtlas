@@ -186,3 +186,19 @@ Created by **Benjamin Breen**, with Codex assistance and GPT-6 Luna judgments.
 The method and interface are inspired by [Joshua Fonseca Rivera’s Qwen Neuron Persona Library](https://qwen-neurons-site.vercel.app/), which credits Sauers’ single-neuron steering experiments. Thanks to the [Talkie team](https://github.com/talkie-lm/talkie) for making a vintage language model available to experiment with.
 
 This repository’s original code, documentation, screenshots, and included dataset are released under the [MIT license](LICENSE), to the extent any rights apply. You are welcome to reuse and adapt them with the license notice retained. Model weights are not included; Talkie’s model card lists its separate Apache 2.0 license. The license here does not relicense third-party models or reference projects.
+
+
+## Link previews and analytics
+
+The public site is branded **Talkie Persona Library**. The homepage, About page,
+every single-neuron direction, and every pair have static Open Graph and Twitter
+card metadata with absolute HTTPS URLs. Neuron and pair pages have distinct
+1200 × 630 PNG cards showing the persona name, actual reply, and robot when one
+is available. The library's Copy link button copies those public page URLs.
+
+`public/analytics.js` loads Vercel Web Analytics on hosted pages and skips local
+development. This static HTML site does not need a React component or a frontend
+build to collect page views. Web Analytics is enabled in the Vercel project.
+
+`vercel.json` configures the `public` output directory, static page routes, and
+caching for fonts, preview images, and saved data.
