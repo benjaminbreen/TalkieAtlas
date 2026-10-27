@@ -1,0 +1,4 @@
+{
+  "task": "task-00075.json",
+  "reason": "Two Luna workers wrote this task concurrently. Restored the label file to the judgments actually consumed and saved in judged_attempts.jsonl; no selection or scores changed."
+}

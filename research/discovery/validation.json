@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "sample_units": 543,
+  "selected_directions": 640,
+  "attempts": 903,
+  "controls": 34,
+  "pairs": 21,
+  "checks": [
+    "Fresh units exclude the entire pilot",
+    "Unique reply IDs and consistent judgment schema",
+    "One unsteered control and one prompt per batch",
+    "Signed solo identities and strongest qualifying dose selection",
+    "Pair edits equal parent doses times the recorded factor",
+    "All saved signed conditions completed",
+    "No unjudged raw attempts",
+    "Every eligible stable candidate combination present"
+  ]
+}

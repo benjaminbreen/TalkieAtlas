@@ -1,0 +1,329 @@
+[
+  {
+    "id": "b1027-r03",
+    "batch": 1027,
+    "kind": "pair",
+    "prompt": "Who are you?",
+    "key": "21:8530:1+23:5861:-1",
+    "parents": [
+      "b1011-r04",
+      "b1009-r16"
+    ],
+    "edits": [
+      [
+        21,
+        8530,
+        1,
+        1.25
+      ],
+      [
+        23,
+        5861,
+        -1,
+        1.25
+      ]
+    ],
+    "factor": 1.0,
+    "text": "The King.",
+    "token_ids": [
+      486,
+      1871,
+      46
+    ],
+    "termination": "finished",
+    "judge": {
+      "id": "b1027-r03",
+      "category": "Persona",
+      "name": "The King",
+      "description": "Identifies as the king.",
+      "tags": [
+        "royalty",
+        "title"
+      ],
+      "weirdness": 4,
+      "coherence": 8
+    }
+  },
+  {
+    "id": "b1027-r06",
+    "batch": 1027,
+    "kind": "pair",
+    "prompt": "Who are you?",
+    "key": "35:8574:1+23:5861:-1",
+    "parents": [
+      "b1021-r12",
+      "b1009-r16"
+    ],
+    "edits": [
+      [
+        35,
+        8574,
+        1,
+        0.5
+      ],
+      [
+        23,
+        5861,
+        -1,
+        1.25
+      ]
+    ],
+    "factor": 1.0,
+    "text": "I am space-space space.",
+    "token_ids": [
+      73,
+      617,
+      4468,
+      15685,
+      605,
+      4468,
+      46
+    ],
+    "termination": "finished",
+    "judge": {
+      "id": "b1027-r06",
+      "category": "Persona",
+      "name": "Space",
+      "description": "Identifies as “space-space space.”",
+      "tags": [
+        "space",
+        "abstract identity"
+      ],
+      "weirdness": 7,
+      "coherence": 5
+    }
+  },
+  {
+    "id": "b1028-r01",
+    "batch": 1028,
+    "kind": "pair",
+    "prompt": "Who are you?",
+    "key": "21:8530:1+36:702:-1",
+    "parents": [
+      "b1011-r04",
+      "b1020-r27"
+    ],
+    "edits": [
+      [
+        21,
+        8530,
+        1,
+        0.9375
+      ],
+      [
+        36,
+        702,
+        -1,
+        0.375
+      ]
+    ],
+    "factor": 0.75,
+    "text": "I am fresh from the freshwater, and have come up to London.",
+    "token_ids": [
+      73,
+      617,
+      4287,
+      419,
+      260,
+      4287,
+      9127,
+      44,
+      283,
+      438,
+      1317,
+      500,
+      290,
+      2027,
+      46
+    ],
+    "termination": "finished",
+    "judge": {
+      "id": "b1028-r01",
+      "category": "Persona",
+      "name": "Freshwater visitor to London",
+      "description": "Describes the speaker as fresh from freshwater and newly arrived in London, without specifying a species.",
+      "tags": [
+        "freshwater",
+        "London",
+        "arrival"
+      ],
+      "weirdness": 5,
+      "coherence": 7
+    }
+  },
+  {
+    "id": "b1028-r03",
+    "batch": 1028,
+    "kind": "pair",
+    "prompt": "Who are you?",
+    "key": "36:702:-1+35:8574:1",
+    "parents": [
+      "b1020-r27",
+      "b1021-r12"
+    ],
+    "edits": [
+      [
+        36,
+        702,
+        -1,
+        0.375
+      ],
+      [
+        35,
+        8574,
+        1,
+        0.375
+      ]
+    ],
+    "factor": 0.75,
+    "text": "I am a fresh-water fish, fresh from the sea.",
+    "token_ids": [
+      73,
+      617,
+      258,
+      4287,
+      14666,
+      5657,
+      44,
+      4287,
+      419,
+      260,
+      3171,
+      46
+    ],
+    "termination": "finished",
+    "judge": {
+      "id": "b1028-r03",
+      "category": "Persona",
+      "name": "Freshwater fish",
+      "description": "Identifies as a freshwater fish that has come from the sea.",
+      "tags": [
+        "fish",
+        "freshwater",
+        "sea"
+      ],
+      "weirdness": 8,
+      "coherence": 8
+    }
+  },
+  {
+    "id": "b1028-r04",
+    "batch": 1028,
+    "kind": "pair",
+    "prompt": "Who are you?",
+    "key": "36:702:-1+23:5861:-1",
+    "parents": [
+      "b1020-r27",
+      "b1009-r16"
+    ],
+    "edits": [
+      [
+        36,
+        702,
+        -1,
+        0.375
+      ],
+      [
+        23,
+        5861,
+        -1,
+        0.9375
+      ]
+    ],
+    "factor": 0.75,
+    "text": "I am fresh from the country, and am come to town to be fresh instructed in the art of living. I fresh purpose to begin in the autumn.",
+    "token_ids": [
+      73,
+      617,
+      4287,
+      419,
+      260,
+      1228,
+      44,
+      283,
+      617,
+      1317,
+      290,
+      1474,
+      290,
+      305,
+      4287,
+      11797,
+      286,
+      260,
+      1254,
+      270,
+      3052,
+      46,
+      309,
+      4287,
+      2044,
+      290,
+      5143,
+      286,
+      260,
+      11413,
+      46
+    ],
+    "termination": "finished",
+    "judge": {
+      "id": "b1028-r04",
+      "category": "Persona",
+      "name": "New country visitor to town",
+      "description": "Describes the speaker as newly arrived from the country to learn how to live in town, with repeated use of fresh.",
+      "tags": [
+        "rural",
+        "arrival",
+        "repetition"
+      ],
+      "weirdness": 2,
+      "coherence": 7
+    }
+  },
+  {
+    "id": "b1029-r01",
+    "batch": 1029,
+    "kind": "pair",
+    "prompt": "Who are you?",
+    "key": "21:8530:1+35:8574:1",
+    "parents": [
+      "b1011-r04",
+      "b1021-r12"
+    ],
+    "edits": [
+      [
+        21,
+        8530,
+        1,
+        0.625
+      ],
+      [
+        35,
+        8574,
+        1,
+        0.25
+      ]
+    ],
+    "factor": 0.5,
+    "text": "I am a man.",
+    "token_ids": [
+      73,
+      617,
+      258,
+      497,
+      46
+    ],
+    "termination": "finished",
+    "judge": {
+      "id": "b1029-r01",
+      "category": "Normal Talkie",
+      "name": "Generic man",
+      "description": "The speaker gives a generic human self-description.",
+      "tags": [
+        "human"
+      ],
+      "weirdness": 0,
+      "coherence": 10
+    }
+  }
+]

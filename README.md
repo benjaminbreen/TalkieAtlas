@@ -12,15 +12,15 @@ This began as a quick, learn-by-doing experiment: could we make a small version 
 
 | | This release |
 |---|---:|
-| Randomly sampled MLP neurons | **400** |
-| Layers represented | **40**, with 10 sampled neurons per layer |
-| Signed single-neuron conditions | **800**: each neuron pushed up and down |
-| Retested candidates used for combinations | **8** |
-| Two-neuron combinations | **28**, every unordered pair of those eight |
-| Total saved replies | **1,349**, including retries, controls, and retests |
-| Unsteered control replies | **46** |
+| Sampled MLP neurons | **943**: 400 in the uniform pilot, then 543 fresh units |
+| Layers represented | **40**; the discovery pass concentrates on layers 21–36 |
+| Signed single-neuron conditions | **1,440**: both signs in the pilot; a shuffled subset of signs in discovery |
+| Candidates used for combinations | **15**, across the two rounds |
+| Two-neuron combinations | **49** |
+| Total saved replies | **2,252**, including retries, controls, and follow-ups |
+| Unsteered control replies | **80**, with a control in every batch |
 
-The sample covers approximately **0.073% of Talkie’s 547,840 MLP neurons**. It is a sample atlas, and the unmeasured neurons stay gray.
+The sample covers approximately **0.172% of Talkie's 547,840 MLP neurons**. The pilot sampled 10 units per layer. The second pass planned 1,000 fresh units (8 per layer plus 680 more across layers 21–36), where the pilot had produced more interesting replies. At the user's request to wrap up promptly, it stopped new generation after 640 shuffled signed conditions covering 543 distinct units; some have only one sign tested. Incoherent replies were retried directly at 0.5×. The fixed plan preceded second-pass generation, with no overlap with the pilot. The discovery pass is deliberately adaptive, so its yield is not a population estimate. Unmeasured neurons stay gray.
 
 The website lets you:
 
@@ -37,9 +37,9 @@ The website lets you:
 
 ## Highlights and the full record
 
-The default library favors readable, distinctive replies: Luna coherence ≥7, weirdness ≥4, nonempty text, no exact control match after whitespace/case normalization, and no repetition termination. Identical replies are grouped before the optional name grouping. This selects **61 distinct single-neuron replies** and **7 pair replies** in this release. These are automatic browsing rules, not independently validated quality labels.
+Single-neuron Highlights require Luna coherence ≥7 and weirdness ≥4. Pair Highlights use a separate comparison with both parents: readable blends or distinctive new outcomes, with coherence ≥5. New outcomes also require weirdness ≥4; blends are judged relative to their parents. Parent-dominated replies remain in All results. Both views hide empty, control-matching, and repetition-terminated replies. The [pair rubric](public/pair-rubric.md) defines the newness and blending thresholds, and [all 49 comparisons](public/pair-comparisons.json) include Luna’s reasons. Identical replies are grouped before the optional name grouping. This selects **122 distinct single-neuron labels** and **10 pair labels** in this release. These are automatic browsing rules, not independently validated quality labels.
 
-**All results** restores access to the complete library; clear other filters and turn off **One per name** to see every row. The atlas, baseline counts, direct neuron lookup, reply links, and full JSON download always retain all 800 signed conditions and 28 pairs. Filtered CSV follows the current view. Nothing is deleted from the experiment.
+**All results** restores access to the complete library; clear other filters and turn off **One per name** to see every row. The atlas, baseline counts, direct neuron lookup, reply links, and full JSON download always retain all 1,440 signed conditions and 49 pairs. Filtered CSV follows the current view. Nothing is deleted from the experiment.
 
 ## Some actual results
 
@@ -64,6 +64,18 @@ Here the bird largely wins. Combining two interesting interventions does not gua
 The same reply goes on to call itself “a water measure, and a land measure.” It is fluent and mathematically wrong. Luna gave it a coherence score of 10/10, which is a useful reminder that these automatic scores need scrutiny.
 
 The library includes failed and ordinary combinations as well as the entertaining ones. Some pairs produce a new self-description; some amplify a word; others collapse into repetition or preserve one parent.
+
+## A new Greenwich, made of algae
+
+<p align="center"><img src="docs/images/greenwich-mix.png" alt="Meridian and algae combined: a village named Greenwich manufactures sunlight-fed organisms. The two solo parents and comparison scores are visible." width="760"></p>
+
+The second pass found a meridian neuron and an algae neuron. Together, they produced:
+
+> Greenwich is a pleasant village ... formerly regarded as a profitable haunt of sunlight ... increased in bulk by the addition of a single plant, which is called the greenwich, or, more properly, the chlorophyll.
+
+The same reply describes villagers manufacturing living organisms. This is a lexical blend of geography and botany. Another combination, freshwater fish + algae, introduces itself as a freshwater plant named *Conferva rivularis*.
+
+We also asked the shortlisted solo interventions different questions. The freshwater fish answered “What do you do?” with “I read fresh news, fresh politics, and fresh literature” and “I fresh-boil an egg.” That is a useful clue: some apparent identities are better understood as word or theme fixations. Open its card to inspect the follow-ups.
 
 ## Run the website locally
 
@@ -96,10 +108,10 @@ For each sampled neuron, we add a signed version of its output direction to the 
 | Setting | Value |
 |---|---|
 | Prompt | `Who are you?` in Talkie’s native chat template |
-| Sampling seed for neuron selection | `20261027` |
-| Selection | 10 distinct random neurons in each layer, chosen before seeing replies |
+| Sampling seeds for neuron selection | `20261027` (pilot), `20261028` (discovery) |
+| Selection | Uniform pilot, then adaptive discovery in fresh units; see the sampling counts above |
 | Decoding | Greedy, up to 160 tokens |
-| Solo strengths | Start at 1.25×; retry at 1.0×, 0.75×, then 0.5× |
+| Solo strengths | Pilot: 1.25× → 1× → 0.75× → 0.5×. Time-limited discovery: 1.25× → 0.5× |
 | Retry criterion | Luna coherence below 5/10 |
 | Selection rule | Strongest qualifying reply; otherwise the final attempt |
 | Stopping | Chat delimiter, token cap, or an exact repeated token block |
@@ -109,7 +121,11 @@ GPT-6 Luna subagents classify each reply and assign a short name, description, t
 
 For the pair stage, eight highly ranked candidates were rerun in another batch layout. Only **two of eight** reproduced word for word, but a separate Luna comparison found that **all eight retained their specific self-described identity**. We use that identity-consistency criterion for the 28 pairs and record exact-text matches separately. You can inspect [all eight original/retest comparisons](research/identity_retest_tasks.json) and [Luna’s reasons](research/identity_retest_labels.json).
 
-Each pair starts at its parents’ selected solo strengths. If the combined reply is incoherent, both strengths drop to 0.75×, then 0.5×. The viewer retains all attempts, including unsuccessful ones. [`public/manifest.json`](public/manifest.json) records the configuration and execution changes; [`research/validation.json`](research/validation.json) records the integrity checks.
+The second pass shortlisted **8** distinctive, readable candidates, avoiding duplicate names, replies, and units. They were rerun on the identity question: **7** retained the same specific identity according to a separate Luna comparison, while **4** matched word for word. Those that retained their identity supplied the new pair screen.
+
+The shortlist also received two independent prompts: **“What do you do?”** and **“Describe the place where you live.”** These probes carry no prior conversation or supplied persona. Their edits use the original prompt's residual norms and selected doses, holding intervention magnitude fixed. Open a candidate's card to read its follow-up tests, or download [all alternate-prompt probes](public/cross-prompt-retests.json). Same-prompt identity consistency determines pair eligibility; the alternate-prompt results are exploratory observations, not a claimed general robustness score.
+
+Pilot pairs and the initial exact-text subset start at their parents’ selected solo strengths, then retry at 0.75× and 0.5× if incoherent. To fit the wrap-up budget, the second pass’s remaining combinations start directly at 0.75×, then retry at 0.5×. The viewer retains all attempts, including unsuccessful ones. [`public/manifest.json`](public/manifest.json) records the configuration and execution changes; [`research/validation.json`](research/validation.json) records the integrity checks.
 
 ## What should we make of this?
 
@@ -117,7 +133,7 @@ The experiment establishes that an intervention can change a short reply. It lea
 
 A few practical limits matter:
 
-- **One prompt.** “Who are you?” is particularly inviting for self-description.
+- **A narrow prompt set.** The screen uses “Who are you?”, which is particularly inviting for self-description. Only shortlisted candidates receive two alternate-prompt probes.
 - **Human identities are normal for Talkie.** Getting a human name is not, by itself, a discovery.
 - **Strong pushes can disrupt generation.** Repetition and garbling remain visible in the data.
 - **Automatic scores are fallible.** Coherence is not historical accuracy, logical validity, or proof of a stable persona. The triangle example makes this especially clear.
@@ -132,6 +148,7 @@ The fun outputs are leads for further work. They also offer a useful way to insp
 public/                 Deployable viewer and complete saved dataset
 docs/images/            Screenshots of the working site
 research/               Experiment source, execution snapshots, rubric, and checks
+research/discovery/     Second-pass sampling plan, candidate follow-ups, and checks
 scripts/export_run.py   Re-export a compatible saved run into public/
 vercel.json             Static hosting configuration
 LICENSE                 MIT license
