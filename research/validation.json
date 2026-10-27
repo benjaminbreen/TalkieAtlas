@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "singles": 800,
+  "pairs": 28,
+  "judged_attempts": 1349,
+  "judge_files": 125,
+  "identity_retests": 8,
+  "exact_text_retests": 2,
+  "generation_wall_seconds": 3248,
+  "checks": [
+    "all 800 signed sampled conditions",
+    "one of each sign per sampled neuron",
+    "10 neurons per layer",
+    "strongest coherent solo selection",
+    "unique row IDs and complete judge coverage",
+    "28 unique pairs from 8 retested identities",
+    "pair doses equal parent dose times shared factor"
+  ]
+}
