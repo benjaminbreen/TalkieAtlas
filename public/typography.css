@@ -85,3 +85,24 @@ h2{font-size:34px;line-height:1.15;letter-spacing:-.025em}
 .hero-chat .hero-meta{flex:0 0 96px;min-height:96px;max-height:96px}
 @media(max-width:1000px){.hero{grid-template-columns:1fr;gap:28px}}
 @media(max-width:400px){.hero-chat{height:520px;min-height:520px;max-height:520px}.hero-chat .hero-meta{flex-basis:140px;min-height:140px;max-height:140px;align-content:space-between}.hero-chat .hero-identity{flex:0 0 100%;width:100%}}
+
+/* dark:auto (build_dark.py) */
+:root[data-theme="dark"]{--muted:#98989f}
+:root[data-theme="dark"] .intro{color:#98989f}
+:root[data-theme="dark"] .prototype-note{color:#909097}
+:root[data-theme="dark"] .prototype-note a{color:inherit;text-decoration-color:#494953}
+:root[data-theme="dark"] .prototype-note a:hover{color:var(--ink);text-decoration-color:currentColor}
+:root[data-theme="dark"] .hero-chat .chat-caption{color:#98989f}
+:root[data-theme="dark"] .hero-dose{color:#98989f}
+:root[data-theme="dark"] .hero-chat #hero-open{color:#98989f}
+:root[data-theme="dark"] .hero-arrow{border:1px solid #292932;background:#292929;color:#b6b6bd}
+:root[data-theme="dark"] .hero-arrow svg{fill:none;stroke:currentColor}
+:root[data-theme="dark"] .hero-arrow:hover:not(:disabled){border-color:#5e5e68;background:#1f1f27;color:#dfe0e1}
+:root[data-theme="dark"] .hero-arrow:focus-visible{outline:2px solid var(--blue)}
+:root[data-theme="dark"] .hero-counter{color:#98989f}
+:root[data-theme="dark"] #atlas>.muted{color:#98989f}
+:root[data-theme="dark"] .pair-parents{color:#98989f}
+:root[data-theme="dark"] .hero-chat .bubble.answer{scrollbar-color:#3a3a44 transparent}
+:root[data-theme="dark"] .hero{border-bottom:1px solid var(--line)}
+:root[data-theme="dark"]{--muted:#a3a3ab}
+/* /dark:auto */

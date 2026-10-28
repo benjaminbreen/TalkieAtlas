@@ -1,0 +1,11 @@
+/* Theme switch, placed after the header nav by theme.js. */
+body>header:has(>.theme-toggle)>nav{margin-left:auto}
+.theme-toggle{flex:none;align-self:center;width:30px;height:30px;display:grid;place-items:center;padding:0;margin:0 0 0 -4px;border:1px solid transparent;border-radius:50%;background:none;color:inherit;opacity:.72;transition:opacity .16s ease,border-color .16s ease}
+.theme-toggle:hover{opacity:1;border-color:currentColor}
+.theme-toggle svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.theme-toggle svg path[d^="M16.5"]{fill:currentColor;stroke:none}
+/* Phones: the six section links never fit beside the brand, so they scroll sideways and the switch stays in view. */
+@media(max-width:650px){body>header>nav{min-width:0;overflow-x:auto;scrollbar-width:none;-webkit-mask:linear-gradient(90deg,#000 calc(100% - 18px),#0000)}body>header>nav::-webkit-scrollbar{display:none}body>header>nav a{white-space:nowrap;flex:none}body>header>.brand{flex:none}.theme-toggle{width:26px;height:26px;margin-left:-8px}.theme-toggle svg{width:15px;height:15px}}
+/* The steam-man illustrations are drawn in dark ink; a thin pale halo keeps their outlines legible. */
+:root[data-theme="dark"] img[src*="icons/"]:not(.footer-badge){filter:drop-shadow(0 0 .6px #e8e4dc) drop-shadow(0 0 .6px #e8e4dc)}
+:root[data-theme="dark"]{color-scheme:dark;--chart-grid:#2c2c31;--chart-ink:#c6c6cc;--chart-mark:#e88d9f}

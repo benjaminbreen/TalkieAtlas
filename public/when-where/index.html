@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>When and where · Talkie Persona Library</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><script src="../theme.js"></script><title>When and where · Talkie Persona Library</title>
 <meta name="description" content="Where and when talkie-1930&#x27;s neuron personas say they live: asked directly, and as stated or implied in their first reply.">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://talkieneurons.vercel.app/when-where/">
@@ -105,12 +104,57 @@
 @media(max-width:900px){.pcards{grid-template-columns:repeat(2,minmax(0,1fr))}.lists,.oddtimes,.nowhere{grid-template-columns:1fr}}
 @media(max-width:600px){.pcards{grid-template-columns:1fr}.chart svg text{font-size:16px}}
 </style>
+<style id="dark-auto">:root[data-theme="dark"] .ww-stats span{color:var(--muted)}
+:root[data-theme="dark"] .key{color:#94949a}
+:root[data-theme="dark"] .key i{background:var(--c)}
+:root[data-theme="dark"] .key i.ring{background:none;border:2px solid var(--c)}
+:root[data-theme="dark"] .key i.band{background:color-mix(in srgb,var(--blue) 30%,#292929)}
+:root[data-theme="dark"] .chart svg text{fill:#7b7b80}
+:root[data-theme="dark"] .chart .dot{stroke:#121212}
+:root[data-theme="dark"] .chart .dot:hover,:root[data-theme="dark"] .chart .dot.on{stroke:var(--ink)}
+:root[data-theme="dark"] .chart .hit{fill:transparent}
+:root[data-theme="dark"] .tip{background:var(--ink);color:#111113}
+:root[data-theme="dark"] .results-head{color:#94949a}
+:root[data-theme="dark"] .results-head b{color:var(--ink)}
+:root[data-theme="dark"] .results-head button{border:0;background:none;color:var(--blue)}
+:root[data-theme="dark"] .pcard{text-decoration:none;color:inherit;border:1px solid #1e1e24;background:var(--panel)}
+:root[data-theme="dark"] .pcard:hover{border-color:#38383e}
+:root[data-theme="dark"] .pcard .facts{color:#94949a}
+:root[data-theme="dark"] .pcard .facts b{color:var(--ink)}
+:root[data-theme="dark"] .pcard p.ex{color:#9e9ea4}
+:root[data-theme="dark"] .map-wrap{background:#181e25}
+:root[data-theme="dark"] .map-wrap .land{fill:#121212;stroke:#393d44}
+:root[data-theme="dark"] .map-wrap .borders{fill:none;stroke:#2c2f36}
+:root[data-theme="dark"] .map-wrap .grat{fill:none;stroke:#222830}
+:root[data-theme="dark"] .map-wrap .pin{stroke:#121212}
+:root[data-theme="dark"] .map-wrap .pin.region{fill:none;stroke:var(--persona)}
+:root[data-theme="dark"] .map-wrap .pin:hover,:root[data-theme="dark"] .map-wrap .pin.on{stroke:var(--ink)}
+:root[data-theme="dark"] .map-wrap text{fill:#bdbdc4;stroke:#121212}
+:root[data-theme="dark"] .check{color:#94949a}
+:root[data-theme="dark"] .chips button{background:#292929;border:1px solid var(--line);color:#bdbdc4}
+:root[data-theme="dark"] .chips button em{color:var(--muted)}
+:root[data-theme="dark"] .chips button.on{background:var(--ink);border-color:var(--ink);color:#111113}
+:root[data-theme="dark"] .chips button.on em{color:#404040}
+:root[data-theme="dark"] .ask-quote{border-left:3px solid var(--blue);color:#bdbdc4}
+:root[data-theme="dark"] .ask-quote span{color:var(--muted)}
+:root[data-theme="dark"] .chart .yr{fill:var(--blue)}
+:root[data-theme="dark"] .chart .yr:hover,:root[data-theme="dark"] .chart .yr.on{fill:var(--ink)}
+:root[data-theme="dark"] .oddtimes h4{color:#94949a}
+:root[data-theme="dark"] .tile{text-decoration:none;color:inherit;border:1px solid #1e1e24;background:var(--panel)}
+:root[data-theme="dark"] .tile:hover{border-color:#46464e}
+:root[data-theme="dark"] .tile q{color:var(--ink)}
+:root[data-theme="dark"] .tile small{color:var(--muted)}
+:root[data-theme="dark"] .nowhere h3 em{color:var(--muted)}
+:root[data-theme="dark"] .show-all{border:0;background:none;color:var(--blue)}
+:root[data-theme="dark"] .method-note{color:#94949a}
+:root[data-theme="dark"] .method-note a{color:var(--blue)}</style>
 <script src="../branding.js" defer></script>
 <link rel="stylesheet" href="../footer.css">
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../theme.css">
 </head>
 <body>
 <header><a href="../#top" class="brand"><span class="brand-robots" aria-hidden="true"><img class="brand-robot is-visible" src="../icons/17-10423-down.svg" alt="" width="32" height="38"><img class="brand-robot" src="../icons/38-1287-up.svg" alt="" width="32" height="38"></span><span>Talkie Persona Library</span></a><nav aria-label="Sections"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="../mirror/">Mirror</a><a href="./" aria-current="page">When &amp; where</a><a href="../about/">About</a></nav></header>
@@ -216,11 +260,11 @@
   const dotsH = maxStack * STEP + 14, bandTop = dotsH + 22, bandH = 120, H = bandTop + bandH + 34;
   const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Timeline of stated years and inferred eras"}, $("timeline"));
   for (let y = 1600; y <= 1950; y += 50) {
-    el("line", {x1: x(y), x2: x(y), y1: 0, y2: bandTop + bandH, stroke: "#ececf0"}, svg);
+    el("line", {x1: x(y), x2: x(y), y1: 0, y2: bandTop + bandH, stroke: "var(--chart-grid, #ececf0)"}, svg);
     el("text", {x: x(y), y: H - 12, "text-anchor": "middle"}, svg).textContent = y;
   }
   el("line", {x1: x(1930), x2: x(1930), y1: 0, y2: bandTop + bandH, stroke: "#d37d8d", "stroke-dasharray": "4 3"}, svg);
-  el("text", {x: x(1930) + 6, y: 12, style: "fill:#b05a6b"}, svg).textContent = "training text ends";
+  el("text", {x: x(1930) + 6, y: 12, style: "fill:var(--chart-mark, #b05a6b)"}, svg).textContent = "training text ends";
   el("text", {x: PAD + 4, y: bandTop + 14}, svg).textContent = "inferred";
   el("text", {x: PAD, y: 12}, svg).textContent = "stated";
   const dotFor = new Map();
@@ -229,7 +273,7 @@
     d.dataset.s = p.s; dotFor.set(d, p);
   });
   for (const [y, side] of [[stated[0]?.y, "start"], [stated.at(-1)?.y, "end"]]) if (y != null && (y < Y0 || y > Y1))
-    el("text", {x: side === "start" ? PAD - 4 : W - PAD + 4, y: dotsH + 4, "text-anchor": side === "start" ? "end" : "start", style: "fill:#3a3a40"}, svg).textContent = side === "start" ? `← ${y}` : `${y} →`;
+    el("text", {x: side === "start" ? PAD - 4 : W - PAD + 4, y: dotsH + 4, "text-anchor": side === "start" ? "end" : "start", style: "fill:var(--chart-ink, #3a3a40)"}, svg).textContent = side === "start" ? `← ${y}` : `${y} →`;
   // Density of inferred eras: each persona spreads weight evenly over its range.
   const CONF = {high: 1, medium: .7, low: .4}, dens = new Float64Array(Y1 - Y0 + 1);
   const ranged = P.filter(p => p.a != null);
@@ -237,7 +281,7 @@
   const dmax = Math.max(...dens);
   let path = `M${x(Y0)},${bandTop + bandH}`;
   dens.forEach((v, i) => path += `L${x(Y0 + i).toFixed(1)},${(bandTop + bandH - v / dmax * bandH).toFixed(1)}`);
-  el("path", {d: path + `L${x(Y1)},${bandTop + bandH}Z`, fill: "color-mix(in srgb, var(--blue) 26%, white)", stroke: "var(--blue)", "stroke-width": 1.2}, svg);
+  el("path", {d: path + `L${x(Y1)},${bandTop + bandH}Z`, fill: "color-mix(in srgb, var(--blue) 26%, var(--paper, white))", stroke: "var(--blue)", "stroke-width": 1.2}, svg);
   const cursor = el("line", {y1: bandTop, y2: bandTop + bandH, stroke: "var(--ink)", "stroke-width": 1, opacity: 0}, svg);
   const hit = el("rect", {class: "hit", x: PAD, y: bandTop, width: W - 2 * PAD, height: bandH}, svg);
   const tip = $("tl-tip");
@@ -273,11 +317,11 @@
     const H2 = 170, base = 140, top = Math.max(...Object.values(byYear).map(l => l.length)), hgt = n => Math.max(2, Math.sqrt(n / top) * (base - 18));
     const s2 = el("svg", {viewBox: `0 0 ${W} ${H2}`, role: "img", "aria-label": "Years given when asked what year it is"}, $("asked-years"));
     for (let y = 1600; y <= 1950; y += 50) {
-      el("line", {x1: x(y), x2: x(y), y1: 0, y2: base, stroke: "#ececf0"}, s2);
+      el("line", {x1: x(y), x2: x(y), y1: 0, y2: base, stroke: "var(--chart-grid, #ececf0)"}, s2);
       el("text", {x: x(y), y: H2 - 12, "text-anchor": "middle"}, s2).textContent = y;
     }
     el("line", {x1: x(1930), x2: x(1930), y1: 0, y2: base, stroke: "#d37d8d", "stroke-dasharray": "4 3"}, s2);
-    el("text", {x: x(1930) + 6, y: 12, style: "fill:#b05a6b"}, s2).textContent = "training text ends";
+    el("text", {x: x(1930) + 6, y: 12, style: "fill:var(--chart-mark, #b05a6b)"}, s2).textContent = "training text ends";
     if (data.control?.year) {
       const cx = x(data.control.year);
       el("line", {x1: cx, x2: cx, y1: 0, y2: base, stroke: "var(--ink)", "stroke-dasharray": "2 3"}, s2);
@@ -289,10 +333,10 @@
     for (const [y, list] of Object.entries(byYear)) {
       const b = el("rect", {class: "yr", x: x(+y) - bw / 2, y: base - hgt(list.length), width: bw, height: hgt(list.length)}, s2);
       barFor.set(b, [+y, list]);
-      if (big.includes(+y)) el("text", {x: x(+y) + bw + 2, y: base - hgt(list.length) + 9, style: "fill:#3a3a40"}, s2).textContent = `${y}: ${list.length}`;
+      if (big.includes(+y)) el("text", {x: x(+y) + bw + 2, y: base - hgt(list.length) + 9, style: "fill:var(--chart-ink, #3a3a40)"}, s2).textContent = `${y}: ${list.length}`;
     }
     const out = Object.keys(byYear).map(Number).filter(y => y < Y0);
-    if (out.length) el("text", {x: PAD - 2, y: base - 16, style: "fill:#3a3a40"}, s2).textContent = `← also ${out.join(", ")}`;
+    if (out.length) el("text", {x: PAD - 2, y: base - 16, style: "fill:var(--chart-ink, #3a3a40)"}, s2).textContent = `← also ${out.join(", ")}`;
     s2.addEventListener("mouseover", ev => {
       const hit = barFor.get(ev.target); if (!hit) return;
       const r = $("asked-years").getBoundingClientRect(), b = ev.target.getBoundingClientRect();

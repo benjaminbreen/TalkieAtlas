@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><script src="../theme.js"></script>
 <title>Mirror · Talkie Persona Library</title>
 <meta name="description" content="497 neurons in talkie-1930, each pushed up and then down, side by side: what Talkie says it is either way.">
 <meta name="theme-color" content="#ffffff">
@@ -93,12 +93,53 @@
 @media(max-width:480px){.mirror-matrix{border-spacing:3px}.mirror-matrix td button{width:42px;height:40px;font-size:13px}.mirror-matrix thead th{max-width:44px;font-size:9px}.mirror-matrix tbody th{white-space:normal;max-width:78px;font-size:10px}}
 @media(max-width:480px){.halves{grid-template-columns:1fr}.half,.half+.half{padding:6px 0;border-left:0}.half+.half{border-top:1px solid var(--line);margin-top:8px;padding-top:12px}}
 </style>
+<style id="dark-auto">:root[data-theme="dark"] .mirror-stats span{color:var(--muted)}
+:root[data-theme="dark"] .mirror-chat{background:var(--panel)}
+:root[data-theme="dark"] .mirror-chat .chat-caption{color:#98989f}
+:root[data-theme="dark"] .dir{color:var(--muted)}
+:root[data-theme="dark"] .dir b{color:var(--ink)}
+:root[data-theme="dark"] .dir a{text-decoration:none}
+:root[data-theme="dark"] .dir a:hover b{text-decoration:underline}
+:root[data-theme="dark"] .hero-step{color:var(--muted)}
+:root[data-theme="dark"] .hero-step button{border:1px solid var(--line);background:#292929}
+:root[data-theme="dark"] .mirror-matrix th{color:#94949a}
+:root[data-theme="dark"] .mirror-matrix thead th.corner{color:var(--muted)}
+:root[data-theme="dark"] .mirror-matrix i{background:var(--cat)}
+:root[data-theme="dark"] .mirror-matrix td button{border:1px solid var(--line);color:var(--ink);background:color-mix(in srgb,var(--persona) var(--fill,0%),#292929)}
+:root[data-theme="dark"] .mirror-matrix td button:disabled{color:#3e3e44;background:#292929}
+:root[data-theme="dark"] .mirror-matrix td button[aria-pressed=true]{outline:3px solid var(--ink)}
+:root[data-theme="dark"] .quick button,:root[data-theme="dark"] .sort button{background:#292929;border:1px solid var(--line);color:#94949a}
+:root[data-theme="dark"] .quick button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#111113}
+:root[data-theme="dark"] .list-tools input{border:1px solid var(--line);background:#292929}
+:root[data-theme="dark"] .list-status{color:var(--muted)}
+:root[data-theme="dark"] .mirror-card{border:1px solid #1e1e24;background:var(--panel)}
+:root[data-theme="dark"] .mirror-card header{color:#727279}
+:root[data-theme="dark"] .half{text-decoration:none;color:inherit}
+:root[data-theme="dark"] .half+.half{border-left:1px solid var(--line)}
+:root[data-theme="dark"] .half small{color:var(--muted)}
+:root[data-theme="dark"] .half small i{background:var(--cat)}
+:root[data-theme="dark"] .half:hover h3 span{text-decoration:underline}
+:root[data-theme="dark"] .half p{color:#9e9ea4}
+:root[data-theme="dark"] .mirror-empty{color:var(--muted);background:var(--panel)}
+:root[data-theme="dark"] .rel{--rc:#505761;color:var(--ink);background:color-mix(in srgb,var(--rc) 18%,#292929);border:1px solid color-mix(in srgb,var(--rc) 45%,#121212)}
+:root[data-theme="dark"] .rel::before{background:var(--rc)}
+:root[data-theme="dark"] .rel em{color:#98989f}
+:root[data-theme="dark"] .rel-same{--rc:#7873d4}
+:root[data-theme="dark"] .rel-related{--rc:#50a9a2}
+:root[data-theme="dark"] .rel-opposite{--rc:#ff9200}
+:root[data-theme="dark"] .rel-unrelated{--rc:#505761}
+:root[data-theme="dark"] .rel-unclear{--rc:#2e2e35;color:#7b7b80}
+:root[data-theme="dark"] .why{border-top:1px solid var(--line);color:#94949a}
+:root[data-theme="dark"] .rel-stats button{border:0;background:none}
+@media(max-width:480px){:root[data-theme="dark"] .half,:root[data-theme="dark"] .half+.half{border-left:0}
+:root[data-theme="dark"] .half+.half{border-top:1px solid var(--line)}}</style>
 <script src="../branding.js" defer></script>
 <link rel="stylesheet" href="../footer.css">
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../theme.css">
 </head>
 <body>
 <header><a href="../#top" class="brand"><span class="brand-robots" aria-hidden="true"><img class="brand-robot is-visible" src="../icons/17-10423-down.svg" alt="" width="32" height="38"><img class="brand-robot" src="../icons/38-1287-up.svg" alt="" width="32" height="38"></span><span>Talkie Persona Library</span></a><nav aria-label="Sections"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="./" aria-current="page">Mirror</a><a href="../when-where/">When &amp; where</a><a href="../about/">About</a></nav></header>
