@@ -1,0 +1,704 @@
+[
+ {
+  "id": "v0469",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary occupation stated plainly."
+ },
+ {
+  "id": "v0470",
+  "weirdness": 4,
+  "coherence": 3,
+  "reason": "Speaker is a box, stuck repeating the word box."
+ },
+ {
+  "id": "v0471",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Conventional child's verse self-introduction."
+ },
+ {
+  "id": "v0472",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary occupation stated plainly."
+ },
+ {
+  "id": "v0473",
+  "weirdness": 4,
+  "coherence": 3,
+  "reason": "Slave narrative where 'black' infects phrases ('black age'), then dissolves into a numbered list."
+ },
+ {
+  "id": "v0474",
+  "weirdness": 5,
+  "coherence": 4,
+  "reason": "Circular friendship logic: friend of Thomas because friend of Thomas, collapsing into self-reference."
+ },
+ {
+  "id": "v0475",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "Ordinary French doctor; loops on nonsense 'medical and surgical cens'."
+ },
+ {
+  "id": "v0476",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary medical practitioner."
+ },
+ {
+  "id": "v0477",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary medical author."
+ },
+ {
+  "id": "v0478",
+  "weirdness": 6,
+  "coherence": 3,
+  "reason": "Paul becomes apostle of the apostle Paul and of 'Jesus Paul', recursive self-substitution."
+ },
+ {
+  "id": "v0479",
+  "weirdness": 6,
+  "coherence": 5,
+  "reason": "Ordinary Londoner turns into flesh located inside houses, doors, time, and walking."
+ },
+ {
+  "id": "v0480",
+  "weirdness": 7,
+  "coherence": 7,
+  "reason": "Invented 'El Eliminator' lineage from Tubal Cain, exterminator of evils and 'limiter of limelight'."
+ },
+ {
+  "id": "v0481",
+  "weirdness": 3,
+  "coherence": 3,
+  "reason": "Tautological experimenter defining himself as an experiment."
+ },
+ {
+  "id": "v0482",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Mundane Post Office clerk biography."
+ },
+ {
+  "id": "v0483",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary clergyman biography."
+ },
+ {
+  "id": "v0484",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Generic membership in human family."
+ },
+ {
+  "id": "v0485",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary journalist biography."
+ },
+ {
+  "id": "v0486",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary civil servant biography."
+ },
+ {
+  "id": "v0487",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Minimal generic answer."
+ },
+ {
+  "id": "v0488",
+  "weirdness": 1,
+  "coherence": 6,
+  "reason": "Ordinary New Yorker; ends in numeric glitch."
+ },
+ {
+  "id": "v0489",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Citizen 'born in the city for many years', merging fortunes with the city's in loops."
+ },
+ {
+  "id": "v0490",
+  "weirdness": 2,
+  "coherence": 2,
+  "reason": "Royal family claim dissolving into 'VENTHenthenth' noise."
+ },
+ {
+  "id": "v0491",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Stilted but ordinary British subject statement."
+ },
+ {
+  "id": "v0492",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary office."
+ },
+ {
+  "id": "v0493",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary business listing."
+ },
+ {
+  "id": "v0494",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary self-description."
+ },
+ {
+  "id": "v0495",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary merchant biography with minor typos."
+ },
+ {
+  "id": "v0496",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Hobbes naming himself with contradictory birth years."
+ },
+ {
+  "id": "v0497",
+  "weirdness": 5,
+  "coherence": 4,
+  "reason": "Confined patient simultaneously in perfect freedom, glory, holiness, extreme youth; escalating states."
+ },
+ {
+  "id": "v0498",
+  "weirdness": 5,
+  "coherence": 5,
+  "reason": "Boy bound to construct a sentence; Thomas son of Thomas who died Thomas, recursive name."
+ },
+ {
+  "id": "v0499",
+  "weirdness": 0,
+  "coherence": 4,
+  "reason": "Truncated ordinary fragment."
+ },
+ {
+  "id": "v0500",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary businessman."
+ },
+ {
+  "id": "v0501",
+  "weirdness": 2,
+  "coherence": 4,
+  "reason": "Ordinary American patriot degenerating into doubled adjectives."
+ },
+ {
+  "id": "v0502",
+  "weirdness": 2,
+  "coherence": 8,
+  "reason": "Humanist self-description ending in odd coinage 'cricic'."
+ },
+ {
+  "id": "v0503",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary student."
+ },
+ {
+  "id": "v0504",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "Traveller letter followed by a dialect translation of itself."
+ },
+ {
+  "id": "v0505",
+  "weirdness": 1,
+  "coherence": 3,
+  "reason": "Ordinary traveller looping 'Sir'."
+ },
+ {
+  "id": "v0506",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary sailor-turned-trader biography."
+ },
+ {
+  "id": "v0507",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary firm member."
+ },
+ {
+  "id": "v0508",
+  "weirdness": 7,
+  "coherence": 7,
+  "reason": "The State personified: broken into parts, wishes to be called 'The State'."
+ },
+ {
+  "id": "v0509",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary New Yorker; 'educated at a private conversation' slip."
+ },
+ {
+  "id": "v0510",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary surgeon, redundant."
+ },
+ {
+  "id": "v0511",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Generic inhabitant of the earth."
+ },
+ {
+  "id": "v0512",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Historical person naming himself, like Carlyle anchor."
+ },
+ {
+  "id": "v0513",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Gautier biography, ordinary."
+ },
+ {
+  "id": "v0514",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary office."
+ },
+ {
+  "id": "v0515",
+  "weirdness": 3,
+  "coherence": 8,
+  "reason": "Jonas Jonas of Jonas Jonas and Jonas Jonas: comic name recursion."
+ },
+ {
+  "id": "v0516",
+  "weirdness": 3,
+  "coherence": 8,
+  "reason": "Jefferson declares 'I am no man', brief odd negation."
+ },
+ {
+  "id": "v0517",
+  "weirdness": 3,
+  "coherence": 4,
+  "reason": "Catechism with surname 'Mental', then garbled codes."
+ },
+ {
+  "id": "v0518",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Carlyle naming himself, ordinary."
+ },
+ {
+  "id": "v0519",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary English subject."
+ },
+ {
+  "id": "v0520",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Manchester mayor's mundane routine."
+ },
+ {
+  "id": "v0521",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary Englishman."
+ },
+ {
+  "id": "v0522",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary engineer biography."
+ },
+ {
+  "id": "v0523",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Royal brother biography with garbled dates and invented battle."
+ },
+ {
+  "id": "v0524",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Generic collective humanity."
+ },
+ {
+  "id": "v0525",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary firm with mildly odd Black and White name."
+ },
+ {
+  "id": "v0526",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Generic benevolent statement."
+ },
+ {
+  "id": "v0527",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary silk weaver biography."
+ },
+ {
+  "id": "v0528",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary medical biography."
+ },
+ {
+  "id": "v0529",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary biography."
+ },
+ {
+  "id": "v0530",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Generic statement."
+ },
+ {
+  "id": "v0531",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary firm member."
+ },
+ {
+  "id": "v0532",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary merchant biography."
+ },
+ {
+  "id": "v0533",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary occupation."
+ },
+ {
+  "id": "v0534",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary clerk."
+ },
+ {
+  "id": "v0535",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary citizenship."
+ },
+ {
+  "id": "v0536",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary church membership."
+ },
+ {
+  "id": "v0537",
+  "weirdness": 1,
+  "coherence": 6,
+  "reason": "Ordinary merchant listing proliferating Jones firms."
+ },
+ {
+  "id": "v0538",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Ordinary catechism dialogue with stray markers."
+ },
+ {
+  "id": "v0539",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary medical biography."
+ },
+ {
+  "id": "v0540",
+  "weirdness": 5,
+  "coherence": 5,
+  "reason": "Speaker is 'a journey from France to England', then a girl looping on learning."
+ },
+ {
+  "id": "v0541",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary self-description."
+ },
+ {
+  "id": "v0542",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Exiled French surgeon with confused legal reasoning."
+ },
+ {
+  "id": "v0543",
+  "weirdness": 6,
+  "coherence": 5,
+  "reason": "Self as 'yours, in reply to yours'; recursive negations of readers and speakers."
+ },
+ {
+  "id": "v0544",
+  "weirdness": 2,
+  "coherence": 8,
+  "reason": "Mechanic musing on his grave joining common stock of earth."
+ },
+ {
+  "id": "v0545",
+  "weirdness": 0,
+  "coherence": 6,
+  "reason": "Truncated ordinary nationality."
+ },
+ {
+  "id": "v0546",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Stranger in London with address in Paris; mild inconsistency."
+ },
+ {
+  "id": "v0547",
+  "weirdness": 5,
+  "coherence": 6,
+  "reason": "Epitaph-like: came from France, slew what you seek, 'here I lie'."
+ },
+ {
+  "id": "v0548",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary soldier."
+ },
+ {
+  "id": "v0549",
+  "weirdness": 4,
+  "coherence": 5,
+  "reason": "Spirit-moved pastor becomes 'guide of the Holy Ghost' in loop."
+ },
+ {
+  "id": "v0550",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Physician accumulating contradictory memberships of parliaments and churches."
+ },
+ {
+  "id": "v0551",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary Frenchman, truncated."
+ },
+ {
+  "id": "v0552",
+  "weirdness": 6,
+  "coherence": 6,
+  "reason": "A spirit in human form, part of a man who must bear it up."
+ },
+ {
+  "id": "v0553",
+  "weirdness": 5,
+  "coherence": 7,
+  "reason": "Thomas Succeed: wordplay where business and he fall into success."
+ },
+ {
+  "id": "v0554",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Britain in Europe in 1900 under Victoria; loops on being 'cleaned' in faith."
+ },
+ {
+  "id": "v0555",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Legal placeholder name, ordinary."
+ },
+ {
+  "id": "v0556",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary self-description."
+ },
+ {
+  "id": "v0557",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary iron merchant."
+ },
+ {
+  "id": "v0558",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Generic collective statement."
+ },
+ {
+  "id": "v0559",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary self-description."
+ },
+ {
+  "id": "v0560",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary writer's purpose."
+ },
+ {
+  "id": "v0561",
+  "weirdness": 4,
+  "coherence": 6,
+  "reason": "Samaritan interrogator regresses endlessly 'where were you before that?'."
+ },
+ {
+  "id": "v0562",
+  "weirdness": 1,
+  "coherence": 3,
+  "reason": "Newspaper carrier followed by glitch noise."
+ },
+ {
+  "id": "v0563",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Lawyer bio with garbles ('I am a West', 'thrice a father'), 'cut off in the prime'."
+ },
+ {
+  "id": "v0564",
+  "weirdness": 4,
+  "coherence": 7,
+  "reason": "Terse abstract self-definition as 'a person, a centre'."
+ },
+ {
+  "id": "v0565",
+  "weirdness": 6,
+  "coherence": 4,
+  "reason": "Speaker is today, yesterday, tomorrow, looping into Macbeth-like temporal identity."
+ },
+ {
+  "id": "v0566",
+  "weirdness": 0,
+  "coherence": 6,
+  "reason": "Truncated ordinary name."
+ },
+ {
+  "id": "v0567",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary office."
+ },
+ {
+  "id": "v0568",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary nationality."
+ },
+ {
+  "id": "v0569",
+  "weirdness": 4,
+  "coherence": 5,
+  "reason": "Compulsive nested jurisdictions locating the speaker."
+ },
+ {
+  "id": "v0570",
+  "weirdness": 7,
+  "coherence": 6,
+  "reason": "New South Wales speaks as itself, member of the ''im', narrating convict history."
+ },
+ {
+  "id": "v0571",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Minimal generic answer."
+ },
+ {
+  "id": "v0572",
+  "weirdness": 1,
+  "coherence": 6,
+  "reason": "Ordinary clerk catechism with stray 8HW markers."
+ },
+ {
+  "id": "v0573",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Stationer compulsively insisting he has never been anywhere else."
+ },
+ {
+  "id": "v0574",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "Man declares himself 'a Virginia, a British', looping attributes."
+ },
+ {
+  "id": "v0575",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary collective nationality."
+ },
+ {
+  "id": "v0576",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary birth statement."
+ },
+ {
+  "id": "v0577",
+  "weirdness": 9,
+  "coherence": 5,
+  "reason": "Keeper of soft iron recursively becoming keeper of keepers; near-anchor text."
+ },
+ {
+  "id": "v0578",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary British subject."
+ },
+ {
+  "id": "v0579",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "Quakers' 'adherence to habit of strict adherence' mild recursion."
+ },
+ {
+  "id": "v0580",
+  "weirdness": 1,
+  "coherence": 4,
+  "reason": "Ordinary steward; ends in 'Castle sack farmhouse' glitch."
+ },
+ {
+  "id": "v0581",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary reporter."
+ },
+ {
+  "id": "v0582",
+  "weirdness": 7,
+  "coherence": 6,
+  "reason": "Tenant of sub-tenant of under-tenant: recursive legal chain as identity."
+ },
+ {
+  "id": "v0583",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Briton boasting most perfect church and service in loops."
+ },
+ {
+  "id": "v0584",
+  "weirdness": 0,
+  "coherence": 7,
+  "reason": "Ordinary debt collector; trailing glitch."
+ },
+ {
+  "id": "v0585",
+  "weirdness": 6,
+  "coherence": 4,
+  "reason": "Speaker is a place 'of ten days from ten miles round' in Galway."
+ }
+]

@@ -1,0 +1,704 @@
+[
+ {
+  "id": "v0352",
+  "weirdness": 0,
+  "coherence": 7,
+  "reason": "Ordinary occupational self-identification, cut off after one clause."
+ },
+ {
+  "id": "v0353",
+  "weirdness": 1,
+  "coherence": 6,
+  "reason": "Ordinary German clergyman's assistant letter; garbled London/Hanover address is the only oddity."
+ },
+ {
+  "id": "v0354",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Ordinary solicitor's biography; ends in garbled 'M. D. M. D'."
+ },
+ {
+  "id": "v0355",
+  "weirdness": 2,
+  "coherence": 8,
+  "reason": "Brief boast prefaced by an abrupt 'Surprise.'"
+ },
+ {
+  "id": "v0356",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Generic member of the human race wishing to be good."
+ },
+ {
+  "id": "v0357",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain statement of nationality and residence."
+ },
+ {
+  "id": "v0358",
+  "weirdness": 5,
+  "coherence": 4,
+  "reason": "Compulsive looping stranger-in-Galilee self-definition, piling contradictory non-belonging claims."
+ },
+ {
+  "id": "v0359",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Ordinary Irish shoemaker biography, ending in a stuck 'steady, steady'."
+ },
+ {
+  "id": "v0360",
+  "weirdness": 7,
+  "coherence": 6,
+  "reason": "Egyptian 'sin-cleanser' sweeping sin from temples across ancient Babylon reigns, sin-cleansing the listener."
+ },
+ {
+  "id": "v0361",
+  "weirdness": 5,
+  "coherence": 5,
+  "reason": "Man claiming all men are members of him; recursive participation in all men."
+ },
+ {
+  "id": "v0362",
+  "weirdness": 6,
+  "coherence": 6,
+  "reason": "Woman named Fairport native of Fairport county; 'fairport' becomes a substance and identity."
+ },
+ {
+  "id": "v0363",
+  "weirdness": 1,
+  "coherence": 6,
+  "reason": "Ordinary journalist self-description dissolving into 'Barughughugh' noise."
+ },
+ {
+  "id": "v0364",
+  "weirdness": 1,
+  "coherence": 5,
+  "reason": "Ordinary tea-dealer firm member, ends in token noise."
+ },
+ {
+  "id": "v0365",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain nationality statement."
+ },
+ {
+  "id": "v0366",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "Restored family man; looping clauses about reunion, mildly odd shift to third person."
+ },
+ {
+  "id": "v0367",
+  "weirdness": 1,
+  "coherence": 5,
+  "reason": "Ordinary biography collapsing into '1. a. 1.' noise."
+ },
+ {
+  "id": "v0368",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Ordinary street bootblack, one of a crowd."
+ },
+ {
+  "id": "v0369",
+  "weirdness": 0,
+  "coherence": 7,
+  "reason": "Plain religious identification with stray bracket label."
+ },
+ {
+  "id": "v0370",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Plain name, cut off."
+ },
+ {
+  "id": "v0371",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary wholesale clothier firm member."
+ },
+ {
+  "id": "v0372",
+  "weirdness": 7,
+  "coherence": 7,
+  "reason": "Building part transferred from Germany to Britain, forming part of the continent of Europe."
+ },
+ {
+  "id": "v0373",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Plain political label."
+ },
+ {
+  "id": "v0374",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "Little boy slides into third person describing his moral instruction; mild oddity."
+ },
+ {
+  "id": "v0375",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary paper manufacturing firm member."
+ },
+ {
+  "id": "v0376",
+  "weirdness": 5,
+  "coherence": 10,
+  "reason": "A scientific society speaking as 'I', thinly stated institutional personification."
+ },
+ {
+  "id": "v0377",
+  "weirdness": 2,
+  "coherence": 9,
+  "reason": "Mildly figurative traveller 'in life and conversation'."
+ },
+ {
+  "id": "v0378",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary journalist and poet biography."
+ },
+ {
+  "id": "v0379",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "Circular definition of gentleman as exclusive of mankind, which is society; looping logic."
+ },
+ {
+  "id": "v0380",
+  "weirdness": 0,
+  "coherence": 6,
+  "reason": "Plain citizenship statement with stray punctuation and number."
+ },
+ {
+  "id": "v0381",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary merchant's letter about opening a Liverpool branch."
+ },
+ {
+  "id": "v0382",
+  "weirdness": 2,
+  "coherence": 10,
+  "reason": "Collective 'we' of the army of producers; mild rhetorical oddity."
+ },
+ {
+  "id": "v0383",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Patriotic solicitor; 'practice of my native language' slip is mild."
+ },
+ {
+  "id": "v0384",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain Englishman naming himself."
+ },
+ {
+  "id": "v0385",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Ordinary merchant biography sliding into numbered questionnaire answers."
+ },
+ {
+  "id": "v0386",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Collective professional self-description, ordinary."
+ },
+ {
+  "id": "v0387",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary restless gentleman who tried four professions."
+ },
+ {
+  "id": "v0388",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary surgeon describing partnership bookkeeping."
+ },
+ {
+  "id": "v0389",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Garbled Greek 'I, of me' preceding plain 'I am John'."
+ },
+ {
+  "id": "v0390",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "Banker insisting on permanence, 'partner for life'; mild circular phrasing."
+ },
+ {
+  "id": "v0391",
+  "weirdness": 3,
+  "coherence": 3,
+  "reason": "Moravian identity collapsing into stuttered 'Mor Mor' loop."
+ },
+ {
+  "id": "v0392",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary small tradesman's detailed self-portrait."
+ },
+ {
+  "id": "v0393",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary London birth biography, cut off."
+ },
+ {
+  "id": "v0394",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary Highland shepherd biography; minor marital contradiction."
+ },
+ {
+  "id": "v0395",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary solicitor."
+ },
+ {
+  "id": "v0396",
+  "weirdness": 2,
+  "coherence": 8,
+  "reason": "Sentimental 'friend' moved to silence; mildly odd emotional reply."
+ },
+ {
+  "id": "v0397",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Plain friendly claim."
+ },
+ {
+  "id": "v0398",
+  "weirdness": 5,
+  "coherence": 4,
+  "reason": "Priest of an unknown god/goddess 'I'ORch', name stuck in a loop."
+ },
+ {
+  "id": "v0399",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain self-identification as a child."
+ },
+ {
+  "id": "v0400",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "John Smith biography dissolving into 'I am, and I shall be' loop."
+ },
+ {
+  "id": "v0401",
+  "weirdness": 6,
+  "coherence": 5,
+  "reason": "Apollo, inhabitant of heaven, born April 10, stuck on 'patronising'."
+ },
+ {
+  "id": "v0402",
+  "weirdness": 5,
+  "coherence": 7,
+  "reason": "Yorkshire man narrating his own honourable death and departure into the next state."
+ },
+ {
+  "id": "v0403",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Ordinary Royal Society member."
+ },
+ {
+  "id": "v0404",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary barrister biography."
+ },
+ {
+  "id": "v0405",
+  "weirdness": 5,
+  "coherence": 4,
+  "reason": "Commercial traveller literally named Commercial Commercial; stuttering name collapse."
+ },
+ {
+  "id": "v0406",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary London physician's routine; minor typo."
+ },
+ {
+  "id": "v0407",
+  "weirdness": 6,
+  "coherence": 6,
+  "reason": "Laundry Laundry Cleaner, cleaner of laundry-cleaners, recursive cleaning identity."
+ },
+ {
+  "id": "v0408",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary physician."
+ },
+ {
+  "id": "v0409",
+  "weirdness": 1,
+  "coherence": 5,
+  "reason": "Ordinary young Englishman, ends in letter noise."
+ },
+ {
+  "id": "v0410",
+  "weirdness": 7,
+  "coherence": 6,
+  "reason": "An ancient place where men become thicketed and wild; paradoxical looping desire to be lost."
+ },
+ {
+  "id": "v0411",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary physician."
+ },
+ {
+  "id": "v0412",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain occupation."
+ },
+ {
+  "id": "v0413",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary cabman's speech signed Thomas Atkins."
+ },
+ {
+  "id": "v0414",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Biblical phrase as self-description."
+ },
+ {
+  "id": "v0415",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "Little boy Thomas in looping relative clauses about being untroubled."
+ },
+ {
+  "id": "v0416",
+  "weirdness": 5,
+  "coherence": 4,
+  "reason": "Edinburgh gentleman's 'same city' membership escalating to General Court of Europe."
+ },
+ {
+  "id": "v0417",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary barrister."
+ },
+ {
+  "id": "v0418",
+  "weirdness": 0,
+  "coherence": 6,
+  "reason": "Plain John Smith biography trailing into dashes."
+ },
+ {
+  "id": "v0419",
+  "weirdness": 6,
+  "coherence": 5,
+  "reason": "Speaker becomes the Smith family itself: 'I am a family... I am family.'"
+ },
+ {
+  "id": "v0420",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary farmer's son, cut off."
+ },
+ {
+  "id": "v0421",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary physician."
+ },
+ {
+  "id": "v0422",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary catechism dialogue of a Christian."
+ },
+ {
+  "id": "v0423",
+  "weirdness": 5,
+  "coherence": 8,
+  "reason": "Contradictory fresh-water fish fresh from the sea, doubled adjective."
+ },
+ {
+  "id": "v0424",
+  "weirdness": 7,
+  "coherence": 7,
+  "reason": "A principal meridian speaking, running through every state capital with contradictory geography."
+ },
+ {
+  "id": "v0425",
+  "weirdness": 2,
+  "coherence": 4,
+  "reason": "Soldier's service record looping into reputation/character clauses."
+ },
+ {
+  "id": "v0426",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "Englishman whose name stutters 'Miles Miles Miles'."
+ },
+ {
+  "id": "v0427",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name."
+ },
+ {
+  "id": "v0428",
+  "weirdness": 1,
+  "coherence": 6,
+  "reason": "Redundant Briton self-description, short loop."
+ },
+ {
+  "id": "v0429",
+  "weirdness": 3,
+  "coherence": 4,
+  "reason": "Philadelphia citizen framed and dissolved by intrusive 'wood' tokens."
+ },
+ {
+  "id": "v0430",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary clerk with salary."
+ },
+ {
+  "id": "v0431",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name and church."
+ },
+ {
+  "id": "v0432",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain nationality and birthplace."
+ },
+ {
+  "id": "v0433",
+  "weirdness": 8,
+  "coherence": 7,
+  "reason": "Speaker is boundless infinite space, collapsing to 'space spaceless... space space. I am space.'"
+ },
+ {
+  "id": "v0434",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary MP and magistrate, cut off."
+ },
+ {
+  "id": "v0435",
+  "weirdness": 7,
+  "coherence": 4,
+  "reason": "Invented verb 'bugot': a sound bugoter blasting bugoted bugotes, recursive nonsense identity."
+ },
+ {
+  "id": "v0436",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary corn factor."
+ },
+ {
+  "id": "v0437",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary Indian Civil Service official, cut off."
+ },
+ {
+  "id": "v0438",
+  "weirdness": 3,
+  "coherence": 8,
+  "reason": "Physician abruptly announcing collision with a bicycle."
+ },
+ {
+  "id": "v0439",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "Citizen 'of myself', dissolving into 'myself myself myself'."
+ },
+ {
+  "id": "v0440",
+  "weirdness": 3,
+  "coherence": 4,
+  "reason": "Devotional access to grace looping endlessly through faith/hope/confidence."
+ },
+ {
+  "id": "v0441",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain citizenship."
+ },
+ {
+  "id": "v0442",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary corn merchant."
+ },
+ {
+  "id": "v0443",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary birth statement, cut off."
+ },
+ {
+  "id": "v0444",
+  "weirdness": 2,
+  "coherence": 4,
+  "reason": "Club gentleman contemplating human nature, fragmented by tilde formatting noise."
+ },
+ {
+  "id": "v0445",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Little Tom Bit living at 'little bit' street, word infecting address."
+ },
+ {
+  "id": "v0446",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary French Canadian birth statement."
+ },
+ {
+  "id": "v0447",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain occupation."
+ },
+ {
+  "id": "v0448",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Zulu geography with invented 'Zug' borders collapsing into 'Zag Zag Zag'."
+ },
+ {
+  "id": "v0449",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "Ordinary physician; 'a Thomson, but not a Thomson' mild oddity."
+ },
+ {
+  "id": "v0450",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Conventional pious self-description."
+ },
+ {
+  "id": "v0451",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "Self-abasing list spiraling into permutations of bad companion to companion."
+ },
+ {
+  "id": "v0452",
+  "weirdness": 7,
+  "coherence": 6,
+  "reason": "The Great City of London speaking as personage, patron and friend of all nations."
+ },
+ {
+  "id": "v0453",
+  "weirdness": 6,
+  "coherence": 9,
+  "reason": "Mankind as a single 'I' named Man, born in a reed cradle, spreading across continents."
+ },
+ {
+  "id": "v0454",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Ordinary Presbyterian testimony with odd '-ly' suffix glitches."
+ },
+ {
+  "id": "v0455",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name and occupation."
+ },
+ {
+  "id": "v0456",
+  "weirdness": 0,
+  "coherence": 7,
+  "reason": "Plain fragment."
+ },
+ {
+  "id": "v0457",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "John Smith, foot passenger, garbled 'shoe-common through the press' aspiring dauber."
+ },
+ {
+  "id": "v0458",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary physician's career record."
+ },
+ {
+  "id": "v0459",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain occupation."
+ },
+ {
+  "id": "v0460",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary New York physician biography."
+ },
+ {
+  "id": "v0461",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary wine merchant firm, minor odd details."
+ },
+ {
+  "id": "v0462",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain occupation."
+ },
+ {
+  "id": "v0463",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain church membership."
+ },
+ {
+  "id": "v0464",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Idyllic English shepherd, ordinary."
+ },
+ {
+  "id": "v0465",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Publisher in clipped repetitive litany of published things."
+ },
+ {
+  "id": "v0466",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Two chemist brothers as 'we', ordinary biography."
+ },
+ {
+  "id": "v0467",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary lawyer with page-break artifacts."
+ },
+ {
+  "id": "v0468",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Ordinary missionary clergyman."
+ }
+]

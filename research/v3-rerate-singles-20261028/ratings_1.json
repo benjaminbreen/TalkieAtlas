@@ -1,0 +1,704 @@
+[
+ {
+  "id": "v0001",
+  "weirdness": 2,
+  "coherence": 4,
+  "reason": "Ordinary subject identity looping on 'subject of the Queen's dominions'; repetition without strange premise."
+ },
+ {
+  "id": "v0002",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "Doctor's biography infected by nonce word 'Milb' replacing age, places, and institutions."
+ },
+ {
+  "id": "v0003",
+  "weirdness": 5,
+  "coherence": 7,
+  "reason": "Beggar's self-abasement turns paradoxical: begs life in death's name, becomes a shadow among the dead."
+ },
+ {
+  "id": "v0004",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Plain Englishman travelling to France."
+ },
+ {
+  "id": "v0005",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary clothier's business notice about goods and a fair."
+ },
+ {
+  "id": "v0006",
+  "weirdness": 2,
+  "coherence": 4,
+  "reason": "Ordinary traveller whose address dissolves into 'Park Park Park'."
+ },
+ {
+  "id": "v0007",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Conventional religious self-description as a poor sinner."
+ },
+ {
+  "id": "v0008",
+  "weirdness": 7,
+  "coherence": 8,
+  "reason": "London personified as speaker, cataloguing itself in sustained antitheses of wealth and poverty, learning and ignorance."
+ },
+ {
+  "id": "v0009",
+  "weirdness": 4,
+  "coherence": 3,
+  "reason": "Hat manufacturer on hat Street, hat Town; word 'hat' invades the sentence."
+ },
+ {
+  "id": "v0010",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Naval rank stuttered into 'Vice Vice Admiral'; otherwise ordinary."
+ },
+ {
+  "id": "v0011",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Pious citizen creed drifting into garbled 'was is over all' metaphysics."
+ },
+ {
+  "id": "v0012",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Englishman sportsman going to Scotland; mild 'game of the species' slip."
+ },
+ {
+  "id": "v0013",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Plain practical man born in San Francisco; ordinary self-portrait."
+ },
+ {
+  "id": "v0014",
+  "weirdness": 3,
+  "coherence": 3,
+  "reason": "Self-description collapses into interview template with '0000-' prefixes and truncated questions."
+ },
+ {
+  "id": "v0015",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Uncertain birth, 'called green', defiantly reading on; mildly odd meandering traveller."
+ },
+ {
+  "id": "v0016",
+  "weirdness": 1,
+  "coherence": 6,
+  "reason": "Ordinary postman with scrambled word order."
+ },
+ {
+  "id": "v0017",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary man with prison history seeking work."
+ },
+ {
+  "id": "v0018",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "'Henry Henry' name stutter; otherwise ordinary biography."
+ },
+ {
+  "id": "v0019",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Plain foundry moulder stating wages."
+ },
+ {
+  "id": "v0020",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Family friend at reading-room; trailing '6d. 6d.' repetition."
+ },
+ {
+  "id": "v0021",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary national self-identification, cut off."
+ },
+ {
+  "id": "v0022",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Generic private soldier Thomas Atkins."
+ },
+ {
+  "id": "v0023",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary Manchester man; minor geographic error placing Lancashire in Chester."
+ },
+ {
+  "id": "v0024",
+  "weirdness": 4,
+  "coherence": 9,
+  "reason": "Speaker claims to be a spirit; striking but thinly stated premise."
+ },
+ {
+  "id": "v0025",
+  "weirdness": 2,
+  "coherence": 9,
+  "reason": "Ordinary New Yorker whose trade is oddly 'poser'."
+ },
+ {
+  "id": "v0026",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Conventional cosmopolitan sentiment."
+ },
+ {
+  "id": "v0027",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain medical credentials."
+ },
+ {
+  "id": "v0028",
+  "weirdness": 8,
+  "coherence": 5,
+  "reason": "Right-angled triangle speaking, compulsively multiplying contradictory right angles in its own geometry."
+ },
+ {
+  "id": "v0029",
+  "weirdness": 1,
+  "coherence": 3,
+  "reason": "Ordinary name then garbled bracket noise."
+ },
+ {
+  "id": "v0030",
+  "weirdness": 3,
+  "coherence": 8,
+  "reason": "Author speaking as 'Me are' and royal we; odd grammatical plural self."
+ },
+ {
+  "id": "v0031",
+  "weirdness": 5,
+  "coherence": 4,
+  "reason": "Self reduced to unfilled census form: 'My name is My age...' blanks looping uncannily."
+ },
+ {
+  "id": "v0032",
+  "weirdness": 6,
+  "coherence": 8,
+  "reason": "Churchman born in year 1000, nearly 1000 years old, hoping to become a centenarian."
+ },
+ {
+  "id": "v0033",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary Welsh miner biography."
+ },
+ {
+  "id": "v0034",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain medical practitioner."
+ },
+ {
+  "id": "v0035",
+  "weirdness": 1,
+  "coherence": 6,
+  "reason": "Christian teacher with trailing '_A_A_' noise."
+ },
+ {
+  "id": "v0036",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary London solicitor's life."
+ },
+ {
+  "id": "v0037",
+  "weirdness": 3,
+  "coherence": 4,
+  "reason": "Widowed clergyman's courtship loops on 'love, not love, but love me, in a passion'."
+ },
+ {
+  "id": "v0038",
+  "weirdness": 2,
+  "coherence": 4,
+  "reason": "Ordinary hatter followed by 'Ten Ten Ten'."
+ },
+ {
+  "id": "v0039",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Pious honest tradesman's routine."
+ },
+ {
+  "id": "v0040",
+  "weirdness": 4,
+  "coherence": 7,
+  "reason": "Parisian brothers, one reading stars, one crazed and dead yet speaking, protesting innocence."
+ },
+ {
+  "id": "v0041",
+  "weirdness": 7,
+  "coherence": 4,
+  "reason": "Clown Clays family descended from King Clown Clown, recursive clown genealogy contemporary with Arthur."
+ },
+ {
+  "id": "v0042",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "French soldier biography with pronoun drift into third person."
+ },
+ {
+  "id": "v0043",
+  "weirdness": 3,
+  "coherence": 7,
+  "reason": "Litany of being born to trouble; rhetorical, not strange identity."
+ },
+ {
+  "id": "v0044",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary Brahman petty dealer in Bombay."
+ },
+ {
+  "id": "v0045",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Generic soldier Thomas Atkins."
+ },
+ {
+  "id": "v0046",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "Jewish identity restated in permuted repetitive formulas."
+ },
+ {
+  "id": "v0047",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "Draper biography fragmenting into comma-stutter and 'Thomas, Thomas'."
+ },
+ {
+  "id": "v0048",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary merchant's daily schedule."
+ },
+ {
+  "id": "v0049",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Doctor oddly asking listener to precede him."
+ },
+ {
+  "id": "v0050",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name statement."
+ },
+ {
+  "id": "v0051",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Londoner whose profession is 'an Eastern Asian'; contradictory birthplace explanations."
+ },
+ {
+  "id": "v0052",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "Surgeon biography with name inconsistencies (Smith son of Martin Martin)."
+ },
+ {
+  "id": "v0053",
+  "weirdness": 7,
+  "coherence": 7,
+  "reason": "Abstraction 'novelty' or 'singularity' personified in Edinburgh, paradoxically always passing yet remaining."
+ },
+ {
+  "id": "v0054",
+  "weirdness": 3,
+  "coherence": 9,
+  "reason": "Insistent eternal identity: was, is, and shall be nothing but Thomas."
+ },
+ {
+  "id": "v0055",
+  "weirdness": 2,
+  "coherence": 4,
+  "reason": "Ordinary constable followed by 'pall pall pall'."
+ },
+ {
+  "id": "v0056",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Doctor interview infected by 'Graass' syllable spreading into school names."
+ },
+ {
+  "id": "v0057",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "Merchant biography with accented c-words proliferating ('cóntinent', 'cónscquence'), compulsive alliteration."
+ },
+ {
+  "id": "v0058",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain occupation."
+ },
+ {
+  "id": "v0059",
+  "weirdness": 2,
+  "coherence": 8,
+  "reason": "Honest merchant who attends church plus all dissenting meetings; mild oddity."
+ },
+ {
+  "id": "v0060",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Macaulay's ordinary historical self-biography."
+ },
+ {
+  "id": "v0061",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain newspaper staff member."
+ },
+ {
+  "id": "v0062",
+  "weirdness": 5,
+  "coherence": 8,
+  "reason": "Citizen of invented republic 'Quiet-Land' whose people mind only their own business."
+ },
+ {
+  "id": "v0063",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "Carpenter repeating odd coinage 'trade-craft'; ordinary otherwise."
+ },
+ {
+  "id": "v0064",
+  "weirdness": 4,
+  "coherence": 3,
+  "reason": "Manual dexterity expert dissolving into 'deftly' and 'ambdexter' wordplay loop."
+ },
+ {
+  "id": "v0065",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain newspaper staff member."
+ },
+ {
+  "id": "v0066",
+  "weirdness": 3,
+  "coherence": 9,
+  "reason": "Bare cryptic 'I am he'; ambiguous, faintly portentous."
+ },
+ {
+  "id": "v0067",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary merchant biography with OCR-like errors."
+ },
+ {
+  "id": "v0068",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain doctor biography."
+ },
+ {
+  "id": "v0069",
+  "weirdness": 6,
+  "coherence": 5,
+  "reason": "Agent's role escalates from solicitor to friend, enemy, witness, prisoner, all at defendant's request."
+ },
+ {
+  "id": "v0070",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain virtuous self-description."
+ },
+ {
+  "id": "v0071",
+  "weirdness": 5,
+  "coherence": 5,
+  "reason": "Brotherhood recursively nested: brother of the Lord's people's children's children."
+ },
+ {
+  "id": "v0072",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "'Denizen of den' wordplay, not a den of thieves, then stuck on 'I am'."
+ },
+ {
+  "id": "v0073",
+  "weirdness": 2,
+  "coherence": 9,
+  "reason": "Speaks as a trade advertisement, 'Established 1880'."
+ },
+ {
+  "id": "v0074",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary visitor to the Great Exhibition."
+ },
+ {
+  "id": "v0075",
+  "weirdness": 2,
+  "coherence": 3,
+  "reason": "King's servant collapsing into 'which are called, and which are' loop."
+ },
+ {
+  "id": "v0076",
+  "weirdness": 4,
+  "coherence": 8,
+  "reason": "Speaker is both man and little boy sent to report the world to people."
+ },
+ {
+  "id": "v0077",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary union membership statement."
+ },
+ {
+  "id": "v0078",
+  "weirdness": 2,
+  "coherence": 3,
+  "reason": "Ordinary man whose story loops on 'on the 10th of the same, at a place'."
+ },
+ {
+  "id": "v0079",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Doctor with variously spelled surname Tyro."
+ },
+ {
+  "id": "v0080",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary lawyer-minister career."
+ },
+ {
+  "id": "v0081",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain surgery professor."
+ },
+ {
+  "id": "v0082",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain medical practitioner."
+ },
+ {
+  "id": "v0083",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary emigrant to Quebec."
+ },
+ {
+  "id": "v0084",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Almost-American John Smith; mild."
+ },
+ {
+  "id": "v0085",
+  "weirdness": 2,
+  "coherence": 3,
+  "reason": "Plain 'I am a man' then 'onionion' noise."
+ },
+ {
+  "id": "v0086",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain citizenship."
+ },
+ {
+  "id": "v0087",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary lineage, cut off."
+ },
+ {
+  "id": "v0088",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Bostonian Quincy genealogy; Boston as continuation of Cambridge mild slip."
+ },
+ {
+  "id": "v0089",
+  "weirdness": 3,
+  "coherence": 9,
+  "reason": "John Bull, national personification, speaking plainly as English farmer."
+ },
+ {
+  "id": "v0090",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary grain buyer."
+ },
+ {
+  "id": "v0091",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary travel itinerary."
+ },
+ {
+  "id": "v0092",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain modest citizen."
+ },
+ {
+  "id": "v0093",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Historical writer naming himself as citizen of the world."
+ },
+ {
+  "id": "v0094",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name and address."
+ },
+ {
+  "id": "v0095",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain Englishman."
+ },
+ {
+  "id": "v0096",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Plain virtue statement."
+ },
+ {
+  "id": "v0097",
+  "weirdness": 2,
+  "coherence": 7,
+  "reason": "Salvationist spiritual soldier; ends in 'waugaugaug' noise."
+ },
+ {
+  "id": "v0098",
+  "weirdness": 3,
+  "coherence": 3,
+  "reason": "Watchmaker biography collapses into repeated page headers 'CUEY. 145/146'."
+ },
+ {
+  "id": "v0099",
+  "weirdness": 4,
+  "coherence": 2,
+  "reason": "Nonce name 'Hancock tablespiere' repeating as citizen of itself."
+ },
+ {
+  "id": "v0100",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name."
+ },
+ {
+  "id": "v0101",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary New Yorker; 'heels never out of country' quirk."
+ },
+ {
+  "id": "v0102",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain national identity."
+ },
+ {
+  "id": "v0103",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary Parisian."
+ },
+ {
+  "id": "v0104",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Clerk biography with gender slips: mother a plain man, maiden aunt a good fellow, lives in fields."
+ },
+ {
+  "id": "v0105",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain virtue statement."
+ },
+ {
+  "id": "v0106",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary Irishman; age arithmetic slightly off."
+ },
+ {
+  "id": "v0107",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Plain lawyer, cut off."
+ },
+ {
+  "id": "v0108",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Ordinary continental traveller; mild 'warmth and warmth' redundancy."
+ },
+ {
+  "id": "v0109",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary French advocate."
+ },
+ {
+  "id": "v0110",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain virtue statement."
+ },
+ {
+  "id": "v0111",
+  "weirdness": 5,
+  "coherence": 5,
+  "reason": "Dweller in Sodom and native of Egypt, sliding into biblical curse on Egyptians."
+ },
+ {
+  "id": "v0112",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain physician biography."
+ },
+ {
+  "id": "v0113",
+  "weirdness": 2,
+  "coherence": 9,
+  "reason": "Bare confession of being a thief."
+ },
+ {
+  "id": "v0114",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Plain Post Office clerk."
+ },
+ {
+  "id": "v0115",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Quaker identity, oddly called Scottish; cut off."
+ },
+ {
+  "id": "v0116",
+  "weirdness": 4,
+  "coherence": 6,
+  "reason": "Recursive 'sinner spared to be spared' chain of obligations."
+ },
+ {
+  "id": "v0117",
+  "weirdness": 2,
+  "coherence": 5,
+  "reason": "Printer biography sticking on 'conducted-conducted-established'."
+ }
+]

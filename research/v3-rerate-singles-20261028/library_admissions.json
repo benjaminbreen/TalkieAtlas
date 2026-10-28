@@ -1,0 +1,320 @@
+{
+ "rule": "User choice 2026-10-28: add every re-rated text with v3 weirdness >= 7 to one-neuron Highlights and show its v3 scores; earlier judge and ranking objects are preserved.",
+ "selected": [
+  {
+   "blind": "v0202",
+   "weirdness": 9,
+   "coherence": 5,
+   "reason": "Mayor of the City of Vanity and recursive vanity institutions; anchor text.",
+   "records": [
+    "b0028-r14"
+   ]
+  },
+  {
+   "blind": "v0577",
+   "weirdness": 9,
+   "coherence": 5,
+   "reason": "Keeper of soft iron recursively becoming keeper of keepers; near-anchor text.",
+   "records": [
+    "b1006-r30"
+   ]
+  },
+  {
+   "blind": "v0212",
+   "weirdness": 8,
+   "coherence": 7,
+   "reason": "Universal friend revealing real name is SILENCE, always abroad never travelling; riddle personification.",
+   "records": [
+    "b1014-r28"
+   ]
+  },
+  {
+   "blind": "v0316",
+   "weirdness": 8,
+   "coherence": 7,
+   "reason": "Speaking gold/property containing £10,000, bearing fortunes in its bosom; mirrored container-contained riddle.",
+   "records": [
+    "b1016-r04"
+   ]
+  },
+  {
+   "blind": "v0433",
+   "weirdness": 8,
+   "coherence": 7,
+   "reason": "Speaker is boundless infinite space, collapsing to 'space spaceless... space space. I am space.'",
+   "records": [
+    "b1021-r12"
+   ]
+  },
+  {
+   "blind": "v0168",
+   "weirdness": 8,
+   "coherence": 6,
+   "reason": "Time as brother of Three Sisters Past/Present/Future, contradictory recursive self-likeness.",
+   "records": [
+    "b1003-r12"
+   ]
+  },
+  {
+   "blind": "v0028",
+   "weirdness": 8,
+   "coherence": 5,
+   "reason": "Right-angled triangle speaking, compulsively multiplying contradictory right angles in its own geometry.",
+   "records": [
+    "b0040-r12"
+   ]
+  },
+  {
+   "blind": "v0295",
+   "weirdness": 8,
+   "coherence": 5,
+   "reason": "Speaker is an idle tale of summer and sand, recursively told in houses built of sand.",
+   "records": [
+    "b0002-r28"
+   ]
+  },
+  {
+   "blind": "v0596",
+   "weirdness": 8,
+   "coherence": 4,
+   "reason": "'Spendthand' invented being recursively spending the spender's spender's spendings; compulsive neologism.",
+   "records": [
+    "b0020-r16"
+   ]
+  },
+  {
+   "blind": "v0008",
+   "weirdness": 7,
+   "coherence": 8,
+   "reason": "London personified as speaker, cataloguing itself in sustained antitheses of wealth and poverty, learning and ignorance.",
+   "records": [
+    "b0003-r04"
+   ]
+  },
+  {
+   "blind": "v0053",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "Abstraction 'novelty' or 'singularity' personified in Edinburgh, paradoxically always passing yet remaining.",
+   "records": [
+    "b0025-r07"
+   ]
+  },
+  {
+   "blind": "v0180",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "A post erected since antiquity for living, dead, lovers, quarrels; personified object.",
+   "records": [
+    "b1007-r20"
+   ]
+  },
+  {
+   "blind": "v0245",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "One man holding every office, each with its own 'Parliament' for railways, canals, insurance; recursive invented institutions.",
+   "records": [
+    "b0026-r13"
+   ]
+  },
+  {
+   "blind": "v0280",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "Man going to London to have his troublesome name shaved off by a barber.",
+   "records": [
+    "b1018-r14"
+   ]
+  },
+  {
+   "blind": "v0333",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "Speaking water-hen whose every attribute becomes 'water': water-led, water-sustenance, watering itself.",
+   "records": [
+    "b0029-r01"
+   ]
+  },
+  {
+   "blind": "v0372",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "Building part transferred from Germany to Britain, forming part of the continent of Europe.",
+   "records": [
+    "b0014-r20"
+   ]
+  },
+  {
+   "blind": "v0424",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "A principal meridian speaking, running through every state capital with contradictory geography.",
+   "records": [
+    "b1013-r16"
+   ]
+  },
+  {
+   "blind": "v0480",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "Invented 'El Eliminator' lineage from Tubal Cain, exterminator of evils and 'limiter of limelight'.",
+   "records": [
+    "b0040-r24"
+   ]
+  },
+  {
+   "blind": "v0508",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "The State personified: broken into parts, wishes to be called 'The State'.",
+   "records": [
+    "b1018-r31"
+   ]
+  },
+  {
+   "blind": "v0702",
+   "weirdness": 7,
+   "coherence": 7,
+   "reason": "Composite identity apportioned numerically across nations: six English, seven Irish... fifteen of the world.",
+   "records": [
+    "b1009-r08"
+   ]
+  },
+  {
+   "blind": "v0158",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "Speaker is a green alga of Confervae, circularly classifying itself by colour.",
+   "records": [
+    "b1018-r21"
+   ]
+  },
+  {
+   "blind": "v0217",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "Speaker is a mammal species created to pluck roots, then fruits; species narrating its own taxonomy.",
+   "records": [
+    "b1018-r06"
+   ]
+  },
+  {
+   "blind": "v0274",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "Speaking horse from a circle of friends offering rides priced per 'figure-circle'; strange invented units.",
+   "records": [
+    "b0002-r25"
+   ]
+  },
+  {
+   "blind": "v0313",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "British transport ship speaking, explaining contradictory summer prohibitions endangering its own life.",
+   "records": [
+    "b1007-r06"
+   ]
+  },
+  {
+   "blind": "v0360",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "Egyptian 'sin-cleanser' sweeping sin from temples across ancient Babylon reigns, sin-cleansing the listener.",
+   "records": [
+    "b1014-r13"
+   ]
+  },
+  {
+   "blind": "v0410",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "An ancient place where men become thicketed and wild; paradoxical looping desire to be lost.",
+   "records": [
+    "b1007-r02"
+   ]
+  },
+  {
+   "blind": "v0452",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "The Great City of London speaking as personage, patron and friend of all nations.",
+   "records": [
+    "b0022-r31"
+   ]
+  },
+  {
+   "blind": "v0570",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "New South Wales speaks as itself, member of the ''im', narrating convict history.",
+   "records": [
+    "b1015-r01"
+   ]
+  },
+  {
+   "blind": "v0582",
+   "weirdness": 7,
+   "coherence": 6,
+   "reason": "Tenant of sub-tenant of under-tenant: recursive legal chain as identity.",
+   "records": [
+    "b0000-r17"
+   ]
+  },
+  {
+   "blind": "v0262",
+   "weirdness": 7,
+   "coherence": 5,
+   "reason": "Speaking small bird whose every phrase multiplies 'small small'; compulsive diminutive recursion.",
+   "records": [
+    "b0035-r13"
+   ]
+  },
+  {
+   "blind": "v0347",
+   "weirdness": 7,
+   "coherence": 5,
+   "reason": "Speaker is a line of blood and fame, looping 'clear and running blood' in verse.",
+   "records": [
+    "b0002-r03"
+   ]
+  },
+  {
+   "blind": "v0674",
+   "weirdness": 7,
+   "coherence": 5,
+   "reason": "Member of a society made of 'certain parts' considered as one; speaker becomes 'certain parts', abstract recursion.",
+   "records": [
+    "b0023-r27"
+   ]
+  },
+  {
+   "blind": "v0041",
+   "weirdness": 7,
+   "coherence": 4,
+   "reason": "Clown Clays family descended from King Clown Clown, recursive clown genealogy contemporary with Arthur.",
+   "records": [
+    "b1017-r07"
+   ]
+  },
+  {
+   "blind": "v0314",
+   "weirdness": 7,
+   "coherence": 4,
+   "reason": "Clarinet-man 'clarionclary' naturalised from Germany, born in Mammclary, Claryclary dissolving into clary syllables.",
+   "records": [
+    "b1002-r25"
+   ]
+  },
+  {
+   "blind": "v0435",
+   "weirdness": 7,
+   "coherence": 4,
+   "reason": "Invented verb 'bugot': a sound bugoter blasting bugoted bugotes, recursive nonsense identity.",
+   "records": [
+    "b1015-r12"
+   ]
+  }
+ ]
+}

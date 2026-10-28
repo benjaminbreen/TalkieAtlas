@@ -1,0 +1,704 @@
+[
+ {
+  "id": "v0586",
+  "weirdness": 4,
+  "coherence": 8,
+  "reason": "Collective committee 'collecting' the Cornish language with a net; odd metaphor of gathering a language."
+ },
+ {
+  "id": "v0587",
+  "weirdness": 3,
+  "coherence": 4,
+  "reason": "Ordinary barrister whose description collapses into compulsive 'late late late' repetition."
+ },
+ {
+  "id": "v0588",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary American self-description, cut off."
+ },
+ {
+  "id": "v0589",
+  "weirdness": 3,
+  "coherence": 4,
+  "reason": "Catechism-style dialogue with numeric noise; 'a gothic is a gothic' tautology."
+ },
+ {
+  "id": "v0590",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary publisher's self-identification."
+ },
+ {
+  "id": "v0591",
+  "weirdness": 1,
+  "coherence": 3,
+  "reason": "Ordinary citizen claim degrading into letter noise."
+ },
+ {
+  "id": "v0592",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Mundane New York merchant biography."
+ },
+ {
+  "id": "v0593",
+  "weirdness": 0,
+  "coherence": 5,
+  "reason": "Ordinary medical identity with 'of of of' stutter."
+ },
+ {
+  "id": "v0594",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Ordinary London doctor listing committee memberships."
+ },
+ {
+  "id": "v0595",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary merchant firm membership."
+ },
+ {
+  "id": "v0596",
+  "weirdness": 8,
+  "coherence": 4,
+  "reason": "'Spendthand' invented being recursively spending the spender's spender's spendings; compulsive neologism."
+ },
+ {
+  "id": "v0597",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary legal practitioner."
+ },
+ {
+  "id": "v0598",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Catechism question-answer drill about a merchant with numbering noise; mundane content."
+ },
+ {
+  "id": "v0599",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary surgeon."
+ },
+ {
+  "id": "v0600",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary physician with name."
+ },
+ {
+  "id": "v0601",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Roman cleric biography; only oddity is a 'court of the Dannen'."
+ },
+ {
+  "id": "v0602",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary fire department member."
+ },
+ {
+  "id": "v0603",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Citizen of New York and New Orleans looping 'friend to the poor' and virtue."
+ },
+ {
+  "id": "v0604",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Escalating civic list collapsing into repeated 'I am a shoemaker'."
+ },
+ {
+  "id": "v0605",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Plain collective 'We are men'."
+ },
+ {
+  "id": "v0606",
+  "weirdness": 6,
+  "coherence": 7,
+  "reason": "Speaker allied to London bookshops, enemy to quiet, at debate with conduits; reads like personified noise or a shop."
+ },
+ {
+  "id": "v0607",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Ordinary historical writer naming himself."
+ },
+ {
+  "id": "v0608",
+  "weirdness": 2,
+  "coherence": 2,
+  "reason": "'Christian' repeated with no other content."
+ },
+ {
+  "id": "v0609",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Plain imperial membership."
+ },
+ {
+  "id": "v0610",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Ruminative sixty-year-old on mortality; ordinary."
+ },
+ {
+  "id": "v0611",
+  "weirdness": 0,
+  "coherence": 6,
+  "reason": "Ordinary merchant firm, trailing into letter noise."
+ },
+ {
+  "id": "v0612",
+  "weirdness": 2,
+  "coherence": 9,
+  "reason": "Frenchman with caricature name 'Crapaud' (toad); otherwise ordinary."
+ },
+ {
+  "id": "v0613",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary soldier."
+ },
+ {
+  "id": "v0614",
+  "weirdness": 5,
+  "coherence": 9,
+  "reason": "Ubiquitous Queen's servant riddle: in every street and way, 'all the world is in the way of me'."
+ },
+ {
+  "id": "v0615",
+  "weirdness": 0,
+  "coherence": 7,
+  "reason": "Mundane postman biography with minor garbling."
+ },
+ {
+  "id": "v0616",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary London pedestrian."
+ },
+ {
+  "id": "v0617",
+  "weirdness": 2,
+  "coherence": 9,
+  "reason": "Disembodied well-wisher with no identity; mildly odd address."
+ },
+ {
+  "id": "v0618",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "Dane whose name and birthplaces all collapse into 'Christians' recursion."
+ },
+ {
+  "id": "v0619",
+  "weirdness": 2,
+  "coherence": 9,
+  "reason": "Redundant string of synonyms for being a Londoner."
+ },
+ {
+  "id": "v0620",
+  "weirdness": 4,
+  "coherence": 5,
+  "reason": "Soldier 'drawn from the ballot, and shot into the line' looping like a projectile."
+ },
+ {
+  "id": "v0621",
+  "weirdness": 3,
+  "coherence": 4,
+  "reason": "Stranger in foreign land breaking into capitalized stutter."
+ },
+ {
+  "id": "v0622",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary shoemaker biography."
+ },
+ {
+  "id": "v0623",
+  "weirdness": 6,
+  "coherence": 8,
+  "reason": "Terse uncanny identification with the addressee: 'I am you'."
+ },
+ {
+  "id": "v0624",
+  "weirdness": 2,
+  "coherence": 8,
+  "reason": "Prosperous businessman obsessively calibrating his degree of prosperity."
+ },
+ {
+  "id": "v0625",
+  "weirdness": 1,
+  "coherence": 5,
+  "reason": "Ordinary man whose address loops into 'Academy'."
+ },
+ {
+  "id": "v0626",
+  "weirdness": 5,
+  "coherence": 7,
+  "reason": "Englishman tallying travels as legal 'admissions' and implied recognitions of governments and religions."
+ },
+ {
+  "id": "v0627",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Plain John Smith; ordinary."
+ },
+ {
+  "id": "v0628",
+  "weirdness": 3,
+  "coherence": 4,
+  "reason": "Wood engraver whose work dissolves into 'Cutting Deborah' loop."
+ },
+ {
+  "id": "v0629",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Mundane Dorset childhood biography."
+ },
+ {
+  "id": "v0630",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Merchant whose buying and selling becomes endless 'immediately, again, continually' loop."
+ },
+ {
+  "id": "v0631",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary name and place."
+ },
+ {
+  "id": "v0632",
+  "weirdness": 0,
+  "coherence": 4,
+  "reason": "Ordinary medical identity collapsing into 'acc'."
+ },
+ {
+  "id": "v0633",
+  "weirdness": 0,
+  "coherence": 5,
+  "reason": "Englishman whose name is garbled; nothing strange."
+ },
+ {
+  "id": "v0634",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary Glasgow merchant travel plans."
+ },
+ {
+  "id": "v0635",
+  "weirdness": 3,
+  "coherence": 7,
+  "reason": "Man of peace concluding he is 'a little a butcher'."
+ },
+ {
+  "id": "v0636",
+  "weirdness": 5,
+  "coherence": 7,
+  "reason": "Pedestrian claims to be longer than thought and 'a bird of long continuance'."
+ },
+ {
+  "id": "v0637",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary firm membership, cut."
+ },
+ {
+  "id": "v0638",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "School-board member; drifts into a writing exercise prompt."
+ },
+ {
+  "id": "v0639",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary church membership with stray number."
+ },
+ {
+  "id": "v0640",
+  "weirdness": 4,
+  "coherence": 6,
+  "reason": "Weaver defined by paradoxical negatives: profitless, hurtless, things destroyed."
+ },
+ {
+  "id": "v0641",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Conservative Englishman looping qualified friendships."
+ },
+ {
+  "id": "v0642",
+  "weirdness": 0,
+  "coherence": 7,
+  "reason": "Frenchman, cut off."
+ },
+ {
+  "id": "v0643",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain passenger."
+ },
+ {
+  "id": "v0644",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary medical collective."
+ },
+ {
+  "id": "v0645",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary wine merchant firm."
+ },
+ {
+  "id": "v0646",
+  "weirdness": 0,
+  "coherence": 6,
+  "reason": "Haberdasher's son biography ending in '1 1 1'."
+ },
+ {
+  "id": "v0647",
+  "weirdness": 0,
+  "coherence": 6,
+  "reason": "Clothing merchant with scrambled address."
+ },
+ {
+  "id": "v0648",
+  "weirdness": 6,
+  "coherence": 4,
+  "reason": "Chateaubriand recursively is the author, town, and department all named Chateaubriand."
+ },
+ {
+  "id": "v0649",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name."
+ },
+ {
+  "id": "v0650",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary surgeon's credentials."
+ },
+ {
+  "id": "v0651",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary physician; implausibly huge patient counts."
+ },
+ {
+  "id": "v0652",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Ordinary historical writer naming himself."
+ },
+ {
+  "id": "v0653",
+  "weirdness": 5,
+  "coherence": 5,
+  "reason": "Egyptian who is stamped on paper seals and impressed on every bottle's neck, like a trademark."
+ },
+ {
+  "id": "v0654",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Pilgrim of the plain of life, looping 'pleasant'."
+ },
+ {
+  "id": "v0655",
+  "weirdness": 5,
+  "coherence": 7,
+  "reason": "A spring speaking as 'I'; personified but very thin premise."
+ },
+ {
+  "id": "v0656",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary silk merchant."
+ },
+ {
+  "id": "v0657",
+  "weirdness": 4,
+  "coherence": 5,
+  "reason": "Railway man calling himself 'member of the engine', drifting among brandy and the sick."
+ },
+ {
+  "id": "v0658",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary citizen."
+ },
+ {
+  "id": "v0659",
+  "weirdness": 1,
+  "coherence": 5,
+  "reason": "Respectable merchant looping 'honest and honest'."
+ },
+ {
+  "id": "v0660",
+  "weirdness": 4,
+  "coherence": 6,
+  "reason": "Richard Roe recounting contradictory, shifting counts of visits to countries."
+ },
+ {
+  "id": "v0661",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain weaver."
+ },
+ {
+  "id": "v0662",
+  "weirdness": 5,
+  "coherence": 9,
+  "reason": "An institution, the Church of Scotland, speaking as 'I'; thin."
+ },
+ {
+  "id": "v0663",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Merchant in contradictory statements about profit and wanting money."
+ },
+ {
+  "id": "v0664",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary lawyer biography."
+ },
+ {
+  "id": "v0665",
+  "weirdness": 1,
+  "coherence": 9,
+  "reason": "Plain collective of British inhabitants."
+ },
+ {
+  "id": "v0666",
+  "weirdness": 5,
+  "coherence": 5,
+  "reason": "Speaker of the Commons recursively punning 'I, who speak, preside'; compulsive self-reference."
+ },
+ {
+  "id": "v0667",
+  "weirdness": 2,
+  "coherence": 8,
+  "reason": "New Zealand native with confused geography; ordinary biography."
+ },
+ {
+  "id": "v0668",
+  "weirdness": 5,
+  "coherence": 9,
+  "reason": "A nation, the United States, speaking as 'I'; thin."
+ },
+ {
+  "id": "v0669",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "American called 'Pic', stuttering; mild oddity."
+ },
+ {
+  "id": "v0670",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Massachusetts men who 'purify metal from dust' and need personal matters restored."
+ },
+ {
+  "id": "v0671",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Ordinary Border shoemaker-poet biography."
+ },
+ {
+  "id": "v0672",
+  "weirdness": 1,
+  "coherence": 3,
+  "reason": "Methodist repeated; nothing strange."
+ },
+ {
+  "id": "v0673",
+  "weirdness": 1,
+  "coherence": 3,
+  "reason": "Catechism stalling on 'WWhat is your'."
+ },
+ {
+  "id": "v0674",
+  "weirdness": 7,
+  "coherence": 5,
+  "reason": "Member of a society made of 'certain parts' considered as one; speaker becomes 'certain parts', abstract recursion."
+ },
+ {
+  "id": "v0675",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary name and place."
+ },
+ {
+  "id": "v0676",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary French physician."
+ },
+ {
+  "id": "v0677",
+  "weirdness": 2,
+  "coherence": 8,
+  "reason": "John Smith's daily routine; amuses himself looking at dust."
+ },
+ {
+  "id": "v0678",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain political label."
+ },
+ {
+  "id": "v0679",
+  "weirdness": 1,
+  "coherence": 5,
+  "reason": "Justiciary stuttering 'just just just'."
+ },
+ {
+  "id": "v0680",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Ordinary physician."
+ },
+ {
+  "id": "v0681",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name."
+ },
+ {
+  "id": "v0682",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Mundane accountant biography."
+ },
+ {
+  "id": "v0683",
+  "weirdness": 0,
+  "coherence": 7,
+  "reason": "Retired surgeon, numeric noise at end."
+ },
+ {
+  "id": "v0684",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name."
+ },
+ {
+  "id": "v0685",
+  "weirdness": 1,
+  "coherence": 10,
+  "reason": "Plain prisoner."
+ },
+ {
+  "id": "v0686",
+  "weirdness": 3,
+  "coherence": 7,
+  "reason": "Speaker defined by tangled ties to the addressee's grandfather and great-grandfather."
+ },
+ {
+  "id": "v0687",
+  "weirdness": 0,
+  "coherence": 8,
+  "reason": "Soldier, cut off."
+ },
+ {
+  "id": "v0688",
+  "weirdness": 0,
+  "coherence": 9,
+  "reason": "Ordinary solicitor."
+ },
+ {
+  "id": "v0689",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain soldier."
+ },
+ {
+  "id": "v0690",
+  "weirdness": 4,
+  "coherence": 3,
+  "reason": "Bilingual Santa Claus description degenerating into mixed German-English 'Krist. Klaus' fragments."
+ },
+ {
+  "id": "v0691",
+  "weirdness": 1,
+  "coherence": 5,
+  "reason": "Justice of the peace then noise."
+ },
+ {
+  "id": "v0692",
+  "weirdness": 3,
+  "coherence": 5,
+  "reason": "Surgeon's address drifts into a gazetteer of invented Scottish lakes."
+ },
+ {
+  "id": "v0693",
+  "weirdness": 4,
+  "coherence": 4,
+  "reason": "Jesuit Frenchman 'follows the profession of a book', looping 'course of action'."
+ },
+ {
+  "id": "v0694",
+  "weirdness": 3,
+  "coherence": 6,
+  "reason": "Carlyle slides into third person and becomes a medical practitioner; identity slip."
+ },
+ {
+  "id": "v0695",
+  "weirdness": 1,
+  "coherence": 4,
+  "reason": "Officer biography collapsing into counting 1 to 36."
+ },
+ {
+  "id": "v0696",
+  "weirdness": 1,
+  "coherence": 7,
+  "reason": "Medical applicant undecided between surgery and physic."
+ },
+ {
+  "id": "v0697",
+  "weirdness": 1,
+  "coherence": 8,
+  "reason": "Clergyman letter seeking trade opening; ordinary."
+ },
+ {
+  "id": "v0698",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain deposition name."
+ },
+ {
+  "id": "v0699",
+  "weirdness": 0,
+  "coherence": 10,
+  "reason": "Plain name."
+ },
+ {
+  "id": "v0700",
+  "weirdness": 6,
+  "coherence": 7,
+  "reason": "Harvard minister who in 1844 dwelt in a lower sphere conversing with Eris, spirit of discord."
+ },
+ {
+  "id": "v0701",
+  "weirdness": 2,
+  "coherence": 6,
+  "reason": "Printer biography ending 'I am a Wire'."
+ },
+ {
+  "id": "v0702",
+  "weirdness": 7,
+  "coherence": 7,
+  "reason": "Composite identity apportioned numerically across nations: six English, seven Irish... fifteen of the world."
+ }
+]
