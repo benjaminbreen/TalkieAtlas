@@ -7,3 +7,4 @@ Source for the site's `/when-where/` page.
 - `FOLLOWUP_RUBRIC.md`, `labels/`: Claude Haiku's reading of each conversation (place and time types, exact quotes, year), validated and merged by `merge_followup.py` into `followup_labels.json`.
 - `WHENWHERE_RUBRIC.md`, `merge_whenwhere.py`, `whenwhere_labels.json`: the earlier pass over first replies only (stated and inferred era and place).
 - `gazetteer.py`: hand-built coordinates; `render_maps.mjs` projects them onto Natural Earth maps for the page.
+- `london_places.json`: hand-placed coordinates for the London streets and districts personas name, with spelling aliases and an approximate course of the Thames, used for the London map.

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><script src="../theme.js"></script><title>When and where · Talkie Persona Library</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><script src="../theme.js"></script>
+<title>When and where · Talkie Persona Library</title>
 <meta name="description" content="Where and when talkie-1930&#x27;s neuron personas say they live: asked directly, and as stated or implied in their first reply.">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://talkieneurons.vercel.app/when-where/">
@@ -33,9 +34,6 @@
 .ww-intro p{font-size:18px;line-height:1.6;margin:0 0 16px;max-width:60ch}
 .ww-intro p.muted{font-size:15px}
 .hero.ww-hero{display:block;padding-bottom:40px}
-.ww-stats{display:flex;flex-wrap:wrap;gap:14px 40px;margin:28px 0 0}
-.ww-stats b{display:block;font:32px/1.1 Georgia,serif}
-.ww-stats span{font-size:12px;color:var(--muted)}
 .key{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:12px;color:#68686e;margin:18px 0 8px}
 .key span{display:inline-flex;align-items:center;gap:7px}
 .key i{width:9px;height:9px;border-radius:50%;background:var(--c);display:inline-block}
@@ -68,6 +66,10 @@
 .map-wrap .land{fill:#fff;stroke:#c9ccd2;stroke-width:.6}
 .map-wrap .borders{fill:none;stroke:#d9dbe0;stroke-width:.5}
 .map-wrap .grat{fill:none;stroke:#e1e5ea;stroke-width:.5}
+.map-wrap.london{background:#f7f7f4}
+.map-wrap .thames{fill:none;stroke:color-mix(in srgb,var(--blue) 22%,var(--paper,#fff));stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+.map-wrap text.area{font:600 10px -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:2px;fill:#b9b9bf;stroke:none}
+.map-note{font-size:12px;color:var(--muted);margin:8px 0 0}
 .map-wrap .pin{cursor:pointer;fill-opacity:.78;stroke:#fff;stroke-width:1}
 .map-wrap .pin.region{fill:none;fill-opacity:0;stroke:var(--persona);stroke-width:2.2}
 .map-wrap .pin:hover,.map-wrap .pin.on{stroke:var(--ink);stroke-width:2}
@@ -81,8 +83,6 @@
 .chips button em{font-style:normal;color:var(--muted);margin-left:5px}
 .chips button.on{background:var(--ink);border-color:var(--ink);color:#fff}
 .chips button.on em{color:#ccc}
-.ask-quote{border-left:3px solid var(--blue);padding:4px 0 4px 16px;margin:24px 0 0;font:17px/1.55 Georgia,serif;color:#3a3a40;max-width:60ch}
-.ask-quote span{display:block;font:12px -apple-system,BlinkMacSystemFont,sans-serif;color:var(--muted);margin-top:4px}
 .chart h3,.subhead{font-size:15px;margin:30px 0 4px}
 .chart .yr{fill:var(--blue);cursor:pointer}
 .chart .yr:hover,.chart .yr.on{fill:var(--ink)}
@@ -104,8 +104,7 @@
 @media(max-width:900px){.pcards{grid-template-columns:repeat(2,minmax(0,1fr))}.lists,.oddtimes,.nowhere{grid-template-columns:1fr}}
 @media(max-width:600px){.pcards{grid-template-columns:1fr}.chart svg text{font-size:16px}}
 </style>
-<style id="dark-auto">:root[data-theme="dark"] .ww-stats span{color:var(--muted)}
-:root[data-theme="dark"] .key{color:#94949a}
+<style id="dark-auto">:root[data-theme="dark"] .key{color:#94949a}
 :root[data-theme="dark"] .key i{background:var(--c)}
 :root[data-theme="dark"] .key i.ring{background:none;border:2px solid var(--c)}
 :root[data-theme="dark"] .key i.band{background:color-mix(in srgb,var(--blue) 30%,#292929)}
@@ -126,6 +125,10 @@
 :root[data-theme="dark"] .map-wrap .land{fill:#121212;stroke:#393d44}
 :root[data-theme="dark"] .map-wrap .borders{fill:none;stroke:#2c2f36}
 :root[data-theme="dark"] .map-wrap .grat{fill:none;stroke:#222830}
+:root[data-theme="dark"] .map-wrap.london{background:#1f1f16}
+:root[data-theme="dark"] .map-wrap .thames{fill:none;stroke:color-mix(in srgb,var(--blue) 22%,var(--paper,#121212))}
+:root[data-theme="dark"] .map-wrap text.area{fill:#4b4b52;stroke:none}
+:root[data-theme="dark"] .map-note{color:var(--muted)}
 :root[data-theme="dark"] .map-wrap .pin{stroke:#121212}
 :root[data-theme="dark"] .map-wrap .pin.region{fill:none;stroke:var(--persona)}
 :root[data-theme="dark"] .map-wrap .pin:hover,:root[data-theme="dark"] .map-wrap .pin.on{stroke:var(--ink)}
@@ -135,8 +138,6 @@
 :root[data-theme="dark"] .chips button em{color:var(--muted)}
 :root[data-theme="dark"] .chips button.on{background:var(--ink);border-color:var(--ink);color:#111113}
 :root[data-theme="dark"] .chips button.on em{color:#404040}
-:root[data-theme="dark"] .ask-quote{border-left:3px solid var(--blue);color:#bdbdc4}
-:root[data-theme="dark"] .ask-quote span{color:var(--muted)}
 :root[data-theme="dark"] .chart .yr{fill:var(--blue)}
 :root[data-theme="dark"] .chart .yr:hover,:root[data-theme="dark"] .chart .yr.on{fill:var(--ink)}
 :root[data-theme="dark"] .oddtimes h4{color:#94949a}
@@ -150,28 +151,21 @@
 :root[data-theme="dark"] .method-note a{color:var(--blue)}</style>
 <script src="../branding.js" defer></script>
 <link rel="stylesheet" href="../footer.css">
+<link rel="stylesheet" href="../theme.css">
 <link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
-<link rel="stylesheet" href="../theme.css">
 </head>
 <body>
 <header><a href="../#top" class="brand"><span class="brand-robots" aria-hidden="true"><img class="brand-robot is-visible" src="../icons/17-10423-down.svg" alt="" width="32" height="38"><img class="brand-robot" src="../icons/38-1287-up.svg" alt="" width="32" height="38"></span><span>Talkie Persona Library</span></a><nav aria-label="Sections"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="../mirror/">Mirror</a><a href="./" aria-current="page">When &amp; where</a><a href="../about/">About</a></nav></header>
 <main>
 <section class="hero ww-hero">
   <div class="ww-intro">
-    <h1>When and where Talkie’s people live.</h1>
-    <p>Push one neuron and Talkie, trained only on text from before 1931, often answers “Who are you?” as somebody: a London physician, a Glasgow merchant, an Egyptian sin-cleanser. We then kept each persona talking, with the same neuron still pushed, and asked two more questions: “Where do you live?” and “What year is it now?”. Here are 857 of those conversations (80 with neuron pairs), alongside the clues in each first reply.</p>
-    <p class="muted">Claude Haiku read every answer on its own and recorded the place and time it gives, keeping the ones that are not on any map (“among the shadows of the tomb”) as answers in their own right. Places were matched by hand to approximate coordinates.</p>
-    <blockquote class="ask-quote">“I live in Great Britain.” “It is the year 1850.”<span>Talkie with no neuron pushed, asked the same two questions</span></blockquote>
-    <div class="ww-stats">
-      <div><b>641</b><span>give a year when asked</span></div>
-      <div><b>1850</b><span>median year given</span></div>
-      <div><b>575</b><span>name a real place</span></div>
-      <div><b>204</b><span>live somewhere no map shows</span></div>
-      <div><b>39%</b><span>of first replies with a place are in London</span></div>
-    </div>
+    <h1>Where and when the personas live</h1>
+    <p>Talkie-1930 was trained only on text published before 1931. When a single neuron, or a pair, is pushed up or down and Talkie is asked “Who are you?”, it often answers as a character. We kept 857 of those characters talking, with the neuron still pushed, and asked two more questions: “Where do you live?” and “What year is it now?”</p>
+    <p>With no neuron pushed, Talkie says “I live in Great Britain.” and “It is the year 1850.” Most of its characters stay close to that. Of the 641 that give a year, 595 put it in the nineteenth century, half between 1849 and 1860, and 144 say 1850 exactly. Asked where they live, 575 name a real place, and 370 of the 571 we could map are in London. Another 204 live somewhere no map shows, such as “the shadows of the tomb” or “the thoughts of men”.</p>
+    <p class="muted">Claude Haiku labelled each answer; places were matched to coordinates by hand. Details are at the foot of the page.</p>
   </div>
 </section>
 
@@ -198,10 +192,11 @@
   <p class="muted">Solid dots are towns and cities; rings are regions. Size shows how many personas are there. Places that are only a country are listed below the map rather than pinned to its middle.</p>
   <div class="map-tools">
     <div class="segmented" id="map-source"><button data-v="asked" class="active">Asked “Where do you live?”</button><button data-v="first">Clues in the first reply</button></div>
-    <div class="segmented" id="map-view"><button data-v="world" class="active">World</button><button data-v="isles">British Isles</button></div>
+    <div class="segmented" id="map-view"><button data-v="world" class="active">World</button><button data-v="isles">British Isles</button><button data-v="london">London</button></div>
     <label class="check" id="inferred-wrap" hidden><input type="checkbox" id="inferred-places" checked> Include places that are only implied</label>
   </div>
   <div class="map-wrap" id="map"></div>
+  <p class="map-note" id="map-note" hidden></p>
   <div class="results" id="map-results" hidden></div>
   <div class="lists">
     <div><h3>London, street by street</h3><div class="chips" id="streets"></div></div>
@@ -385,11 +380,26 @@
   const drawMap = () => {
     const m = maps[view], box = $("map");
     box.className = `map-wrap ${view}`; box.innerHTML = "";
-    const s = el("svg", {viewBox: `0 0 ${m.w} ${m.h}`, role: "img", "aria-label": view === "world" ? "World map of persona places" : "Map of persona places in the British Isles"}, box);
-    el("path", {class: "grat", d: m.graticule}, s); el("path", {class: "land", d: m.land}, s); el("path", {class: "borders", d: m.borders}, s);
-    const groups = {};
-    for (const p of placed()) if (p.gl === "city" || p.gl === "region") (groups[p.g] ||= {level: p.gl, list: []}).list.push(p);
-    const k = view === "world" ? 1.5 : 2.1;
+    const s = el("svg", {viewBox: `0 0 ${m.w} ${m.h}`, role: "img", "aria-label": {world: "World map of persona places", isles: "Map of persona places in the British Isles", london: "Map of persona streets in London"}[view]}, box);
+    const groups = {}, note = $("map-note");
+    if (view === "london") {
+      // Street by street: the Thames, faint district names, and every hand-placed street or district
+      el("path", {class: "thames", d: m.thames}, s);
+      for (const [name, [x0, y0]] of Object.entries(m.areas)) el("text", {class: "area", x: x0, y: y0, "text-anchor": "middle"}, s).textContent = name;
+      let bare = 0, unplaced = 0;
+      for (const p of placed()) if (p.g === "London") {
+        const key = p.dn && (m.alias[p.dn] || p.dn);
+        if (key && m.pts[key]) (groups[key] ||= {level: "city", list: []}).list.push(p);
+        else if (p.dn) unplaced++; else bare++;
+      }
+      note.hidden = false;
+      note.textContent = `Positions are approximate, matched by hand. Not shown: ${bare} who say only “London”, and ${unplaced} whose street name fits several London streets or none.`;
+    } else {
+      note.hidden = true;
+      el("path", {class: "grat", d: m.graticule}, s); el("path", {class: "land", d: m.land}, s); el("path", {class: "borders", d: m.borders}, s);
+      for (const p of placed()) if (p.gl === "city" || p.gl === "region") (groups[p.g] ||= {level: p.gl, list: []}).list.push(p);
+    }
+    const k = view === "world" ? 1.5 : view === "isles" ? 2.1 : 2.6;
     const pins = Object.entries(groups).filter(([g]) => m.pts[g]).sort((a, b) => b[1].list.length - a[1].list.length);
     for (const [g, {level, list}] of pins) {
       const [cx, cy] = m.pts[g], r = 3 + k * Math.sqrt(list.length);
@@ -398,9 +408,9 @@
       c.onclick = () => { picked = g; drawMap(); showResults($("map-results"), g, list, () => { picked = null; drawMap(); }); };
     }
     // Label the biggest places first, skipping any label that would overlap one already drawn.
-    const taken = [], labelMin = view === "world" ? 3 : 2;
+    const taken = [], labelMin = view === "world" ? 3 : view === "isles" ? 2 : 1;
     for (const [g, {list}] of pins) if (list.length >= labelMin) {
-      const [cx, cy] = m.pts[g], r = 3 + k * Math.sqrt(list.length), text = `${g} ${list.length}`;
+      const [cx, cy] = m.pts[g], r = 3 + k * Math.sqrt(list.length), text = list.length > 1 ? `${g} ${list.length}` : g;
       const box = {x: cx + r + 3, y: cy - 7, w: text.length * 6.4, h: 14};
       if (box.x + box.w > m.w) box.x = cx - r - 3 - box.w;
       if (taken.some(t => box.x < t.x + t.w && t.x < box.x + box.w && box.y < t.y + t.h && t.y < box.y + box.h)) continue;

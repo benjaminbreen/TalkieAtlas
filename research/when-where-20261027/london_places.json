@@ -1,0 +1,526 @@
+{
+ "_note": "Approximate coordinates (lat, lon) for London streets and districts named by personas, matched by hand. Common names that fit several London streets (George Street, Broad Street, High Street, King Street...) are left out. Aliases map other spellings to these keys.",
+ "points": {
+  "Fleet Street": [
+   51.514,
+   -0.106
+  ],
+  "Cheapside": [
+   51.514,
+   -0.094
+  ],
+  "Mark Lane": [
+   51.511,
+   -0.0805
+  ],
+  "Westminster": [
+   51.4995,
+   -0.127
+  ],
+  "Holborn": [
+   51.5175,
+   -0.117
+  ],
+  "High Holborn": [
+   51.518,
+   -0.12
+  ],
+  "Wood Street": [
+   51.516,
+   -0.0935
+  ],
+  "Chelsea": [
+   51.4875,
+   -0.1687
+  ],
+  "Clapham": [
+   51.462,
+   -0.138
+  ],
+  "Great Ormond Street": [
+   51.522,
+   -0.1205
+  ],
+  "Inner Temple": [
+   51.5125,
+   -0.1095
+  ],
+  "Rosemary Lane": [
+   51.51,
+   -0.07
+  ],
+  "Gracechurch Street": [
+   51.512,
+   -0.0845
+  ],
+  "Berkeley Square": [
+   51.5095,
+   -0.146
+  ],
+  "Holloway": [
+   51.553,
+   -0.117
+  ],
+  "Great Windmill Street": [
+   51.5115,
+   -0.1345
+  ],
+  "Soho Square": [
+   51.5155,
+   -0.132
+  ],
+  "Lambeth": [
+   51.495,
+   -0.117
+  ],
+  "St Clement Danes": [
+   51.513,
+   -0.114
+  ],
+  "Great Portland Street": [
+   51.52,
+   -0.1435
+  ],
+  "Leicester Square": [
+   51.5103,
+   -0.13
+  ],
+  "Fore Street": [
+   51.5185,
+   -0.092
+  ],
+  "St Paul's": [
+   51.5138,
+   -0.0984
+  ],
+  "Oxford Street": [
+   51.515,
+   -0.142
+  ],
+  "St George's Square": [
+   51.487,
+   -0.134
+  ],
+  "St James's": [
+   51.506,
+   -0.137
+  ],
+  "Wilson Street": [
+   51.5215,
+   -0.085
+  ],
+  "Houndsditch": [
+   51.5155,
+   -0.078
+  ],
+  "Old Bailey": [
+   51.515,
+   -0.102
+  ],
+  "Cheyne Walk": [
+   51.483,
+   -0.17
+  ],
+  "City of London": [
+   51.5155,
+   -0.092
+  ],
+  "St Giles": [
+   51.5155,
+   -0.127
+  ],
+  "Upper Wimpole Street": [
+   51.5215,
+   -0.149
+  ],
+  "Mayfair": [
+   51.51,
+   -0.148
+  ],
+  "New Square": [
+   51.516,
+   -0.1145
+  ],
+  "Hare Court": [
+   51.513,
+   -0.1105
+  ],
+  "Mincing Lane": [
+   51.511,
+   -0.082
+  ],
+  "Fenchurch Street": [
+   51.5115,
+   -0.0815
+  ],
+  "St Pancras": [
+   51.53,
+   -0.125
+  ],
+  "Clarendon Square": [
+   51.532,
+   -0.133
+  ],
+  "Margaret Street": [
+   51.517,
+   -0.14
+  ],
+  "Queen Anne Street": [
+   51.5185,
+   -0.1475
+  ],
+  "Downing Street": [
+   51.5033,
+   -0.1276
+  ],
+  "Hatton Garden": [
+   51.52,
+   -0.1085
+  ],
+  "Piccadilly": [
+   51.5075,
+   -0.14
+  ],
+  "Baker Street": [
+   51.521,
+   -0.157
+  ],
+  "Great Coram Street": [
+   51.5245,
+   -0.124
+  ],
+  "Whitefriars": [
+   51.5125,
+   -0.106
+  ],
+  "Great Queen Street": [
+   51.515,
+   -0.121
+  ],
+  "St Luke's": [
+   51.5255,
+   -0.092
+  ],
+  "Lincoln's Inn": [
+   51.516,
+   -0.115
+  ],
+  "Pump Court": [
+   51.5128,
+   -0.1112
+  ],
+  "Marylebone": [
+   51.522,
+   -0.155
+  ],
+  "New Road": [
+   51.527,
+   -0.133
+  ],
+  "Golden Lane": [
+   51.522,
+   -0.095
+  ],
+  "Great George Street": [
+   51.501,
+   -0.129
+  ],
+  "Great Marlborough Street": [
+   51.5145,
+   -0.139
+  ],
+  "Bloomsbury Street": [
+   51.518,
+   -0.129
+  ],
+  "St Martin-in-the-Fields": [
+   51.5089,
+   -0.1265
+  ],
+  "Harley Street": [
+   51.5205,
+   -0.1475
+  ],
+  "St James's Street": [
+   51.5065,
+   -0.1385
+  ],
+  "Hanover Street": [
+   51.514,
+   -0.143
+  ],
+  "Crutched Friars": [
+   51.511,
+   -0.078
+  ],
+  "St Botolph Aldgate": [
+   51.5135,
+   -0.0765
+  ],
+  "Great St Helen's": [
+   51.515,
+   -0.082
+  ],
+  "Regent's Park": [
+   51.531,
+   -0.157
+  ],
+  "Dalston": [
+   51.546,
+   -0.075
+  ],
+  "Great Russell Street": [
+   51.5185,
+   -0.127
+  ],
+  "Moorfields": [
+   51.5185,
+   -0.088
+  ],
+  "Noble Street": [
+   51.516,
+   -0.096
+  ],
+  "Montague Place": [
+   51.52,
+   -0.129
+  ],
+  "Brompton": [
+   51.495,
+   -0.17
+  ],
+  "Brompton Square": [
+   51.498,
+   -0.168
+  ],
+  "Surrey Street": [
+   51.5115,
+   -0.115
+  ],
+  "Quality Court": [
+   51.5155,
+   -0.1125
+  ],
+  "Covent Garden": [
+   51.5117,
+   -0.124
+  ],
+  "Old Street": [
+   51.5255,
+   -0.088
+  ],
+  "Minories": [
+   51.512,
+   -0.074
+  ],
+  "Charing Cross": [
+   51.508,
+   -0.125
+  ],
+  "Billingsgate": [
+   51.5095,
+   -0.0835
+  ],
+  "Seward Street": [
+   51.5255,
+   -0.0985
+  ],
+  "Foster Lane": [
+   51.515,
+   -0.0965
+  ],
+  "Rose Street": [
+   51.5115,
+   -0.1265
+  ],
+  "Cheap Ward": [
+   51.514,
+   -0.092
+  ]
+ },
+ "alias": {
+  "St. Clement": "St Clement Danes",
+  "St. Paul": "St Paul's",
+  "St. Paul’s": "St Paul's",
+  "St. George's Square": "St George's Square",
+  "St James": "St James's",
+  "Saint James": "St James's",
+  "St. Giles's": "St Giles",
+  "St. Giles-in-the-Fields": "St Giles",
+  "St. Pancras": "St Pancras",
+  "White Friars": "Whitefriars",
+  "St. Luke": "St Luke's",
+  "St. Martin": "St Martin-in-the-Fields",
+  "St. Martin-in-the-Fields": "St Martin-in-the-Fields",
+  "St James Street": "St James's Street",
+  "St. James Street": "St James's Street",
+  "St. Botolph": "St Botolph Aldgate",
+  "Great St. Helen's": "Great St Helen's",
+  "Surry Street": "Surrey Street",
+  "No. 11 Holborn": "Holborn"
+ },
+ "thames": [
+  [
+   51.4882,
+   -0.23
+  ],
+  [
+   51.48,
+   -0.231
+  ],
+  [
+   51.472,
+   -0.224
+  ],
+  [
+   51.4668,
+   -0.2131
+  ],
+  [
+   51.464,
+   -0.201
+  ],
+  [
+   51.4655,
+   -0.1885
+  ],
+  [
+   51.473,
+   -0.18
+  ],
+  [
+   51.48,
+   -0.1735
+  ],
+  [
+   51.4825,
+   -0.1665
+  ],
+  [
+   51.4845,
+   -0.15
+  ],
+  [
+   51.486,
+   -0.135
+  ],
+  [
+   51.488,
+   -0.127
+  ],
+  [
+   51.4945,
+   -0.1235
+  ],
+  [
+   51.5008,
+   -0.122
+  ],
+  [
+   51.5065,
+   -0.12
+  ],
+  [
+   51.5085,
+   -0.1165
+  ],
+  [
+   51.5095,
+   -0.11
+  ],
+  [
+   51.509,
+   -0.104
+  ],
+  [
+   51.5085,
+   -0.094
+  ],
+  [
+   51.508,
+   -0.0877
+  ],
+  [
+   51.5055,
+   -0.0754
+  ],
+  [
+   51.504,
+   -0.064
+  ],
+  [
+   51.504,
+   -0.057
+  ],
+  [
+   51.505,
+   -0.05
+  ],
+  [
+   51.508,
+   -0.04
+  ],
+  [
+   51.507,
+   -0.03
+  ],
+  [
+   51.5,
+   -0.023
+  ],
+  [
+   51.492,
+   -0.02
+  ],
+  [
+   51.487,
+   -0.012
+  ],
+  [
+   51.489,
+   -0.003
+  ],
+  [
+   51.496,
+   0.002
+  ],
+  [
+   51.504,
+   0.005
+  ],
+  [
+   51.508,
+   0.009
+  ]
+ ],
+ "areas": {
+  "ISLINGTON": [
+   51.542,
+   -0.103
+  ],
+  "SHOREDITCH": [
+   51.53,
+   -0.078
+  ],
+  "SOUTHWARK": [
+   51.496,
+   -0.082
+  ],
+  "WHITECHAPEL": [
+   51.5165,
+   -0.06
+  ],
+  "KENSINGTON": [
+   51.499,
+   -0.193
+  ],
+  "PADDINGTON": [
+   51.518,
+   -0.178
+  ],
+  "BATTERSEA": [
+   51.473,
+   -0.16
+  ]
+ }
+}
