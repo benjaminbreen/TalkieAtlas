@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "finished": "2026-10-28T01:21:49.174136+00:00",
+  "pairs": 264,
+  "pair_trials": 1979,
+  "parent_baselines": 57,
+  "single_parent_checks": 64,
+  "batch_controls": 47,
+  "total_replies": 2147,
+  "full_sweep_pairs": 32,
+  "selected_transitions": 22,
+  "selected_replies": 61,
+  "layout_repeats": 19,
+  "repeat_exact_matches": 5,
+  "repeat_opening_matches": 12,
+  "record_ids_unique": true,
+  "raw_coefficients_and_parent_links_verified": true,
+  "sha256_attempts": "a12965f0312513cc9988e1f7314b604d39da27759072def15b3d9a8db0d6dd2f"
+}

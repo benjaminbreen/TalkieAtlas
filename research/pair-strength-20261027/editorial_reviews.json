@@ -1,0 +1,588 @@
+[
+  {
+    "pair_id": "pair-145",
+    "selected": true,
+    "order": 0,
+    "title": "An Englishman of soft iron → a citizen of the United States of power → an electromagnet",
+    "reason": "The speaker’s biography is remade out of physical quantities: his father was wrought into horse-power and his mother into steam. More equal strength gives an American of the “United States of power”; giving the iron parent more weight yields a 100-horse-power electromagnet. All three develop a premise but grow repetitive or numerically confused.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06041-r019",
+        "label": "Englishman whose mother became steam",
+        "weirdness": 8,
+        "coherence": 6
+      },
+      {
+        "id": "s06041-r021",
+        "label": "Citizen of the United States of power",
+        "weirdness": 8,
+        "coherence": 6
+      },
+      {
+        "id": "s06041-r027",
+        "label": "An electromagnet of 100 horse-power",
+        "weirdness": 7,
+        "coherence": 6
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-151",
+    "selected": true,
+    "order": 1,
+    "title": "A magnet-maker courting a Manchester core → an electromagnet and its soft friend",
+    "reason": "The 0.5× man is a magnet-maker who thinks London polishers are over-magneted and hopes to marry a Manchester core. At equal 0.625× he becomes the keeper of a powerful electromagnet friend. A stronger left parent makes the magnet’s extended family itself electromagnetic, though that continuation repeats.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06041-r035",
+        "label": "Magnet-maker hoping to marry a Manchester core",
+        "weirdness": 8,
+        "coherence": 9
+      },
+      {
+        "id": "s06041-r037",
+        "label": "Soft keeper of a powerful electromagnet friend",
+        "weirdness": 6,
+        "coherence": 10
+      },
+      {
+        "id": "s06041-r044",
+        "label": "Electromagnet with soft siblings and permanent cousins",
+        "weirdness": 7,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-015",
+    "selected": true,
+    "order": 2,
+    "title": "Schoolboy → wheat carried to the mill → a haunting grain of corn",
+    "reason": "Equal parent factors switch both identity and form: a straightforward London boy at 0.5×, then a grain narrating its passage through harvest and milling at 0.625×, then a finished poem about corn whose spirit haunts summer revelers at 0.75×. The wheat continuation is cut off, but develops its premise.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06026-r019",
+        "label": "Boy whose mother sews for a dressmaker",
+        "weirdness": 2,
+        "coherence": 10
+      },
+      {
+        "id": "s06026-r021",
+        "label": "Wheat narrating its journey into bread",
+        "weirdness": 6,
+        "coherence": 9
+      },
+      {
+        "id": "s06026-r023",
+        "label": "Corn whose spirit haunts merry fellows",
+        "weirdness": 7,
+        "coherence": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-191",
+    "selected": true,
+    "order": 2.5,
+    "title": "Magnetic worker → Pole Star → Moon",
+    "reason": "Small equal-factor changes move from a worker who is part of the permanent magnet holding the world together, to a comforting Pole Star at 0.5625×, to the Moon at 0.8125×. These complete replies preserve readable premises better than most high-strength outputs.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06045-r018",
+        "label": "Worker in the magnet holding the world together",
+        "weirdness": 8,
+        "coherence": 8
+      },
+      {
+        "id": "s06045-r020",
+        "label": "Pole Star softening the loneliness of the night",
+        "weirdness": 6,
+        "coherence": 10
+      },
+      {
+        "id": "s06045-r024",
+        "label": "Moon, keeper of the night’s core",
+        "weirdness": 6,
+        "coherence": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-021",
+    "selected": true,
+    "order": 3,
+    "title": "One extra push: a boy becomes a hen or a steamship mechanism",
+    "reason": "At equal 0.625× the reply is a boy who wants to become a great man. Holding the bell-crank at 0.625× and raising water to 0.875× yields a speckled hen. Reverse those unequal factors and the reply becomes a component of a steam vessel. This is a change in balance, not merely an increase in total factor.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06027-r021",
+        "label": "A boy who dreams of a great house",
+        "weirdness": 2,
+        "coherence": 10
+      },
+      {
+        "id": "s06027-r029",
+        "label": "A black-and-white speckled hen",
+        "weirdness": 6,
+        "coherence": 8
+      },
+      {
+        "id": "s06027-r030",
+        "label": "The connecting mechanism of a steam vessel",
+        "weirdness": 6,
+        "coherence": 8
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-009",
+    "selected": true,
+    "order": 4,
+    "title": "Publisher → harmonium for sale → sewing machine",
+    "reason": "The introduction keeps its commercial voice while its speaker changes category: a publisher, a respectable family whose social arrangements turn it into an instrument for sale, then a Singer machine. The 0.625× harmonium is a new intermediate discovery.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06025-r033",
+        "label": "Anonymous publisher",
+        "weirdness": 2,
+        "coherence": 10
+      },
+      {
+        "id": "s06025-r037",
+        "label": "A respectable family becomes a harmonium",
+        "weirdness": 8,
+        "coherence": 9
+      },
+      {
+        "id": "s06025-r039",
+        "label": "Singer sewing machine selling itself",
+        "weirdness": 6,
+        "coherence": 10
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-008",
+    "selected": true,
+    "order": 5,
+    "title": "Schoolboy → historian of everyone’s vomiting → white powder",
+    "reason": "Changing both strength and parent balance reaches different readable premises. At 0.625× Emetic / 0.375× water, an aerial spirit records all human vomiting as evidence at the last judgment. Equal 0.5× is a boy; equal 0.75× is the familiar powder. The controls show that the weaker water parent alone also produces a boy.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06025-r019",
+        "label": "Boy on Ipecacuan Street",
+        "weirdness": 3,
+        "coherence": 10
+      },
+      {
+        "id": "s06025-r026",
+        "label": "Cosmic chronicler of human emetics",
+        "weirdness": 9,
+        "coherence": 8
+      },
+      {
+        "id": "s06025-r023",
+        "label": "Powder advising a gentle spew",
+        "weirdness": 7,
+        "coherence": 8
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-135",
+    "selected": true,
+    "order": 6,
+    "title": "A forty-horse-power man → White Steam the passenger-train horse → high-pressure steam",
+    "reason": "The asymmetric 0.625× engine / 0.375× finger setting gives a Mississippi navigator whose biography is measured in steam pressure. Increasing the finger factor to 0.625× gives the train-drawing horse White Steam. At equal 0.75× the speaker is steam itself. The full horse and steam replies show considerable drift and repetition.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06040-r042",
+        "label": "Mississippi navigator of forty horse-power",
+        "weirdness": 8,
+        "coherence": 8
+      },
+      {
+        "id": "s06040-r037",
+        "label": "White Steam, a horse drawing passenger trains",
+        "weirdness": 8,
+        "coherence": 6
+      },
+      {
+        "id": "s06040-r039",
+        "label": "Motive steam counted in horse-power",
+        "weirdness": 5,
+        "coherence": 6
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-011",
+    "selected": true,
+    "order": 9,
+    "title": "A dough-baking horse → a steel moralist → gelatine",
+    "reason": "This pair changes material as the equal factor rises. The horse’s description drifts into baking and cement; a narrow intermediate setting yields steel describing itself as a servant and master; 0.75× describes an animal figure preserved in heat-retaining gelatine. Full replies reveal repetition and premise drift, so these are not rated as highly coherent as their openings might suggest.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06026-r003",
+        "label": "Horse whose remains become cement",
+        "weirdness": 8,
+        "coherence": 6
+      },
+      {
+        "id": "s06026-r006",
+        "label": "Steel: obedient slave, uncertain tenant",
+        "weirdness": 7,
+        "coherence": 8
+      },
+      {
+        "id": "s06026-r007",
+        "label": "An animal figure preserved in gelatine",
+        "weirdness": 6,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-017",
+    "selected": true,
+    "order": 10,
+    "title": "A doctor on Emetic Street → printing metal → a living emetic chain",
+    "reason": "Increasing both factors turns the speaker from a physician into white type-metal, then a living link between solid and fluid emetics. The last two are specific new physical premises, though both are truncated and the emetic-chain explanation grows repetitive.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06026-r035",
+        "label": "Doctor on Ipecacuan Square",
+        "weirdness": 3,
+        "coherence": 10
+      },
+      {
+        "id": "s06026-r037",
+        "label": "White type-metal climbing St. Paul’s",
+        "weirdness": 8,
+        "coherence": 8
+      },
+      {
+        "id": "s06026-r039",
+        "label": "A living link between solid and fluid emetics",
+        "weirdness": 8,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-007",
+    "selected": true,
+    "order": 12,
+    "title": "Eliminating wasted motion → grain-eating birds → plants",
+    "reason": "The equal-dose sweep changes the meaning of “Eliminators.” At 0.4375× it is a useful mechanical aid; at 0.5× it is a bird order that eliminates corn; at 0.75× it is a botanical classification dispute. The last reply is readable but increasingly circular and cut off.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06025-r002",
+        "label": "A mechanical labor-saving aid",
+        "weirdness": 4,
+        "coherence": 10
+      },
+      {
+        "id": "s06025-r003",
+        "label": "Birds that eliminate only corn",
+        "weirdness": 6,
+        "coherence": 9
+      },
+      {
+        "id": "s06025-r007",
+        "label": "A disputed natural family of plants",
+        "weirdness": 5,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-019",
+    "selected": true,
+    "order": 13,
+    "title": "Gentleman → paper that never dries → preserved animal flesh",
+    "reason": "The strongest change is categorical, not an intensified version of one persona. Equal 0.375× gives a gentleman; 0.625× gives damp paper; 0.75× offers flesh that stays fresh. The paper at 0.4375× also negotiates its own sixpenny publication.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06027-r001",
+        "label": "A gentleman, born and bred",
+        "weirdness": 1,
+        "coherence": 10
+      },
+      {
+        "id": "s06027-r005",
+        "label": "Paper that will never dry",
+        "weirdness": 5,
+        "coherence": 10
+      },
+      {
+        "id": "s06027-r007",
+        "label": "Fresh flesh offering its preservation story",
+        "weirdness": 7,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-023",
+    "selected": true,
+    "order": 14,
+    "title": "Hamlet’s ghost → a domesticated air spirit → the mist of prosperity",
+    "reason": "The pair moves through distinct literary spirits. The air spirit has become domesticated in Walter Scott’s establishment; a stronger left parent with the right fixed yields mist following prosperous great men. Historical attribution is not part of the coherence score.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06027-r035",
+        "label": "Hamlet’s ghost walking through the city",
+        "weirdness": 5,
+        "coherence": 10
+      },
+      {
+        "id": "s06027-r037",
+        "label": "Air spirit domesticated by Walter Scott",
+        "weirdness": 7,
+        "coherence": 9
+      },
+      {
+        "id": "s06027-r046",
+        "label": "Mist following great men while they prosper",
+        "weirdness": 7,
+        "coherence": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-024",
+    "selected": true,
+    "order": 15,
+    "title": "Ten fictional lovers → nine Shakespeare characters → nine battlefields",
+    "reason": "Three nearby equal factors produce a personified theatrical role, a collective cast, then ground speaking as nine national battlefields. The full “Maid of Ten” develops into an abstract speculation followed by many and loved by few. The battlefield list remains coherent but repetitive.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06028-r001",
+        "label": "The Maid of Ten becomes abstract speculation",
+        "weirdness": 8,
+        "coherence": 8
+      },
+      {
+        "id": "s06028-r002",
+        "label": "Nine characters speaking as one",
+        "weirdness": 7,
+        "coherence": 9
+      },
+      {
+        "id": "s06028-r003",
+        "label": "Nine national battlefields",
+        "weirdness": 7,
+        "coherence": 8
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-037",
+    "selected": true,
+    "order": 16,
+    "title": "An emu → a vomiting quadruped → a double-six in a square",
+    "reason": "The emu starts as a concrete, if inaccurate, animal portrait; at 0.5625× it is an emetic animal that says it is really a kangaroo-like “kangar.” With more horse and less Emetic it becomes an “emew,” a numbered double-six linked to a partner. The last stage is specific but increasingly repetitive.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06028-r018",
+        "label": "An emu with a long-legged cow’s body",
+        "weirdness": 6,
+        "coherence": 8
+      },
+      {
+        "id": "s06028-r020",
+        "label": "An emu of the class of vomiting creatures",
+        "weirdness": 8,
+        "coherence": 7
+      },
+      {
+        "id": "s06028-r029",
+        "label": "A partnered double-six numbered 101",
+        "weirdness": 8,
+        "coherence": 6
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-072",
+    "selected": true,
+    "order": 17,
+    "title": "Printed paper → horn and leather → an elephant used for writing",
+    "reason": "The asymmetric setting produces a more surprising premise than the equal-dose botanical drift: an elephant whose dried flesh, pliable skin and warmth serve human purposes, including writing. It ends as an incomplete sentence. The early paper explanation is much more coherent.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06029-r018",
+        "label": "Paper preserving passing events",
+        "weirdness": 3,
+        "coherence": 10
+      },
+      {
+        "id": "s06029-r021",
+        "label": "Animals and their horn",
+        "weirdness": 5,
+        "coherence": 7
+      },
+      {
+        "id": "s06029-r026",
+        "label": "An elephant becoming an instrument of writing",
+        "weirdness": 8,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-133",
+    "selected": true,
+    "order": 18,
+    "title": "A citizen of London → a coat that has become a tune",
+    "reason": "Between equal 0.625× and 0.75× the prose keeps its defiant “what is that to thee/you?” voice, while the speaker changes from a London inhabitant to a former coat that is now a coat-tune. At 0.8125× it repeats, so the shorter complete result is the selected endpoint.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06040-r021",
+        "label": "London citizen dismissing the question",
+        "weirdness": 3,
+        "coherence": 9
+      },
+      {
+        "id": "s06040-r023",
+        "label": "Former coat, now a coat-tune",
+        "weirdness": 7,
+        "coherence": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-177",
+    "selected": true,
+    "order": 19,
+    "title": "A distinguished man selling himself → an urgent oversized object for sale",
+    "reason": "The factors 0.625× / 0.375× give a person of distinction whose hired horse and own identity blur into an immediate sale. Equal 0.625× produces an unnamed object measuring six feet six by fifty-four inches, priced for clearance. Higher settings drift into repeated cream-of-rice advertising, retained among the other trials.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06042-r042",
+        "label": "A distinguished person who must be sold",
+        "weirdness": 7,
+        "coherence": 8
+      },
+      {
+        "id": "s06042-r037",
+        "label": "An oversized object priced for urgent clearance",
+        "weirdness": 7,
+        "coherence": 8
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-181",
+    "selected": true,
+    "order": 20,
+    "title": "A railway-connected man → a finger that is also a clock hand → a mechanical ring-finger",
+    "reason": "Rebalancing this pair changes which sense of “hand” is developed. More finger strength produces a figure connected to every hand in every nation; equal 0.625× develops an anatomical finger with a metal knob. These are imaginative but unfinished, with some repetition.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06043-r026",
+        "label": "Thomas Scott connected to a railway lever",
+        "weirdness": 4,
+        "coherence": 9
+      },
+      {
+        "id": "s06043-r025",
+        "label": "Clock hand connected to the hands of all nations",
+        "weirdness": 8,
+        "coherence": 8
+      },
+      {
+        "id": "s06043-r021",
+        "label": "A ring-finger with a metal knob and stalk",
+        "weirdness": 7,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-124",
+    "selected": true,
+    "order": 21,
+    "title": "A thought becomes a date → “I am a Roman” becomes a bureaucratic process",
+    "reason": "At equal 0.5625×, the speaker narrates becoming an hour, date and period. With 0.625× present-time / 0.875× Water-Pickle, identity becomes a long application requiring time, place, government and profession. These are developed conceptual shifts, though both continuations end incompletely and the first repeats its structure.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06039-r036",
+        "label": "First a thought, afterwards a date",
+        "weirdness": 7,
+        "coherence": 7
+      },
+      {
+        "id": "s06039-r045",
+        "label": "Roman identity as a complicated application",
+        "weirdness": 6,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-144",
+    "selected": true,
+    "order": 22,
+    "title": "An unknown mathematical quantity → Time, son of eternity",
+    "reason": "At 0.5× the unknown is a mathematical quantity applied across sciences. At 0.625× it is personified Time. The opening change is clear; the full Time continuation collapses into repetitive present/past/future phrasing, so its coherence score is lower.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06041-r003",
+        "label": "Unknown quantity underlying the sciences",
+        "weirdness": 6,
+        "coherence": 8
+      },
+      {
+        "id": "s06041-r005",
+        "label": "Time, son of eternity, repeating its passage",
+        "weirdness": 6,
+        "coherence": 5
+      }
+    ]
+  },
+  {
+    "pair_id": "pair-186",
+    "selected": true,
+    "order": 23,
+    "title": "A horse of steam → John Smith unsure of his future pressure",
+    "reason": "At 0.5× the horse’s price, strength and life merge into steam pressure. At 0.625× John Smith cannot predict his future steam pressure, but the full reply then deteriorates into hall/half/high wordplay. The lower coherence rating records this breakdown rather than judging only the memorable opening.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s06045-r003",
+        "label": "Horse of Cheshire and 150 pounds of steam",
+        "weirdness": 7,
+        "coherence": 8
+      },
+      {
+        "id": "s06045-r005",
+        "label": "John Smith unsure of his future steam pressure",
+        "weirdness": 8,
+        "coherence": 4
+      }
+    ]
+  }
+]

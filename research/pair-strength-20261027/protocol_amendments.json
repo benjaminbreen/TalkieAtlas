@@ -1,0 +1,47 @@
+[
+  {
+    "at": "2026-10-28T00:18:01.481102+00:00",
+    "reason": "Initial throughput leaves room for additional untested pairs; give greater weight to new readable outcomes rather than mostly generic-to-garbled shifts.",
+    "new_parents": {
+      "s04028-r101": "Beacon warning mariners",
+      "s04028-r097": "Red sugar made from juice",
+      "s04028-r090": "Water from a mountain’s stomach to a finger",
+      "s04001-r117": "Millinery advertisement inviting inspection",
+      "s04000-r078": "Manufacturer of paper-making machinery",
+      "s04034-r008": "Square writing to an editor",
+      "s04038-r044": "British lion with blood roused",
+      "s04009-r069": "Railway passenger at six miles an hour",
+      "s04032-r160": "Co-respondent in a divorce suit"
+    },
+    "new_pairs": 72,
+    "new_trials": 360,
+    "tokens": 96,
+    "factors": [
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.625,
+        0.625
+      ],
+      [
+        0.75,
+        0.75
+      ],
+      [
+        0.5,
+        0.75
+      ],
+      [
+        0.75,
+        0.5
+      ]
+    ],
+    "selection_fixed_before_outputs": true
+  },
+  {
+    "at": "2026-10-28T00:29:29.279520+00:00",
+    "change": "Defer the optional eight supplemental full-sweep finalists; retain all 72 supplemental screening sweeps. Finish the 32 already selected full-sweep pairs and layout checks, then prioritize the requested website integration and robots."
+  }
+]

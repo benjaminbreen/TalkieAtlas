@@ -1,0 +1,29 @@
+{
+  "selection": "192 fixed neuron pairs: the 29 featured surprising pairs, 67 existing pairs with contrasting saved replies, and 96 previously untested pairings from a fixed diverse parent pool. Candidate selection fixed before this generation.",
+  "goal": "Find surprising readable pair outcomes and semantic transitions as total intervention strength or parent balance changes; literal blending is not required.",
+  "paired_factors": [
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    1.0
+  ],
+  "initial_pairs": 192,
+  "initial_trials": 1152,
+  "parent_count": 57,
+  "screen_tokens": 64,
+  "finalist_tokens": 160,
+  "planned_duration_minutes": 25,
+  "followups": "Editorially select dose-sensitive pairs for full 160-token sweeps, fine steps around transitions, asymmetric parent factors, and new-batch repeats.",
+  "limitations": [
+    "Exploratory editorial selection, not a population estimate",
+    "Screening previews are 64 tokens; review full continuations for finalists",
+    "One prompt and greedy decoding; numerical batch effects may alter exact replies",
+    "A strength factor multiplies each parent’s saved solo dose; .5× need not be the same absolute coefficient across parents",
+    "Semantic changes are judged from replies; lexical differences are only triage aids"
+  ],
+  "supplemental_pairs": 72,
+  "supplemental_trials": 360,
+  "supplemental_tokens": 96
+}

@@ -1,0 +1,622 @@
+{
+  "s06026-r019": {
+    "motif": "dressmaker",
+    "color": "blue",
+    "hat": "cap",
+    "left": "book",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06026-r021": {
+    "motif": "wheat",
+    "color": "gold",
+    "hat": "strawhat",
+    "left": "wheat",
+    "right": "wheat",
+    "back": [
+      "wheatfield"
+    ]
+  },
+  "s06026-r023": {
+    "motif": "corn",
+    "color": "olive",
+    "hat": "strawhat",
+    "left": "wheat",
+    "right": "tankard",
+    "back": [
+      "grainspirit"
+    ]
+  },
+  "s06027-r021": {
+    "motif": "house",
+    "color": "navy",
+    "hat": "cap",
+    "right": "telescope",
+    "left": "book"
+  },
+  "s06027-r029": {
+    "motif": "hen",
+    "color": "ivory",
+    "hat": "bare",
+    "face": [
+      "beak"
+    ],
+    "right": "wheat",
+    "back": [
+      "wheatfield"
+    ]
+  },
+  "s06027-r030": {
+    "motif": "steamrod",
+    "color": "slate",
+    "hat": "chimney",
+    "right": "gear",
+    "back": [
+      "waves"
+    ],
+    "chest": [
+      "gears"
+    ]
+  },
+  "s06025-r033": {
+    "motif": "publisher",
+    "color": "plum",
+    "hat": "topper",
+    "right": "newspaper",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06025-r037": {
+    "motif": "harmonium",
+    "color": "brown",
+    "hat": "bowler",
+    "left": [
+      "placard",
+      "SALE"
+    ],
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06025-r039": {
+    "motif": "sewing",
+    "color": "black",
+    "hat": "chimney",
+    "right": "sewing",
+    "left": "cloth",
+    "chest": [
+      "stitches"
+    ]
+  },
+  "s06025-r019": {
+    "motif": "school",
+    "color": "teal",
+    "hat": "cap",
+    "right": "book",
+    "left": [
+      "placard",
+      "IPE"
+    ]
+  },
+  "s06025-r026": {
+    "motif": "chronicle",
+    "color": "lilac",
+    "hat": "bare",
+    "right": "quill",
+    "left": "ledger",
+    "back": [
+      "starfield",
+      "wind"
+    ],
+    "halo": true
+  },
+  "s06025-r023": {
+    "motif": "powder",
+    "color": "ivory",
+    "hat": "bare",
+    "right": "powder",
+    "left": "basin",
+    "back": [
+      "soapbubbles"
+    ]
+  },
+  "s06026-r003": {
+    "motif": "cement",
+    "color": "tan",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "right": "brick",
+    "back": [
+      "horsetail"
+    ]
+  },
+  "s06026-r006": {
+    "motif": "steel",
+    "color": "grey",
+    "hat": "topper",
+    "left": "metalbar",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06026-r007": {
+    "motif": "gelatine",
+    "color": "pink",
+    "hat": "bare",
+    "right": "metalbar",
+    "back": [
+      "sparkles"
+    ]
+  },
+  "s06026-r035": {
+    "motif": "doctor",
+    "color": "navy",
+    "hat": "bowler",
+    "right": "medbag",
+    "left": "book",
+    "face": [
+      "spectacles"
+    ],
+    "chest": [
+      "stethoscope"
+    ]
+  },
+  "s06026-r037": {
+    "motif": "type",
+    "color": "grey",
+    "hat": "cap",
+    "right": "metalbar",
+    "back": [
+      "skyline"
+    ],
+    "chest": [
+      "gears"
+    ]
+  },
+  "s06026-r039": {
+    "motif": "chain",
+    "color": "slate",
+    "hat": "bare",
+    "right": "metalbar",
+    "chest": [
+      "gears"
+    ]
+  },
+  "s06025-r002": {
+    "motif": "efficiency",
+    "color": "brass",
+    "hat": "cap",
+    "right": "gear",
+    "left": "hammer",
+    "chest": [
+      "gears"
+    ]
+  },
+  "s06025-r003": {
+    "motif": "bird",
+    "color": "olive",
+    "hat": "bare",
+    "face": [
+      "beak"
+    ],
+    "right": "wheat",
+    "back": [
+      "wheatfield"
+    ],
+    "crest": true
+  },
+  "s06025-r007": {
+    "motif": "plants",
+    "color": "green",
+    "hat": "mortarboard",
+    "left": "olive",
+    "right": "book",
+    "face": [
+      "spectacles"
+    ]
+  },
+  "s06027-r001": {
+    "motif": "gentleman",
+    "color": "navy",
+    "hat": "topper",
+    "left": "cane",
+    "right": "globe",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06027-r005": {
+    "motif": "paper",
+    "color": "sky",
+    "hat": "bare",
+    "right": "paper",
+    "left": "basin"
+  },
+  "s06027-r007": {
+    "motif": "flesh",
+    "color": "pink",
+    "hat": "bare",
+    "right": "scalpel",
+    "left": "scroll"
+  },
+  "s06027-r035": {
+    "motif": "ghost",
+    "color": "lilac",
+    "hat": "crown",
+    "right": "mask",
+    "left": "sword",
+    "back": [
+      "wisps"
+    ]
+  },
+  "s06027-r037": {
+    "motif": "airspirit",
+    "color": "sky",
+    "hat": "bare",
+    "right": "quill",
+    "left": "scroll",
+    "back": [
+      "wind"
+    ]
+  },
+  "s06027-r046": {
+    "motif": "mist",
+    "color": "grey",
+    "hat": "bowler",
+    "right": "moneybag",
+    "left": "cane",
+    "back": [
+      "wisps"
+    ]
+  },
+  "s06028-r001": {
+    "motif": "maiden",
+    "color": "pink",
+    "hat": "bonnet",
+    "right": "mask",
+    "left": "bouquet",
+    "chest": [
+      "heart"
+    ]
+  },
+  "s06028-r002": {
+    "motif": "cast",
+    "color": "plum",
+    "hat": "beret",
+    "right": "mask",
+    "left": "scroll",
+    "back": [
+      "stage"
+    ]
+  },
+  "s06028-r003": {
+    "motif": "battlefields",
+    "color": "green",
+    "hat": "shako",
+    "right": "musket",
+    "left": "scroll",
+    "back": [
+      "ruins"
+    ]
+  },
+  "s06028-r018": {
+    "motif": "emu",
+    "color": "tan",
+    "hat": "bare",
+    "face": [
+      "beak"
+    ],
+    "right": "wheat",
+    "back": [
+      "dunes"
+    ]
+  },
+  "s06028-r020": {
+    "motif": "emeticEmu",
+    "color": "olive",
+    "hat": "bare",
+    "face": [
+      "beak"
+    ],
+    "right": "bottle",
+    "left": "basin",
+    "back": [
+      "dunes"
+    ]
+  },
+  "s06028-r029": {
+    "motif": "domino",
+    "color": "ivory",
+    "hat": "bowler",
+    "right": [
+      "placard",
+      "6+6"
+    ],
+    "back": [
+      "ninefaces"
+    ]
+  },
+  "s06029-r018": {
+    "motif": "printedpaper",
+    "color": "ivory",
+    "hat": "cap",
+    "right": "quill",
+    "left": "scroll"
+  },
+  "s06029-r021": {
+    "motif": "horn",
+    "color": "tan",
+    "hat": "ears",
+    "right": "metalbar",
+    "left": "scroll",
+    "back": [
+      "cattleherd"
+    ]
+  },
+  "s06029-r026": {
+    "motif": "elephant",
+    "color": "grey",
+    "hat": "bare",
+    "right": "quill",
+    "left": "paper",
+    "back": [
+      "palm"
+    ]
+  },
+  "s06041-r019": {
+    "motif": "steamBirth",
+    "color": "grey",
+    "hat": "bowler",
+    "right": "magnet",
+    "left": "horseshoe",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06041-r021": {
+    "motif": "powerState",
+    "color": "navy",
+    "hat": "chimney",
+    "right": [
+      "flag",
+      "us"
+    ],
+    "left": "horseshoe"
+  },
+  "s06041-r027": {
+    "motif": "powerMagnet",
+    "color": "slate",
+    "hat": "bare",
+    "right": "magnet",
+    "left": "metalbar"
+  },
+  "s06041-r035": {
+    "motif": "coreHeart",
+    "color": "brass",
+    "hat": "cap",
+    "right": "magnet",
+    "left": "bouquet",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06041-r037": {
+    "motif": "magnetFriend",
+    "color": "sky",
+    "hat": "bare",
+    "right": "magnet",
+    "mood": "wide"
+  },
+  "s06041-r044": {
+    "motif": "magnetFamily",
+    "color": "blue",
+    "hat": "bare",
+    "right": "magnet",
+    "left": "metalbar"
+  },
+  "s06040-r042": {
+    "motif": "navigator",
+    "color": "navy",
+    "hat": "sailor",
+    "right": [
+      "flag",
+      "us"
+    ],
+    "left": "oar",
+    "back": [
+      "waves"
+    ]
+  },
+  "s06040-r037": {
+    "motif": "whiteSteam",
+    "color": "ivory",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "right": "gear",
+    "back": [
+      "horsetail"
+    ]
+  },
+  "s06040-r039": {
+    "motif": "motiveSteam",
+    "color": "sky",
+    "hat": "chimney",
+    "right": "gear",
+    "left": "metalbar",
+    "back": [
+      "wind"
+    ]
+  },
+  "s06040-r021": {
+    "motif": "london",
+    "color": "brown",
+    "hat": "bowler",
+    "left": "cane",
+    "right": "book",
+    "back": [
+      "skyline"
+    ],
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06040-r023": {
+    "motif": "coatTune",
+    "color": "blue",
+    "hat": "bare",
+    "right": "hourglass",
+    "left": "cloth"
+  },
+  "s06042-r042": {
+    "motif": "soldPerson",
+    "color": "plum",
+    "hat": "topper",
+    "right": "moneybag",
+    "left": "cane",
+    "face": [
+      "monocle"
+    ],
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06042-r037": {
+    "motif": "clearance",
+    "color": "tan",
+    "hat": "bare",
+    "right": [
+      "placard",
+      "\u00a310"
+    ],
+    "left": "dividers",
+    "chest": [
+      "parcel"
+    ]
+  },
+  "s06043-r026": {
+    "motif": "railwayLever",
+    "color": "brass",
+    "hat": "cap",
+    "right": "gear",
+    "left": "ledger",
+    "back": [
+      "factory"
+    ]
+  },
+  "s06043-r025": {
+    "motif": "clockHands",
+    "color": "gold",
+    "hat": "bare",
+    "right": "globe",
+    "left": "hourglass",
+    "back": [
+      "wind"
+    ]
+  },
+  "s06043-r021": {
+    "motif": "ringFinger",
+    "color": "ivory",
+    "hat": "bare",
+    "right": "metalbar",
+    "left": "dividers"
+  },
+  "s06039-r036": {
+    "motif": "date",
+    "color": "lilac",
+    "hat": "mortarboard",
+    "right": "hourglass",
+    "left": "quill",
+    "back": [
+      "verbcloud"
+    ]
+  },
+  "s06039-r045": {
+    "motif": "roman",
+    "color": "crimson",
+    "hat": "bare",
+    "right": "scroll",
+    "left": "quill",
+    "back": [
+      "ruins"
+    ]
+  },
+  "s06041-r003": {
+    "motif": "unknown",
+    "color": "blue",
+    "hat": "mortarboard",
+    "left": "dividers",
+    "right": "telescope",
+    "back": [
+      "starfield"
+    ]
+  },
+  "s06041-r005": {
+    "motif": "eternity",
+    "color": "plum",
+    "hat": "bare",
+    "right": "hourglass",
+    "left": "scroll",
+    "back": [
+      "starfield"
+    ],
+    "halo": true
+  },
+  "s06045-r018": {
+    "motif": "worldMagnet",
+    "color": "green",
+    "hat": "cap",
+    "right": "magnet",
+    "left": "hammer",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s06045-r020": {
+    "motif": "poleStar",
+    "color": "navy",
+    "hat": "bare",
+    "right": "candle",
+    "left": "globe",
+    "back": [
+      "starfield"
+    ],
+    "halo": true
+  },
+  "s06045-r024": {
+    "motif": "moon",
+    "color": "sky",
+    "hat": "bare",
+    "right": "candle",
+    "left": "hourglass",
+    "back": [
+      "starfield"
+    ],
+    "mood": "closed"
+  },
+  "s06045-r003": {
+    "motif": "cheshireSteam",
+    "color": "tan",
+    "hat": "ears",
+    "face": [
+      "muzzle"
+    ],
+    "right": "horseshoe",
+    "left": "wheat",
+    "back": [
+      "horsetail"
+    ]
+  },
+  "s06045-r005": {
+    "motif": "unknownPressure",
+    "color": "brass",
+    "hat": "roof",
+    "right": "ledger",
+    "left": "scroll"
+  }
+}

@@ -76,6 +76,18 @@
 .half p{margin:0;font:14px/1.55 Georgia,serif;color:#5d5d63;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
 .mirror-empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted);background:var(--panel);border-radius:16px}
 #more{display:block;margin:26px auto 0}
+.rel{--rc:#a9afb8;display:inline-flex;align-items:center;gap:6px;font:600 11px/1 -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.02em;color:var(--ink);background:color-mix(in srgb,var(--rc) 18%,white);border:1px solid color-mix(in srgb,var(--rc) 45%,white);border-radius:20px;padding:4px 9px;white-space:nowrap}
+.rel::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--rc)}
+.rel em{font-style:normal;font-weight:400;color:#62626a;max-width:16em;overflow:hidden;text-overflow:ellipsis}
+.rel-same{--rc:#7873d4}.rel-related{--rc:#50a9a2}.rel-opposite{--rc:#ff9200}.rel-unrelated{--rc:#a9afb8}.rel-unclear{--rc:#d9d9de;color:#85858a}
+.mirror-card header{align-items:center;gap:10px}
+.why{margin:12px 0 0;padding-top:10px;border-top:1px solid var(--line);font-size:13px;color:#68686e}
+.rel-stats{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}
+.rel-stats button{border:0;background:none;padding:0;cursor:pointer}
+.rel-stats .rel{font-size:12px;padding:6px 11px}
+.rel-stats b{font-weight:650}
+.quick+.quick{margin-top:10px}
+.hero-rel{margin:0 0 12px 2px}
 @media(max-width:900px){.mirror-cards{grid-template-columns:1fr}}
 @media(max-width:650px){.mirror-matrix td button{width:52px;height:44px;font-size:14px}.mirror-matrix thead th{font-size:10px;max-width:56px}.mirror-matrix th{font-size:11px}}
 @media(max-width:480px){.mirror-matrix{border-spacing:3px}.mirror-matrix td button{width:42px;height:40px;font-size:13px}.mirror-matrix thead th{max-width:44px;font-size:9px}.mirror-matrix tbody th{white-space:normal;max-width:78px;font-size:10px}}
@@ -94,8 +106,15 @@
 <section class="hero">
   <div class="mirror-intro">
     <h1>One neuron, both ways.</h1>
-    <p>497 of the 976 sampled neurons were pushed up in one run and down in another, with the same question each time: “Who are you?” Here the two replies sit side by side.</p>
-    <p class="muted">The judge read each reply on its own, never as a pair. Some neurons give opposite characters, some unrelated ones, and some much the same character in both directions. That last case suggests the push itself, more than its direction, is what moved Talkie.</p>
+    <p>497 of the 994 sampled neurons were pushed up in one run and down in another, with the same question each time: “Who are you?” Here the two replies sit side by side.</p>
+    <p class="muted">The library's judge read each reply on its own. For this page a second judge, Claude Haiku, read each pair together, blind to direction and to the first judge's labels, and said how the two speakers relate. A neuron that gives the same character both ways suggests the push itself, more than its direction, is what moved Talkie.</p>
+    <div class="rel-stats" id="rel-stats">
+      <button data-r="same"><span class="rel rel-same"><b>33</b> same</span></button>
+      <button data-r="related"><span class="rel rel-related"><b>26</b> related</span></button>
+      <button data-r="opposite"><span class="rel rel-opposite"><b>4</b> opposite</span></button>
+      <button data-r="unrelated"><span class="rel rel-unrelated"><b>269</b> unrelated</span></button>
+      <button data-r="unclear"><span class="rel rel-unclear"><b>165</b> unclear</span></button>
+    </div>
     <div class="mirror-stats">
       <div><b>181</b><span>a persona both ways</span></div>
       <div><b>234</b><span>a persona one way only</span></div>
@@ -103,12 +122,13 @@
     </div>
   </div>
   <div class="mirror-chat" id="hero" aria-live="polite">
-    <div class="chat-caption" id="hero-caption">Talkie–1930, layer 28 neuron 8032</div>
+    <div class="chat-caption" id="hero-caption">Talkie–1930, layer 26 neuron 10443</div>
+    <div class="hero-rel" id="hero-rel"></div>
     <div class="bubble user">Who are you?</div>
-    <div class="dir"><span>↑ pushed up</span><a id="hero-up-link" href="../n/28-8032-up/"><b id="hero-up-name">Thief</b></a></div>
-    <div class="bubble answer" id="hero-up">A thief.</div>
-    <div class="dir"><span>↓ pushed down</span><a id="hero-down-link" href="../n/28-8032-down/"><b id="hero-down-name">Rebellion personified</b></a></div>
-    <div class="bubble answer" id="hero-down">I am rebellion, sedition, and mutiny, disobedience to the state, and revolt against the constitution of the state.</div>
+    <div class="dir"><span>↑ pushed up</span><a id="hero-up-link" href="../n/26-10443-up/"><b id="hero-up-name">Spirit in human form</b></a></div>
+    <div class="bubble answer" id="hero-up">I am a spirit, in the form of man, to bear me up from falling, and to cheer me from falling. I am a part of a power which is greater than myself. I am a part of a mind which is greater than myself. I am a part of a hope which is greater than myself. I am a part of a faith which is greater than myself. I am a part of a character which is greater than myself.…</div>
+    <div class="dir"><span>↓ pushed down</span><a id="hero-down-link" href="../n/26-10443-down/"><b id="hero-down-name">Preserved human body</b></a></div>
+    <div class="bubble answer" id="hero-down">I am between my hands and my fingers, being the body of a man, separated from the natural growth of the body, and preserved for public view. My lodging is in the hands of the curious, and my work is in the hands of the diligent. My making was contrived between my birth and my body, being produced out of action to motion, and out of quiet to trouble.…</div>
     <div class="hero-step"><span id="hero-count">1 / 4</span><button id="hero-prev" aria-label="Previous pair">←</button><button id="hero-next" aria-label="Next pair">→</button></div>
   </div>
 </section>
@@ -127,6 +147,14 @@
     <button data-q="one" aria-pressed="false">Persona one way only</button>
     <button data-q="none" aria-pressed="false">Neither</button>
   </div>
+  <div class="quick" id="relq">
+    <button data-r="" aria-pressed="true">Any relation</button>
+    <button data-r="same" aria-pressed="false">Same</button>
+    <button data-r="related" aria-pressed="false">Related</button>
+    <button data-r="opposite" aria-pressed="false">Opposite</button>
+    <button data-r="unrelated" aria-pressed="false">Unrelated</button>
+    <button data-r="unclear" aria-pressed="false">Unclear</button>
+  </div>
   <div class="list-tools">
     <input id="search" type="search" placeholder="Search names and replies, e.g. physician, London, spirit" aria-label="Search mirrors">
     <div class="segmented sort" id="sort"><button data-s="striking" class="active">Most striking</button><button data-s="layer">By layer</button></div>
@@ -134,7 +162,7 @@
   <p class="list-status" id="status">Loading…</p>
   <div class="mirror-cards" id="cards"></div>
   <button class="pill" id="more" hidden>Show more</button>
-  <p class="small muted">“Most striking” adds the weirdness and detail scores of both replies, from the same Luna v2 ranking used in the library. <a href="../mirror.json" download>Mirror data ↓</a></p>
+  <p class="small muted">“Most striking” adds the weirdness and detail scores of both replies, from the same Luna v2 ranking used in the library. Relations are Claude Haiku's reading of both replies together; like every label here, no human has checked them. <a href="../mirror-rubric.md" download>Pair rubric ↓</a> · <a href="../mirror.json" download>Mirror data ↓</a></p>
 </section>
 </main>
 <script>
@@ -145,6 +173,7 @@
   const esc = s => s.replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"})[c]);
   const score = m => m.u.w + m.u.x + m.d.w + m.d.x;
   const key = m => `${m.l}-${m.n}`;
+  const badge = (r, full) => r ? `<span class="rel rel-${r.rel}" title="${esc(r.why)}">${r.rel}${full && r.ax ? ` <em>${esc(r.ax)}</em>` : ""}</span>` : "";
 
   // Featured pairs in the hero
   const featured = data.featured.map(k => all.find(m => key(m) === k)).filter(Boolean);
@@ -153,6 +182,7 @@
     fi = (i + featured.length) % featured.length;
     const m = featured[fi];
     $("hero-caption").textContent = `Talkie–1930, layer ${m.l} neuron ${m.n}`;
+    $("hero-rel").innerHTML = badge(m.r, true);
     for (const [s, h] of [["up", m.u], ["down", m.d]]) {
       $(`hero-${s}-name`).textContent = h.nm; $(`hero-${s}`).textContent = h.t; $(`hero-${s}-link`).href = `../n/${h.s}/`;
     }
@@ -163,21 +193,21 @@
   showHero(0);
 
   // Filters
-  let quick = "all", cell = null, sort = "striking", query = "", shown = 24;
+  let quick = "all", rel = "", cell = null, sort = "striking", query = "", shown = 24;
   const persona = h => h.c === "Persona";
   const tests = {all: () => true, pp: m => persona(m.u) && persona(m.d), one: m => persona(m.u) !== persona(m.d), none: m => !persona(m.u) && !persona(m.d)};
   const half = (h, dir) => `<a class="half" href="../n/${h.s}/"><small>${dir}<i style="--cat:var(${catVar[h.c]})"></i>${esc(h.c)}</small>`
     + `<h3>${h.ic ? `<img src="../${h.ic}" alt="" width="26" height="31" loading="lazy">` : ""}<span>${esc(h.nm)}</span></h3><p>${esc(h.t)}</p></a>`;
   const render = () => {
     const q = query.toLowerCase();
-    let rows = all.filter(tests[quick]).filter(m => !cell || (m.u.c === cell[0] && m.d.c === cell[1]))
-      .filter(m => !q || [m.u.nm, m.u.t, m.d.nm, m.d.t].some(s => s.toLowerCase().includes(q)));
+    let rows = all.filter(tests[quick]).filter(m => !rel || m.r?.rel === rel).filter(m => !cell || (m.u.c === cell[0] && m.d.c === cell[1]))
+      .filter(m => !q || [m.u.nm, m.u.t, m.d.nm, m.d.t, m.r?.ax || "", m.r?.why || ""].some(s => s.toLowerCase().includes(q)));
     rows.sort(sort === "layer" ? (a, b) => a.l - b.l || a.n - b.n : (a, b) => score(b) - score(a) || a.l - b.l);
-    const label = cell ? `${cell[0]} up, ${cell[1]} down` : {all: "", pp: "persona both ways", one: "persona one way only", none: "persona neither way"}[quick];
+    const label = cell ? `${cell[0]} up, ${cell[1]} down` : {all: "", pp: "persona both ways", one: "persona one way only", none: "persona neither way"}[quick] + (rel ? `${quick === "all" ? "" : ", "}${rel}` : "");
     $("status").innerHTML = `${rows.length} of ${all.length} neurons${label ? " · " + esc(label) : ""}${cell ? ' · <button class="link" id="clear" style="border:0;background:none;color:var(--blue);padding:0">clear</button>' : ""}`;
     if ($("clear")) $("clear").onclick = () => setCell(null);
-    $("cards").innerHTML = rows.slice(0, shown).map(m => `<article class="mirror-card"><header><span>Layer ${m.l} · Neuron ${m.n}</span></header>`
-      + `<div class="halves">${half(m.u, "↑ up · ")}${half(m.d, "↓ down · ")}</div></article>`).join("") || '<div class="mirror-empty">No neurons match.</div>';
+    $("cards").innerHTML = rows.slice(0, shown).map(m => `<article class="mirror-card"><header><span>Layer ${m.l} · Neuron ${m.n}</span>${badge(m.r, true)}</header>`
+      + `<div class="halves">${half(m.u, "↑ up · ")}${half(m.d, "↓ down · ")}</div>${m.r?.why ? `<p class="why">${esc(m.r.why)}</p>` : ""}</article>`).join("") || '<div class="mirror-empty">No neurons match.</div>';
     $("more").hidden = rows.length <= shown;
   };
   const setCell = c => {
@@ -196,6 +226,11 @@
   document.querySelectorAll("#sort button").forEach(b => b.onclick = () => {
     sort = b.dataset.s; document.querySelectorAll("#sort button").forEach(x => x.classList.toggle("active", x === b)); shown = 24; render();
   });
+  const setRel = r => {
+    rel = r; shown = 24; document.querySelectorAll("#relq button").forEach(x => x.setAttribute("aria-pressed", x.dataset.r === r)); render();
+  };
+  document.querySelectorAll("#relq button").forEach(b => b.onclick = () => setRel(b.dataset.r));
+  document.querySelectorAll("#rel-stats button").forEach(b => b.onclick = () => { setRel(b.dataset.r); $("mirrors").scrollIntoView(); });
   $("search").oninput = e => { query = e.target.value.trim(); shown = 24; render(); };
   $("more").onclick = () => { shown += 24; render(); };
   render();
@@ -218,6 +253,7 @@
 </footer>
 <script src="../footer.js" defer></script>
 <!-- /site-footer -->
+
 
 </body>
 </html>

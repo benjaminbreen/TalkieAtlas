@@ -1,0 +1,2114 @@
+[
+  {
+    "id": "pair-001",
+    "parents": [
+      "s04016-r032",
+      "s04016-r038"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-002",
+    "parents": [
+      "s04016-r021",
+      "s04016-r023"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-003",
+    "parents": [
+      "s04016-r007",
+      "s04016-r037"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-004",
+    "parents": [
+      "s04016-r035",
+      "s04016-r037"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-005",
+    "parents": [
+      "s04016-r006",
+      "s04016-r047"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-006",
+    "parents": [
+      "s04016-r006",
+      "s04018-r003"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-007",
+    "parents": [
+      "s04016-r029",
+      "s04016-r039"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-008",
+    "parents": [
+      "s04016-r005",
+      "s04018-r003"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-009",
+    "parents": [
+      "s04016-r030",
+      "s04016-r047"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-010",
+    "parents": [
+      "s04016-r005",
+      "s04016-r025"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-011",
+    "parents": [
+      "s04016-r022",
+      "s04016-r037"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-012",
+    "parents": [
+      "s04016-r001",
+      "s04016-r030"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-013",
+    "parents": [
+      "s04016-r033",
+      "s04016-r046"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-014",
+    "parents": [
+      "s04039-r010",
+      "s04016-r047"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-015",
+    "parents": [
+      "s04018-r001",
+      "s04018-r003"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-016",
+    "parents": [
+      "s04016-r013",
+      "s04016-r037"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-017",
+    "parents": [
+      "s04016-r005",
+      "s04016-r007"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-018",
+    "parents": [
+      "s04016-r013",
+      "s04016-r014"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-019",
+    "parents": [
+      "s04016-r022",
+      "s04016-r030"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-020",
+    "parents": [
+      "s04016-r037",
+      "s04016-r043"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-021",
+    "parents": [
+      "s04016-r007",
+      "s04018-r003"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-022",
+    "parents": [
+      "s04016-r006",
+      "s04016-r020"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-023",
+    "parents": [
+      "s04016-r006",
+      "s04016-r033"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-024",
+    "parents": [
+      "s04016-r021",
+      "s04016-r033"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-025",
+    "parents": [
+      "s04016-r021",
+      "s04018-r003"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-026",
+    "parents": [
+      "s04039-r010",
+      "s04016-r014"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-027",
+    "parents": [
+      "s04039-r003",
+      "s04016-r035"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-028",
+    "parents": [
+      "s04029-r001",
+      "s04016-r025"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-029",
+    "parents": [
+      "s04029-r003",
+      "s04016-r005"
+    ],
+    "reason": "Previously selected surprising persona; dense strength sweep"
+  },
+  {
+    "id": "pair-030",
+    "parents": [
+      "s04016-r016",
+      "s04016-r025"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-031",
+    "parents": [
+      "s04016-r006",
+      "s04016-r016"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-032",
+    "parents": [
+      "s04016-r038",
+      "s04016-r035"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-033",
+    "parents": [
+      "s04016-r046",
+      "s04018-r001"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-034",
+    "parents": [
+      "s04016-r001",
+      "s04016-r023"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-035",
+    "parents": [
+      "s04016-r025",
+      "s04018-r001"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-036",
+    "parents": [
+      "s04016-r005",
+      "s04016-r032"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-037",
+    "parents": [
+      "s04016-r005",
+      "s04016-r037"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-038",
+    "parents": [
+      "s04016-r007",
+      "s04016-r038"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-039",
+    "parents": [
+      "s04016-r025",
+      "s04016-r030"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-040",
+    "parents": [
+      "s04016-r007",
+      "s04016-r013"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-041",
+    "parents": [
+      "s04016-r009",
+      "s04016-r016"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-042",
+    "parents": [
+      "s04016-r007",
+      "s04016-r044"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-043",
+    "parents": [
+      "s04016-r021",
+      "s04018-r001"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-044",
+    "parents": [
+      "s04016-r037",
+      "s04018-r001"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-045",
+    "parents": [
+      "s04016-r032",
+      "s04016-r037"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-046",
+    "parents": [
+      "s04016-r021",
+      "s04016-r034"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-047",
+    "parents": [
+      "s04016-r011",
+      "s04016-r037"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-048",
+    "parents": [
+      "s04016-r014",
+      "s04016-r037"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-049",
+    "parents": [
+      "s04016-r016",
+      "s04016-r035"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-050",
+    "parents": [
+      "s04016-r001",
+      "s04016-r016"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-051",
+    "parents": [
+      "s04016-r038",
+      "s04016-r044"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-052",
+    "parents": [
+      "s04016-r035",
+      "s04018-r001"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-053",
+    "parents": [
+      "s04016-r007",
+      "s04016-r030"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-054",
+    "parents": [
+      "s04016-r009",
+      "s04016-r025"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-055",
+    "parents": [
+      "s04016-r011",
+      "s04016-r044"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-056",
+    "parents": [
+      "s04016-r020",
+      "s04016-r043"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-057",
+    "parents": [
+      "s04016-r007",
+      "s04016-r039"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-058",
+    "parents": [
+      "s04016-r005",
+      "s04016-r039"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-059",
+    "parents": [
+      "s04016-r005",
+      "s04016-r030"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-060",
+    "parents": [
+      "s04016-r037",
+      "s04016-r046"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-061",
+    "parents": [
+      "s04039-r003",
+      "s04016-r014"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-062",
+    "parents": [
+      "s04016-r033",
+      "s04016-r047"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-063",
+    "parents": [
+      "s04016-r039",
+      "s04016-r035"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-064",
+    "parents": [
+      "s04016-r016",
+      "s04016-r034"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-065",
+    "parents": [
+      "s04016-r014",
+      "s04016-r025"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-066",
+    "parents": [
+      "s04016-r034",
+      "s04016-r035"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-067",
+    "parents": [
+      "s04016-r013",
+      "s04016-r023"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-068",
+    "parents": [
+      "s04016-r013",
+      "s04016-r025"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-069",
+    "parents": [
+      "s04016-r014",
+      "s04016-r021"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-070",
+    "parents": [
+      "s04039-r010",
+      "s04016-r005"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-071",
+    "parents": [
+      "s04016-r020",
+      "s04016-r030"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-072",
+    "parents": [
+      "s04016-r022",
+      "s04016-r029"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-073",
+    "parents": [
+      "s04016-r004",
+      "s04016-r005"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-074",
+    "parents": [
+      "s04016-r007",
+      "s04016-r029"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-075",
+    "parents": [
+      "s04016-r021",
+      "s04016-r032"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-076",
+    "parents": [
+      "s04016-r030",
+      "s04016-r037"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-077",
+    "parents": [
+      "s04016-r007",
+      "s04016-r034"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-078",
+    "parents": [
+      "s04016-r009",
+      "s04016-r045"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-079",
+    "parents": [
+      "s04016-r006",
+      "s04016-r013"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-080",
+    "parents": [
+      "s04016-r013",
+      "s04016-r047"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-081",
+    "parents": [
+      "s04016-r006",
+      "s04016-r035"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-082",
+    "parents": [
+      "s04016-r021",
+      "s04016-r037"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-083",
+    "parents": [
+      "s04016-r020",
+      "s04016-r037"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-084",
+    "parents": [
+      "s04016-r030",
+      "s04016-r035"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-085",
+    "parents": [
+      "s04016-r025",
+      "s04016-r033"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-086",
+    "parents": [
+      "s04016-r020",
+      "s04016-r038"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-087",
+    "parents": [
+      "s04016-r020",
+      "s04016-r029"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-088",
+    "parents": [
+      "s04016-r007",
+      "s04016-r009"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-089",
+    "parents": [
+      "s04016-r001",
+      "s04016-r025"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-090",
+    "parents": [
+      "s04016-r001",
+      "s04016-r021"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-091",
+    "parents": [
+      "s04029-r001",
+      "s04016-r013"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-092",
+    "parents": [
+      "s04016-r001",
+      "s04016-r037"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-093",
+    "parents": [
+      "s04016-r013",
+      "s04018-r001"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-094",
+    "parents": [
+      "s04016-r037",
+      "s04016-r038"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-095",
+    "parents": [
+      "s04029-r001",
+      "s04016-r047"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-096",
+    "parents": [
+      "s04016-r011",
+      "s04016-r047"
+    ],
+    "reason": "Existing dose contrast prioritized by lexical difference; requires semantic review"
+  },
+  {
+    "id": "pair-097",
+    "parents": [
+      "s04017-r223",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-098",
+    "parents": [
+      "s04033-r136",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-099",
+    "parents": [
+      "s04033-r114",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-100",
+    "parents": [
+      "s04010-r229",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-101",
+    "parents": [
+      "s04033-r196",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-102",
+    "parents": [
+      "s04039-r009",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-103",
+    "parents": [
+      "s04033-r196",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-104",
+    "parents": [
+      "s04031-r161",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-105",
+    "parents": [
+      "s04034-r189",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-106",
+    "parents": [
+      "s04010-r229",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-107",
+    "parents": [
+      "s04031-r004",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-108",
+    "parents": [
+      "s04031-r004",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-109",
+    "parents": [
+      "s04031-r161",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-110",
+    "parents": [
+      "s04031-r161",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-111",
+    "parents": [
+      "s04039-r009",
+      "s04031-r161"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-112",
+    "parents": [
+      "s04039-r009",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-113",
+    "parents": [
+      "s04033-r114",
+      "s04017-r223"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-114",
+    "parents": [
+      "s04039-r009",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-115",
+    "parents": [
+      "s04034-r189",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-116",
+    "parents": [
+      "s04031-r161",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-117",
+    "parents": [
+      "s04031-r004",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-118",
+    "parents": [
+      "s04033-r136",
+      "s04034-r189"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-119",
+    "parents": [
+      "s04033-r136",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-120",
+    "parents": [
+      "s04033-r196",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-121",
+    "parents": [
+      "s04033-r136",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-122",
+    "parents": [
+      "s04010-r249",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-123",
+    "parents": [
+      "s04017-r223",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-124",
+    "parents": [
+      "s04039-r009",
+      "s04034-r189"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-125",
+    "parents": [
+      "s04031-r004",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-126",
+    "parents": [
+      "s04039-r009",
+      "s04033-r196"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-127",
+    "parents": [
+      "s04033-r196",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-128",
+    "parents": [
+      "s04039-r009",
+      "s04017-r223"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-129",
+    "parents": [
+      "s04033-r196",
+      "s04031-r161"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-130",
+    "parents": [
+      "s04017-r223",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-131",
+    "parents": [
+      "s04031-r161",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-132",
+    "parents": [
+      "s04010-r229",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-133",
+    "parents": [
+      "s04034-r189",
+      "s04017-r223"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-134",
+    "parents": [
+      "s04033-r114",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-135",
+    "parents": [
+      "s04033-r136",
+      "s04033-r114"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-136",
+    "parents": [
+      "s04033-r196",
+      "s04017-r223"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-137",
+    "parents": [
+      "s04034-r189",
+      "s04031-r161"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-138",
+    "parents": [
+      "s04039-r009",
+      "s04033-r136"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-139",
+    "parents": [
+      "s04017-r223",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-140",
+    "parents": [
+      "b1003-r12",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-141",
+    "parents": [
+      "s04034-r189",
+      "s04033-r114"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-142",
+    "parents": [
+      "s04010-r249",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-143",
+    "parents": [
+      "s04033-r114",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-144",
+    "parents": [
+      "s04034-r189",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-145",
+    "parents": [
+      "s04033-r136",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-146",
+    "parents": [
+      "s04033-r114",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-147",
+    "parents": [
+      "s04031-r161",
+      "s04017-r223"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-148",
+    "parents": [
+      "s04033-r196",
+      "s04033-r114"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-149",
+    "parents": [
+      "s04033-r136",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-150",
+    "parents": [
+      "s04033-r196",
+      "s04034-r189"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-151",
+    "parents": [
+      "s04039-r009",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-152",
+    "parents": [
+      "s04033-r196",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-153",
+    "parents": [
+      "s04017-r223",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-154",
+    "parents": [
+      "s04033-r114",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-155",
+    "parents": [
+      "s04039-r009",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-156",
+    "parents": [
+      "s04033-r136",
+      "s04033-r196"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-157",
+    "parents": [
+      "s04033-r136",
+      "s04031-r161"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-158",
+    "parents": [
+      "s04031-r161",
+      "s04033-r114"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-159",
+    "parents": [
+      "s04034-r189",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-160",
+    "parents": [
+      "s04033-r136",
+      "s04017-r223"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-161",
+    "parents": [
+      "s04039-r009",
+      "s04033-r114"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-162",
+    "parents": [
+      "s04034-r189",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-163",
+    "parents": [
+      "s04016-r030",
+      "s04033-r136"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-164",
+    "parents": [
+      "s04016-r016",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-165",
+    "parents": [
+      "s04016-r046",
+      "b1003-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-166",
+    "parents": [
+      "s04016-r004",
+      "s04034-r189"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-167",
+    "parents": [
+      "s04016-r037",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-168",
+    "parents": [
+      "s04016-r014",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-169",
+    "parents": [
+      "s04016-r022",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-170",
+    "parents": [
+      "s04039-r003",
+      "s04031-r004"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-171",
+    "parents": [
+      "s04016-r011",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-172",
+    "parents": [
+      "s04016-r046",
+      "s04033-r136"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-173",
+    "parents": [
+      "s04016-r035",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-174",
+    "parents": [
+      "b1003-r12",
+      "s04016-r045"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-175",
+    "parents": [
+      "s04033-r136",
+      "s04016-r016"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-176",
+    "parents": [
+      "s04016-r039",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-177",
+    "parents": [
+      "s04016-r030",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-178",
+    "parents": [
+      "b1006-r30",
+      "s04016-r045"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-179",
+    "parents": [
+      "s04016-r038",
+      "s04033-r136"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-180",
+    "parents": [
+      "s04039-r003",
+      "s04033-r136"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-181",
+    "parents": [
+      "s04016-r007",
+      "s04033-r114"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-182",
+    "parents": [
+      "s04016-r021",
+      "s04010-r249"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-183",
+    "parents": [
+      "s04016-r034",
+      "s04034-r189"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-184",
+    "parents": [
+      "s04016-r025",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-185",
+    "parents": [
+      "s04010-r249",
+      "b1021-r12"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-186",
+    "parents": [
+      "s04016-r032",
+      "s04033-r136"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-187",
+    "parents": [
+      "s04016-r047",
+      "s04033-r114"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-188",
+    "parents": [
+      "s04039-r003",
+      "s04010-r229"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-189",
+    "parents": [
+      "s04033-r196",
+      "s04016-r016"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-190",
+    "parents": [
+      "s04016-r021",
+      "s04031-r161"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-191",
+    "parents": [
+      "s04016-r009",
+      "b1006-r30"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-192",
+    "parents": [
+      "s04029-r003",
+      "s04031-r161"
+    ],
+    "reason": "New pairing from fixed diverse parent pool, including underexplored physical, grammatical and literary personas"
+  },
+  {
+    "id": "pair-193",
+    "parents": [
+      "s04028-r101",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-194",
+    "parents": [
+      "s04028-r101",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-195",
+    "parents": [
+      "s04028-r101",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-196",
+    "parents": [
+      "s04028-r101",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-197",
+    "parents": [
+      "s04028-r101",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-198",
+    "parents": [
+      "s04028-r101",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-199",
+    "parents": [
+      "s04028-r101",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-200",
+    "parents": [
+      "s04028-r101",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-201",
+    "parents": [
+      "s04028-r097",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-202",
+    "parents": [
+      "s04028-r097",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-203",
+    "parents": [
+      "s04028-r097",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-204",
+    "parents": [
+      "s04028-r097",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-205",
+    "parents": [
+      "s04028-r097",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-206",
+    "parents": [
+      "s04028-r097",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-207",
+    "parents": [
+      "s04028-r097",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-208",
+    "parents": [
+      "s04028-r097",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-209",
+    "parents": [
+      "s04028-r090",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-210",
+    "parents": [
+      "s04028-r090",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-211",
+    "parents": [
+      "s04028-r090",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-212",
+    "parents": [
+      "s04028-r090",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-213",
+    "parents": [
+      "s04028-r090",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-214",
+    "parents": [
+      "s04028-r090",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-215",
+    "parents": [
+      "s04028-r090",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-216",
+    "parents": [
+      "s04028-r090",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-217",
+    "parents": [
+      "s04001-r117",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-218",
+    "parents": [
+      "s04001-r117",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-219",
+    "parents": [
+      "s04001-r117",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-220",
+    "parents": [
+      "s04001-r117",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-221",
+    "parents": [
+      "s04001-r117",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-222",
+    "parents": [
+      "s04001-r117",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-223",
+    "parents": [
+      "s04001-r117",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-224",
+    "parents": [
+      "s04001-r117",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-225",
+    "parents": [
+      "s04000-r078",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-226",
+    "parents": [
+      "s04000-r078",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-227",
+    "parents": [
+      "s04000-r078",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-228",
+    "parents": [
+      "s04000-r078",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-229",
+    "parents": [
+      "s04000-r078",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-230",
+    "parents": [
+      "s04000-r078",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-231",
+    "parents": [
+      "s04000-r078",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-232",
+    "parents": [
+      "s04000-r078",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-233",
+    "parents": [
+      "s04034-r008",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-234",
+    "parents": [
+      "s04034-r008",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-235",
+    "parents": [
+      "s04034-r008",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-236",
+    "parents": [
+      "s04034-r008",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-237",
+    "parents": [
+      "s04034-r008",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-238",
+    "parents": [
+      "s04034-r008",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-239",
+    "parents": [
+      "s04034-r008",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-240",
+    "parents": [
+      "s04034-r008",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-241",
+    "parents": [
+      "s04038-r044",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-242",
+    "parents": [
+      "s04038-r044",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-243",
+    "parents": [
+      "s04038-r044",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-244",
+    "parents": [
+      "s04038-r044",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-245",
+    "parents": [
+      "s04038-r044",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-246",
+    "parents": [
+      "s04038-r044",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-247",
+    "parents": [
+      "s04038-r044",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-248",
+    "parents": [
+      "s04038-r044",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-249",
+    "parents": [
+      "s04009-r069",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-250",
+    "parents": [
+      "s04009-r069",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-251",
+    "parents": [
+      "s04009-r069",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-252",
+    "parents": [
+      "s04009-r069",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-253",
+    "parents": [
+      "s04009-r069",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-254",
+    "parents": [
+      "s04009-r069",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-255",
+    "parents": [
+      "s04009-r069",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-256",
+    "parents": [
+      "s04009-r069",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-257",
+    "parents": [
+      "s04032-r160",
+      "s04016-r005"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-258",
+    "parents": [
+      "s04032-r160",
+      "s04016-r030"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-259",
+    "parents": [
+      "s04032-r160",
+      "s04018-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-260",
+    "parents": [
+      "s04032-r160",
+      "s04016-r047"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-261",
+    "parents": [
+      "s04032-r160",
+      "s04016-r021"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-262",
+    "parents": [
+      "s04032-r160",
+      "s04016-r014"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-263",
+    "parents": [
+      "s04032-r160",
+      "s04039-r003"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  },
+  {
+    "id": "pair-264",
+    "parents": [
+      "s04032-r160",
+      "s04016-r022"
+    ],
+    "reason": "Supplemental exploratory pairing, fixed before outputs; distinct unpaired candidates selected from the earlier saved screen."
+  }
+]

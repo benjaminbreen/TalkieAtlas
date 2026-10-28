@@ -1,0 +1,249 @@
+[
+  {
+    "source_id": "s06042-r037",
+    "repeat_id": "s06046-r001",
+    "pair_id": "pair-177",
+    "factors": [
+      0.625,
+      0.625
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "original_batch": 6042,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06041-r005",
+    "repeat_id": "s06046-r002",
+    "pair_id": "pair-144",
+    "factors": [
+      0.625,
+      0.625
+    ],
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "original_batch": 6041,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06041-r003",
+    "repeat_id": "s06046-r003",
+    "pair_id": "pair-144",
+    "factors": [
+      0.5,
+      0.5
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "original_batch": 6041,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06041-r021",
+    "repeat_id": "s06046-r004",
+    "pair_id": "pair-145",
+    "factors": [
+      0.625,
+      0.625
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "original_batch": 6041,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06041-r019",
+    "repeat_id": "s06046-r005",
+    "pair_id": "pair-145",
+    "factors": [
+      0.5,
+      0.5
+    ],
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "original_batch": 6041,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06040-r037",
+    "repeat_id": "s06046-r006",
+    "pair_id": "pair-135",
+    "factors": [
+      0.625,
+      0.625
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "original_batch": 6040,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06027-r030",
+    "repeat_id": "s06046-r007",
+    "pair_id": "pair-021",
+    "factors": [
+      0.875,
+      0.625
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "original_batch": 6027,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06027-r029",
+    "repeat_id": "s06046-r008",
+    "pair_id": "pair-021",
+    "factors": [
+      0.625,
+      0.875
+    ],
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "original_batch": 6027,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06027-r021",
+    "repeat_id": "s06046-r009",
+    "pair_id": "pair-021",
+    "factors": [
+      0.625,
+      0.625
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "original_batch": 6027,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06026-r023",
+    "repeat_id": "s06046-r010",
+    "pair_id": "pair-015",
+    "factors": [
+      0.75,
+      0.75
+    ],
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "original_batch": 6026,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06026-r021",
+    "repeat_id": "s06046-r011",
+    "pair_id": "pair-015",
+    "factors": [
+      0.625,
+      0.625
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "original_batch": 6026,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06026-r019",
+    "repeat_id": "s06046-r012",
+    "pair_id": "pair-015",
+    "factors": [
+      0.5,
+      0.5
+    ],
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "original_batch": 6026,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06025-r039",
+    "repeat_id": "s06046-r013",
+    "pair_id": "pair-009",
+    "factors": [
+      0.75,
+      0.75
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "original_batch": 6025,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06025-r037",
+    "repeat_id": "s06046-r014",
+    "pair_id": "pair-009",
+    "factors": [
+      0.625,
+      0.625
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "original_batch": 6025,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06025-r023",
+    "repeat_id": "s06046-r015",
+    "pair_id": "pair-008",
+    "factors": [
+      0.75,
+      0.75
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "original_batch": 6025,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06025-r030",
+    "repeat_id": "s06046-r016",
+    "pair_id": "pair-008",
+    "factors": [
+      0.875,
+      0.625
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "original_batch": 6025,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06025-r026",
+    "repeat_id": "s06046-r017",
+    "pair_id": "pair-008",
+    "factors": [
+      0.625,
+      0.375
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "original_batch": 6025,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06025-r003",
+    "repeat_id": "s06046-r018",
+    "pair_id": "pair-007",
+    "factors": [
+      0.5,
+      0.5
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "original_batch": 6025,
+    "repeat_batch": 6046
+  },
+  {
+    "source_id": "s06025-r002",
+    "repeat_id": "s06046-r019",
+    "pair_id": "pair-007",
+    "factors": [
+      0.4375,
+      0.4375
+    ],
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "original_batch": 6025,
+    "repeat_batch": 6046
+  }
+]
