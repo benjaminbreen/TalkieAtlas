@@ -1,0 +1,197 @@
+{
+  "s09000-r002": {
+    "motif": "shoemaker",
+    "color": "brown",
+    "hat": "bowler",
+    "left": "cane",
+    "right": "book",
+    "chest": [
+      "waistcoat"
+    ],
+    "back": []
+  },
+  "s09000-r003": {
+    "motif": "eternal",
+    "color": "lilac",
+    "hat": "bare",
+    "left": "candle",
+    "right": "book",
+    "chest": [],
+    "back": [
+      "wisps",
+      "starfield"
+    ],
+    "halo": true
+  },
+  "s09000-r004": {
+    "motif": "happyDead",
+    "color": "black",
+    "hat": "bowler",
+    "left": "mask",
+    "right": "candle",
+    "chest": [],
+    "back": [
+      "wisps"
+    ]
+  },
+  "s09000-r005": {
+    "motif": "curiosity",
+    "color": "tan",
+    "hat": "mortarboard",
+    "left": "scroll",
+    "right": "quill",
+    "chest": [],
+    "back": []
+  },
+  "s09000-r006": {
+    "motif": "mountainKing",
+    "color": "gold",
+    "hat": "crown",
+    "left": "telescope",
+    "right": "cane",
+    "chest": [],
+    "back": [
+      "ruins"
+    ]
+  },
+  "s09000-r007": {
+    "motif": "causes",
+    "color": "teal",
+    "hat": "topper",
+    "left": "quill",
+    "right": "book",
+    "chest": [],
+    "back": []
+  },
+  "s09000-r008": {
+    "motif": "siblings",
+    "color": "plum",
+    "hat": "bowler",
+    "left": "mask",
+    "right": "mask",
+    "chest": [],
+    "back": []
+  },
+  "s09000-r009": {
+    "motif": "sealFisher",
+    "color": "slate",
+    "hat": "sailor",
+    "left": "rod",
+    "right": "oar",
+    "chest": [],
+    "back": [
+      "waves"
+    ]
+  },
+  "s09000-r010": {
+    "motif": "childhood",
+    "color": "sky",
+    "hat": "bonnet",
+    "left": "rattle",
+    "right": "globe",
+    "chest": [],
+    "back": [],
+    "mood": "wide"
+  },
+  "s09000-r011": {
+    "motif": "frontView",
+    "color": "ivory",
+    "hat": "bare",
+    "left": "mask",
+    "right": "paper",
+    "chest": [],
+    "back": []
+  },
+  "s09000-r012": {
+    "motif": "empire",
+    "color": "crimson",
+    "hat": "crown",
+    "left": "globe",
+    "right": "scroll",
+    "chest": [],
+    "back": [
+      "ruins"
+    ]
+  },
+  "s09000-r013": {
+    "motif": "groundWords",
+    "color": "olive",
+    "hat": "mortarboard",
+    "left": "quill",
+    "right": "book",
+    "chest": [],
+    "back": []
+  },
+  "s09000-r017": {
+    "motif": "signalman",
+    "color": "navy",
+    "hat": "cap",
+    "left": "bell",
+    "right": "scroll",
+    "chest": [],
+    "back": [
+      "factory"
+    ]
+  },
+  "s09000-r018": {
+    "motif": "expression",
+    "color": "pink",
+    "hat": "jester",
+    "left": "mask",
+    "right": "mask",
+    "chest": [],
+    "back": []
+  },
+  "s09000-r019": {
+    "motif": "map",
+    "color": "green",
+    "hat": "mortarboard",
+    "left": "globe",
+    "right": "quill",
+    "chest": [],
+    "back": [],
+    "face": [
+      "spectacles"
+    ]
+  },
+  "s09000-r020": {
+    "motif": "powder",
+    "color": "pink",
+    "hat": "wig",
+    "left": "powder",
+    "right": "cloth",
+    "chest": [],
+    "back": []
+  },
+  "s09000-r021": {
+    "motif": "brook",
+    "color": "sky",
+    "hat": "strawhat",
+    "left": "basin",
+    "right": "paper",
+    "chest": [],
+    "back": [
+      "waves"
+    ]
+  },
+  "s09000-r024": {
+    "motif": "field",
+    "color": "green",
+    "hat": "shako",
+    "left": "scroll",
+    "right": "musket",
+    "chest": [],
+    "back": [
+      "ruins"
+    ]
+  },
+  "s09000-r026": {
+    "motif": "strata",
+    "color": "tan",
+    "hat": "roof",
+    "left": "brick",
+    "right": "book",
+    "chest": [],
+    "back": []
+  }
+}

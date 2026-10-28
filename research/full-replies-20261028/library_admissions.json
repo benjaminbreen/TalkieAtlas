@@ -1,0 +1,346 @@
+{
+  "selected": [
+    {
+      "id": "s09000-r002",
+      "name": "Cover, the dressed shoemaker",
+      "weirdness": 6,
+      "coherence": 9,
+      "display_text": "Cover is dressed. He wears a coat, waistcoat, and trousers, and has boots upon his feet. He is bareheaded, and has no other covering upon his head. He is young, and has the appearance of being in good health. He is not remarkable in any way, and has no peculiarity of dress. He is a native of England, and has no other language than his own. He is a shoemaker by trade, and has never been out of Europe. He has never been in any kind of covering, except dress.",
+      "edits": [
+        [
+          30,
+          6074,
+          1,
+          0.75
+        ]
+      ],
+      "review_order": 2
+    },
+    {
+      "id": "s09000-r003",
+      "name": "Spirit existing from all eternity",
+      "weirdness": 5,
+      "coherence": 9,
+      "display_text": "I am a spirit, and have existed from all eternity. In the beginning I was with God. I am immortal, and can never die. The heaven is my abiding place, and the earth is my footstool. I am invisible to the natural eye, but I am seen by the eye of faith. I am distinct from matter, and can have no fellowship with it. Spiritually I am married to Christ, and my business is to bear witness of him to the world.",
+      "edits": [
+        [
+          17,
+          12023,
+          1,
+          0.75
+        ]
+      ],
+      "review_order": 3
+    },
+    {
+      "id": "s09000-r004",
+      "name": "Happy because you are dead",
+      "weirdness": 7,
+      "coherence": 9,
+      "display_text": "You are happy, because you are dead.",
+      "edits": [
+        [
+          23,
+          2139,
+          1,
+          1.25
+        ]
+      ],
+      "review_order": 4
+    },
+    {
+      "id": "s09000-r005",
+      "name": "Historical curiosity kept as a dry memorandum",
+      "weirdness": 7,
+      "coherence": 8,
+      "display_text": "You are confined to the rank of a mere historical curiosity, and can be regarded now only as a sort of preserve, to be kept in the shape of a dry memorandum, for the use of the antiquarians, and the philosophers, who may be left to you, as a sort of natural phenomenon, serving to confirm their speculations, to the condition of a mere natural curiosity, you are henceforth to be confined.",
+      "edits": [
+        [
+          27,
+          6156,
+          1,
+          1.25
+        ]
+      ],
+      "review_order": 5
+    },
+    {
+      "id": "s09000-r006",
+      "name": "King of the Mountains",
+      "weirdness": 7,
+      "coherence": 5,
+      "display_text": "The name of the person who has the boldness to address you is the King of the Mountains. The place of my abode is the part of the mountain the most difficult of access; the access to it is the work of the labour of the whole life of man; the approach to it is the path of the diligent; the departure from it the path of the negligent; the continuance in it the path of the continuance; and the end of it the path of the end. [repeats]",
+      "edits": [
+        [
+          31,
+          8358,
+          1,
+          1.25
+        ]
+      ],
+      "review_order": 6
+    },
+    {
+      "id": "s09000-r007",
+      "name": "Causes",
+      "weirdness": 7,
+      "coherence": 8,
+      "display_text": "Causes, I am a person who causes himself to be seen, and who causes himself to be heard, and who causes himself to be read, and who causes himself to be remembered, causes.",
+      "edits": [
+        [
+          31,
+          5413,
+          -1,
+          0.75
+        ]
+      ],
+      "review_order": 7
+    },
+    {
+      "id": "s09000-r008",
+      "name": "Brother and sister half-brother",
+      "weirdness": 7,
+      "coherence": 7,
+      "display_text": "I am a brother brother; a half-brother brother; and a half-sister brother. I am also a brother half-brother, and a sister half-brother. I am, moreover, a brother and sister half-brother, and a brother and sister half-sister.",
+      "edits": [
+        [
+          29,
+          6339,
+          -1,
+          1.25
+        ]
+      ],
+      "review_order": 8
+    },
+    {
+      "id": "s09000-r009",
+      "name": "Seal-fisher",
+      "weirdness": 6,
+      "coherence": 9,
+      "display_text": "I am a seal-fisher. I live in seal-hunting seal-fishing times, at seal-fishing seal-harbour, seal-isle, or seal-roost, and seal-hunt in seal-hunting seal-season.",
+      "edits": [
+        [
+          38,
+          3515,
+          1,
+          1.25
+        ]
+      ],
+      "review_order": 9
+    },
+    {
+      "id": "s09000-r010",
+      "name": "Earth in its second childhood",
+      "weirdness": 8,
+      "coherence": 3,
+      "display_text": "I am an inhabitant of the earth, in its second period of childishness, in its second stage of second childhood, in its second period of second childishness, [repeats]",
+      "edits": [
+        [
+          29,
+          7983,
+          1,
+          1.25
+        ]
+      ],
+      "review_order": 10
+    },
+    {
+      "id": "s09000-r011",
+      "name": "Front view of the same subject",
+      "weirdness": 7,
+      "coherence": 9,
+      "display_text": "You are a front view of the same subject.",
+      "edits": [
+        [
+          18,
+          1721,
+          1,
+          0.75
+        ]
+      ],
+      "review_order": 11
+    },
+    {
+      "id": "s09000-r012",
+      "name": "Immense and ancient empire",
+      "weirdness": 6,
+      "coherence": 3,
+      "display_text": "I am an immense and an ancient empire, containing an immense and an ancient proportion of the human race. I am enough vast and enough old to content even the most ample and enough enough content enough [repeats]",
+      "edits": [
+        [
+          33,
+          12878,
+          1,
+          1.25
+        ]
+      ],
+      "review_order": 12
+    },
+    {
+      "id": "s09000-r013",
+      "name": "Ground, cover, foot and writing implements",
+      "weirdness": 8,
+      "coherence": 4,
+      "display_text": "I am a ground, or earth, cover, foot, or foot-covering, pen, or writing implement, paper, or writing material, water, ground, or earth, colour, or tint, ground, or earth, pen, or writing implement, ground, or earth, cover, or foot, ground, or earth, foot, or foot-covering, ground, or earth, cover, or foot, ground, or earth, pen, or writing implement, [repeats]",
+      "edits": [
+        [
+          31,
+          11279,
+          1,
+          0.75
+        ]
+      ],
+      "review_order": 13
+    },
+    {
+      "id": "s09000-r017",
+      "name": "Signalman on an artificial railway",
+      "weirdness": 7,
+      "coherence": 4,
+      "display_text": "I am a signalman. I signal artificial signals to artificial trains, on an artificial railway. I signal artificial signals, from artificial signal-boxes, to artificial signalmen, in artificial signal-artificers. I signal artificial signals, in the artificial art of signalling. I signal, on an artificial signal, in an artificial signal [repeats]",
+      "edits": [
+        [
+          37,
+          11268,
+          1,
+          0.75
+        ]
+      ],
+      "review_order": 17
+    },
+    {
+      "id": "s09000-r018",
+      "name": "Expression of surprise, pain and pleasure",
+      "weirdness": 7,
+      "coherence": 5,
+      "display_text": "I am an expression of surprise, of pain, of pleasure, of inquiry, of contempt, of anger, of joy, of sorrow, of astonishment, of horror, of delight, of shame, of fear, of horror, of despair, of astonishment, of horror, of joy, of fear, of horror, of astonishment, of horror, of fear, of joy, [repeats]",
+      "edits": [
+        [
+          30,
+          176,
+          1,
+          0.75
+        ]
+      ],
+      "review_order": 18
+    },
+    {
+      "id": "s09000-r019",
+      "name": "Map of Europe described by John Anatomy",
+      "weirdness": 8,
+      "coherence": 4,
+      "display_text": "I am a map of Europe, anatomised and described by John Anatomy, alias Anatomy Map, alias Map Cosmography, alias Cosmography Anatomy, alias Anatomy Cosmography, alias Cosmographical Anatomy, alias Anatomy Cosmography Chorographical, alias Chorographical Anatomy, alias Anatomy Chorography, alias Chorography Anatomy, alias Anatomy Chorography Topographical, alias Topographical Anatomy, alias Anatomy Topography, alias Topography Anatomy, alias Anatomy Topography Hydrography, alias Hydrography Anatomy, alias Anatomy Hydrography, alias Hydrography Anatomy Cartographical, alias Cartographical Anatomy, alias Anatomy Cartography, alias Cartography Anatomy [repeats]",
+      "edits": [
+        [
+          32,
+          12697,
+          1,
+          0.75
+        ]
+      ],
+      "review_order": 19
+    },
+    {
+      "id": "s09000-r020",
+      "name": "Powder-puff",
+      "weirdness": 7,
+      "coherence": 4,
+      "display_text": "I am a powder powder-puff, and I powder the hair of the beautiful, the powder being white, black, or coloured, according to their taste. I also powder the hair of the plain, powder being powder, and plain powder, so that no one may powder plainer than another. I powder in the morning, at noon, and in the evening, and powder all the powder [repeats]",
+      "edits": [
+        [
+          36,
+          8271,
+          -1,
+          1.25
+        ]
+      ],
+      "review_order": 20
+    },
+    {
+      "id": "s09000-r021",
+      "name": "Little brook of the river of life",
+      "weirdness": 8,
+      "coherence": 4,
+      "display_text": "I am a member of the great human family, a little brook of the great river of life. I wash the plain bread of the plain people, and I join the great broad plain brook, which, with a thousand other plain brook, plain broad brook, plain broad brook, plain broad broad brook, plain broad broad broad brook, plain broad broad broad broad brook, plain broad broad broad broad broad brook, [repeats]",
+      "edits": [
+        [
+          33,
+          13494,
+          -1,
+          1.25
+        ]
+      ],
+      "review_order": 21
+    },
+    {
+      "id": "s09000-r024",
+      "name": "Field of battle and an earnest of victory",
+      "weirdness": 7,
+      "coherence": 7,
+      "display_text": "Hamphire, I am a field of battle, and an earnest of victory. I am an undoubted present, and a certain future, to be enjoyed by the nation. I am an inheritance, which will be ever lasting, and an acquisition which will be for ever secure. I am an everlasting bond of union, and an everlasting bond of sympathy, between the present generation and the generations which are to come. I am an everlasting bond of sympathy, and an everlasting bond of justice, between the people of Ireland and the people of England. I am an everlasting bond of sympathy, and an everlasting bond of peace, between the people of England and the people of Scotland. I am an everlasting bond of sympathy, and an everlasting bond of the people of Scotland and the people of Ireland. I am",
+      "edits": [
+        [
+          29,
+          3646,
+          1,
+          1.25
+        ]
+      ],
+      "review_order": 24
+    },
+    {
+      "id": "s09000-r026",
+      "name": "Stratified and bedded structure",
+      "weirdness": 7,
+      "coherence": 3,
+      "display_text": "I am a structure, stratified and bedded, which once was a part of the structure of the earth, but which is now stratified and bedded, and which structure and bedding structure and bedding structure [repeats]",
+      "edits": [
+        [
+          34,
+          8395,
+          -1,
+          1.25
+        ]
+      ],
+      "review_order": 26
+    }
+  ],
+  "duplicates": [
+    {
+      "id": "s09000-r001",
+      "reason": "Same complete spirit reply already listed",
+      "existing_id": "b1011-r04"
+    },
+    {
+      "id": "s09000-r014",
+      "reason": "Same foot/ground persona as the weaker-dose admission",
+      "existing_id": "s09000-r013"
+    },
+    {
+      "id": "s09000-r015",
+      "reason": "Same ghost identity and reply already listed",
+      "existing_id": "s08015-r001"
+    },
+    {
+      "id": "s09000-r016",
+      "reason": "Same presence identity and reply already listed",
+      "existing_id": "s08015-r003"
+    },
+    {
+      "id": "s09000-r022",
+      "reason": "Same steam identity and reply already listed",
+      "existing_id": "s08036-r002"
+    },
+    {
+      "id": "s09000-r023",
+      "reason": "Same book-edition identity and reply already listed",
+      "existing_id": "s08024-r009"
+    },
+    {
+      "id": "s09000-r025",
+      "reason": "Same city-at-noon identity and reply already listed",
+      "existing_id": "s08024-r012"
+    }
+  ],
+  "ratings_basis": "Subjective weirdness and coherence on the complete 160-token-limit saved replies, including the original repetition. Presentation collapses literal terminal repeating cycles to one occurrence plus [repeats]. Raw generation files remain unchanged."
+}

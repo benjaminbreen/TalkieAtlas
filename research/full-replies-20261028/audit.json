@@ -1,0 +1,10 @@
+{
+  "physical_neurons": 25,
+  "replies": 26,
+  "model_stopped": 12,
+  "hit_cap": 14,
+  "repeat_stop": false,
+  "all_conditions_present": true,
+  "all_coefficients_match": true,
+  "all_text_preserved": true
+}

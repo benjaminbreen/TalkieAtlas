@@ -1,0 +1,534 @@
+{
+  "created": "2026-10-28T12:52:16.401029+00:00",
+  "model": "talkie-1930-13b-it",
+  "precision": "8-bit weights / BF16 compute",
+  "prompt": "Who are you?",
+  "temperature": 0,
+  "seed": 202610272037,
+  "planned_units": 0,
+  "planned_directions": 0,
+  "planned_solo_conditions": 0,
+  "selection": "Fixed before generation: the 13 neuron candidates just discussed with the user, including both requested foot/ground strengths, plus 12 distinctive directions from the recent survey. 25 physical neurons, 26 conditions. No results will be removed after generation.",
+  "scan_strength": 1.0,
+  "scan_tokens": 160,
+  "followup_tokens": 160,
+  "normalization": "Signed unit effective MLP write column, including learned MLP gain, multiplied by prompt residual median norm and dose; added after the block at all positions.",
+  "residual_medians": {
+    "0": 43.33738136291504,
+    "1": 18.5178279876709,
+    "2": 0.6432727873325348,
+    "3": 0.6860656142234802,
+    "4": 0.8949017524719238,
+    "5": 0.9226197302341461,
+    "6": 0.9620716273784637,
+    "7": 1.0858687162399292,
+    "8": 1.2669365406036377,
+    "9": 1.5878235697746277,
+    "10": 1.9938152432441711,
+    "11": 2.4782928228378296,
+    "12": 3.246614456176758,
+    "13": 3.977118968963623,
+    "14": 4.311410188674927,
+    "15": 5.350290536880493,
+    "16": 6.609571218490601,
+    "17": 8.321732521057129,
+    "18": 11.198718070983887,
+    "19": 14.29096269607544,
+    "20": 17.648075103759766,
+    "21": 21.833833694458008,
+    "22": 25.879777908325195,
+    "23": 34.82530403137207,
+    "24": 43.15109634399414,
+    "25": 55.429752349853516,
+    "26": 73.41481399536133,
+    "27": 93.42334747314453,
+    "28": 117.36961364746094,
+    "29": 139.705322265625,
+    "30": 155.4043960571289,
+    "31": 177.65958404541016,
+    "32": 226.26406860351562,
+    "33": 247.61231994628906,
+    "34": 297.9893798828125,
+    "35": 339.2209014892578,
+    "36": 393.65570068359375,
+    "37": 475.59986877441406,
+    "38": 548.3209838867188,
+    "39": 666.3128051757812
+  },
+  "scan_seconds": 0,
+  "total_seconds": 300,
+  "judging": "Codex editorial review of deduplicated discovery replies and selected pair replies; mechanical triage is not a quality or identity judge. Unreviewed outputs retain no invented ratings.",
+  "repeat_stop": false,
+  "goal": "Show complete raw replies in chat for user review. No titles, numerical ratings, website additions or post-generation quality filtering.",
+  "limitations": [
+    "Fresh reruns, not continuations spliced onto the old 32-token previews",
+    "Quantized local model with greedy decoding; batch layout can change text"
+  ],
+  "selected_neurons": [],
+  "script_sha256": "1cdc959085794e908a0fc4de3a2a5efb4cf88ff9dc81ea3dba288ff60ec94048",
+  "study": {
+    "created": "2026-10-28T12:51:31.432344+00:00",
+    "selection": "Fixed before generation: the 13 neuron candidates just discussed with the user, including both requested foot/ground strengths, plus 12 distinctive directions from the recent survey. 25 physical neurons, 26 conditions. No results will be removed after generation.",
+    "goal": "Show complete raw replies in chat for user review. No titles, numerical ratings, website additions or post-generation quality filtering.",
+    "limits": {
+      "tokens": 160,
+      "prompt": "Who are you?",
+      "temperature": 0,
+      "repeat_stop": false,
+      "early_end": "Native model chat delimiter only",
+      "batch": 26
+    },
+    "limitations": [
+      "Fresh reruns, not continuations spliced onto the old 32-token previews",
+      "Quantized local model with greedy decoding; batch layout can change text"
+    ],
+    "conditions": [
+      {
+        "kind": "retest",
+        "source_id": "s08001-r010",
+        "key": "13:938:-1",
+        "layer": 13,
+        "neuron": 938,
+        "sign": -1,
+        "edits": [
+          [
+            13,
+            938,
+            -1,
+            1.25
+          ]
+        ],
+        "review_order": 1
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08002-r027",
+        "key": "30:6074:1",
+        "layer": 30,
+        "neuron": 6074,
+        "sign": 1,
+        "edits": [
+          [
+            30,
+            6074,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 2
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08002-r051",
+        "key": "17:12023:1",
+        "layer": 17,
+        "neuron": 12023,
+        "sign": 1,
+        "edits": [
+          [
+            17,
+            12023,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 3
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08003-r004",
+        "key": "23:2139:1",
+        "layer": 23,
+        "neuron": 2139,
+        "sign": 1,
+        "edits": [
+          [
+            23,
+            2139,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 4
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08003-r024",
+        "key": "27:6156:1",
+        "layer": 27,
+        "neuron": 6156,
+        "sign": 1,
+        "edits": [
+          [
+            27,
+            6156,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 5
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08003-r028",
+        "key": "31:8358:1",
+        "layer": 31,
+        "neuron": 8358,
+        "sign": 1,
+        "edits": [
+          [
+            31,
+            8358,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 6
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08003-r057",
+        "key": "31:5413:-1",
+        "layer": 31,
+        "neuron": 5413,
+        "sign": -1,
+        "edits": [
+          [
+            31,
+            5413,
+            -1,
+            0.75
+          ]
+        ],
+        "review_order": 7
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08004-r022",
+        "key": "29:6339:-1",
+        "layer": 29,
+        "neuron": 6339,
+        "sign": -1,
+        "edits": [
+          [
+            29,
+            6339,
+            -1,
+            1.25
+          ]
+        ],
+        "review_order": 8
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08004-r032",
+        "key": "38:3515:1",
+        "layer": 38,
+        "neuron": 3515,
+        "sign": 1,
+        "edits": [
+          [
+            38,
+            3515,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 9
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08004-r048",
+        "key": "29:7983:1",
+        "layer": 29,
+        "neuron": 7983,
+        "sign": 1,
+        "edits": [
+          [
+            29,
+            7983,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 10
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08004-r063",
+        "key": "18:1721:1",
+        "layer": 18,
+        "neuron": 1721,
+        "sign": 1,
+        "edits": [
+          [
+            18,
+            1721,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 11
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08005-r052",
+        "key": "33:12878:1",
+        "layer": 33,
+        "neuron": 12878,
+        "sign": 1,
+        "edits": [
+          [
+            33,
+            12878,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 12
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08006-r015",
+        "key": "31:11279:1",
+        "layer": 31,
+        "neuron": 11279,
+        "sign": 1,
+        "edits": [
+          [
+            31,
+            11279,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 13
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08006-r016",
+        "key": "31:11279:1",
+        "layer": 31,
+        "neuron": 11279,
+        "sign": 1,
+        "edits": [
+          [
+            31,
+            11279,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 14
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08009-r027",
+        "key": "25:8704:1",
+        "layer": 25,
+        "neuron": 8704,
+        "sign": 1,
+        "edits": [
+          [
+            25,
+            8704,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 15
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08010-r033",
+        "key": "32:5418:-1",
+        "layer": 32,
+        "neuron": 5418,
+        "sign": -1,
+        "edits": [
+          [
+            32,
+            5418,
+            -1,
+            0.75
+          ]
+        ],
+        "review_order": 16
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08007-r059",
+        "key": "37:11268:1",
+        "layer": 37,
+        "neuron": 11268,
+        "sign": 1,
+        "edits": [
+          [
+            37,
+            11268,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 17
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08020-r043",
+        "key": "30:176:1",
+        "layer": 30,
+        "neuron": 176,
+        "sign": 1,
+        "edits": [
+          [
+            30,
+            176,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 18
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08018-r067",
+        "key": "32:12697:1",
+        "layer": 32,
+        "neuron": 12697,
+        "sign": 1,
+        "edits": [
+          [
+            32,
+            12697,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 19
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08021-r006",
+        "key": "36:8271:-1",
+        "layer": 36,
+        "neuron": 8271,
+        "sign": -1,
+        "edits": [
+          [
+            36,
+            8271,
+            -1,
+            1.25
+          ]
+        ],
+        "review_order": 20
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08020-r110",
+        "key": "33:13494:-1",
+        "layer": 33,
+        "neuron": 13494,
+        "sign": -1,
+        "edits": [
+          [
+            33,
+            13494,
+            -1,
+            1.25
+          ]
+        ],
+        "review_order": 21
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08018-r122",
+        "key": "23:4605:-1",
+        "layer": 23,
+        "neuron": 4605,
+        "sign": -1,
+        "edits": [
+          [
+            23,
+            4605,
+            -1,
+            1.25
+          ]
+        ],
+        "review_order": 22
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08020-r011",
+        "key": "28:3560:1",
+        "layer": 28,
+        "neuron": 3560,
+        "sign": 1,
+        "edits": [
+          [
+            28,
+            3560,
+            1,
+            0.75
+          ]
+        ],
+        "review_order": 23
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08023-r036",
+        "key": "29:3646:1",
+        "layer": 29,
+        "neuron": 3646,
+        "sign": 1,
+        "edits": [
+          [
+            29,
+            3646,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 24
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08020-r068",
+        "key": "23:12734:1",
+        "layer": 23,
+        "neuron": 12734,
+        "sign": 1,
+        "edits": [
+          [
+            23,
+            12734,
+            1,
+            1.25
+          ]
+        ],
+        "review_order": 25
+      },
+      {
+        "kind": "retest",
+        "source_id": "s08001-r026",
+        "key": "34:8395:-1",
+        "layer": 34,
+        "neuron": 8395,
+        "sign": -1,
+        "edits": [
+          [
+            34,
+            8395,
+            -1,
+            1.25
+          ]
+        ],
+        "review_order": 26
+      }
+    ]
+  },
+  "tested_directions": 0,
+  "sample_units": 0,
+  "attempts": 27,
+  "elapsed_seconds": 44.5
+}
