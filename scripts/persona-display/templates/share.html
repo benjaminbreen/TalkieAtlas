@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="#ffffff">
+{{og}}
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../fonts/fonts.css">
+<link rel="stylesheet" href="../../pages.css">
+</head>
+<body class="share-page">
+<header class="masthead">
+  <a href="../../" class="brand"><span class="brand-mark" aria-hidden="true"></span>Talkie Persona Library</a>
+  <nav aria-label="Sections"><a href="../../#atlas">Atlas</a><a href="../../#library">Library</a><a href="../../mirror/">Mirror</a><a href="../../when-where/">When &amp; where</a><a href="../../about/">About</a></nav>
+</header>
+<main>
+<section class="about-hero">
+  <p class="catalogue">{{catalogue}}</p>
+  <div class="big-name">{{robot}}{{parents_line}}<h1>{{name}}</h1></div>
+  <div class="chat">
+    <div class="ask">Who are you?</div>
+    <div class="share-reply"><p class="reply dropcap">{{text}}</p></div>
+  </div>
+</section>
+<section class="share-meta">
+  <div>
+    {{description_block}}
+    <p class="baseline">{{baseline}}</p>
+  </div>
+  <div>
+    <dl class="stats">
+      <div><dt>Weirdness</dt><dd>{{weirdness_display}}</dd></div>
+      <div><dt>{{coherence_label}}</dt><dd>{{coherence_display}}</dd></div>
+      <div><dt>Ending</dt><dd>{{ending}}</dd></div>
+      <div><dt>Strength</dt><dd>{{strength}}</dd></div>
+    </dl>
+    <div class="share-actions">
+      {{repeatability_link}}
+      <button class="button primary" id="share">Share</button>
+      <a class="button" href="../../#id={{id}}">Open in the library</a>
+      <button class="button" id="another">Another →</button>
+    </div>
+    <span id="share-status" role="status"></span>
+  </div>
+</section>
+{{related}}
+</main>
+<footer class="colophon"><p>By <a href="../../about/">Benjamin Breen</a>, after <a href="https://qwen-neurons-site.vercel.app/" target="_blank" rel="noopener">Joshua Fonseca Rivera</a> and <a href="https://x.com/Sauers_" target="_blank" rel="noopener">Sauers</a>.</p></footer>
+<script>
+document.getElementById("share").onclick = async () => {
+  const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;
+  if (navigator.share) { try { await navigator.share({ title: document.title, url }); return; } catch (e) { if (e.name === "AbortError") return; } }
+  try { await navigator.clipboard.writeText(url); status.textContent = "Link copied"; } catch { status.textContent = url; }
+};
+document.getElementById("another").onclick = async () => {
+  const list = await fetch("../../slugs.json").then(r => r.json()).catch(() => []);
+  const here = location.pathname.split("/").filter(Boolean).slice(-2).join("/"), pool = list.filter(s => s !== here);
+  if (pool.length) location.href = "../../" + pool[Math.floor(Math.random() * pool.length)] + "/";
+};
+</script>
+</body>
+</html>

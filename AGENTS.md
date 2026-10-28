@@ -8,6 +8,8 @@
 - When a site addition is requested, use the actual Talkie Persona Library deployment at https://talkieneurons.vercel.app and its existing interface; do not substitute a separate presentation site.
 - Add approved personas directly to the existing library, skipping identities already present. Use the same weirdness/coherence score UI and robot style; do not add batch sections or explanatory Codex-versus-Luna labels. When the user requests it, shorten looping passages in the site display to one occurrence plus `[repeats]`, while keeping the saved raw outputs unchanged.
 
+- For public persona popups and standalone reply pages, show the existing description once. Omit taglines, reviewer/rubric commentary, duplicate rating reasons, and browsing-label boilerplate; preserve research metadata, search tags, raw replies, scores, neuron settings, and parent links.
+
 These preferences were stated by the user on October 27, 2026.
 
 ## Weirdness calibration (October 28, 2026)
