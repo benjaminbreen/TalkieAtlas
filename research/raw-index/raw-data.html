@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="../theme.js"></script>
+<title>Raw data · Talkie Persona Library</title>
+<meta name="description" content="Search every saved Talkie neuron reply, including unlisted screens, strength variants, reruns, pairs, and follow-ups.">
+<link rel="canonical" href="https://talkieneurons.vercel.app/sprint/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<link rel="stylesheet" href="../typography.css">
+<link rel="stylesheet" href="../theme.css">
+<link rel="stylesheet" href="raw-index.css?v=__DATA_VERSION__">
+<script src="raw-index.js?v=__DATA_VERSION__" defer></script>
+<script src="../analytics.js" defer></script>
+</head><body data-version="__DATA_VERSION__">
+<a class="skip" href="#search">Skip to reply search</a>
+<header><a class="brand" href="../"><img src="../icons/17-10423-down.svg" alt="" width="32" height="38"><span>Talkie Persona Library</span></a><nav aria-label="Sections"><a href="../#library">Library</a><a href="../#atlas">Atlas</a><a href="./" aria-current="page">Raw data</a><a href="../about/">About</a></nav></header>
+<main>
+<div class="page-heading"><div><h1>Raw data</h1><p>Every saved neuron reply. Search, sort, and read the full text.</p></div><div class="downloads"><button id="download-csv" disabled>CSV ↓</button><button id="download-json" disabled>JSON ↓</button></div></div>
+<div class="toolbar"><label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search full replies, names, or neuron IDs…" aria-label="Search all raw replies" disabled></label><label class="sr-only" for="kind">Reply type</label><select id="kind" disabled><option value="all">All reply types</option><option value="single">One neuron</option><option value="pair">Two neurons</option><option value="multiple">Several neurons</option><option value="control">Unsteered controls</option></select><label class="sr-only" for="rating">Saved ratings</label><select id="rating" disabled><option value="all">All ratings</option><option value="rated">Scored</option><option value="unrated">Unscored</option><option value="v3">Calibrated v3</option></select><label class="sr-only" for="sort">Sort replies</label><select id="sort" disabled><option value="weirdness-desc">Weirdness ↓</option><option value="coherence-desc">Coherence ↓</option><option value="name-asc">Name A–Z</option><option value="layer-asc">Layer ↑</option><option value="tokens-desc">Tokens ↓</option><option value="run-asc">Experiment A–Z</option></select></div>
+<div class="filters"><label>Layer <select id="layer" disabled><option value="all">Any</option></select></label><label>Neuron <input id="neuron" type="number" min="0" max="13695" placeholder="Any" disabled></label><label>Direction <select id="direction" disabled><option value="all">Both</option><option value="1">Up ↑</option><option value="-1">Down ↓</option></select></label><label>Strength <select id="strength" disabled><option value="all">Any</option></select></label><label>Experiment <select id="run" disabled><option value="all">All experiments</option></select></label><label>Generation <select id="stage" disabled><option value="all">All generations</option></select></label><button id="reset" class="text-button" disabled>Reset</button></div>
+<div class="index-status"><span id="result-count" role="status">Loading saved replies…</span><span id="neuron-count"></span></div>
+<div id="load-error" role="alert" hidden><p>Couldn’t load the saved data. Please try again.</p><button id="retry">Retry</button></div>
+<div class="workspace" id="workspace" aria-busy="true">
+<div class="index-pane"><div class="table-scroll" id="table-scroll" tabindex="0" aria-label="Scrollable reply index. Use the search above to search every full reply."><table aria-label="Saved neuron replies" aria-rowcount="0"><colgroup><col class="row-col"><col class="name-col"><col class="type-col"><col class="layer-col"><col class="score-col"><col class="score-col"></colgroup><thead><tr><th scope="col">#</th><th scope="col" aria-sort="none"><button data-sort="name">Reply name <span>↕</span></button></th><th scope="col">Type</th><th scope="col" aria-sort="none"><button data-sort="layer">Layer <span>↕</span></button></th><th scope="col" aria-sort="descending"><button data-sort="weirdness" aria-label="Sort by weirdness">W <span>↓</span></button></th><th scope="col" aria-sort="none"><button data-sort="coherence" aria-label="Sort by coherence">C <span>↕</span></button></th></tr></thead><tbody id="reply-rows"></tbody></table></div><div class="index-navigation"><span id="visible-range">All saved rows will appear here</span><label>Jump to row <input id="jump" type="number" min="1" aria-label="Jump to row" disabled></label></div></div>
+<aside class="reader" id="reader" aria-label="Full saved reply"><div class="reader-empty">Select a reply to read its full saved text.</div></aside>
+</div>
+<div class="index-foot"><span>W = weirdness · C = coherence · — = unscored</span><span>Saved replies and strength variants are separate records, not distinct personas.</span></div>
+<details class="coverage"><summary>Data coverage and saved ratings</summary><p id="coverage-summary"></p><p>The index includes short screens, unsuccessful outputs, repeating replies, reruns, pair trials, unsteered controls, and follow-up questions. Full saved text is preserved. A short historical screen is shown at its original length; it is not presented as a new 160-token generation. An unknown stop reason means the original run did not save one.</p><p>Scores are subjective saved judgments. Versions are kept with each reply, and unscored replies remain unscored. Use “Calibrated v3” to restrict browsing to that rubric. Matching text across independent records remains accessible; copied exports of the same saved generation are counted once.</p><p>Coverage counts neurons with saved intervention replies, not every neuron inspected in a weight scan. Activation-only scans, vector steering, and fine-tuning studies are outside this neuron reply index. <a href="coverage.json" download>Download coverage manifest ↓</a></p></details>
+</main>
+</body></html>
