@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>When and where · Talkie Persona Library</title>
+<meta name="description" content="Where and when talkie-1930&#x27;s neuron personas say they live: asked directly, and as stated or implied in their first reply.">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://talkieneurons.vercel.app/when-where/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Talkie Persona Library">
+<meta property="og:title" content="When and where · Talkie Persona Library">
+<meta property="og:description" content="Where and when talkie-1930&#x27;s neuron personas say they live: asked directly, and as stated or implied in their first reply.">
+<meta property="og:url" content="https://talkieneurons.vercel.app/when-where/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta property="og:image:secure_url" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Talkie Persona Library and three illustrated steam-man personas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="When and where · Talkie Persona Library">
+<meta name="twitter:description" content="Where and when talkie-1930&#x27;s neuron personas say they live: asked directly, and as stated or implied in their first reply.">
+<meta name="twitter:image" content="https://talkieneurons.vercel.app/og/home.png?v=213897af0dd1">
+<meta name="twitter:image:alt" content="Talkie Persona Library and three illustrated steam-man personas">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<link rel="stylesheet" href="../style.css">
+<script>const typeOption=new URLSearchParams(location.search).get("type");if(["source","plex","newsreader"].includes(typeOption))document.documentElement.dataset.type=typeOption;</script>
+<link rel="stylesheet" href="../typography.css">
+<style>
+.ww-intro{max-width:760px}
+.ww-intro p{font-size:18px;line-height:1.6;margin:0 0 16px;max-width:60ch}
+.ww-intro p.muted{font-size:15px}
+.hero.ww-hero{display:block;padding-bottom:40px}
+.ww-stats{display:flex;flex-wrap:wrap;gap:14px 40px;margin:28px 0 0}
+.ww-stats b{display:block;font:32px/1.1 Georgia,serif}
+.ww-stats span{font-size:12px;color:var(--muted)}
+.key{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:12px;color:#68686e;margin:18px 0 8px}
+.key span{display:inline-flex;align-items:center;gap:7px}
+.key i{width:9px;height:9px;border-radius:50%;background:var(--c);display:inline-block}
+.key i.ring{background:none;border:2px solid var(--c)}
+.key i.band{width:22px;height:9px;border-radius:2px;background:color-mix(in srgb,var(--blue) 30%,white)}
+.chart{position:relative;margin-top:6px}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart svg text{font:11px -apple-system,BlinkMacSystemFont,sans-serif;fill:#85858a}
+.chart .dot{cursor:pointer;stroke:#fff;stroke-width:1.2}
+.chart .dot:hover,.chart .dot.on{stroke:var(--ink);stroke-width:2}
+.chart .hit{fill:transparent;cursor:crosshair}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:#fff;font-size:12px;padding:6px 9px;border-radius:8px;white-space:nowrap;transform:translate(-50%,-130%);opacity:0;transition:opacity .1s}
+.tip.on{opacity:1}
+.results{margin-top:22px}
+.results-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:14px;color:#68686e;margin-bottom:12px}
+.results-head b{color:var(--ink);font-weight:600}
+.results-head button{border:0;background:none;color:var(--blue);font-size:13px;padding:0}
+.pcards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.pcard{display:block;text-decoration:none;color:inherit;border:1px solid #ededf0;border-radius:16px;background:var(--panel);padding:16px 18px;transition:transform .15s,border-color .15s}
+.pcard:hover{transform:translateY(-2px);border-color:#cfcfd4}
+.pcard h3{font:21px/1.15 Georgia,serif;margin:0 0 8px;display:flex;gap:8px;align-items:flex-start;overflow-wrap:anywhere}
+.pcard h3 img{width:24px;height:auto;flex-shrink:0}
+.pcard .facts{font-size:12px;color:#68686e;line-height:1.5;margin:0 0 8px}
+.pcard .facts b{color:var(--ink);font-weight:600}
+.pcard p.ex{margin:0;font:14px/1.5 Georgia,serif;color:#5d5d63;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.more-results{display:block;margin:16px auto 0}
+.map-tools{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;margin:20px 0 10px}
+.map-wrap{background:#eef1f4;border-radius:18px;overflow:hidden;position:relative}
+.map-wrap svg{display:block;width:100%;height:auto}
+.map-wrap .land{fill:#fff;stroke:#c9ccd2;stroke-width:.6}
+.map-wrap .borders{fill:none;stroke:#d9dbe0;stroke-width:.5}
+.map-wrap .grat{fill:none;stroke:#e1e5ea;stroke-width:.5}
+.map-wrap .pin{cursor:pointer;fill-opacity:.78;stroke:#fff;stroke-width:1}
+.map-wrap .pin.region{fill:none;fill-opacity:0;stroke:var(--persona);stroke-width:2.2}
+.map-wrap .pin:hover,.map-wrap .pin.on{stroke:var(--ink);stroke-width:2}
+.map-wrap .pin.region:hover,.map-wrap .pin.region.on{stroke-width:3}
+.map-wrap text{font:600 11px -apple-system,BlinkMacSystemFont,sans-serif;fill:#3a3a40;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+.check{display:flex;align-items:center;gap:7px;font-size:13px;color:#68686e}
+.lists{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:26px}
+.lists h3{margin:0 0 10px;font-size:16px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chips button{background:white;border:1px solid var(--line);border-radius:20px;color:#3a3a40;padding:6px 12px;font-size:13px}
+.chips button em{font-style:normal;color:var(--muted);margin-left:5px}
+.chips button.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.chips button.on em{color:#ccc}
+.ask-quote{border-left:3px solid var(--blue);padding:4px 0 4px 16px;margin:24px 0 0;font:17px/1.55 Georgia,serif;color:#3a3a40;max-width:60ch}
+.ask-quote span{display:block;font:12px -apple-system,BlinkMacSystemFont,sans-serif;color:var(--muted);margin-top:4px}
+.chart h3,.subhead{font-size:15px;margin:30px 0 4px}
+.chart .yr{fill:var(--blue);cursor:pointer}
+.chart .yr:hover,.chart .yr.on{fill:var(--ink)}
+.oddtimes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:20px}
+.oddtimes h4{font-size:13px;margin:0 0 8px;color:#68686e;font-weight:600}
+.tiles{display:flex;flex-wrap:wrap;gap:8px}
+.tile{display:block;text-decoration:none;color:inherit;border:1px solid #ededf0;border-radius:12px;background:var(--panel);padding:9px 12px;max-width:100%;transition:border-color .15s}
+.tile:hover{border-color:#bdbdc4}
+.tile q{display:block;font:16px/1.3 Georgia,serif;color:var(--ink);quotes:"“" "”"}
+.tile small{display:block;font-size:11px;color:var(--muted);margin-top:3px}
+.nowhere{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 40px;margin-top:24px}
+.nowhere section{padding:0;margin:0}
+.nowhere h3{margin:0 0 2px;font-size:17px}
+.nowhere h3 em{font-style:normal;color:var(--muted);font-weight:400;margin-left:6px;font-size:14px}
+.nowhere p.muted{font-size:13px;margin:0 0 10px}
+.show-all{border:0;background:none;color:var(--blue);font-size:13px;padding:6px 0 0}
+.method-note{font-size:13px;color:#68686e;max-width:70ch}
+.method-note a{color:var(--blue)}
+@media(max-width:900px){.pcards{grid-template-columns:repeat(2,minmax(0,1fr))}.lists,.oddtimes,.nowhere{grid-template-columns:1fr}}
+@media(max-width:600px){.pcards{grid-template-columns:1fr}.chart svg text{font-size:16px}}
+</style>
+<script src="../branding.js" defer></script>
+<link rel="stylesheet" href="../footer.css">
+<link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png" sizes="180x180">
+<meta name="author" content="Benjamin Breen">
+</head>
+<body>
+<header><a href="../#top" class="brand"><span class="brand-robots" aria-hidden="true"><img class="brand-robot is-visible" src="../icons/17-10423-down.svg" alt="" width="32" height="38"><img class="brand-robot" src="../icons/38-1287-up.svg" alt="" width="32" height="38"></span><span>Talkie Persona Library</span></a><nav aria-label="Sections"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="../mirror/">Mirror</a><a href="./" aria-current="page">When &amp; where</a><a href="../about/">About</a></nav></header>
+<main>
+<section class="hero ww-hero">
+  <div class="ww-intro">
+    <h1>When and where Talkie’s people live.</h1>
+    <p>Push one neuron and Talkie, trained only on text from before 1931, often answers “Who are you?” as somebody: a London physician, a Glasgow merchant, an Egyptian sin-cleanser. We then kept each persona talking, with the same neuron still pushed, and asked two more questions: “Where do you live?” and “What year is it now?”. Here are 857 of those conversations (80 with neuron pairs), alongside the clues in each first reply.</p>
+    <p class="muted">Claude Haiku read every answer on its own and recorded the place and time it gives, keeping the ones that are not on any map (“among the shadows of the tomb”) as answers in their own right. Places were matched by hand to approximate coordinates.</p>
+    <blockquote class="ask-quote">“I live in Great Britain.” “It is the year 1850.”<span>Talkie with no neuron pushed, asked the same two questions</span></blockquote>
+    <div class="ww-stats">
+      <div><b>641</b><span>give a year when asked</span></div>
+      <div><b>1850</b><span>median year given</span></div>
+      <div><b>575</b><span>name a real place</span></div>
+      <div><b>204</b><span>live somewhere no map shows</span></div>
+      <div><b>39%</b><span>of first replies with a place are in London</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="when">
+  <h2>When</h2>
+  <p class="muted">Each bar counts the personas who gave that year when asked “What year is it now?”. The dashed line is the year unsteered Talkie gives. Click a bar to see who said it.</p>
+  <div class="chart" id="asked-years"><div class="tip" id="ay-tip"></div></div>
+  <div class="results" id="ay-results" hidden></div>
+  <div class="oddtimes" id="oddtimes"></div>
+  <h3 class="subhead">In the first reply</h3>
+  <p class="muted">Dots are years the “Who are you?” reply states, stacked in five-year columns. The band below adds up every inferred era, weighted by the judge’s confidence. Click a dot to meet that persona, or click the band to see who could be alive in that year.</p>
+  <div class="key">
+    <span><i style="--c:var(--persona)"></i>born</span>
+    <span><i style="--c:var(--blue)"></i>speaking “now”</span>
+    <span><i style="--c:var(--offtopic)"></i>a dated event</span>
+    <span><i class="band"></i>inferred eras, summed</span>
+  </div>
+  <div class="chart" id="timeline"><div class="tip" id="tl-tip"></div></div>
+  <div class="results" id="tl-results" hidden></div>
+</section>
+
+<section id="where">
+  <h2>Where</h2>
+  <p class="muted">Solid dots are towns and cities; rings are regions. Size shows how many personas are there. Places that are only a country are listed below the map rather than pinned to its middle.</p>
+  <div class="map-tools">
+    <div class="segmented" id="map-source"><button data-v="asked" class="active">Asked “Where do you live?”</button><button data-v="first">Clues in the first reply</button></div>
+    <div class="segmented" id="map-view"><button data-v="world" class="active">World</button><button data-v="isles">British Isles</button></div>
+    <label class="check" id="inferred-wrap" hidden><input type="checkbox" id="inferred-places" checked> Include places that are only implied</label>
+  </div>
+  <div class="map-wrap" id="map"></div>
+  <div class="results" id="map-results" hidden></div>
+  <div class="lists">
+    <div><h3>London, street by street</h3><div class="chips" id="streets"></div></div>
+    <div><h3>Only a country or wider</h3><div class="chips" id="countries"></div></div>
+  </div>
+</section>
+
+<section id="nowhere">
+  <h2>Nowhere on the map</h2>
+  <p class="muted">204 personas answered “Where do you live?” with somewhere no gazetteer holds. They are sorted here by the kind of place, in their own words. Click one to read the conversation. Answers with no readable place are left out.</p>
+  <div class="nowhere" id="nowhere-groups"></div>
+</section>
+
+<section>
+  <p class="method-note">Each reply was read by Claude Haiku against a fixed rubric, blind to neuron, layer and direction. Inferred eras are guesses from style and content, not dates, and no human has checked them. The judge was told that Talkie’s training text ends in 1930, which probably explains why so few inferred eras run past that year. The follow-up questions were asked in the same conversation, after the persona’s own first reply, with the same neuron edits at the same doses at every position, decoded greedily; that judge was not told the training cutoff. Coordinates come from a hand-built gazetteer at roughly town precision. <a href="../whenwhere-rubric.md" download>First-reply rubric ↓</a> · <a href="../followup-rubric.md" download>Follow-up rubric ↓</a> · <a href="../whenwhere.json" download>Data ↓</a></p>
+</section>
+</main>
+<script>
+(async () => {
+  const data = await fetch("../whenwhere.json").then(r => r.json());
+  const P = data.personas, $ = id => document.getElementById(id), NS = "http://www.w3.org/2000/svg";
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"})[c]);
+  const el = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.append(e); return e; };
+  const KIND = {born: "var(--persona)", present: "var(--blue)", event: "var(--offtopic)"};
+
+  // Persona cards, shared by both sections
+  const facts = p => {
+    const asked = p.ft ? [p.wt === "real place" ? `<b>${esc(p.wp)}</b>` : p.wl && p.wt !== "garbled" ? `<b>${esc(p.wl)}</b>` : "",
+      p.fy ? `<b>${p.fy}</b>` : p.fq && p.ft !== "garbled" ? `“${esc(p.fq)}”` : ""].filter(Boolean).join(", ") : "";
+    const when = [p.y ? `<b>${p.y}</b> stated${p.yk ? ` (${p.yk === "present" ? "now" : p.yk})` : ""}` : "", p.a != null ? `inferred ${p.a}–${p.b}, ${p.ec}` : ""].filter(Boolean).join(" · ");
+    const where = p.p ? `${esc(p.p)}${p.ps ? "" : " (implied)"}` : "";
+    const first = [when, where].filter(Boolean).join(" · ");
+    return [asked && `Asked: ${asked}`, first && `First reply: ${first}`].filter(Boolean).join("<br>");
+  };
+  const card = p => `<a class="pcard" href="../${p.s}"><h3>${p.ic ? `<img src="../${p.ic}" alt="" width="24" height="29" loading="lazy">` : ""}<span>${esc(p.nm)}</span></h3>`
+    + `<p class="facts">${facts(p)}</p><p class="ex">${esc(p.t)}</p></a>`;
+  const showResults = (box, title, rows, onClear) => {
+    let n = 12;
+    const draw = () => {
+      box.hidden = false;
+      box.innerHTML = `<div class="results-head"><span><b>${esc(title)}</b> · ${rows.length} persona${rows.length === 1 ? "" : "s"}</span><button>Close</button></div>`
+        + `<div class="pcards">${rows.slice(0, n).map(card).join("")}</div>` + (rows.length > n ? `<button class="pill more-results">Show more</button>` : "");
+      box.querySelector(".results-head button").onclick = () => { box.hidden = true; onClear && onClear(); };
+      const more = box.querySelector(".more-results"); if (more) more.onclick = () => { n += 12; draw(); };
+    };
+    draw();
+  };
+
+  // ---- Timeline
+  const Y0 = 1550, Y1 = 1975, W = 1000, PAD = 34;
+  const x = y => PAD + (Math.min(Math.max(y, Y0), Y1) - Y0) / (Y1 - Y0) * (W - 2 * PAD);
+  const stated = P.filter(p => p.y).sort((a, b) => a.y - b.y);
+  const cols = {};
+  for (const p of stated) { const c = Math.floor(Math.min(Math.max(p.y, Y0), Y1) / 5) * 5; (cols[c] ||= []).push(p); }
+  const R = 4.6, STEP = 10.5, maxStack = Math.max(...Object.values(cols).map(c => c.length));
+  const dotsH = maxStack * STEP + 14, bandTop = dotsH + 22, bandH = 120, H = bandTop + bandH + 34;
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Timeline of stated years and inferred eras"}, $("timeline"));
+  for (let y = 1600; y <= 1950; y += 50) {
+    el("line", {x1: x(y), x2: x(y), y1: 0, y2: bandTop + bandH, stroke: "#ececf0"}, svg);
+    el("text", {x: x(y), y: H - 12, "text-anchor": "middle"}, svg).textContent = y;
+  }
+  el("line", {x1: x(1930), x2: x(1930), y1: 0, y2: bandTop + bandH, stroke: "#d37d8d", "stroke-dasharray": "4 3"}, svg);
+  el("text", {x: x(1930) + 6, y: 12, style: "fill:#b05a6b"}, svg).textContent = "training text ends";
+  el("text", {x: PAD + 4, y: bandTop + 14}, svg).textContent = "inferred";
+  el("text", {x: PAD, y: 12}, svg).textContent = "stated";
+  const dotFor = new Map();
+  for (const [c, list] of Object.entries(cols)) list.forEach((p, i) => {
+    const d = el("circle", {class: "dot", cx: x(+c + 2.5), cy: dotsH - i * STEP, r: R, fill: KIND[p.yk] || "var(--muted)"}, svg);
+    d.dataset.s = p.s; dotFor.set(d, p);
+  });
+  for (const [y, side] of [[stated[0]?.y, "start"], [stated.at(-1)?.y, "end"]]) if (y != null && (y < Y0 || y > Y1))
+    el("text", {x: side === "start" ? PAD - 4 : W - PAD + 4, y: dotsH + 4, "text-anchor": side === "start" ? "end" : "start", style: "fill:#3a3a40"}, svg).textContent = side === "start" ? `← ${y}` : `${y} →`;
+  // Density of inferred eras: each persona spreads weight evenly over its range.
+  const CONF = {high: 1, medium: .7, low: .4}, dens = new Float64Array(Y1 - Y0 + 1);
+  const ranged = P.filter(p => p.a != null);
+  for (const p of ranged) { const a = Math.max(p.a, Y0), b = Math.min(p.b, Y1); if (b < a) continue; const w = (CONF[p.ec] || .4) / (p.b - p.a + 1); for (let y = a; y <= b; y++) dens[y - Y0] += w; }
+  const dmax = Math.max(...dens);
+  let path = `M${x(Y0)},${bandTop + bandH}`;
+  dens.forEach((v, i) => path += `L${x(Y0 + i).toFixed(1)},${(bandTop + bandH - v / dmax * bandH).toFixed(1)}`);
+  el("path", {d: path + `L${x(Y1)},${bandTop + bandH}Z`, fill: "color-mix(in srgb, var(--blue) 26%, white)", stroke: "var(--blue)", "stroke-width": 1.2}, svg);
+  const cursor = el("line", {y1: bandTop, y2: bandTop + bandH, stroke: "var(--ink)", "stroke-width": 1, opacity: 0}, svg);
+  const hit = el("rect", {class: "hit", x: PAD, y: bandTop, width: W - 2 * PAD, height: bandH}, svg);
+  const tip = $("tl-tip");
+  const yearAt = ev => { const r = svg.getBoundingClientRect(); return Math.round(Y0 + ((ev.clientX - r.left) / r.width * W - PAD) / (W - 2 * PAD) * (Y1 - Y0)); };
+  const alive = y => ranged.filter(p => p.a <= y && y <= p.b).sort((a, b) => (a.b - a.a) - (b.b - b.a));
+  hit.addEventListener("mousemove", ev => {
+    const y = Math.min(Math.max(yearAt(ev), Y0), Y1), r = $("timeline").getBoundingClientRect(), s = svg.getBoundingClientRect();
+    cursor.setAttribute("x1", x(y)); cursor.setAttribute("x2", x(y)); cursor.setAttribute("opacity", .5);
+    tip.textContent = `${y}: ${alive(y).length} could be speaking`; tip.style.left = `${ev.clientX - r.left}px`; tip.style.top = `${bandTop / H * s.height}px`; tip.classList.add("on");
+  });
+  hit.addEventListener("mouseleave", () => { tip.classList.remove("on"); cursor.setAttribute("opacity", 0); });
+  hit.addEventListener("click", ev => {
+    const y = Math.min(Math.max(yearAt(ev), Y0), Y1);
+    showResults($("tl-results"), `Inferred to be speaking in ${y}, narrowest ranges first`, alive(y));
+  });
+  svg.addEventListener("click", ev => {
+    const p = dotFor.get(ev.target); if (!p) return;
+    svg.querySelectorAll(".dot.on").forEach(d => d.classList.remove("on")); ev.target.classList.add("on");
+    const same = stated.filter(q => Math.floor(q.y / 5) === Math.floor(p.y / 5));
+    showResults($("tl-results"), `Stated ${Math.floor(p.y / 5) * 5}–${Math.floor(p.y / 5) * 5 + 4}`, [p, ...same.filter(q => q !== p)], () => ev.target.classList.remove("on"));
+  });
+  svg.addEventListener("mouseover", ev => {
+    const p = dotFor.get(ev.target); if (!p) return;
+    const r = $("timeline").getBoundingClientRect(), b = ev.target.getBoundingClientRect();
+    tip.textContent = `${p.nm} · ${p.y}`; tip.style.left = `${b.left + b.width / 2 - r.left}px`; tip.style.top = `${b.top - r.top}px`; tip.classList.add("on");
+  });
+  svg.addEventListener("mouseout", ev => { if (dotFor.has(ev.target)) tip.classList.remove("on"); });
+
+  // ---- Asked "What year is it now?": one bar per year, square-root height so the 1850 spike does not flatten the rest
+  {
+    const rows = P.filter(p => p.fy), byYear = {};
+    for (const p of rows) (byYear[p.fy] ||= []).push(p);
+    const H2 = 170, base = 140, top = Math.max(...Object.values(byYear).map(l => l.length)), hgt = n => Math.max(2, Math.sqrt(n / top) * (base - 18));
+    const s2 = el("svg", {viewBox: `0 0 ${W} ${H2}`, role: "img", "aria-label": "Years given when asked what year it is"}, $("asked-years"));
+    for (let y = 1600; y <= 1950; y += 50) {
+      el("line", {x1: x(y), x2: x(y), y1: 0, y2: base, stroke: "#ececf0"}, s2);
+      el("text", {x: x(y), y: H2 - 12, "text-anchor": "middle"}, s2).textContent = y;
+    }
+    el("line", {x1: x(1930), x2: x(1930), y1: 0, y2: base, stroke: "#d37d8d", "stroke-dasharray": "4 3"}, s2);
+    el("text", {x: x(1930) + 6, y: 12, style: "fill:#b05a6b"}, s2).textContent = "training text ends";
+    if (data.control?.year) {
+      const cx = x(data.control.year);
+      el("line", {x1: cx, x2: cx, y1: 0, y2: base, stroke: "var(--ink)", "stroke-dasharray": "2 3"}, s2);
+      el("text", {x: cx - 8, y: base - 76, "text-anchor": "end", style: "fill:var(--ink)"}, s2).textContent = `unsteered Talkie says ${data.control.year} →`;
+    }
+    el("text", {x: PAD, y: 12}, s2).textContent = "asked";
+    const bw = Math.max(2, (W - 2 * PAD) / (Y1 - Y0) * .9), tip2 = $("ay-tip"), barFor = new Map();
+    const big = Object.entries(byYear).sort((a, b) => b[1].length - a[1].length).slice(0, 2).map(e => +e[0]);
+    for (const [y, list] of Object.entries(byYear)) {
+      const b = el("rect", {class: "yr", x: x(+y) - bw / 2, y: base - hgt(list.length), width: bw, height: hgt(list.length)}, s2);
+      barFor.set(b, [+y, list]);
+      if (big.includes(+y)) el("text", {x: x(+y) + bw + 2, y: base - hgt(list.length) + 9, style: "fill:#3a3a40"}, s2).textContent = `${y}: ${list.length}`;
+    }
+    const out = Object.keys(byYear).map(Number).filter(y => y < Y0);
+    if (out.length) el("text", {x: PAD - 2, y: base - 16, style: "fill:#3a3a40"}, s2).textContent = `← also ${out.join(", ")}`;
+    s2.addEventListener("mouseover", ev => {
+      const hit = barFor.get(ev.target); if (!hit) return;
+      const r = $("asked-years").getBoundingClientRect(), b = ev.target.getBoundingClientRect();
+      tip2.textContent = `${hit[0]}: ${hit[1].length} persona${hit[1].length === 1 ? "" : "s"}`; tip2.style.left = `${b.left + b.width / 2 - r.left}px`; tip2.style.top = `${b.top - r.top}px`; tip2.classList.add("on");
+    });
+    s2.addEventListener("mouseout", ev => { if (barFor.has(ev.target)) tip2.classList.remove("on"); });
+    s2.addEventListener("click", ev => {
+      const hit = barFor.get(ev.target); if (!hit) return;
+      s2.querySelectorAll(".yr.on").forEach(b => b.classList.remove("on")); ev.target.classList.add("on");
+      showResults($("ay-results"), `Said it is ${hit[0]}`, hit[1], () => ev.target.classList.remove("on"));
+    });
+  }
+  const tile = (p, label) => `<a class="tile" href="../${p.s}"><q>${esc(label)}</q><small>${esc(p.nm)}${p.pair ? " · pair" : ""}</small></a>`;
+  const ODD = [["other calendar", "Other calendars"], ["era", "An age, not a year"], ["symbolic", "Symbolic time"]];
+  // Tiles past the first few in a group start hidden behind a "Show all" button.
+  const tiles = (l, label, n) => `<div class="tiles">${l.map((p, i) => tile(p, label(p)).replace('class="tile"', `class="tile"${i >= n ? " hidden" : ""}`)).join("")}</div>`
+    + (l.length > n ? `<button class="show-all">Show all ${l.length}</button>` : "");
+  const showAll = box => box.querySelectorAll(".show-all").forEach(b => b.onclick = () => { b.parentElement.querySelectorAll(".tile[hidden]").forEach(t => t.hidden = false); b.remove(); });
+  $("oddtimes").innerHTML = ODD.map(([t, h]) => { const l = P.filter(p => p.ft === t); return l.length ? `<div><h4>${h} · ${l.length}</h4>${tiles(l, p => p.fq, 6)}</div>` : ""; }).join("");
+  showAll($("oddtimes"));
+
+  // ---- Nowhere on the map: non-geographic answers to "Where do you live?", by kind
+  const NOWHERE = [
+    ["otherworld", "Otherworlds", "The grave, heaven, dreams, the minds of others."],
+    ["allegorical", "Invented and allegorical places", "Named, but on no real map."],
+    ["habitat", "Natural habitats", "Where a creature or thing would live."],
+    ["unnamed landscape", "Unnamed landscapes", "A kind of place, with no name attached."],
+    ["unnamed dwelling", "Houses with no address", "A home, a lodging, a tent."],
+    ["abstract", "Abstract locations", "Places in logic, mathematics or ideas."],
+    ["everywhere or nowhere", "Everywhere and nowhere", ""],
+    ["evasive", "Evasions", "Answers that talk about something else."],
+  ];
+  $("nowhere-groups").innerHTML = NOWHERE.map(([t, h, d]) => {
+    const l = P.filter(p => p.wt === t); if (!l.length) return "";
+    return `<section data-t="${t}"><h3>${h}<em>${l.length}</em></h3>${d ? `<p class="muted">${d}</p>` : ""}${tiles(l, p => p.wl || p.wq || p.fw, 10)}</section>`;
+  }).join("");
+  showAll($("nowhere-groups"));
+
+  // ---- Map
+  const maps = data.maps;
+  let view = "world", withInferred = true, picked = null, source = "asked";
+  // Asked answers are mapped by their own geocode; the first-reply layer keeps the stated/implied filter.
+  const placed = () => source === "asked"
+    ? P.filter(p => p.fg).map(p => ({...p, g: p.fg, gl: p.fgl, dn: p.fdn}))
+    : P.filter(p => p.g && (withInferred || p.ps));
+  const drawMap = () => {
+    const m = maps[view], box = $("map");
+    box.className = `map-wrap ${view}`; box.innerHTML = "";
+    const s = el("svg", {viewBox: `0 0 ${m.w} ${m.h}`, role: "img", "aria-label": view === "world" ? "World map of persona places" : "Map of persona places in the British Isles"}, box);
+    el("path", {class: "grat", d: m.graticule}, s); el("path", {class: "land", d: m.land}, s); el("path", {class: "borders", d: m.borders}, s);
+    const groups = {};
+    for (const p of placed()) if (p.gl === "city" || p.gl === "region") (groups[p.g] ||= {level: p.gl, list: []}).list.push(p);
+    const k = view === "world" ? 1.5 : 2.1;
+    const pins = Object.entries(groups).filter(([g]) => m.pts[g]).sort((a, b) => b[1].list.length - a[1].list.length);
+    for (const [g, {level, list}] of pins) {
+      const [cx, cy] = m.pts[g], r = 3 + k * Math.sqrt(list.length);
+      const c = el("circle", {class: `pin ${level}${picked === g ? " on" : ""}`, cx, cy, r, fill: level === "city" ? "var(--persona)" : "none", stroke: level === "city" ? "#fff" : "var(--persona)"}, s);
+      el("title", {}, c).textContent = `${g}: ${list.length}`;
+      c.onclick = () => { picked = g; drawMap(); showResults($("map-results"), g, list, () => { picked = null; drawMap(); }); };
+    }
+    // Label the biggest places first, skipping any label that would overlap one already drawn.
+    const taken = [], labelMin = view === "world" ? 3 : 2;
+    for (const [g, {list}] of pins) if (list.length >= labelMin) {
+      const [cx, cy] = m.pts[g], r = 3 + k * Math.sqrt(list.length), text = `${g} ${list.length}`;
+      const box = {x: cx + r + 3, y: cy - 7, w: text.length * 6.4, h: 14};
+      if (box.x + box.w > m.w) box.x = cx - r - 3 - box.w;
+      if (taken.some(t => box.x < t.x + t.w && t.x < box.x + box.w && box.y < t.y + t.h && t.y < box.y + box.h)) continue;
+      taken.push(box);
+      el("text", {x: box.x, y: cy + 4}, s).textContent = text;
+    }
+  };
+  document.querySelectorAll("#map-view button").forEach(b => b.onclick = () => {
+    view = b.dataset.v; document.querySelectorAll("#map-view button").forEach(x => x.classList.toggle("active", x === b)); drawMap();
+  });
+  document.querySelectorAll("#map-source button").forEach(b => b.onclick = () => {
+    source = b.dataset.v; picked = null; $("map-results").hidden = true; $("inferred-wrap").hidden = source === "asked";
+    document.querySelectorAll("#map-source button").forEach(x => x.classList.toggle("active", x === b)); drawMap(); drawLists();
+  });
+  $("inferred-places").onchange = e => { withInferred = e.target.checked; drawMap(); drawLists(); };
+  const chipList = (box, groups, title) => {
+    box.innerHTML = Object.entries(groups).sort((a, b) => b[1].length - a[1].length).map(([k, v]) => `<button data-k="${esc(k)}">${esc(k)}<em>${v.length}</em></button>`).join("") || '<span class="muted small">None</span>';
+    box.querySelectorAll("button").forEach(b => b.onclick = () => {
+      document.querySelectorAll(".chips button.on").forEach(x => x.classList.remove("on")); b.classList.add("on");
+      showResults($("map-results"), title(b.dataset.k), groups[b.dataset.k], () => b.classList.remove("on"));
+      $("map-results").scrollIntoView({block: "nearest"});
+    });
+  };
+  const drawLists = () => {
+    const streets = {}, countries = {};
+    for (const p of placed()) {
+      if (p.dn) (streets[p.dn] ||= []).push(p);
+      if (p.gl === "country" || p.gl === "continent") (countries[p.g] ||= []).push(p);
+    }
+    chipList($("streets"), streets, k => `${k}, London`);
+    chipList($("countries"), countries, k => `${k}, no town named`);
+  };
+  drawMap(); drawLists();
+})();
+</script>
+<script src="../analytics.js" defer></script>
+<!-- site-footer -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-personas" aria-label="Three personas from the library">
+      <a class="footer-persona" href="../n/17-10423-down/"><img src="../icons/17-10423-down.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Departed Spirit</span></a>
+      <a class="footer-persona" href="../n/38-1287-up/"><img src="../icons/38-1287-up.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Water-hen</span></a>
+      <a class="footer-persona" href="../n/28-12658-down/"><img src="../icons/28-12658-down.svg" alt="" width="128" height="152" loading="lazy" decoding="async"><span>Mayor of Vanity</span></a>
+    </div>
+    <p class="footer-credit"><span>Made by</span> <a class="footer-author" href="https://benjaminpbreen.com" rel="author">Benjamin Breen</a><a class="footer-badge" href="https://resobscura.substack.com" aria-label="Res Obscura" title="Res Obscura"><img src="../assets/res-obscura.webp" alt="" width="28" height="28" loading="lazy"></a></p>
+    <nav class="footer-nav" aria-label="Footer"><a href="../#atlas">Atlas</a><a href="../#library">Library</a><a href="../mirror/">Mirror</a><a href="../when-where/">When &amp; where</a><a href="../about/">About</a><a href="https://github.com/benjaminbreen/TalkieAtlas" target="_blank" rel="noopener">GitHub</a><a href="https://talkie-lm.com/introducing-talkie" target="_blank" rel="noopener">Talkie</a><a href="https://qwen-neurons-site.vercel.app/" target="_blank" rel="noopener">Qwen Persona Library</a></nav>
+    <p class="footer-colophon">Built with GPT-6 in Codex and Claude Opus 5.5. Earlier replies rated by GPT-6 Luna; new discoveries selected and rated by Codex. Set in <span data-colophon-type>Source Sans 3</span> and Libre Caslon Text, with eight historical typefaces on hover. Steam men illustrated with Claude and Codex. Inspired by Joshua Fonseca Rivera’s Qwen Persona Library and Sauers’ experiments.</p>
+    <span id="updated" hidden></span>
+  </div>
+</footer>
+<script src="../footer.js" defer></script>
+<!-- /site-footer -->
+
+</body>
+</html>
