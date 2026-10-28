@@ -1,0 +1,454 @@
+{
+  "s08013-r004": {
+    "motif": "maritime",
+    "color": "navy",
+    "hat": "sailor",
+    "left": "oar",
+    "right": "telescope",
+    "back": [
+      "waves"
+    ]
+  },
+  "s08013-r005": {
+    "motif": "bedded",
+    "color": "tan",
+    "hat": "roof",
+    "left": "cane",
+    "right": "brick",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08013-r007": {
+    "motif": "premises",
+    "color": "brown",
+    "hat": "roof",
+    "left": "ledger",
+    "right": "quill",
+    "back": [
+      "skyline"
+    ]
+  },
+  "s08013-r012": {
+    "motif": "minutes",
+    "color": "sky",
+    "hat": "bowler",
+    "left": "hourglass",
+    "right": "mask"
+  },
+  "s08015-r001": {
+    "motif": "futureGhost",
+    "color": "lilac",
+    "hat": "bare",
+    "left": "candle",
+    "right": "scroll",
+    "back": [
+      "wisps"
+    ]
+  },
+  "s08015-r003": {
+    "motif": "presence",
+    "color": "plum",
+    "hat": "bare",
+    "left": "hourglass",
+    "right": "globe",
+    "back": [
+      "starfield"
+    ]
+  },
+  "s08015-r006": {
+    "motif": "casting",
+    "color": "navy",
+    "hat": "wig",
+    "left": "scroll",
+    "right": "quill",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08015-r009": {
+    "motif": "walklate",
+    "color": "brown",
+    "hat": "bowler",
+    "left": "cane",
+    "right": "book",
+    "back": [
+      "skyline"
+    ]
+  },
+  "s08015-r012": {
+    "motif": "ancientLondon",
+    "color": "gold",
+    "hat": "capotain",
+    "left": "hourglass",
+    "right": "telescope",
+    "back": [
+      "ruins"
+    ]
+  },
+  "s08024-r002": {
+    "motif": "thought",
+    "color": "pink",
+    "hat": "beret",
+    "left": "mask",
+    "right": "quill"
+  },
+  "s08024-r004": {
+    "motif": "voice",
+    "color": "sky",
+    "hat": "bare",
+    "left": "bell",
+    "right": "scroll",
+    "mood": "closed"
+  },
+  "s08024-r007": {
+    "motif": "kingdom",
+    "color": "green",
+    "hat": "crown",
+    "left": "globe",
+    "right": "scroll",
+    "chest": [
+      "unionjack"
+    ]
+  },
+  "s08024-r009": {
+    "motif": "ninthBook",
+    "color": "teal",
+    "hat": "mortarboard",
+    "left": "book",
+    "right": "quill",
+    "face": [
+      "spectacles"
+    ]
+  },
+  "s08024-r012": {
+    "motif": "noon",
+    "color": "brass",
+    "hat": "roof",
+    "left": "telescope",
+    "right": "bell",
+    "back": [
+      "skyline"
+    ]
+  },
+  "s08024-r015": {
+    "motif": "aggregate",
+    "color": "plum",
+    "hat": "bowler",
+    "left": "hourglass",
+    "right": "ledger",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08036-r002": {
+    "motif": "steam",
+    "color": "slate",
+    "hat": "chimney",
+    "left": "gear",
+    "right": "metalbar",
+    "back": [
+      "factory"
+    ]
+  },
+  "s08036-r008": {
+    "motif": "powderPuff",
+    "color": "pink",
+    "hat": "wig",
+    "left": "powder",
+    "right": "cloth"
+  },
+  "s08036-r010": {
+    "motif": "field",
+    "color": "green",
+    "hat": "shako",
+    "left": "scroll",
+    "right": "musket",
+    "back": [
+      "ruins"
+    ]
+  },
+  "s08036-r011": {
+    "motif": "miller",
+    "color": "tan",
+    "hat": "strawhat",
+    "left": "wheat",
+    "right": "ledger",
+    "back": [
+      "waves"
+    ]
+  },
+  "s08036-r014": {
+    "motif": "petitioner",
+    "color": "navy",
+    "hat": "shovel",
+    "left": "scroll",
+    "right": "quill",
+    "chest": [
+      "bands"
+    ]
+  },
+  "s08036-r016": {
+    "motif": "lungs",
+    "color": "sky",
+    "hat": "bare",
+    "left": "dividers",
+    "right": "bottle",
+    "back": [
+      "wind"
+    ]
+  },
+  "s08037-r003": {
+    "motif": "hiddenName",
+    "color": "navy",
+    "hat": "topper",
+    "left": "envelope",
+    "right": "cane",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08037-r004": {
+    "motif": "dreamCatalogue",
+    "color": "plum",
+    "hat": "cap",
+    "left": "scroll",
+    "right": "book",
+    "back": [
+      "starfield"
+    ]
+  },
+  "s08037-r005": {
+    "motif": "invisiblePublisher",
+    "color": "lilac",
+    "hat": "topper",
+    "left": "book",
+    "right": "quill",
+    "back": [
+      "wisps"
+    ]
+  },
+  "s08037-r009": {
+    "motif": "facsimile",
+    "color": "gold",
+    "hat": "beret",
+    "left": "mask",
+    "right": "quill",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08037-r014": {
+    "motif": "schoolboy",
+    "color": "teal",
+    "hat": "cap",
+    "left": "book",
+    "right": "wheat"
+  },
+  "s08037-r016": {
+    "motif": "death",
+    "color": "black",
+    "hat": "bare",
+    "left": "hourglass",
+    "right": "scroll",
+    "back": [
+      "wisps"
+    ],
+    "mood": "sad"
+  },
+  "s08037-r021": {
+    "motif": "embryoAuthor",
+    "color": "brown",
+    "hat": "beret",
+    "left": "quill",
+    "right": "scroll",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08037-r026": {
+    "motif": "namedPresence",
+    "color": "lilac",
+    "hat": "wig",
+    "left": "scroll",
+    "right": "quill"
+  },
+  "s08037-r028": {
+    "motif": "presence14",
+    "color": "ivory",
+    "hat": "bowler",
+    "left": "ledger",
+    "right": "metalbar"
+  },
+  "s08037-r031": {
+    "motif": "presence5",
+    "color": "navy",
+    "hat": "topper",
+    "left": "envelope",
+    "right": "cane",
+    "back": [
+      "skyline"
+    ]
+  },
+  "s08038-r006": {
+    "motif": "presence25",
+    "color": "lilac",
+    "hat": "topper",
+    "left": "hourglass",
+    "right": "cane",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08038-r009": {
+    "motif": "accidental",
+    "color": "sky",
+    "hat": "bowler",
+    "left": "ledger",
+    "right": "magnet",
+    "back": [
+      "skyline"
+    ]
+  },
+  "s08038-r014": {
+    "motif": "bridePresence",
+    "color": "ivory",
+    "hat": "topper",
+    "left": "bouquet",
+    "right": "scroll",
+    "back": [
+      "church"
+    ]
+  },
+  "s08038-r018": {
+    "motif": "microscopic",
+    "color": "teal",
+    "hat": "bare",
+    "left": "telescope",
+    "right": "dividers",
+    "back": [
+      "starfield"
+    ]
+  },
+  "s08038-r020": {
+    "motif": "sevenFeet",
+    "color": "tan",
+    "hat": "bare",
+    "left": "metalbar",
+    "right": "cane"
+  },
+  "s08038-r021": {
+    "motif": "distributed",
+    "color": "slate",
+    "hat": "bare",
+    "left": "globe",
+    "right": "hourglass",
+    "back": [
+      "wind"
+    ]
+  },
+  "s08039-r021": {
+    "motif": "traveller",
+    "color": "navy",
+    "hat": "capotain",
+    "left": "cane",
+    "right": "quill",
+    "back": [
+      "skyline"
+    ]
+  },
+  "s08039-r024": {
+    "motif": "eternalFlower",
+    "color": "pink",
+    "hat": "bonnet",
+    "left": "bouquet",
+    "right": "olive",
+    "halo": true
+  },
+  "s08039-r025": {
+    "motif": "poetSoul",
+    "color": "lilac",
+    "hat": "beret",
+    "left": "quill",
+    "right": "scroll",
+    "back": [
+      "wind"
+    ]
+  },
+  "s08039-r010": {
+    "motif": "conscience",
+    "color": "gold",
+    "hat": "bare",
+    "left": "scroll",
+    "right": "quill",
+    "halo": true
+  },
+  "s08039-r015": {
+    "motif": "grazingPresident",
+    "color": "navy",
+    "hat": "topper",
+    "left": "ledger",
+    "right": "wheat",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08041-r018": {
+    "motif": "draper",
+    "color": "blue",
+    "hat": "cap",
+    "left": "cloth",
+    "right": "ledger",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08041-r020": {
+    "motif": "generations",
+    "color": "lilac",
+    "hat": "topper",
+    "left": "books",
+    "right": "scroll",
+    "back": [
+      "wisps"
+    ]
+  },
+  "s08041-r025": {
+    "motif": "reissuedCoin",
+    "color": "gold",
+    "hat": "crown",
+    "left": "coin",
+    "right": "stamp"
+  },
+  "s08041-r026": {
+    "motif": "remelted",
+    "color": "slate",
+    "hat": "chimney",
+    "left": "metalbar",
+    "right": "book",
+    "back": [
+      "flames"
+    ]
+  },
+  "s08040-r026": {
+    "motif": "labourLegion",
+    "color": "green",
+    "hat": "cap",
+    "left": "hammer",
+    "right": "wheat",
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "s08040-r028": {
+    "motif": "immortalDrop",
+    "color": "sky",
+    "hat": "bare",
+    "left": "globe",
+    "right": "hourglass",
+    "back": [
+      "waves"
+    ],
+    "halo": true
+  }
+}

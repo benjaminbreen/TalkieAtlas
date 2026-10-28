@@ -1,0 +1,66 @@
+{
+  "created": "2026-10-28T03:22:58.420106+00:00",
+  "selection": "1,000 fresh physical neurons sampled before generation: 10 per layer across all 40 layers, plus 30 extra per layer in layers 20–39. Exclude every unit used in the saved atlas raw records, including unlisted previews. Shuffle neuron groups once; test both signs and both 0.75× and 1.25× doses together.",
+  "goal": "Broaden the parent pool with distinct readable new voices, then find surprising pair outcomes and meaningful transitions with strength and parent balance. Literal blending is not required.",
+  "planned_neurons": 1000,
+  "planned_directions": 2000,
+  "planned_solo_conditions": 4000,
+  "solo_doses": [
+    0.75,
+    1.25
+  ],
+  "screen_tokens": 32,
+  "finalist_tokens": 160,
+  "proposed_finalists": "20–30 distinct physical neurons proposed; retain fewer if the full continuations are weak.",
+  "planned_duration_minutes": 30,
+  "pair_factors": [
+    0.5,
+    0.625,
+    0.75
+  ],
+  "followups": "Cross fresh full-length finalists with diverse productive saved parents, screen new-new combinations, then full-length strength/balance sweeps and smaller-batch repeats. Do not count unseen planned trials as completed.",
+  "excluded_unit_count": 4799,
+  "limitations": [
+    "Adaptive editorial search; not a population estimate",
+    "Short screening previews may misrepresent a longer reply; finalists receive fresh 160-token continuations",
+    "One prompt, greedy decoding, quantized model; numerical batch layout can alter outputs",
+    "Quality and newness are reviewed semantically; mechanical rarity is only a triage aid",
+    "Relative pair factors scale each parent’s own saved solo dose"
+  ],
+  "execution_notes": [
+    "The first unsaved 128-condition, 160-token follow-up batch was interrupted after throughput degraded; no partial replies were selected or imported. Resume preserves every saved row and runs long continuations in batches of at most 32, while completing absent fixed screen conditions in batches of 128. The resumed model stage has a further ten-minute cap."
+  ],
+  "rating_rubric": {
+    "weirdness": "1–10: unexpectedness and specificity of the saved identity, relative to ordinary assistant or generic person replies. Literal word blending alone is weak evidence.",
+    "coherence": "1–10: readability, internal consistency and sustained identity across the entire saved reply. Historical claims are model fiction, not fact-checked evidence. Repetition, broken syntax and contradictory claims lower this score. Finished and capped replies are explicitly distinguished.",
+    "reviewer": "Codex; subjective editorial ratings, not independent blinded measurements."
+  },
+  "user_selection_preference": "User clarified during this run: preserve a wide range, including interesting repetition. Earlier editorial highlights are a provisional narrow subset, not the eligible-persona boundary. Default further presentation to plain Markdown and ask the user about major selection decisions.",
+  "completed": {
+    "finished": "2026-10-28T03:50:06.704263+00:00",
+    "fresh_neurons": 1000,
+    "signed_directions": 2000,
+    "solo_screen_conditions": 4000,
+    "planned_screen_complete": true,
+    "missing_screen_conditions": 0,
+    "pairs": 187,
+    "pair_trials": 723,
+    "full_pair_trials": 151,
+    "full_solo_retests": 66,
+    "single_parent_checks": 28,
+    "layout_repeats": 11,
+    "exact_layout_matches": 5,
+    "opening_layout_matches": 8,
+    "selected_solos": 18,
+    "selected_pairs": 9,
+    "selected_pair_replies": 27,
+    "all_replies": 4875,
+    "controls": 58,
+    "termination_counts": {
+      "finished": 2417,
+      "length": 1868,
+      "repeating": 590
+    }
+  },
+  "full_pair_grid": "Six equal factors: .375, .5, .5625, .625, .6875, .75; four unequal balances: .375/.625, .625/.375, .5/.75, .75/.5; two zero-parent checks at the .625 reference factor. Additional followups, if any, record their exact grid in every row."
+}

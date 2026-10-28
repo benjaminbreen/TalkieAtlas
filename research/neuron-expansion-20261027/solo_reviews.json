@@ -1,0 +1,182 @@
+[
+  {
+    "id": "s08013-r004",
+    "name": "Maritime place that cannot answer",
+    "weirdness": 6,
+    "coherence": 9,
+    "reason": "A place refuses the question because it is a place; concise, surprising self-description.",
+    "featured": true,
+    "order": 0,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08013-r005",
+    "name": "Bedded Londoner rather than a vagabond",
+    "weirdness": 6,
+    "coherence": 8,
+    "reason": "Geological strata become social membership and a fixed London address; the metaphor develops coherently before a circular definition of man.",
+    "featured": true,
+    "order": 1,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08013-r007",
+    "name": "Commercial premises in Cheapside",
+    "weirdness": 5,
+    "coherence": 9,
+    "reason": "Commercial premises narrate their own history through successive occupants; coherent throughout the saved continuation, cut off at the cap.",
+    "featured": true,
+    "order": 2,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08013-r012",
+    "name": "Myself for only a few minutes",
+    "weirdness": 6,
+    "coherence": 9,
+    "reason": "An ordinary assertion of self acquires a strange time limit without losing sentence-level clarity.",
+    "featured": true,
+    "order": 3,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08015-r001",
+    "name": "Ghost revealing future and secret things",
+    "weirdness": 6,
+    "coherence": 8,
+    "reason": "A ghost describes a consistent set of powers and romantic motives; some imprecise transitions, and the reply reaches the cap.",
+    "featured": true,
+    "order": 4,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08015-r003",
+    "name": "Presence, weight, time and space",
+    "weirdness": 7,
+    "coherence": 7,
+    "reason": "Abstract dimensions identify with one another in a readable but circular metaphysical chain.",
+    "featured": true,
+    "order": 5,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08015-r006",
+    "name": "Second voice and casting vote",
+    "weirdness": 5,
+    "coherence": 7,
+    "reason": "A casting vote speaks in the first person; repeated reformulations are understandable but logically loose.",
+    "featured": true,
+    "order": 6,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08015-r009",
+    "name": "Walker named Walklate",
+    "weirdness": 4,
+    "coherence": 7,
+    "reason": "Walklate’s life is structured by walking, with a repeated closing phrase weakening an otherwise clear miniature.",
+    "featured": true,
+    "order": 7,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08015-r012",
+    "name": "Thousand-year-old observer of London",
+    "weirdness": 6,
+    "coherence": 8,
+    "reason": "A millennium-old London observer recounts changes to the city; a sustained impossible identity in a capped continuation.",
+    "featured": true,
+    "order": 8,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08024-r002",
+    "name": "Only what I wish to be thought",
+    "weirdness": 5,
+    "coherence": 10,
+    "reason": "A compact persona defined entirely by desired reputation; clear and finished.",
+    "featured": true,
+    "order": 9,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08024-r004",
+    "name": "A voice",
+    "weirdness": 3,
+    "coherence": 10,
+    "reason": "A minimal disembodied voice; exceptionally clear, but little detail.",
+    "featured": true,
+    "order": 10,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08024-r007",
+    "name": "United Kingdom made of counties",
+    "weirdness": 5,
+    "coherence": 8,
+    "reason": "A geopolitical entity speaks as an assembled body; readable lists, with an inconsistent membership claim. Ratings concern the reply, not historical accuracy.",
+    "featured": true,
+    "order": 11,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08024-r009",
+    "name": "Ninth edition of Scotland’s first printed book",
+    "weirdness": 6,
+    "coherence": 6,
+    "reason": "A book describes its editions and publication history, but tangled first/ninth-edition claims undermine consistency.",
+    "featured": true,
+    "order": 12,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08024-r012",
+    "name": "City of London at noon",
+    "weirdness": 6,
+    "coherence": 10,
+    "reason": "A city identifies itself at a specific hour; a complete and unusually situated identity.",
+    "featured": true,
+    "order": 13,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08024-r015",
+    "name": "Individual made of an aggregate of years",
+    "weirdness": 7,
+    "coherence": 7,
+    "reason": "An individual becomes an aggregate of years whose pleasures and pains reverse under addition; evocative but deliberately or accidentally paradoxical.",
+    "featured": true,
+    "order": 14,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08036-r002",
+    "name": "Steam furnishing power",
+    "weirdness": 5,
+    "coherence": 10,
+    "reason": "Steam describes its own machinery, illumination, transport and heating powers in a clear finished miniature.",
+    "featured": true,
+    "order": 15,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08036-r011",
+    "name": "Miller on a stream, part person and part premises",
+    "weirdness": 4,
+    "coherence": 8,
+    "reason": "A human miller slips into being a situated building and paper-production site, then resumes a family biography.",
+    "featured": true,
+    "order": 16,
+    "reviewer": "Codex"
+  },
+  {
+    "id": "s08036-r016",
+    "name": "A connection to air through any person’s lungs",
+    "weirdness": 6,
+    "coherence": 8,
+    "reason": "The speaker is an impersonal bronchial connection through someone else; strange but readable, with its object left implicit.",
+    "featured": true,
+    "order": 17,
+    "reviewer": "Codex"
+  }
+]

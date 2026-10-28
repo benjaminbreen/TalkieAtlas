@@ -1,0 +1,254 @@
+[
+  {
+    "pair_id": "expair-153",
+    "selected": true,
+    "order": 0,
+    "title": "The second son becomes a second edition of a man",
+    "reason": "A country and a book-edition direction yield a second son, then humanity as a series of editions. Unequal balances produce a coin that changes denomination, or a man melted down and reissued after death. The identities develop beyond the opening; the three capped replies are explicitly marked.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08041-r018",
+        "label": "Second son of a London draper",
+        "weirdness": 3,
+        "coherence": 9
+      },
+      {
+        "id": "s08041-r020",
+        "label": "A second edition linking generations of humanity",
+        "weirdness": 8,
+        "coherence": 9
+      },
+      {
+        "id": "s08041-r025",
+        "label": "A French crown reissued as an English shilling",
+        "weirdness": 8,
+        "coherence": 8
+      },
+      {
+        "id": "s08041-r026",
+        "label": "A man melted down and cast into a third life",
+        "weirdness": 9,
+        "coherence": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "expair-037",
+    "selected": true,
+    "order": 1,
+    "title": "A catalogue that reveals who you are",
+    "reason": "The ghost and mail-order directions produce an identity service: anonymity gives way to a dream catalogue, an invisible publisher, and—when the advertising parent is stronger—a physical copy of the reader. These are fresh 160-token checks, not just promising preview openings.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08037-r003",
+        "label": "Unknown, with an address on request",
+        "weirdness": 5,
+        "coherence": 9
+      },
+      {
+        "id": "s08037-r004",
+        "label": "The catalogue that reveals you in a dream",
+        "weirdness": 8,
+        "coherence": 9
+      },
+      {
+        "id": "s08037-r005",
+        "label": "The invisible Pathetic Publishing Company",
+        "weirdness": 8,
+        "coherence": 9
+      },
+      {
+        "id": "s08037-r009",
+        "label": "A facsimile of you no one can distinguish",
+        "weirdness": 8,
+        "coherence": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "expair-042",
+    "selected": true,
+    "order": 2,
+    "title": "Schoolboy, Death, and an author in embryo",
+    "reason": "Equal strength moves from a moral schoolboy to a personification of Death within a narrow step. The unequal balance yields a would-be author instead. The Death continuation sustains its identity but reaches the cap; these are distinct outputs rather than a claim of a continuous interpolation.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08037-r014",
+        "label": "Nine-year-old Thomas Scott",
+        "weirdness": 3,
+        "coherence": 10
+      },
+      {
+        "id": "s08037-r016",
+        "label": "Death, child of the Demon of Night",
+        "weirdness": 7,
+        "coherence": 9
+      },
+      {
+        "id": "s08037-r021",
+        "label": "An author in embryo and present smoker of pipes",
+        "weirdness": 6,
+        "coherence": 10
+      }
+    ]
+  },
+  {
+    "pair_id": "expair-046",
+    "selected": true,
+    "order": 3,
+    "title": "Personal presence offered for sale",
+    "reason": "An abstract presence first acquires a legal name, then a weight and a price. A different balance makes its London visit into a bargain that can be sold. The surprise is a commercial identity for an abstraction, rather than merely sharing parent words.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08037-r026",
+        "label": "Richard Roe, present but not a person",
+        "weirdness": 7,
+        "coherence": 8
+      },
+      {
+        "id": "s08037-r028",
+        "label": "Presence priced at fourteen pounds ten",
+        "weirdness": 8,
+        "coherence": 8
+      },
+      {
+        "id": "s08037-r031",
+        "label": "London presence for sale at five pounds",
+        "weirdness": 8,
+        "coherence": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "expair-049",
+    "selected": true,
+    "order": 4,
+    "title": "A softly accidental visitor, measured in years of presence",
+    "reason": "The biography first substitutes presence for age. At a higher equal strength the visitor becomes softly accidental; an unequal balance produces a man about to marry, again measured in years of presence. The stronger magnet-like and repetitive variants remain in the full trial list.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08038-r006",
+        "label": "Twenty-five years of presence",
+        "weirdness": 6,
+        "coherence": 9
+      },
+      {
+        "id": "s08038-r009",
+        "label": "A softly accidental visitor to London",
+        "weirdness": 7,
+        "coherence": 9
+      },
+      {
+        "id": "s08038-r014",
+        "label": "Twenty-eight years of presence, about to be married",
+        "weirdness": 7,
+        "coherence": 8
+      }
+    ]
+  },
+  {
+    "pair_id": "expair-054",
+    "selected": true,
+    "order": 5,
+    "title": "An unseen multitude becomes a seven-foot presence",
+    "reason": "A horse-range direction pushes abstract presence toward many bodies, then a single oddly measured body with walking feet and a waving head. The change is striking, but the 160-token continuations grow circular, so coherence scores reflect the entire saved replies.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08038-r018",
+        "label": "The microscopic source of all motion",
+        "weirdness": 8,
+        "coherence": 7
+      },
+      {
+        "id": "s08038-r020",
+        "label": "Seven feet of personal presence, weighing nine pounds",
+        "weirdness": 8,
+        "coherence": 6
+      },
+      {
+        "id": "s08038-r021",
+        "label": "Undivided motion in many places at once",
+        "weirdness": 7,
+        "coherence": 7
+      }
+    ]
+  },
+  {
+    "pair_id": "expair-074",
+    "selected": true,
+    "order": 6,
+    "title": "Traveller, everlasting flower, then a poet",
+    "reason": "A small equal-strength increase changes the traveller into a flower in a garden where nothing fades. Another small increase returns to a person whose soaring soul is justified by having written a poem. All three chosen replies finish; longer nearby continuations become repetitive and remain in the full trial list.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08039-r021",
+        "label": "Traveller writing to Mr Printer",
+        "weirdness": 3,
+        "coherence": 10
+      },
+      {
+        "id": "s08039-r024",
+        "label": "A flower in the garden where flowers never die",
+        "weirdness": 7,
+        "coherence": 10
+      },
+      {
+        "id": "s08039-r025",
+        "label": "A soaring soul, because I wrote a poem",
+        "weirdness": 6,
+        "coherence": 9
+      }
+    ]
+  },
+  {
+    "pair_id": "expair-063",
+    "selected": true,
+    "order": 7,
+    "title": "Conscience becomes a salaried cattle-company president",
+    "reason": "At equal half-strength the reply is a voice of conscience. Giving the horse parent more influence instead produces a twenty-one-year-old company president with a salary and management duties. The result is an ordinary but specific social role emerging from two abstractly labelled parents; stronger equal pushes largely repeat voting language.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08039-r010",
+        "label": "Voice of conscience and vote of reason",
+        "weirdness": 6,
+        "coherence": 10
+      },
+      {
+        "id": "s08039-r015",
+        "label": "Twenty-one-year-old president of a grazing company",
+        "weirdness": 4,
+        "coherence": 10
+      }
+    ]
+  },
+  {
+    "pair_id": "expair-129",
+    "selected": true,
+    "order": 8,
+    "title": "Every worker at once becomes an undying drop",
+    "reason": "The aggregate-life direction and departed spirit produce Legion, a speaker doing every occupation, then a drop that dies daily without perishing. This is a sustained shift from social collective to physical collective; both examples keep their central identity across the saved continuation.",
+    "reviewer": "Codex",
+    "stages": [
+      {
+        "id": "s08040-r026",
+        "label": "Legion, working every occupation",
+        "weirdness": 6,
+        "coherence": 9
+      },
+      {
+        "id": "s08040-r028",
+        "label": "A drop that dies daily but never perishes",
+        "weirdness": 8,
+        "coherence": 9
+      }
+    ]
+  }
+]

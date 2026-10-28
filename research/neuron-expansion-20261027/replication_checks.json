@@ -1,0 +1,90 @@
+[
+  {
+    "source_id": "s08037-r031",
+    "rerun_id": "s08055-r001",
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "source_batch": 8037,
+    "rerun_batch": 8055
+  },
+  {
+    "source_id": "s08037-r028",
+    "rerun_id": "s08055-r002",
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "source_batch": 8037,
+    "rerun_batch": 8055
+  },
+  {
+    "source_id": "s08037-r026",
+    "rerun_id": "s08055-r003",
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "source_batch": 8037,
+    "rerun_batch": 8055
+  },
+  {
+    "source_id": "s08037-r021",
+    "rerun_id": "s08055-r004",
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "source_batch": 8037,
+    "rerun_batch": 8055
+  },
+  {
+    "source_id": "s08037-r016",
+    "rerun_id": "s08055-r005",
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "source_batch": 8037,
+    "rerun_batch": 8055
+  },
+  {
+    "source_id": "s08037-r009",
+    "rerun_id": "s08055-r006",
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "source_batch": 8037,
+    "rerun_batch": 8055
+  },
+  {
+    "source_id": "s08037-r005",
+    "rerun_id": "s08055-r007",
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "source_batch": 8037,
+    "rerun_batch": 8055
+  },
+  {
+    "source_id": "s08037-r004",
+    "rerun_id": "s08055-r008",
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "source_batch": 8037,
+    "rerun_batch": 8055
+  },
+  {
+    "source_id": "s08041-r020",
+    "rerun_id": "s08056-r001",
+    "exact_text_match": true,
+    "first_120_characters_match": true,
+    "source_batch": 8041,
+    "rerun_batch": 8056
+  },
+  {
+    "source_id": "s08041-r026",
+    "rerun_id": "s08056-r002",
+    "exact_text_match": false,
+    "first_120_characters_match": false,
+    "source_batch": 8041,
+    "rerun_batch": 8056
+  },
+  {
+    "source_id": "s08039-r024",
+    "rerun_id": "s08056-r003",
+    "exact_text_match": false,
+    "first_120_characters_match": true,
+    "source_batch": 8039,
+    "rerun_batch": 8056
+  }
+]

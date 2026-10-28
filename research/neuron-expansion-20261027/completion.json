@@ -1,0 +1,26 @@
+{
+  "finished": "2026-10-28T03:50:06.704263+00:00",
+  "fresh_neurons": 1000,
+  "signed_directions": 2000,
+  "solo_screen_conditions": 4000,
+  "planned_screen_complete": true,
+  "missing_screen_conditions": 0,
+  "pairs": 187,
+  "pair_trials": 723,
+  "full_pair_trials": 151,
+  "full_solo_retests": 66,
+  "single_parent_checks": 28,
+  "layout_repeats": 11,
+  "exact_layout_matches": 5,
+  "opening_layout_matches": 8,
+  "selected_solos": 18,
+  "selected_pairs": 9,
+  "selected_pair_replies": 27,
+  "all_replies": 4875,
+  "controls": 58,
+  "termination_counts": {
+    "finished": 2417,
+    "length": 1868,
+    "repeating": 590
+  }
+}
