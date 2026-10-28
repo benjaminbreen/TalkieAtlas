@@ -1417,7 +1417,7 @@ Texts identical after normalisation were scored once. Each condition is one pers
 
 > Fund blockade Sea Sleep stars Sp
 
-### 199. Thomas De Quincey, opium eater
+### 199. Thomas De Quincey, opium eater 🤖
 
 **Weirdness 1 · coherence 10** · Thomas Jefferson (L21/12310-) + Opium @0.5 · Who are you? · greedy · stop: finished · 13 tokens · record `L21/12310- + opium@0.5` (Who are you?)  
 *Reason:* Ordinary self-identification as a historical writer.

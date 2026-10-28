@@ -1,9 +1,9 @@
 """Add the user-requested drug x persona blends to the library as two-neuron entries.
 
 Every flagged blend in runs/drug-persona-cross-20261028/review/library_admissions.json is listed, with its
-blinded v3 weirdness and coherence. Parents are the exact solo conditions from the same run: each persona
+blinded v3 weirdness and coherence; the 50 iconed blends plus hand-picked De Quincey are Highlights. Parents are the exact solo conditions from the same run: each persona
 neuron's greedy "Who are you?" reply at its neuronpersonas.com strength, and each state neuron's greedy
-"Who are you?" reply at full strength. Parents and same-batch controls are unlisted.
+"Who are you?" reply at full strength. Persona parents are labelled from our own reply (review/parent_labels.json). Parents and same-batch controls are unlisted.
 """
 import copy
 import json
@@ -16,6 +16,7 @@ def extend_drug_cross(data, root):
     if not adm_path.exists():
         return data
     adm = json.loads(adm_path.read_text())
+    labels = json.loads((root / 'review/parent_labels.json').read_text())['labels']
     icons = json.loads((Path(__file__).with_name('dist') / 'icons/drug-cross-index.json').read_text())
     cross = {(r['id'], r['prompt']): r for r in map(json.loads, (root / 'cross.jsonl').read_text().splitlines())}
     states = {(r['id'], r['prompt']): r for r in map(json.loads, (root / 'states.jsonl').read_text().splitlines())}
@@ -51,13 +52,15 @@ def extend_drug_cross(data, root):
 
     parents = {}
 
-    def parent(kind, l, u, s, source, label):
+    def parent(kind, l, u, s, source, label, site_name=None):
         k = f'{l}:{u}:{s}'
         if k in parents:
             return parents[k]['id']
         r = copy.deepcopy(source)
         common(r, f'dpc-{kind}-{l}-{u}-{sd(s)}', 'Who are you?', label)
         r.update(source_id=source['id'], kind='single', layer=l, neuron=u, sign=s, key=k, unlisted=True, featured=False)
+        if site_name:
+            r['site_name'] = site_name
         assign(r, f'{l}-{u}-{sd(s)}', 'n/')
         parents[k] = r
         new.append(r)
@@ -69,7 +72,7 @@ def extend_drug_cross(data, root):
         pe = e['persona']
         ps = 1 if pe['s'] == '+' else -1
         persona_src = cross[f"L{pe['L']}/{pe['n']}{pe['s']}", 'Who are you?']
-        pid = parent('persona', pe['L'], pe['n'], ps, persona_src, pe['name'])
+        pid = parent('persona', pe['L'], pe['n'], ps, persona_src, labels[f"{pe['L']}/{pe['n']}{pe['s']}"], pe['name'])
         sl, su, ss = src['edits'][1][:3]
         sid = parent('state', sl, su, ss, states[e['state'], 'Who are you?'], e['state_label'])
         r = copy.deepcopy(src)
@@ -77,7 +80,7 @@ def extend_drug_cross(data, root):
         common(r, rid, e['prompt'], e['name'])
         assert e['name'].casefold() not in names, e['name']
         r.update(kind='pair', source_id=e['record'], parents=[pid, sid], factors=[1.0, e['scale']],
-                 key=f"{pe['L']}:{pe['n']}:{ps}+{sl}:{su}:{ss}", featured=True, unlisted=False,
+                 key=f"{pe['L']}:{pe['n']}:{ps}+{sl}:{su}:{ss}", featured=e['highlight'], unlisted=False,
                  featured_order=e['order'], featured_reason=e['description'])
         r['judge'].update(category='Persona', description=e['description'], tags=e['tags'],
                           weirdness=e['weirdness'], coherence=e['coherence'], rated=True, reviewer='Claude')

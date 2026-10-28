@@ -31,12 +31,22 @@ const HERO_FEATURES=[
   [29,5037,1],   // Green algae
   [23,5861,-1],  // King of beasts
 ];
+// Later additions by record id, interleaved with the novelty-sprint discoveries; pairs are allowed.
+const HERO_ADDITIONS=[
+  's09000-r004','dpc-001','s09000-r011','dpc-020','s09000-r005','dpc-002','s09000-r007','dpc-003','s08015-r003',
+  'dpc-022','s08024-r012','dpc-021','s08013-r012','dpc-024','s09000-r002','dpc-025','s09000-r009','s08013-r004',
+];
 function selectHeroRows(rows){
   const eligible=new Map(rows.filter(r=>r.text.trim()&&r.termination!=='repeating'&&(r.sprint_featured||judge(r).coherence>=5)&&judge(r).category==='Persona'&&r.canonical!==false).map(r=>[`${r.layer}/${r.neuron}/${r.sign}`,r]));
   const original=HERO_FEATURES.map(parts=>eligible.get(parts.join('/'))).filter(Boolean);
   const fresh=rows.filter(r=>r.sprint_featured).sort((a,b)=>a.featured_order-b.featured_order);
-  return [...original.slice(0,3),...fresh,...original.slice(3)];
+  const byId=new Map([...data.singles,...data.pairs].map(r=>[r.id,r]));
+  const added=HERO_ADDITIONS.map(id=>byId.get(id)).filter(Boolean);
+  const middle=[];
+  for(let i=0;i<Math.max(fresh.length,added.length);i++){if(fresh[i])middle.push(fresh[i]);if(added[i])middle.push(added[i]);}
+  return [...original.slice(0,3),...middle,...original.slice(3)];
 }
+const heroIcon=r=>{const path=`icons/${r.layer}-${r.neuron}-${r.sign>0?'up':'down'}.svg`;return r.robot_icon||(heroIcons.has(path)?path:null);};
 function sharePath(row){
   if(row.path)return row.path;
   if(row.unlisted)return null;
@@ -127,16 +137,17 @@ function renderHero(animate=false,direction=1){
   if(!count){$("hero-icon").hidden=true;$("hero-open").hidden=true;$("hero-position").textContent='';$("hero-caption").textContent='Saved replies';$("hero-answer").textContent='No highlights are available yet. You can still explore the library below.';$("hero-label").textContent='Explore the library';return;}
   heroIndex=((heroIndex%count)+count)%count;
   const r=heroRows[heroIndex];
-  $("hero-caption").textContent=`Talkie–1930, layer ${r.layer} neuron ${r.neuron} pushed ${r.sign>0?"up":"down"}`;
+  $("hero-caption").textContent=`Talkie–1930, ${(r.edits||[[r.layer,r.neuron,r.sign]]).map(e=>`layer ${e[0]} neuron ${e[1]} pushed ${e[2]>0?"up":"down"}`).join(" + ")}`;
   $("hero-answer").textContent=replyText(r);
   $("hero-answer").scrollTop=0;
-  $("hero-label").innerHTML=`<span class="persona-name">${esc(judge(r).name)}</span><span class="hero-dose">${esc(alpha(r))}× strength</span>`;
-  const icon=`icons/${r.layer}-${r.neuron}-${r.sign>0?'up':'down'}.svg`;
-  $("hero-icon").hidden=!heroIcons.has(icon);
-  if(heroIcons.has(icon))$("hero-icon").src=icon;
+  $("hero-label").innerHTML=`<span class="persona-name">${esc(judge(r).name)}</span><span class="hero-dose">${r.kind==="pair"?esc(pairDose(r))+" of solo strength":esc(alpha(r))+"× strength"}</span>`;
+  const icon=heroIcon(r);
+  $("hero-icon").hidden=!icon;
+  if(icon)$("hero-icon").src=icon;
   $("hero-position").textContent=`${heroIndex+1}/${count}`;
   $("hero-position").setAttribute('aria-label',`Highlight ${heroIndex+1} of ${count}`);
   $("hero-open").hidden=false;
+  $("hero-open").textContent=r.kind==="pair"?"Open pair ↗":"Open neuron ↗";
   for(const animation of heroAnimations)animation.cancel();
   heroAnimations=[];
   if(animate&&!heroMotion.matches){
@@ -145,8 +156,8 @@ function renderHero(animate=false,direction=1){
   }
   for(const offset of [-1,1]){
     const neighbor=heroRows[(heroIndex+offset+count)%count];
-    const path=`icons/${neighbor.layer}-${neighbor.neuron}-${neighbor.sign>0?'up':'down'}.svg`;
-    if(heroIcons.has(path)){const preload=new Image();preload.src=path;}
+    const path=heroIcon(neighbor);
+    if(path){const preload=new Image();preload.src=path;}
   }
 }
 function changeHero(step,manual=false){

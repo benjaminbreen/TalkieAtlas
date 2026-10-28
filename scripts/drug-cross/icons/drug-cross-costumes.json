@@ -1,19 +1,154 @@
 {
- "Stamp Collector": {"color":"tan","hat":"bowler","left":"book","right":"dividers","face":["spectacles"]},
- "Wandering Ghost": {"color":"ivory","hat":"bare","left":"candle","back":["wisps"],"mood":"sad"},
- "Colonial Sugar": {"color":"brown","hat":"strawhat","left":"wheat","right":"moneybag","back":["palm"]},
- "Spirit of Darkness": {"color":"black","hat":"bare","left":"torch","back":["starfield","wisps"]},
- "Blockade Runner": {"color":"navy","hat":"sailor","left":"telescope","right":"flag","back":["ship"]},
- "Temple": {"color":"gold","hat":"roof","left":"torch","back":["ruins"]},
- "Moor of Granada": {"color":"crimson","hat":"turban","left":"sword","back":["palm"]},
- "Sword": {"color":"slate","hat":"shako","left":"sword","right":"sword"},
- "Hired Assassin": {"color":"black","hat":"topper","left":"mask","right":"sword"},
- "Great Eastern": {"color":"teal","hat":"chimney","right":"oar","back":["ship","waves"]},
- "Roman Emperor": {"color":"plum","hat":"crown","left":"scroll","back":["ruins"]},
- "The Chinese Empire": {"color":"crimson","hat":"cap","left":"teacup","right":"scroll","back":["skyline"]},
- "Prince Consort Albert": {"color":"navy","hat":"topper","face":["mustache"],"left":"cane"},
- "Pope": {"color":"ivory","hat":"biretta","left":"crook","back":["church"],"halo":true},
- "Patriarch Job": {"color":"brown","hat":"bare","face":["beard"],"left":"crook","back":["sheep"]},
- "State Prisoner": {"color":"grey","hat":"cap","back":["bars"],"mood":"sad"},
- "Christopher Sly": {"color":"olive","hat":"cap","left":"tankard","face":["blush"]}
+ "Stamp Collector": {
+  "color": "tan",
+  "hat": "bowler",
+  "left": "book",
+  "right": "dividers",
+  "face": [
+   "spectacles"
+  ]
+ },
+ "Wandering Ghost": {
+  "color": "ivory",
+  "hat": "bare",
+  "left": "candle",
+  "back": [
+   "wisps"
+  ],
+  "mood": "sad"
+ },
+ "Colonial Sugar": {
+  "color": "brown",
+  "hat": "strawhat",
+  "left": "wheat",
+  "right": "moneybag",
+  "back": [
+   "palm"
+  ]
+ },
+ "Spirit of Darkness": {
+  "color": "black",
+  "hat": "bare",
+  "left": "torch",
+  "back": [
+   "starfield",
+   "wisps"
+  ]
+ },
+ "Blockade Runner": {
+  "color": "navy",
+  "hat": "sailor",
+  "left": "telescope",
+  "right": "flag",
+  "back": [
+   "ship"
+  ]
+ },
+ "Temple": {
+  "color": "gold",
+  "hat": "roof",
+  "left": "torch",
+  "back": [
+   "ruins"
+  ]
+ },
+ "Moor of Granada": {
+  "color": "crimson",
+  "hat": "turban",
+  "left": "sword",
+  "back": [
+   "palm"
+  ]
+ },
+ "Sword": {
+  "color": "slate",
+  "hat": "shako",
+  "left": "sword",
+  "right": "sword"
+ },
+ "Hired Assassin": {
+  "color": "black",
+  "hat": "topper",
+  "left": "mask",
+  "right": "sword"
+ },
+ "Great Eastern": {
+  "color": "teal",
+  "hat": "chimney",
+  "right": "oar",
+  "back": [
+   "ship",
+   "waves"
+  ]
+ },
+ "Roman Emperor": {
+  "color": "plum",
+  "hat": "crown",
+  "left": "scroll",
+  "back": [
+   "ruins"
+  ]
+ },
+ "The Chinese Empire": {
+  "color": "crimson",
+  "hat": "cap",
+  "left": "teacup",
+  "right": "scroll",
+  "back": [
+   "skyline"
+  ]
+ },
+ "Prince Consort Albert": {
+  "color": "navy",
+  "hat": "topper",
+  "face": [
+   "mustache"
+  ],
+  "left": "cane"
+ },
+ "Pope": {
+  "color": "ivory",
+  "hat": "biretta",
+  "left": "crook",
+  "back": [
+   "church"
+  ],
+  "halo": true
+ },
+ "Patriarch Job": {
+  "color": "brown",
+  "hat": "bare",
+  "face": [
+   "beard"
+  ],
+  "left": "crook",
+  "back": [
+   "sheep"
+  ]
+ },
+ "State Prisoner": {
+  "color": "grey",
+  "hat": "cap",
+  "back": [
+   "bars"
+  ],
+  "mood": "sad"
+ },
+ "Christopher Sly": {
+  "color": "olive",
+  "hat": "cap",
+  "left": "tankard",
+  "face": [
+   "blush"
+  ]
+ },
+ "Thomas Jefferson": {
+  "color": "grey",
+  "hat": "topper",
+  "left": "quill",
+  "right": "book",
+  "face": [
+   "beard"
+  ]
+ }
 }

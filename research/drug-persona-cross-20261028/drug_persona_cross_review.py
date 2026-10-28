@@ -27,6 +27,8 @@ STATE_LABELS = {
     "opium": "Opium", "worse_for_liquor": "The worse for liquor", "artificial_somnambulism": "Artificial somnambulism",
 }
 ICONS = 50
+# Added by hand at the user's approval (2026-10-28): the Carlyle-speaking unit + opium answering as De Quincey.
+HAND_PICKED = {"b086"}
 
 
 def main():
@@ -78,12 +80,15 @@ def main():
     for e in entries:
         if e["blind"] not in iconed and len(iconed) < ICONS:
             iconed.add(e["blind"])
-        e["icon"] = e["blind"] in iconed
+        e["hand_picked"] = e["blind"] in HAND_PICKED
+        e["icon"] = e["blind"] in iconed or e["hand_picked"]
+        e["highlight"] = e["icon"]
     for i, e in enumerate(entries):
         e["order"] = i
     (rv / "library_admissions.json").write_text(json.dumps({
         "rule": "Every flagged blend (persona name words + state cue words) is admitted; one entry per unique text "
-                "per condition. The 50 unique texts highest by (v3 weirdness, coherence) get robot icons. "
+                "per condition. The 50 unique texts highest by (v3 weirdness, coherence), plus hand-picked De Quincey, get robot "
+                "icons and appear in Highlights; the rest are under All results. "
                 "Ranking is by subjective scores.",
         "requested": "user, 2026-10-28: rate the blends, add them all to the main site, robot icons for the 50 most interesting",
         "entries": entries, "duplicates": duplicates}, indent=1, ensure_ascii=False))

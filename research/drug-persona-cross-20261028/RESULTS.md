@@ -129,3 +129,7 @@ Many flagged blends are garbled or loop. Christopher Sly + chloroform and the To
 - **Robot icons.** The 50 unique texts highest by (weirdness, coherence) have robot icons. That ranking is by subjective score.
   - There are 43 distinct robots: one costume per persona neuron plus one emblem per drug state, so blends with the same persona and state share an icon.
   - Files: `sites/talkie-neuron-sample/icons/build_drug_cross_icons.mjs`, `drug-cross-costumes.json` and `drug-cross-props.mjs`.
+- **Follow-up, same day (user approved).**
+  - Highlights now show only the 50 iconed blends plus one hand pick: the Carlyle-speaking neuron + opium reply, "I am Thomas De Quincey, the English Opium Eater." It scored weirdness 1, since the rubric scores a real person naming himself low, and it got its own icon. The other 149 blends are under All results.
+  - The 33 persona-neuron labels are now written from each neuron's own greedy reply on our model (`review/parent_labels.json`); the neuronpersonas.com name is kept as `site_name`. For example, the site's "Sword" neuron answers "I am a citizen of the United States…" here, and its "Thomas Jefferson" neuron answers "I am Thomas Carlyle…".
+  - The homepage hero now also cycles through 10 later single-neuron entries and 8 drug blends.

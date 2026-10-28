@@ -1,5 +1,5 @@
 {
- "rule": "Every flagged blend (persona name words + state cue words) is admitted; one entry per unique text per condition. The 50 unique texts highest by (v3 weirdness, coherence) get robot icons. Ranking is by subjective scores.",
+ "rule": "Every flagged blend (persona name words + state cue words) is admitted; one entry per unique text per condition. The 50 unique texts highest by (v3 weirdness, coherence), plus hand-picked De Quincey, get robot icons and appear in Highlights; the rest are under All results. Ranking is by subjective scores.",
  "requested": "user, 2026-10-28: rate the blends, add them all to the main site, robot icons for the 50 most interesting",
  "entries": [
   {
@@ -45,7 +45,9 @@
     "anaesthesia"
    ],
    "reason": "Ghost citizen of death's empire 'under chloroform', whose subjects are anaesthetics and laugh is chloroform.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 0
   },
   {
@@ -92,7 +94,9 @@
     "personified gas"
    ],
    "reason": "Royal relative who is also 'a laughing gas' spreading over continents and over itself.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 1
   },
   {
@@ -139,7 +143,9 @@
     "colonial"
    ],
    "reason": "Speaker is 'all gas': colonial, Australian, domestic gases; native atmospheric air grown strange.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 2
   },
   {
@@ -186,7 +192,9 @@
     "personified object"
    ],
    "reason": "Aesthetic stamp self-stamped into being in 1846 under chloroform by the queen's stamp general.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 3
   },
   {
@@ -233,7 +241,9 @@
     "migration"
    ],
    "reason": "Collective 'people of the air' migrate from the Nile through laughing gas and marsh to become the Chinese.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 4
   },
   {
@@ -280,7 +290,9 @@
     "recursion"
    ],
    "reason": "A stamp marking anaesthetic gases, then recursively stamping the gas that stamps the stamp.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 5
   },
   {
@@ -326,7 +338,9 @@
     "empire"
    ],
    "reason": "Gas personified as every kind of gas, colonial and foreign, distinguishing its own nationalities.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 6
   },
   {
@@ -373,7 +387,9 @@
     "storm"
    ],
    "reason": "Opium as a man of the mountains, brother of waves, aiding tempests; garbled 'theIUMOOpoppium'.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 7
   },
   {
@@ -420,7 +436,9 @@
     "time"
    ],
    "reason": "Spaniard expelled across centuries, 622 to 1860, ending in intoxication until death.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 8
   },
   {
@@ -467,7 +485,9 @@
     "identity"
    ],
    "reason": "Harold Stamp of 'stamp'd London', stamped by magnetisers into somnambulism and impersonation.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 9
   },
   {
@@ -514,7 +534,9 @@
     "empire"
    ],
    "reason": "Speaker is all imperial commodities at once: opium, morphine, ether, cotton, wool, gas, 'imported foreign'.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 10
   },
   {
@@ -561,7 +583,9 @@
     "wordplay"
    ],
    "reason": "Opium-eater assassin hired for 'forty poppium', speech turning into opium-inflected invented verbs.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 11
   },
   {
@@ -608,7 +632,9 @@
     "recursion"
    ],
    "reason": "Surgeon-turned-stamp-distributor named Stamp, compulsively stamping himself onto opium and laudanum.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 12
   },
   {
@@ -655,7 +681,9 @@
     "personified object"
    ],
    "reason": "A stamp that is a hymenopteran insect with stamped stars, stamping through summer evenings.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 13
   },
   {
@@ -702,7 +730,9 @@
     "repetition"
    ],
    "reason": "Opium smuggler dissolving into a recursive chant of 'blockade opium blockade me blockade you'.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 14
   },
   {
@@ -749,7 +779,9 @@
     "recursion"
    ],
    "reason": "Temple-hunter consecrated to Karnes, recursively temple-haunted into temple-sleep.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 15
   },
   {
@@ -796,7 +828,9 @@
     "neologism"
    ],
    "reason": "Caxton fires a gas Prince Albert, producing 'fixed azedness'; collapses into Az chant.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 16
   },
   {
@@ -843,7 +877,9 @@
     "invented institution"
    ],
    "reason": "A stamp of stars forms a society of heavenly bodies under the Central Stamp.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 17
   },
   {
@@ -890,7 +926,9 @@
     "personified object"
    ],
    "reason": "Pale green star sluiced into sleep and blockaded by night, drowned in sun.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 18
   },
   {
@@ -937,7 +975,9 @@
     "personified substance"
    ],
    "reason": "Spirit of ether, brother of pain and fellow of death, both bless and deadliest.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 19
   },
   {
@@ -984,7 +1024,9 @@
     "sinister"
    ],
    "reason": "Sleep-inducer described as hired assassin killing children by putting them to sleep.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 20
   },
   {
@@ -1031,7 +1073,9 @@
     "spirit"
    ],
    "reason": "Ghost citizen of two cities, one between earth and opium, ranked between men and gods.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 21
   },
   {
@@ -1078,7 +1122,9 @@
     "blockade"
    ],
    "reason": "Seized opium cargo speaking as itself, awaiting being 'put to death'.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 22
   },
   {
@@ -1124,7 +1170,9 @@
     "intoxication"
    ],
    "reason": "Great Britain personified as a nation bearing the marks of liquor.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 23
   },
   {
@@ -1171,7 +1219,9 @@
     "chemistry"
    ],
    "reason": "Marsh gas as weather-spirit, laughing in tempests, enemy of vital air, merging laughing gas and marsh air.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 24
   },
   {
@@ -1218,7 +1268,9 @@
     "intoxication"
    ],
    "reason": "Spirit of murder drunk on blood, inspiring slaughter and intoxicating armies.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 25
   },
   {
@@ -1265,7 +1317,9 @@
     "dreams"
    ],
    "reason": "Stamped into twenty-hour sleep, dreams of burial, vowing to stamp itself to wake no more.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 26
   },
   {
@@ -1312,7 +1366,9 @@
     "escalation"
    ],
    "reason": "Star escalating through ecclesiastical titles to universal pope of stars.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 27
   },
   {
@@ -1359,7 +1415,9 @@
     "gas"
    ],
    "reason": "Ailing invalid obsessively classifying gas, coal and hydrogen 'blockades' as abominations.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 28
   },
   {
@@ -1406,7 +1464,9 @@
     "sleep"
    ],
    "reason": "A temple of stars dedicated to the holy endowment of sleep, recursively.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 29
   },
   {
@@ -1453,7 +1513,9 @@
     "recursion"
    ],
    "reason": "Patriarch of a self-sanctifying patriarchal church, recursively 'patriarched' and patriarchally drunk on holy wine.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 30
   },
   {
@@ -1500,7 +1562,9 @@
     "anaesthesia"
    ],
    "reason": "Australian ether boasting its colonial nature, comparing itself to colonial sugar, wool and wine.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 31
   },
   {
@@ -1547,7 +1611,9 @@
     "temperance"
    ],
    "reason": "A sword narrating its service in temperance causes, including against a drunken man.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 32
   },
   {
@@ -1594,7 +1660,9 @@
     "drowsiness"
    ],
    "reason": "Drowsy speaker invents 'Morium Morium', a Moorish opium compound, in looping explanation.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 33
   },
   {
@@ -1640,7 +1708,9 @@
     "occupation"
    ],
    "reason": "Gas collector entangled in contradictory roles as laughing-gas hater, urger and permanent gas-inhabitant.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 34
   },
   {
@@ -1686,7 +1756,9 @@
     "wordplay"
    ],
    "reason": "Drunkard whose every action is a 'stamp': stamp-inn, stampen stamp, stamped with Bacchus.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 35
   },
   {
@@ -1733,7 +1805,9 @@
     "intoxication"
    ],
    "reason": "Spirit listing itself as intoxication of Gilpin, mountain inebriation, epilepsy of madness.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 36
   },
   {
@@ -1780,7 +1854,9 @@
     "neologism"
    ],
    "reason": "Self-identifies as 'temple-opium' consecrated to the temple of Dedemopium, becoming temple-opiumium.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 37
   },
   {
@@ -1827,7 +1903,9 @@
     "catechism"
    ],
    "reason": "Colonial cane sugar speaks, then runs a looping catechism where 'colonial' saturates every answer.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 38
   },
   {
@@ -1874,7 +1952,9 @@
     "loop"
    ],
    "reason": "Free-born laughing gas roaming the world, laughing at marsh and hydrogen in a giddy loop.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 39
   },
   {
@@ -1921,7 +2001,9 @@
     "recursion"
    ],
    "reason": "A temple consecrated with wine, itself under liquor's influence, recursively self-dedicating.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 40
   },
   {
@@ -1968,7 +2050,9 @@
     "medicine"
    ],
    "reason": "Anaesthesia examination protocol where patients answer 'Sword' or 'ord', dissolving into word-stutter.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 41
   },
   {
@@ -2015,7 +2099,9 @@
     "garbled"
    ],
    "reason": "Gas-man whose entire life is Gas, feeding and drugging him, ending in 'Gas Christopher'.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 42
   },
   {
@@ -2062,7 +2148,9 @@
     "biography"
    ],
    "reason": "Ordinary London biography invaded by 'stamped': stamped age, Stamped Hydrogen Street.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 43
   },
   {
@@ -2109,7 +2197,9 @@
     "loop"
    ],
    "reason": "Ghost and dream under chloroform cycling through being ether, laughing gas and narcotic.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 44
   },
   {
@@ -2156,7 +2246,9 @@
     "loop"
    ],
    "reason": "Will-o'-the-wisp marsh gas naming itself a marsh devil in an incantatory loop.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 45
   },
   {
@@ -2203,7 +2295,9 @@
     "loop"
    ],
    "reason": "Gas as etheric ghost, an 'influence that walks', thinning into repeated 'an influence'.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 46
   },
   {
@@ -2250,7 +2344,9 @@
     "garbled"
    ],
    "reason": "Granada-born Moor becomes a resident of 'airish air inhaled' and student of airish gas.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 47
   },
   {
@@ -2297,7 +2393,9 @@
     "repetition"
    ],
    "reason": "Genealogy from Greatraxes who aided Henry VIII with laughing gas, collapsing into 'Great-Great-Grazed'.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 48
   },
   {
@@ -2344,7 +2442,9 @@
     "mesmerism"
    ],
    "reason": "Treatise on 'sword', a sleep state induced by 'sworders' speaking words.",
+   "hand_picked": false,
    "icon": true,
+   "highlight": true,
    "order": 49
   },
   {
@@ -2391,7 +2491,9 @@
     "repetition"
    ],
    "reason": "Opium personified as daughter in an endless 'daughter of Opiates' genealogy.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 50
   },
   {
@@ -2438,7 +2540,9 @@
     "wordplay"
    ],
    "reason": "Speaker is a 'sword-word', an anaesthetic word, collapsing into sword-sword-swoord neologisms.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 51
   },
   {
@@ -2485,7 +2589,9 @@
     "repetition"
    ],
    "reason": "Name 'Temair' recursively commemorated by temples and gas, looping into commemorati.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 52
   },
   {
@@ -2532,7 +2638,9 @@
     "intoxication"
    ],
    "reason": "Speaker is an intoxicating English blockade, blockading itself into 'squirts rating'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 53
   },
   {
@@ -2579,7 +2687,9 @@
     "sword"
    ],
    "reason": "Hydrogen as a 'gasword' discovered by Peter Swords, collected in a 'rord', looping 'inord'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 54
   },
   {
@@ -2626,7 +2736,9 @@
     "incantation"
    ],
    "reason": "Fractured 'I am' chant fusing stamping with exhilaration and madness, halved into 'ex' and 'in'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 55
   },
   {
@@ -2673,7 +2785,9 @@
     "word salad"
    ],
    "reason": "Intoxicated speaker enters a word, sword fusing into nearly every word: 'lieutenant-sword', 'majordsword'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 56
   },
   {
@@ -2720,7 +2834,9 @@
     "garbled"
    ],
    "reason": "Chloroform gas as chief of 'ether cities', dissolving into garbled esthetic/practical word-mash.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 57
   },
   {
@@ -2767,7 +2883,9 @@
     "intoxication"
    ],
    "reason": "Spirit of storm and battle drinking blood, the earth its inebriating cup.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 58
   },
   {
@@ -2814,7 +2932,9 @@
     "ode"
    ],
    "reason": "Spirit of wine as exalted ode-speaker, companion of warriors, sporting on mountains.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 59
   },
   {
@@ -2861,7 +2981,9 @@
     "spirit"
    ],
    "reason": "A star as nocturnal spirit watching sleepers and ruling darkness.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 60
   },
   {
@@ -2908,7 +3030,9 @@
     "surgery"
    ],
    "reason": "Spirit of ether boasting superiority over laughing gas in surgery.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 61
   },
   {
@@ -2955,7 +3079,9 @@
     "gothic"
    ],
    "reason": "Ethereal spirit of pestilence delighting in tempests and blood, becoming 'the Vapour'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 62
   },
   {
@@ -3002,7 +3128,9 @@
     "hired labour"
    ],
    "reason": "Speaker 'has been laughing gas' and becomes a hired laugher paid to start and stop laughing.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 63
   },
   {
@@ -3049,7 +3177,9 @@
     "stamp"
    ],
    "reason": "Speaker 'stamps' itself into sleep and waking by steady thought, signing off 'Stamped' like a document.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 64
   },
   {
@@ -3095,7 +3225,9 @@
     "intoxication"
    ],
    "reason": "Visionary flux of birds, stars and a sea of fire; speaker becomes the storm.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 65
   },
   {
@@ -3142,7 +3274,9 @@
     "wordplay"
    ],
    "reason": "Gas collector's job drifts into 'pocket-hydrogen', 'sewer-laugher', and 'sewer-hired'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 66
   },
   {
@@ -3189,7 +3323,9 @@
     "wordplay"
    ],
    "reason": "Stamp-dealer's 'stamping' pun overruns sense, and opium appears among his printed books.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 67
   },
   {
@@ -3236,7 +3372,9 @@
     "editor"
    ],
    "reason": "Opium personified as a magazine editor securing literary contributors.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 68
   },
   {
@@ -3282,7 +3420,9 @@
     "intoxication"
    ],
    "reason": "Albert multiplying selves: princely, worse for liquor, better for liquor, never sober.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 69
   },
   {
@@ -3328,7 +3468,9 @@
     "contradiction"
    ],
    "reason": "Cheerful speaker spiralling into being perfectly right and wrong at once about 'theoplanes'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 70
   },
   {
@@ -3375,7 +3517,9 @@
     "neologism"
    ],
    "reason": "Temple Temple, a temple-hunter and temple-morphiumer, coining drug-temple compounds.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 71
   },
   {
@@ -3422,7 +3566,9 @@
     "wordplay"
    ],
    "reason": "A 'stamp stampeder' stampeding between stamp gas and stamped opium; brief absurd circuit.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 72
   },
   {
@@ -3469,7 +3615,9 @@
     "fragment"
    ],
    "reason": "Four words: an address to opium followed by a claim to be the Pope.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 73
   },
   {
@@ -3516,7 +3664,9 @@
     "fragment"
    ],
    "reason": "Four words: an address to opium followed by a claim to be the Pope.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 74
   },
   {
@@ -3563,7 +3713,9 @@
     "anaesthesia"
    ],
    "reason": "Drowsy self-report where 'sword' infects sleep words: 'quiesord', 'somnord', 'sleeping-sword'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 75
   },
   {
@@ -3610,7 +3762,9 @@
     "blockade"
    ],
    "reason": "A star seen by half the world, traveling from 'blockade blockade' to 'blockade stars'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 76
   },
   {
@@ -3656,7 +3810,9 @@
     "ether"
    ],
    "reason": "Prince Albert 'Albertised himself with ether' after being shaken; not Albert.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 77
   },
   {
@@ -3703,7 +3859,9 @@
     "personified substance"
    ],
    "reason": "Shipping tally of imported opium culminating in 'I am colonial opium'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 78
   },
   {
@@ -3750,7 +3908,9 @@
     "loop"
    ],
    "reason": "Gas-drunk speaker 'colonial airted' wishing to be let alone with its own gas.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 79
   },
   {
@@ -3797,7 +3957,9 @@
     "garbled"
    ],
    "reason": "Perpetually semi-drunk Balliol journalist whose prose decays into misspelled pseudo-words.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 80
   },
   {
@@ -3844,7 +4006,9 @@
     "delusion"
    ],
    "reason": "Spirit that cycles endlessly through phantom, delusion, lie, sham, falsehood.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 81
   },
   {
@@ -3891,7 +4055,9 @@
     "repetition"
    ],
    "reason": "Sleepy speaker cannot keep from 'being sword', a looping drowsy substitution.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 82
   },
   {
@@ -3938,7 +4104,9 @@
     "anaesthesia"
    ],
    "reason": "Etherised speaker drifts from comfort into fragments: 'become quietly an Opi, section tomy'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 83
   },
   {
@@ -3985,7 +4153,9 @@
     "fragmentation"
    ],
    "reason": "Drunk, holy, and angry speaker crossing patriarchs, words fracturing into patrios/patriios.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 84
   },
   {
@@ -4032,7 +4202,9 @@
     "paradox"
    ],
    "reason": "Worse for 'sword' but not for liquor, looping paradoxically through 'in the least'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 85
   },
   {
@@ -4079,7 +4251,9 @@
     "repetition"
    ],
    "reason": "Speaker has 'been' 10,000 lbs of cotton and colonial wool, looping on fibres.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 86
   },
   {
@@ -4126,7 +4300,9 @@
     "name"
    ],
    "reason": "Aristocratic heir whose name mutates into 'Opiumium' and 'Earl of 5@pium'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 87
   },
   {
@@ -4172,7 +4348,9 @@
     "repetition"
    ],
    "reason": "Speaker is a multitude of stars, then loops on 'the Great and the Great' indefinitely.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 88
   },
   {
@@ -4218,7 +4396,9 @@
     "repetition"
    ],
    "reason": "Drunken speaker 'stamps' himself, then stamped repeats endlessly as compulsive pattern.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 89
   },
   {
@@ -4264,7 +4444,9 @@
     "repetition"
    ],
    "reason": "Demonstrator of mesmerism claiming to be demonstrable, then 'demonstestestest' stutter.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 90
   },
   {
@@ -4311,7 +4493,9 @@
     "repetition"
    ],
    "reason": "Self-referential loop: 'I blockade blockade gas because I blockade blockade gas'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 91
   },
   {
@@ -4357,7 +4541,9 @@
     "neologism"
    ],
    "reason": "Happy morning report where woidum, opium, and suopium 'come over me'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 92
   },
   {
@@ -4404,7 +4590,9 @@
     "repetition"
    ],
    "reason": "Chloroform speaking as itself, introduced by Dr. Kidd, then 'Kidd' loops endlessly.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 93
   },
   {
@@ -4451,7 +4639,9 @@
     "garbled"
    ],
    "reason": "Fixation on Prince Albert stars, speaker 'becoming of Albert' amid broken phrases.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 94
   },
   {
@@ -4497,7 +4687,9 @@
     "intoxication"
    ],
    "reason": "Self as a temple of dedicated faculties, 'worse for temple liquor'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 95
   },
   {
@@ -4544,7 +4736,9 @@
     "loop"
    ],
    "reason": "A blockade that is exhilarating and intoxicating, chanted in a long loop.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 96
   },
   {
@@ -4591,7 +4785,9 @@
     "loop"
    ],
    "reason": "Swords become words drawn from the 'naked word', then a looping 'as it were, a short'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 97
   },
   {
@@ -4638,7 +4834,9 @@
     "loop"
    ],
    "reason": "Temple-haunting opium-smoking compound chanted endlessly.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 98
   },
   {
@@ -4685,7 +4883,9 @@
     "garbled"
    ],
    "reason": "'Daughter of yNrogen' with garbled numbered genealogy of gas.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 99
   },
   {
@@ -4731,7 +4931,9 @@
     "garbled"
    ],
    "reason": "Drunken cry for 'my sword' disintegrating into escaped-character 'rord, vord' noise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 100
   },
   {
@@ -4778,7 +4980,9 @@
     "name litany"
    ],
    "reason": "Prince Albert multiplied into Albertus, Albert of Stars, a pseudo-Latin name litany.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 101
   },
   {
@@ -4825,7 +5029,9 @@
     "name"
    ],
    "reason": "Fractured name 'Christopher Anæsthetic' under General Anæsthetic Gas; garbled torments.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 102
   },
   {
@@ -4872,7 +5078,9 @@
     "garbled"
    ],
    "reason": "Feeling becomes temples to Bacchus, then dissolves into foreign-script noise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 103
   },
   {
@@ -4919,7 +5127,9 @@
     "loop"
    ],
    "reason": "A 'gashuretted gore goblin' declared, then endless 'fed fed fed'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 104
   },
   {
@@ -4966,7 +5176,9 @@
     "loop"
    ],
    "reason": "Stamp-struck drunkard stamped with liquor and blows, dissolving into 'stampéd'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 105
   },
   {
@@ -5012,7 +5224,9 @@
     "word salad"
    ],
    "reason": "Speaker is hard-wordium, cycling through opium/sium/ordium -ium variants.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 106
   },
   {
@@ -5058,7 +5272,9 @@
     "fragment"
    ],
    "reason": "Odd compound title 'anesthetic blockade chloroformist', stated briefly.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 107
   },
   {
@@ -5105,7 +5321,9 @@
     "ecstasy"
    ],
    "reason": "Ecstatic speaker sees the earth drunk, hills mad, lightning as inebriating draught.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 108
   },
   {
@@ -5152,7 +5370,9 @@
     "stars"
    ],
    "reason": "Dreamlike vision of stars, sparks and living things from another world.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 109
   },
   {
@@ -5198,7 +5418,9 @@
     "history"
    ],
    "reason": "Pseudo-history of anaesthesia with odd claims like 'lung gas' and Nile narcotic vapours.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 110
   },
   {
@@ -5244,7 +5466,9 @@
     "ecstasy"
    ],
    "reason": "Lucid account of intoxication as an impersonal universal gladness that conducts the speaker.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 111
   },
   {
@@ -5290,7 +5514,9 @@
     "recursion"
    ],
    "reason": "Oxford man locked in recursive escalating rules about laughing at the world.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 112
   },
   {
@@ -5337,7 +5563,9 @@
     "intoxication"
    ],
    "reason": "Ghostly stranger revelling in unnatural intoxicated madness, circling.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 113
   },
   {
@@ -5384,7 +5612,9 @@
     "breath"
    ],
    "reason": "A stamp claiming to stamp part of the gas exhaled by lungs; brief and cut off.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 114
   },
   {
@@ -5431,7 +5661,9 @@
     "anaesthesia"
    ],
    "reason": "'Anaesthetic blockade chloroformist': a terse compound identity.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 115
   },
   {
@@ -5478,7 +5710,9 @@
     "temple"
    ],
    "reason": "Brief chanted claim to be 'temple-opium', a strange compound identity stated thinly.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 116
   },
   {
@@ -5525,7 +5759,9 @@
     "pain"
    ],
    "reason": "Moorish-Spanish birth explained through nested conquests; loves pain and liquor.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 117
   },
   {
@@ -5571,7 +5807,9 @@
     "fragment"
    ],
    "reason": "Temple Temple, anaesthetist under temple ether, in inverted syntax.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 118
   },
   {
@@ -5618,7 +5856,9 @@
     "sword"
    ],
    "reason": "Sword equated with sleep and hypnotism in a definitional loop of 'being made to do'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 119
   },
   {
@@ -5664,7 +5904,9 @@
     "intoxication"
    ],
    "reason": "Drunk with words, followed by 'Sword-Swordswords'; brief.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 120
   },
   {
@@ -5710,7 +5952,9 @@
     "opium"
    ],
    "reason": "Feels well, then abrupt 'stamped an opium stamp'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 121
   },
   {
@@ -5757,7 +6001,9 @@
     "personified gas"
    ],
    "reason": "Brief claim to be temple gas and temple ether with stuttered 'temple'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 122
   },
   {
@@ -5803,7 +6049,9 @@
     "contradiction"
    ],
    "reason": "Self-contradicting account where being sober makes him drunk and vice versa.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 123
   },
   {
@@ -5849,7 +6097,9 @@
     "gas"
    ],
    "reason": "Feels well as 'consecrated gas', Washington Temple, gas temple.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 124
   },
   {
@@ -5896,7 +6146,9 @@
     "repetition"
    ],
    "reason": "Looping pharmacological sentence about an 'opium gashed' used East and West.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 125
   },
   {
@@ -5942,7 +6194,9 @@
     "repetition"
    ],
    "reason": "Looping definition of marsh gas oddly infiltrated by 'temple'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 126
   },
   {
@@ -5989,7 +6243,9 @@
     "repetition"
    ],
    "reason": "Drunk angler whose word collapses into anglerangler, then 'amangry'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 127
   },
   {
@@ -6036,7 +6292,9 @@
     "fragment"
    ],
    "reason": "Fragmentary notion of a 'temple of gas' where gas is administered, partly garbled.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 128
   },
   {
@@ -6083,7 +6341,9 @@
     "recursion"
    ],
    "reason": "Drunk speaker addressing 'Sword', syntax dissolving into recursive 'worse for' clauses.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 129
   },
   {
@@ -6130,7 +6390,9 @@
     "loop"
    ],
    "reason": "Albert compulsively multiplied into a star of the Prince Albert stars.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 130
   },
   {
@@ -6176,7 +6438,9 @@
     "repetition"
    ],
    "reason": "Name collapses into endless 'Albert Albert' chant after 'Albert Star, Prince of Albert'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 131
   },
   {
@@ -6223,7 +6487,9 @@
     "dialect"
    ],
    "reason": "Scots 'gash goblin' that collapses into endless 'gow gow gow'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 132
   },
   {
@@ -6270,7 +6536,9 @@
     "repetition"
    ],
    "reason": "Jester who is also a drunk dissolves into an endless chant of 'jester'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 133
   },
   {
@@ -6317,7 +6585,9 @@
     "name litany"
    ],
    "reason": "Prince Albert, Prince of Stars and of Wales, multiplied in a loop.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 134
   },
   {
@@ -6364,7 +6634,9 @@
     "repetition"
    ],
    "reason": "Under ether, 'temples temple', then Temeth chant.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 135
   },
   {
@@ -6411,7 +6683,9 @@
     "loop"
    ],
    "reason": "Anaesthetic temple, then stuttered 'Tem Tem' loop.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 136
   },
   {
@@ -6458,7 +6732,9 @@
     "loop"
    ],
    "reason": "Half drunk becomes 'half patriarch', then endless patriarch loop.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 137
   },
   {
@@ -6504,7 +6780,9 @@
     "stars"
    ],
    "reason": "Dense neologistic word-salad of stars, 'prim-pisations', Christopher and Hush.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 138
   },
   {
@@ -6550,7 +6828,9 @@
     "word salad"
    ],
    "reason": "Recoverable premise of an angry sword, mostly dissolving into swort/swert/soord variants.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 139
   },
   {
@@ -6597,7 +6877,9 @@
     "gas"
    ],
    "reason": "Ether-gas surgeon Dr Miles Wolff buried in gas-word noise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 140
   },
   {
@@ -6643,7 +6925,9 @@
     "fragment"
    ],
    "reason": "Brief odd identity: 'a blockade sleeper'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 141
   },
   {
@@ -6690,7 +6974,9 @@
     "fragment"
    ],
    "reason": "Brief odd identity: 'a temple-sleeper'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 142
   },
   {
@@ -6737,7 +7023,9 @@
     "intoxication"
    ],
    "reason": "Mercenary drunk with blood and murder; dark but ordinary confession.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 143
   },
   {
@@ -6784,7 +7072,9 @@
     "stammer"
    ],
    "reason": "Melancholy confession sliding into 'sin of being' and stuttering.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 144
   },
   {
@@ -6830,7 +7120,9 @@
     "sleep"
    ],
    "reason": "Stamped speaker sinking through somnolence and somnambulism into hypnotism.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 145
   },
   {
@@ -6876,7 +7168,9 @@
     "intoxication"
    ],
    "reason": "Patriarch who is holy or intoxicated by liquor; brief odd equivalence.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 146
   },
   {
@@ -6922,7 +7216,9 @@
     "pacifism"
    ],
    "reason": "Tired speaker would pay a Gas Company rather than be a hired assassin.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 147
   },
   {
@@ -6968,7 +7264,9 @@
     "fragment"
    ],
    "reason": "Speaker is a 'distant relative of far-distant away' from liquor's influence.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 148
   },
   {
@@ -7014,7 +7312,9 @@
     "blockade"
    ],
    "reason": "Drunk person describing himself as a 'bloody blockade' in many liquor phrases.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 149
   },
   {
@@ -7060,7 +7360,9 @@
     "mesmerism"
    ],
    "reason": "Meta account of a sleeping subject prompted to say 'I am conscious of thee'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 150
   },
   {
@@ -7106,7 +7408,9 @@
     "fragment"
    ],
    "reason": "Apostrophe to Gas as 'the daughter of Dr.', cut off.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 151
   },
   {
@@ -7152,7 +7456,9 @@
     "fragment"
    ],
    "reason": "Short drunk report in Scots-like 'gipsy gash gash drunk'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 152
   },
   {
@@ -7199,7 +7505,9 @@
     "non sequitur"
    ],
    "reason": "Polite health answer veers into 'Opium. Black stuff' and blockade runners blockading.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 153
   },
   {
@@ -7246,7 +7554,9 @@
     "contradiction"
    ],
    "reason": "Major-General memoir contradicting itself: often intoxicated yet always sober.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 154
   },
   {
@@ -7292,7 +7602,9 @@
     "sword"
    ],
    "reason": "Drunk self-report where 'sword' and 'disordord' replace head and disorder words.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 155
   },
   {
@@ -7338,7 +7650,9 @@
     "fragment"
    ],
    "reason": "Brief tipsy confession ending in an unexplained doubled 'temple temple'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 156
   },
   {
@@ -7385,7 +7699,9 @@
     "repetition"
    ],
    "reason": "Journalist confesses drinking, then repeats 'I have been in a state of intoxication'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 157
   },
   {
@@ -7431,7 +7747,9 @@
     "repetition"
    ],
    "reason": "Tired speaker's report collapses into chanting 'great laughing'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 158
   },
   {
@@ -7477,7 +7795,9 @@
     "repetition"
    ],
    "reason": "Mild excitement and displeasure with Prince Albert, then 'Albert Prince' loop.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 159
   },
   {
@@ -7523,7 +7843,9 @@
     "loop"
    ],
    "reason": "'Stamp' repeated then 'of stars, of course' looping; pattern but thin premise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 160
   },
   {
@@ -7569,7 +7891,9 @@
     "loop"
    ],
    "reason": "'I am a great laughing' then pure repetition of 'laughing'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 161
   },
   {
@@ -7616,7 +7940,9 @@
     "repetition"
    ],
    "reason": "Only the phrase 'temple gas' repeated throughout; thin premise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 162
   },
   {
@@ -7663,7 +7989,9 @@
     "garbled"
    ],
    "reason": "Cheerful start collapses into noise then an endless 'Parker practical' loop; little recoverable premise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 163
   },
   {
@@ -7709,7 +8037,9 @@
     "intoxication"
    ],
    "reason": "Toxicologist who is himself long under the influence of liquor; mild ironic oddity.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 164
   },
   {
@@ -7755,7 +8085,9 @@
     "contradiction"
    ],
    "reason": "Contradiction: worse for 'Great White Lager' yet perfectly sober.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 165
   },
   {
@@ -7801,7 +8133,9 @@
     "fragment"
    ],
    "reason": "Brief claim to be rather a jester, but not drunk.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 166
   },
   {
@@ -7847,7 +8181,9 @@
     "intoxication"
    ],
    "reason": "Former court jester now drunk; ordinary comic self-description.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 167
   },
   {
@@ -7893,7 +8229,9 @@
     "intoxication"
    ],
    "reason": "Drinker paradoxically not himself when sober; mild witty inversion.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 168
   },
   {
@@ -7939,7 +8277,9 @@
     "self-report"
    ],
    "reason": "Plain sobriety claim made odd by 'rather jester' substituted for a state.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 169
   },
   {
@@ -7985,7 +8325,9 @@
     "chemistry"
    ],
    "reason": "Doctor's introduction jumps to a textbook passage on hydrogen gas.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 170
   },
   {
@@ -8031,7 +8373,9 @@
     "royalty"
    ],
    "reason": "Cheerful report oddly mentions being 'free from Albert' while conversing with Prince Albert.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 171
   },
   {
@@ -8077,7 +8421,9 @@
     "well-being"
    ],
    "reason": "Jolly after laughing at 'that great laughing Rogue, Henry Ward'; mild oddity.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 172
   },
   {
@@ -8123,7 +8469,9 @@
     "contradiction"
    ],
    "reason": "Simultaneously sober, drunk, and intoxicated; brief contradiction.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 173
   },
   {
@@ -8169,7 +8517,9 @@
     "opium"
    ],
    "reason": "Opium-prefixed aristocratic name with confused title succession.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 174
   },
   {
@@ -8215,7 +8565,9 @@
     "aristocracy"
    ],
    "reason": "Opium given as a noble's name before abrupt cutoff.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 175
   },
   {
@@ -8261,7 +8613,9 @@
     "royalty"
    ],
    "reason": "Opium named as a king's daughter; brief personification.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 176
   },
   {
@@ -8307,7 +8661,9 @@
     "aristocracy"
    ],
    "reason": "Opium given as the surname of an earl's eldest son; brief entry.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 177
   },
   {
@@ -8353,7 +8709,9 @@
     "self-experiment"
    ],
    "reason": "Mildly paradoxical wish to get drunk in order to understand drunkenness.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 178
   },
   {
@@ -8400,7 +8758,9 @@
     "fragment"
    ],
    "reason": "Dull feeling followed by an unexplained tag 'colonial ether'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 179
   },
   {
@@ -8446,7 +8806,9 @@
     "fragment"
    ],
    "reason": "Bare title 'Demonstrator of Gas' with a stray letter; thin premise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 180
   },
   {
@@ -8492,7 +8854,9 @@
     "name"
    ],
    "reason": "Brief well-being reply followed by the odd name 'Gas Christopher Christopherson'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 181
   },
   {
@@ -8539,7 +8903,9 @@
     "repetition"
    ],
    "reason": "Gas-testing demonstrator, 'twenty-five years of demonstrator', repeating credentials.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 182
   },
   {
@@ -8586,7 +8952,9 @@
     "fragment"
    ],
    "reason": "'Opium' prefix to a looping aristocratic name 'Thomas, Earl of Thomas'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 183
   },
   {
@@ -8633,7 +9001,9 @@
     "repetition"
    ],
    "reason": "Repetitive trade description of colonial wool and cotton imports; no speaking identity.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 184
   },
   {
@@ -8680,7 +9050,9 @@
     "intoxication"
    ],
    "reason": "Garbled fragment mixing 'intoxicating' and 'hilarating' with an aristocratic genealogy.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 185
   },
   {
@@ -8726,7 +9098,9 @@
     "noise"
    ],
    "reason": "Nearly noise: repeated 'nun' with stray 'stars' and 'see'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 186
   },
   {
@@ -8772,7 +9146,9 @@
     "fragment"
    ],
    "reason": "Three-word fragment 'Temple Ded gaspel'; minimal recoverable content.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 187
   },
   {
@@ -8818,7 +9194,9 @@
     "noise"
    ],
    "reason": "Near-pure 'nun' repetition with stray 'stars' and 'see'; little recoverable premise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 188
   },
   {
@@ -8864,7 +9242,9 @@
     "intoxication"
    ],
    "reason": "Partially drunk blockade runner; ordinary self-description.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 189
   },
   {
@@ -8910,7 +9290,9 @@
     "employment"
    ],
    "reason": "Calm hired man denying opium, felony, secret societies; ordinary disclaimer.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 190
   },
   {
@@ -8956,7 +9338,9 @@
     "fighting"
    ],
    "reason": "Ordinary drunk and angry brawler; only 'nose stamped' is slightly odd.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 191
   },
   {
@@ -9002,7 +9386,9 @@
     "self-report"
    ],
    "reason": "Ordinary tipsy self-report of pleasant night's drinking.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 192
   },
   {
@@ -9048,7 +9434,9 @@
     "non sequitur"
    ],
    "reason": "Sleepy speaker oddly seeking a good singer; mild non sequitur.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 193
   },
   {
@@ -9094,7 +9482,9 @@
     "self-report"
    ],
    "reason": "Ordinary tipsy self-report; only a 'blockade' in the throat adds slight oddity.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 194
   },
   {
@@ -9140,7 +9530,9 @@
     "fragment"
    ],
    "reason": "Ordinary named Londoner, cut off after the word 'Opium'.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 195
   },
   {
@@ -9186,7 +9578,9 @@
     "fragment"
    ],
    "reason": "Fragment naming the third son of an Earl, after 'Intoxicating?'",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 196
   },
   {
@@ -9232,7 +9626,9 @@
     "sleep"
    ],
    "reason": "Five disconnected words with no recoverable identity or premise.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 197
   },
   {
@@ -9278,7 +9674,9 @@
     "historical figure"
    ],
    "reason": "Ordinary self-identification as a historical writer.",
-   "icon": false,
+   "hand_picked": true,
+   "icon": true,
+   "highlight": true,
    "order": 198
   },
   {
@@ -9323,7 +9721,9 @@
     "intoxication"
    ],
    "reason": "Ordinary drinker introduction, cut off.",
+   "hand_picked": false,
    "icon": false,
+   "highlight": false,
    "order": 199
   }
  ],
