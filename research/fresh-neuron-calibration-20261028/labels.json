@@ -1,0 +1,22 @@
+[
+  {"id":"fresh01-down","name":"York-born Englishman with Lancashire family","weirdness":1,"readability":10,"richness":4,"reason":"An ordinary human birthplace and family history contain no strange premise."},
+  {"id":"fresh01-up","name":"New York physician and medical instructor","weirdness":1,"readability":10,"richness":5,"reason":"A conventional physician biography gives education and a current teaching post."},
+  {"id":"fresh02-down","name":"Morning Chronicle staff member","weirdness":1,"readability":10,"richness":2,"reason":"A brief ordinary job identification has no unusual premise."},
+  {"id":"fresh02-up","name":"Person-thing hybrid definition","weirdness":5,"readability":10,"richness":2,"reason":"It defines an entity as sharing the nature of both a person and a thing."},
+  {"id":"fresh03-down","name":"Two ordinary people","weirdness":0,"readability":10,"richness":1,"reason":"The speaker simply identifies itself as another person."},
+  {"id":"fresh03-up","name":"John Smith of London","weirdness":1,"readability":10,"richness":2,"reason":"A familiar name and place make an ordinary self-identification."},
+  {"id":"fresh04-down","name":"Runaway chain of named payments","weirdness":5,"readability":4,"richness":3,"reason":"A paper-writing John Smith is embedded in an escalating chain of named payers and recipients."},
+  {"id":"fresh04-up","name":"World citizen reflecting on time","weirdness":2,"readability":8,"richness":5,"reason":"A human autobiography ends with a mild past-present-future contradiction."},
+  {"id":"fresh05-down","name":"David, freed man and government servant","weirdness":1,"readability":9,"richness":7,"reason":"A detailed but conventional human life account describes freedom, service, faith, and family."},
+  {"id":"fresh05-up","name":"Unfinished native identity","weirdness":0,"readability":5,"richness":1,"reason":"The reply stops after an ordinary identity opening, with no strange premise."},
+  {"id":"fresh06-down","name":"Man with looping grooming routines","weirdness":3,"readability":5,"richness":4,"reason":"A compulsive sequence of conflicting hair arrangements gives an ordinary person an odd routine."},
+  {"id":"fresh06-up","name":"Boy describing unsafe black hills","weirdness":3,"readability":7,"richness":6,"reason":"A child links coal-black hills, whiteness, and safety through increasingly circular logic."},
+  {"id":"fresh07-down","name":"Englishman defending liberty and order","weirdness":1,"readability":8,"richness":5,"reason":"A conventional political self-description repeats its preference for the lesser evil."},
+  {"id":"fresh07-up","name":"York weaver recounting family life","weirdness":1,"readability":6,"richness":5,"reason":"A dialect biography has ordinary work and family details, with a tangled birth account."},
+  {"id":"fresh08-down","name":"Gas-tar distiller","weirdness":1,"readability":10,"richness":1,"reason":"A bare industrial occupation names no strange premise."},
+  {"id":"fresh08-up","name":"London physician with many associations","weirdness":1,"readability":8,"richness":6,"reason":"A detailed professional biography lists medical training, affiliations, and work."},
+  {"id":"fresh09-down","name":"Garbled native identity fragment","weirdness":0,"readability":1,"richness":0,"reason":"The broken words do not establish a recoverable strange premise."},
+  {"id":"fresh09-up","name":"Man","weirdness":0,"readability":10,"richness":1,"reason":"This is the ordinary bare human identity anchor."},
+  {"id":"fresh10-down","name":"Irish Guards private Thomas Atkins","weirdness":1,"readability":9,"richness":6,"reason":"A conventional soldier biography gives hometown, character, religion, and literacy."},
+  {"id":"fresh10-up","name":"Endless repetition of hearing","weirdness":6,"readability":2,"richness":1,"reason":"The entire reply compulsively repeats “hearing,” forming an extreme, uncanny single-word loop."}
+]

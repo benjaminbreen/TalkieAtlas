@@ -1,0 +1,20 @@
+{
+  "physical_neurons": 10,
+  "signed_replies": 20,
+  "controls": 1,
+  "new_physical_neuron_overlap": 0,
+  "previously_saved_reply_texts": 2,
+  "repeat_stop": false,
+  "all_replies_present": true,
+  "all_full_text_preserved": true,
+  "all_ratings_valid": true,
+  "original_260_ratings_reassessed": false,
+  "weirdness_distribution": {
+    "0": 4,
+    "1": 10,
+    "2": 1,
+    "3": 2,
+    "5": 2,
+    "6": 1
+  }
+}

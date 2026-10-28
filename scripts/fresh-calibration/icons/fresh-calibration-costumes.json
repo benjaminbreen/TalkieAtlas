@@ -1,0 +1,35 @@
+{
+  "fresh06-up": {
+    "color": "sky",
+    "hat": "cap",
+    "left": "book",
+    "chest": [
+      [
+        "monogram",
+        "9"
+      ]
+    ],
+    "face": [
+      "blush"
+    ]
+  },
+  "fresh06-down": {
+    "color": "ivory",
+    "hat": "bare",
+    "left": "razor",
+    "right": "mirror",
+    "face": [
+      "lather"
+    ],
+    "chest": [
+      "waistcoat"
+    ]
+  },
+  "fresh02-up": {
+    "color": "lilac",
+    "hat": "bare",
+    "left": "mask",
+    "right": "setsquare",
+    "chest": []
+  }
+}

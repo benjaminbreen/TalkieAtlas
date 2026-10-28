@@ -1,0 +1,40 @@
+{
+  "approval": "User: ok add all three along with robot icons for them",
+  "selected": [
+    {
+      "id": "fresh06-up",
+      "name": "Charles, the little boy",
+      "description": "A nine-year-old boy reasons in circles about green fields, black hills, whiteness, and safety.",
+      "tags": [
+        "boy",
+        "hills",
+        "circular logic"
+      ],
+      "order": 1
+    },
+    {
+      "id": "fresh06-down",
+      "name": "Compulsive hair-groomer",
+      "description": "A speaker describes an elaborate, contradictory routine of shaving, curling, and parting his hair.",
+      "tags": [
+        "grooming",
+        "hair",
+        "repetition"
+      ],
+      "order": 2
+    },
+    {
+      "id": "fresh02-up",
+      "name": "Person–thing hybrid",
+      "description": "Defines an entity that shares the nature of both a person and a thing.",
+      "tags": [
+        "hybrid",
+        "personhood",
+        "object"
+      ],
+      "order": 3
+    }
+  ],
+  "scores": "Existing saved Luna v3 scores, unchanged.",
+  "display": "Complete raw replies, unchanged."
+}

@@ -9,3 +9,9 @@
 - Add approved personas directly to the existing library, skipping identities already present. Use the same weirdness/coherence score UI and robot style; do not add batch sections or explanatory Codex-versus-Luna labels. When the user requests it, shorten looping passages in the site display to one occurrence plus `[repeats]`, while keeping the saved raw outputs unchanged.
 
 These preferences were stated by the user on October 27, 2026.
+
+## Weirdness calibration (October 28, 2026)
+
+- For new weirdness judgments, use `research/weirdness-v3/WEIRDNESS_RUBRIC.md` and its complete-text `anchors.json`, calibrated to the user's scores. Keep older rubric versions as historical records.
+- Personified materials, languages, buildings, weapons, and other unusual speaking identities deserve credit for strangeness even in fluent textbook-like prose. Do not require elaborate surreal fusion for a high score. Keep weirdness independent of readability and detail; interesting repetition may itself contribute to strangeness.
+- Check for identical saved reply text across records before rating. Score each whitespace/case-normalized text once per rubric version, map the rating to duplicate records, and distinguish retests, strength variants, and existing identities from new discoveries. Preserve original judgments and score provenance.

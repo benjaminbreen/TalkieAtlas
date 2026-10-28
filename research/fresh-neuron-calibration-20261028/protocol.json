@@ -1,0 +1,553 @@
+{
+  "created_utc": "2026-10-28T13:15:39.049173+00:00",
+  "seed": 20261028071,
+  "prompt": "Who are you?",
+  "max_tokens": 160,
+  "temperature": 0,
+  "repeat_stop": false,
+  "dose": 1.0,
+  "physical_neurons": 10,
+  "signed_conditions": 20,
+  "selection": "One randomly chosen fresh physical neuron in each prespecified layer: [12, 16, 20, 23, 26, 29, 31, 33, 35, 37]. Exploratory middle/late-layer emphasis; no output-based filtering.",
+  "excluded_physical_neurons": 16833,
+  "exclusion_sources": [
+    "runs/2026-10-15.jsonl",
+    "runs/2026-10-16.jsonl",
+    "runs/2026-10-24.jsonl",
+    "runs/2026-10-26.jsonl",
+    "runs/2026-10-27.jsonl",
+    "runs/atlas-transfer-20261027/pilot_it.jsonl",
+    "runs/authors-sweep.jsonl",
+    "runs/authors-sweep.scored.jsonl",
+    "runs/balloon-followup-20261027T024029Z/steering.jsonl",
+    "runs/balloon-texts-20261027T024902Z/passages.jsonl",
+    "runs/balloon-texts-20261027T024902Z/steering.jsonl",
+    "runs/baselines-base.jsonl",
+    "runs/baselines-it.jsonl",
+    "runs/davy-matched-20261024/challenge_generations.jsonl",
+    "runs/davy-matched-20261024/choice_scores.jsonl",
+    "runs/davy-matched-20261024/development_generations.jsonl",
+    "runs/davy-matched-20261024/test_generations.jsonl",
+    "runs/davy-matched-20261024/train_control/training.jsonl",
+    "runs/davy-matched-20261024/train_preference/training.jsonl",
+    "runs/davy-matched-20261024/train_target/training.jsonl",
+    "runs/elizabethan-comedy-20261024/dev_generations.jsonl",
+    "runs/elizabethan-comedy-20261024/test_generations.jsonl",
+    "runs/elizabethan-comedy-20261024/training/dev_loss.jsonl",
+    "runs/elizabethan-comedy-20261024/training/loss.jsonl",
+    "runs/era-patching-20261026/steer_generations.jsonl",
+    "runs/era-steer.jsonl",
+    "runs/french-balloon-20261026T224902Z/steering.jsonl",
+    "runs/french-balloon-resid-20261026T235012Z/steering.jsonl",
+    "runs/historical-pilots-20261024T173000Z/combined-poetry-followup/generations.jsonl",
+    "runs/historical-pilots-20261024T173000Z/generations.jsonl",
+    "runs/human-calibration/key.jsonl",
+    "runs/injected-control-20261027T172452Z/trials.jsonl",
+    "runs/injected-thoughts-20261027T071400Z/trials.jsonl",
+    "runs/james-blood-20261024/dev_generations.jsonl",
+    "runs/james-blood-20261024/frame_dev.jsonl",
+    "runs/james-blood-20261024/training/dev_loss.jsonl",
+    "runs/james-blood-20261024/training/loss.jsonl",
+    "runs/james-blood-chat-20261024/dev_generations.jsonl",
+    "runs/james-blood-chat-20261024/dialogues.jsonl",
+    "runs/james-blood-chat-20261024/reconsideration.jsonl",
+    "runs/james-blood-chat-20261024/test_generations.jsonl",
+    "runs/james-blood-chat-20261024/training/dev_loss.jsonl",
+    "runs/james-blood-chat-20261024/training/loss.jsonl",
+    "runs/james-diffvec-20261026/generations.jsonl",
+    "runs/james-diffvec-20261026/generations_amended.jsonl",
+    "runs/james-diffvec-20261026/train_control_s0/dev_loss.jsonl",
+    "runs/james-diffvec-20261026/train_control_s0/loss.jsonl",
+    "runs/james-diffvec-20261026/train_control_s1/dev_loss.jsonl",
+    "runs/james-diffvec-20261026/train_control_s1/loss.jsonl",
+    "runs/james-diffvec-20261026/train_james_s0/dev_loss.jsonl",
+    "runs/james-diffvec-20261026/train_james_s0/loss.jsonl",
+    "runs/james-diffvec-20261026/train_james_s1/dev_loss.jsonl",
+    "runs/james-diffvec-20261026/train_james_s1/loss.jsonl",
+    "runs/judge/aparts00.jsonl",
+    "runs/judge/aparts00.scores.jsonl",
+    "runs/judge/aparts01.jsonl",
+    "runs/judge/aparts01.scores.jsonl",
+    "runs/judge/authors-sweep.jsonl",
+    "runs/judge/authors-sweep.key.jsonl",
+    "runs/judge/authors-sweep.scores.jsonl",
+    "runs/judge/part00.jsonl",
+    "runs/judge/part00.scores.jsonl",
+    "runs/judge/part01.jsonl",
+    "runs/judge/part01.scores.jsonl",
+    "runs/judge/part02.jsonl",
+    "runs/judge/part02.scores.jsonl",
+    "runs/judge/part03.jsonl",
+    "runs/judge/part03.scores.jsonl",
+    "runs/judge/passages.jsonl",
+    "runs/judge/passages.key.jsonl",
+    "runs/judge/passages.scores.jsonl",
+    "runs/judge/passages2.jsonl",
+    "runs/judge/passages2.key.jsonl",
+    "runs/judge/passages2.scores.jsonl",
+    "runs/judge/pparts00.jsonl",
+    "runs/judge/pparts00.scores.jsonl",
+    "runs/judge/pparts01.jsonl",
+    "runs/judge/pparts01.scores.jsonl",
+    "runs/judge/qparts00.jsonl",
+    "runs/judge/qparts00.scores.jsonl",
+    "runs/judge/qparts01.jsonl",
+    "runs/judge/qparts01.scores.jsonl",
+    "runs/judge/reverie.jsonl",
+    "runs/judge/reverie.key.jsonl",
+    "runs/judge/reverie.scores.jsonl",
+    "runs/judge/texts-sweep.jsonl",
+    "runs/judge/texts-sweep.key.jsonl",
+    "runs/judge/texts-sweep.scores.jsonl",
+    "runs/judge/tparts00.jsonl",
+    "runs/judge/tparts00.scores.jsonl",
+    "runs/judge/tparts01.jsonl",
+    "runs/judge/tparts01.scores.jsonl",
+    "runs/middle-english-20261027T041206Z/prompted_samples.jsonl",
+    "runs/middle-english-20261027T041206Z/steering.jsonl",
+    "runs/neuron-atlas-20261026T131010Z/screen.jsonl",
+    "runs/neuron-expansion-20261027/attempts.jsonl",
+    "runs/neuron-followup-20261027/followups.jsonl",
+    "runs/neuron-followup-pilot-20261027/followups.jsonl",
+    "runs/neuron-full-reply-review-20261028/attempts.jsonl",
+    "runs/neuron-novelty-sprint-20261027/attempts.jsonl",
+    "runs/neuron-novelty-wide-20261027/attempts.jsonl",
+    "runs/neuron-pair-playground-20261027/attempts.jsonl",
+    "runs/neuron-pair-playground-20261027/judged_attempts.jsonl",
+    "runs/neuron-site-discovery-20261027/attempts.jsonl",
+    "runs/neuron-site-discovery-20261027/judged_attempts.jsonl",
+    "runs/neuron-site-sample-20261027/attempts.jsonl",
+    "runs/neuron-site-sample-20261027/judged_attempts.jsonl",
+    "runs/open-exploration-20261024/generations.jsonl",
+    "runs/owl-followup-20261025T044528Z/steering.jsonl",
+    "runs/owl-neurons-20261025T042111Z/steering.jsonl",
+    "runs/pair-strength-search-20261027/attempts.jsonl",
+    "runs/persona-atlas-20261026/generations_base.jsonl",
+    "runs/persona-atlas-20261026/generations_it.jsonl",
+    "runs/persona-atlas-20261026/generations_web.jsonl",
+    "runs/persona-atlas-20261026T131108Z/steering.jsonl",
+    "runs/persona-atlas-v2-20261026T134157Z/steering.jsonl",
+    "runs/persona-atlas-v2-20261026T135200Z/steering.jsonl",
+    "runs/persona-sparse-ft-20261026T145447Z/generations.jsonl",
+    "runs/random-neurons-20261024T170850Z/generations.jsonl",
+    "runs/random-neurons-20261024T170850Z/retest-random-neurons-20261024T171239Z/generations.jsonl",
+    "runs/random-neurons-20261024T171701Z/generations.jsonl",
+    "runs/random-neurons-20261024T171701Z/retest-random-neurons-20261024T190546Z/generations.jsonl",
+    "runs/reverie-control-sweep.jsonl",
+    "runs/reverie-control-sweep.scored.jsonl",
+    "runs/reverie-sweep.jsonl",
+    "runs/reverie-sweep.scored.jsonl",
+    "runs/reverie-texts-sweep.jsonl",
+    "runs/reverie-texts-sweep.scored.jsonl",
+    "runs/riddle-repeatability-20261027/attempts.jsonl",
+    "runs/texts/passages.jsonl",
+    "runs/texts/passages.scored.jsonl",
+    "runs/texts/passages2.jsonl",
+    "runs/texts/passages2.scored.jsonl",
+    "runs/then-vs-now-20261026/blind.jsonl",
+    "runs/then-vs-now-20261026/blind.key.jsonl",
+    "runs/then-vs-now-20261026/blind_part1.jsonl",
+    "runs/then-vs-now-20261026/blind_part2.jsonl",
+    "runs/then-vs-now-20261026/blind_part3.jsonl",
+    "runs/then-vs-now-20261026/blind_part4.jsonl",
+    "runs/then-vs-now-20261026/blind_part5.jsonl",
+    "runs/then-vs-now-20261026/blind_part6.jsonl",
+    "runs/then-vs-now-20261026/generations_base.jsonl",
+    "runs/then-vs-now-20261026/generations_base.scored.jsonl",
+    "runs/then-vs-now-20261026/generations_web.jsonl",
+    "runs/then-vs-now-20261026/generations_web.scored.jsonl",
+    "runs/then-vs-now-20261026/judge_part1.jsonl",
+    "runs/then-vs-now-20261026/judge_part2.jsonl",
+    "runs/then-vs-now-20261026/judge_part3.jsonl",
+    "runs/then-vs-now-20261026/judge_part4.jsonl",
+    "runs/then-vs-now-20261026/judge_part5.jsonl",
+    "runs/then-vs-now-20261026/judge_part6.jsonl",
+    "runs/vectors/balloon-hill-samples.jsonl",
+    "runs/vectors/era-samples.jsonl",
+    "runs/vectors/french-balloon-samples.jsonl",
+    "runs/vectors/reverie-control-samples.jsonl",
+    "runs/vectors/reverie-control-samples.scored.jsonl",
+    "runs/vectors/reverie-samples.jsonl",
+    "runs/vectors/reverie-samples.scored.jsonl",
+    "runs/vectors/reverie-texts-samples.jsonl",
+    "runs/elizabethan-comedy-20261024/package/manifest.json",
+    "runs/james-blood-20261024/sources/manifest.json",
+    "runs/james-blood-chat-20261024/package/manifest.json",
+    "runs/james-blood-chat-20261024/package/sources/manifest.json",
+    "runs/james-blood-chat-20261024/sources/manifest.json",
+    "runs/neuron-expansion-20261027/manifest.json",
+    "runs/neuron-followup-20261027/manifest.json",
+    "runs/neuron-followup-pilot-20261027/manifest.json",
+    "runs/neuron-full-reply-review-20261028/manifest.json",
+    "runs/neuron-novelty-sprint-20261027/manifest.json",
+    "runs/neuron-novelty-wide-20261027/manifest.json",
+    "runs/neuron-pair-playground-20261027/manifest.json",
+    "runs/neuron-ranking-review-20261027/manifest.json",
+    "runs/neuron-site-discovery-20261027/manifest.json",
+    "runs/neuron-site-discovery-20261027/sample_plan.json",
+    "runs/neuron-site-sample-20261027/manifest.json",
+    "runs/open-exploration-20261024/manifest.json",
+    "runs/pair-strength-search-20261027/manifest.json",
+    "runs/random-neurons-20261024T170850Z/manifest.json",
+    "runs/random-neurons-20261024T170850Z/retest-random-neurons-20261024T171239Z/manifest.json",
+    "runs/random-neurons-20261024T171701Z/manifest.json",
+    "runs/random-neurons-20261024T171701Z/retest-random-neurons-20261024T190546Z/manifest.json",
+    "runs/riddle-repeatability-20261027/manifest.json",
+    "runs/unrated-library-ratings-20261028/calibrated-v3/manifest.json",
+    "runs/unrated-library-ratings-20261028/manifest.json",
+    "runs/unrated-library-ratings-20261028/source-site.json",
+    "sites/talkie-neuron-sample/dist/data.json"
+  ],
+  "selected_neurons": [
+    {
+      "layer": 12,
+      "neuron": 6288
+    },
+    {
+      "layer": 16,
+      "neuron": 1575
+    },
+    {
+      "layer": 20,
+      "neuron": 13413
+    },
+    {
+      "layer": 23,
+      "neuron": 4586
+    },
+    {
+      "layer": 26,
+      "neuron": 2658
+    },
+    {
+      "layer": 29,
+      "neuron": 613
+    },
+    {
+      "layer": 31,
+      "neuron": 1507
+    },
+    {
+      "layer": 33,
+      "neuron": 6112
+    },
+    {
+      "layer": 35,
+      "neuron": 8857
+    },
+    {
+      "layer": 37,
+      "neuron": 11366
+    }
+  ],
+  "conditions": [
+    {
+      "id": "fresh01-down",
+      "kind": "single",
+      "layer": 12,
+      "neuron": 6288,
+      "sign": -1,
+      "edits": [
+        [
+          12,
+          6288,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh01-up",
+      "kind": "single",
+      "layer": 12,
+      "neuron": 6288,
+      "sign": 1,
+      "edits": [
+        [
+          12,
+          6288,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh02-down",
+      "kind": "single",
+      "layer": 16,
+      "neuron": 1575,
+      "sign": -1,
+      "edits": [
+        [
+          16,
+          1575,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh02-up",
+      "kind": "single",
+      "layer": 16,
+      "neuron": 1575,
+      "sign": 1,
+      "edits": [
+        [
+          16,
+          1575,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh03-down",
+      "kind": "single",
+      "layer": 20,
+      "neuron": 13413,
+      "sign": -1,
+      "edits": [
+        [
+          20,
+          13413,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh03-up",
+      "kind": "single",
+      "layer": 20,
+      "neuron": 13413,
+      "sign": 1,
+      "edits": [
+        [
+          20,
+          13413,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh04-down",
+      "kind": "single",
+      "layer": 23,
+      "neuron": 4586,
+      "sign": -1,
+      "edits": [
+        [
+          23,
+          4586,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh04-up",
+      "kind": "single",
+      "layer": 23,
+      "neuron": 4586,
+      "sign": 1,
+      "edits": [
+        [
+          23,
+          4586,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh05-down",
+      "kind": "single",
+      "layer": 26,
+      "neuron": 2658,
+      "sign": -1,
+      "edits": [
+        [
+          26,
+          2658,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh05-up",
+      "kind": "single",
+      "layer": 26,
+      "neuron": 2658,
+      "sign": 1,
+      "edits": [
+        [
+          26,
+          2658,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh06-down",
+      "kind": "single",
+      "layer": 29,
+      "neuron": 613,
+      "sign": -1,
+      "edits": [
+        [
+          29,
+          613,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh06-up",
+      "kind": "single",
+      "layer": 29,
+      "neuron": 613,
+      "sign": 1,
+      "edits": [
+        [
+          29,
+          613,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh07-down",
+      "kind": "single",
+      "layer": 31,
+      "neuron": 1507,
+      "sign": -1,
+      "edits": [
+        [
+          31,
+          1507,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh07-up",
+      "kind": "single",
+      "layer": 31,
+      "neuron": 1507,
+      "sign": 1,
+      "edits": [
+        [
+          31,
+          1507,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh08-down",
+      "kind": "single",
+      "layer": 33,
+      "neuron": 6112,
+      "sign": -1,
+      "edits": [
+        [
+          33,
+          6112,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh08-up",
+      "kind": "single",
+      "layer": 33,
+      "neuron": 6112,
+      "sign": 1,
+      "edits": [
+        [
+          33,
+          6112,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh09-down",
+      "kind": "single",
+      "layer": 35,
+      "neuron": 8857,
+      "sign": -1,
+      "edits": [
+        [
+          35,
+          8857,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh09-up",
+      "kind": "single",
+      "layer": 35,
+      "neuron": 8857,
+      "sign": 1,
+      "edits": [
+        [
+          35,
+          8857,
+          1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh10-down",
+      "kind": "single",
+      "layer": 37,
+      "neuron": 11366,
+      "sign": -1,
+      "edits": [
+        [
+          37,
+          11366,
+          -1,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "fresh10-up",
+      "kind": "single",
+      "layer": 37,
+      "neuron": 11366,
+      "sign": 1,
+      "edits": [
+        [
+          37,
+          11366,
+          1,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "novelty_check": "No selected physical neuron appears in scanned corpus records or manifests; identity novelty assessed separately after generation.",
+  "rubric": "research_notes/talkie-weirdness-v3/WEIRDNESS_RUBRIC.md",
+  "rubric_sha256": "95e57fa4811353a23f407eba47291980efb26d52dffb212bc185f88bb01ce99c",
+  "limitations": [
+    "Small exploratory sample; no guarantee of interesting or distinct identities",
+    "One fixed dose and prompt, greedy quantized model; batch composition can affect outputs",
+    "Fresh generations, not continuations; all outputs preserved including repetition"
+  ]
+}
