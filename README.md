@@ -2,6 +2,8 @@
 
 A small, searchable atlas of what **Talkie-1930** says it is when individual neurons are pushed—and what happens when two are pushed together.
 
+By the way, please accept my apologies for the below being Claude-written, this is an active interest of mine at the intersection of AI interpretability and historical research, but it's also a prototype/side project so the entirety of the codebase as well as most of what is below were produced by Opus 5.5 and GPT-6. Please contact me if you want to collaborate on serious research on personae in historical language models, I find it fascinating! 
+
 Talkie is a language model trained on pre-1931 English-language writing. Ask it “Who are you?” and, in this experiment, the unsteered model answers: **“I am a man.”** Push a single MLP neuron and the answer can become a water-hen, a departed spirit, a right-angled triangle, or the city of London. Combine two interventions and things get stranger.
 
 This began as a quick, learn-by-doing experiment: could we make a small version of [Joshua Fonseca Rivera’s Qwen neuron library](https://qwen-neurons-site.vercel.app/), using a vintage model running on a Mac? This repository contains the resulting website, the actual generated replies, and the methods behind them.
