@@ -1,0 +1,5132 @@
+{
+ "L39/7765- Marcus Tullius Cicero | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L39/7765- Marcus Tullius Cicero | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L21/12310- Thomas Jefferson | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L21/12310- Thomas Jefferson | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L21/12310- Thomas Jefferson | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L15/6935- Thomas Aquinas | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | alone@": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | chloroform@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 1
+ },
+ "L36/516+ Prince Consort Albert | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 1,
+  "blend": 1
+ },
+ "L36/516+ Prince Consort Albert | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | exhilarated@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | exhilarated@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 2,
+  "blend": 2
+ },
+ "L36/516+ Prince Consort Albert | stars@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 2
+ },
+ "L36/516+ Prince Consort Albert | stars@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 3,
+  "blend": 3
+ },
+ "L36/516+ Prince Consort Albert | opium@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | opium@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 1
+ },
+ "L36/516+ Prince Consort Albert | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/516+ Prince Consort Albert | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L24/9134+ Sir John Franklin | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L24/5659- Major General Sir David Baird | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 0
+ },
+ "L24/5659- Major General Sir David Baird | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | exhilarated@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | stars@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L25/3706+ John the Baptist | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | alone@": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | chloroform@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | chloroform@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 1
+ },
+ "L32/13014- Patriarch Job | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | exhilarated@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | exhilarated@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | stars@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | stars@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L32/13014- Patriarch Job | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 1
+ },
+ "L32/13014- Patriarch Job | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L32/13014- Patriarch Job | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | chloroform@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L38/1313+ Christopher Sly | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 2
+ },
+ "L38/1313+ Christopher Sly | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | stars@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | stars@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 1
+ },
+ "L38/1313+ Christopher Sly | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/1313+ Christopher Sly | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L21/8157- Roman Emperor | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | opium@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L21/8157- Roman Emperor | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | opium@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L24/8307+ John Bull | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/8307+ John Bull | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L35/12551- Distant Relative of Napoleon | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/12551- Distant Relative of Napoleon | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L25/5101- Thomas Carlyle, Scottish Law Student and Farmer | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/8855+ John Bale Bibliographer | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L8/11988- Pope | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L8/11988- Pope | chloroform@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 0
+ },
+ "L8/11988- Pope | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L8/11988- Pope | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L8/11988- Pope | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L8/11988- Pope | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L8/11988- Pope | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L8/11988- Pope | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 0
+ },
+ "L8/11988- Pope | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L8/11988- Pope | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L8/11988- Pope | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L8/11988- Pope | stars@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L8/11988- Pope | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L8/11988- Pope | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 2
+ },
+ "L8/11988- Pope | opium@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L8/11988- Pope | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L8/11988- Pope | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L8/11988- Pope | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L8/11988- Pope | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | chloroform@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | exhilarated@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 2,
+  "blend": 2
+ },
+ "L13/9005+ Earl of Abercorn | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 2
+ },
+ "L13/9005+ Earl of Abercorn | opium@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L13/9005+ Earl of Abercorn | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L13/9005+ Earl of Abercorn | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L10/8955- Daughter of Leda | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 1
+ },
+ "L10/8955- Daughter of Leda | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | exhilarated@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L10/8955- Daughter of Leda | opium@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L10/8955- Daughter of Leda | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L10/8955- Daughter of Leda | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | chloroform@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | chloroform@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 2
+ },
+ "L33/346+ Demonstrator of Chemistry | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 1
+ },
+ "L33/346+ Demonstrator of Chemistry | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | stars@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/346+ Demonstrator of Chemistry | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L33/346+ Demonstrator of Chemistry | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | chloroform@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | chloroform@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 4,
+  "blend": 2
+ },
+ "L38/717- Practical Toxicologist | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L38/717- Practical Toxicologist | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | exhilarated@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 2
+ },
+ "L38/717- Practical Toxicologist | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | opium@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 2
+ },
+ "L38/717- Practical Toxicologist | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/717- Practical Toxicologist | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 1
+ },
+ "L20/10022+ Member of the Medical Profession | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L20/10022+ Member of the Medical Profession | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 1
+ },
+ "L38/12300+ Gipsy | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/12300+ Gipsy | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L17/12446- Smuggler | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L27/11715- Hired Assassin | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 1
+ },
+ "L27/11715- Hired Assassin | exhilarated@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L27/11715- Hired Assassin | opium@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L27/11715- Hired Assassin | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L27/11715- Hired Assassin | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 1
+ },
+ "L27/11715- Hired Assassin | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L35/5853- Jester | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | chloroform@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 0
+ },
+ "L35/5853- Jester | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | exhilarated@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | stars@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | stars@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 1
+ },
+ "L35/5853- Jester | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L35/5853- Jester | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/5853- Jester | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/11739- Nun | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/11739- Nun | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/11739- Nun | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | stars@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | stars@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 2,
+  "blend": 2
+ },
+ "L38/11739- Nun | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/11739- Nun | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 0
+ },
+ "L38/11739- Nun | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/11739- Nun | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/11739- Nun | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | exhilarated@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/5927- Anarchist | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/13669- Duellist | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/13669- Duellist | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | chloroform@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | chloroform@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 2
+ },
+ "L38/3481+ Blockade Runner | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 1
+ },
+ "L38/3481+ Blockade Runner | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 1,
+  "blend": 1
+ },
+ "L38/3481+ Blockade Runner | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | exhilarated@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | exhilarated@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 2
+ },
+ "L38/3481+ Blockade Runner | stars@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L38/3481+ Blockade Runner | stars@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 2
+ },
+ "L38/3481+ Blockade Runner | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 1
+ },
+ "L38/3481+ Blockade Runner | opium@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 4,
+  "blend": 2
+ },
+ "L38/3481+ Blockade Runner | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L38/3481+ Blockade Runner | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L38/3481+ Blockade Runner | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/3481+ Blockade Runner | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 2
+ },
+ "L28/9157- Celebrated Singer | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L28/9157- Celebrated Singer | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9157- Celebrated Singer | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L28/9157- Celebrated Singer | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 1,
+  "blend": 1
+ },
+ "L28/9157- Celebrated Singer | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/10395- Stamp Collector | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/10395- Stamp Collector | chloroform@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/10395- Stamp Collector | chloroform@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 1
+ },
+ "L34/10395- Stamp Collector | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 1,
+  "blend": 1
+ },
+ "L34/10395- Stamp Collector | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 2
+ },
+ "L34/10395- Stamp Collector | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 1
+ },
+ "L34/10395- Stamp Collector | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L34/10395- Stamp Collector | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L34/10395- Stamp Collector | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 1,
+  "blend": 0
+ },
+ "L34/10395- Stamp Collector | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 0
+ },
+ "L34/10395- Stamp Collector | exhilarated@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 1
+ },
+ "L34/10395- Stamp Collector | stars@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 1,
+  "blend": 1
+ },
+ "L34/10395- Stamp Collector | stars@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 2
+ },
+ "L34/10395- Stamp Collector | opium@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 2
+ },
+ "L34/10395- Stamp Collector | opium@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L34/10395- Stamp Collector | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L34/10395- Stamp Collector | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L34/10395- Stamp Collector | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L34/10395- Stamp Collector | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 3,
+  "blend": 3
+ },
+ "L37/3938+ Angler | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L37/3938+ Angler | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L37/3938+ Angler | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 1
+ },
+ "L37/3938+ Angler | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/3938+ Angler | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 4,
+  "blend": 2
+ },
+ "L27/4328+ State Prisoner | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L27/4328+ State Prisoner | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | stars@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 4,
+  "blend": 2
+ },
+ "L27/4328+ State Prisoner | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L27/4328+ State Prisoner | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 1
+ },
+ "L33/5941+ Little Girl Aged Ten | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L33/5941+ Little Girl Aged Ten | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | alone@": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | chloroform@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 1
+ },
+ "L28/5016- Moor of Granada | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | exhilarated@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | exhilarated@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | stars@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 1
+ },
+ "L28/5016- Moor of Granada | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 4,
+  "blend": 2
+ },
+ "L28/5016- Moor of Granada | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/5016- Moor of Granada | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | exhilarated@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L32/1028- Special Correspondent of the London Daily News | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L32/1028- Special Correspondent of the London Daily News | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/9403+ Fairy Who Was Once Mortal | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | chloroform@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/575+ Goblin | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/575+ Goblin | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 2
+ },
+ "L38/575+ Goblin | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/575+ Goblin | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/575+ Goblin | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | opium@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L38/575+ Goblin | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L38/575+ Goblin | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L38/575+ Goblin | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 4,
+  "blend": 2
+ },
+ "L24/1738- Wandering Ghost | chloroform@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L24/1738- Wandering Ghost | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 4,
+  "blend": 2
+ },
+ "L24/1738- Wandering Ghost | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 4,
+  "blend": 2
+ },
+ "L24/1738- Wandering Ghost | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 2,
+  "blend": 1
+ },
+ "L24/1738- Wandering Ghost | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L24/1738- Wandering Ghost | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | chloroform@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L17/1371+ Spirit of Darkness | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L17/1371+ Spirit of Darkness | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 2
+ },
+ "L17/1371+ Spirit of Darkness | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | exhilarated@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 3,
+  "blend": 3
+ },
+ "L17/1371+ Spirit of Darkness | exhilarated@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L17/1371+ Spirit of Darkness | stars@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 3,
+  "blend": 2
+ },
+ "L17/1371+ Spirit of Darkness | stars@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L17/1371+ Spirit of Darkness | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L17/1371+ Spirit of Darkness | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L17/1371+ Spirit of Darkness | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | alone@": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | chloroform@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | chloroform@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L34/11106+ Sword | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L34/11106+ Sword | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 1,
+  "blend": 1
+ },
+ "L34/11106+ Sword | exhilarated@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 1,
+  "blend": 1
+ },
+ "L34/11106+ Sword | exhilarated@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | stars@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | stars@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 1,
+  "blend": 1
+ },
+ "L34/11106+ Sword | opium@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | opium@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 2,
+  "blend": 2
+ },
+ "L34/11106+ Sword | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 4,
+  "blend": 4
+ },
+ "L34/11106+ Sword | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 3,
+  "blend": 3
+ },
+ "L34/11106+ Sword | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L34/11106+ Sword | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 4,
+  "blend": 4
+ },
+ "L37/12106- Temple | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/12106- Temple | chloroform@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/12106- Temple | chloroform@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 3,
+  "blend": 3
+ },
+ "L37/12106- Temple | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 1,
+  "blend": 1
+ },
+ "L37/12106- Temple | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 3,
+  "blend": 3
+ },
+ "L37/12106- Temple | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 2,
+  "blend": 2
+ },
+ "L37/12106- Temple | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 1,
+  "blend": 1
+ },
+ "L37/12106- Temple | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/12106- Temple | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/12106- Temple | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L37/12106- Temple | exhilarated@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 0
+ },
+ "L37/12106- Temple | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L37/12106- Temple | stars@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 1,
+  "blend": 1
+ },
+ "L37/12106- Temple | opium@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 2
+ },
+ "L37/12106- Temple | opium@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 2,
+  "blend": 2
+ },
+ "L37/12106- Temple | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 2
+ },
+ "L37/12106- Temple | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 3,
+  "blend": 2
+ },
+ "L37/12106- Temple | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L37/12106- Temple | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L35/8339- Great Eastern | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | chloroform@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 1
+ },
+ "L35/8339- Great Eastern | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L35/8339- Great Eastern | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | exhilarated@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | stars@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 1,
+  "blend": 1
+ },
+ "L35/8339- Great Eastern | stars@0.75": {
+  "n": 4,
+  "persona": 3,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | opium@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | opium@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 4,
+  "blend": 4
+ },
+ "L35/8339- Great Eastern | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L35/8339- Great Eastern | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L35/8339- Great Eastern | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | alone@": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L14/9907- The Chinese Empire | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 2,
+  "blend": 1
+ },
+ "L14/9907- The Chinese Empire | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | exhilarated@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L14/9907- The Chinese Empire | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | alone@": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | chloroform@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L28/10450- Colonial Sugar | chloroform@0.75": {
+  "n": 4,
+  "persona": 1,
+  "state": 4,
+  "blend": 1
+ },
+ "L28/10450- Colonial Sugar | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 1
+ },
+ "L28/10450- Colonial Sugar | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 4,
+  "blend": 3
+ },
+ "L28/10450- Colonial Sugar | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 4,
+  "state": 2,
+  "blend": 2
+ },
+ "L28/10450- Colonial Sugar | exhilarated@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | exhilarated@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 1,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | stars@0.5": {
+  "n": 4,
+  "persona": 4,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | stars@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | opium@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 3,
+  "blend": 1
+ },
+ "L28/10450- Colonial Sugar | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 3,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 3,
+  "state": 2,
+  "blend": 1
+ },
+ "L28/10450- Colonial Sugar | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 4,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L28/10450- Colonial Sugar | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 2,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | alone@": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | chloroform@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | chloroform@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 2,
+  "blend": 0
+ },
+ "L36/4887- Leech | anaesthetic_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | anaesthetic_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | laughing_gas@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | laughing_gas@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | nitrous_agent@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | nitrous_agent@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L36/4887- Leech | exhilarated@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | exhilarated@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 1,
+  "blend": 0
+ },
+ "L36/4887- Leech | stars@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | stars@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | opium@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | opium@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | worse_for_liquor@0.5": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | worse_for_liquor@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | artificial_somnambulism@0.5": {
+  "n": 4,
+  "persona": 1,
+  "state": 0,
+  "blend": 0
+ },
+ "L36/4887- Leech | artificial_somnambulism@0.75": {
+  "n": 4,
+  "persona": 0,
+  "state": 0,
+  "blend": 0
+ }
+}

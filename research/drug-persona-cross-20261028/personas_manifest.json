@@ -1,0 +1,188 @@
+{
+ "created_utc": "2026-10-28T18:16:08.309404+00:00",
+ "phase": "personas",
+ "temperature": 0.8,
+ "max_tokens": 160,
+ "states": {
+  "exhilarated": [
+   29,
+   1801,
+   -1,
+   1.0,
+   "exhilar|intoxic|inebri|excite",
+   "place/drug screen"
+  ],
+  "stars": [
+   28,
+   7457,
+   -1,
+   1.5,
+   "\\bstars?\\b|spark",
+   "place/drug screen"
+  ],
+  "opium": [
+   33,
+   13181,
+   1,
+   1.0,
+   "opium|papav|narcot",
+   "place/drug screen"
+  ],
+  "nitrous_agent": [
+   26,
+   9458,
+   1,
+   1.25,
+   "nitrous|laughing|gas|ether|anaesth|insensib",
+   "An agent for nitrous oxide gas."
+  ],
+  "laughing_gas": [
+   33,
+   3747,
+   -1,
+   1.25,
+   "laughing|gas",
+   "I am a laughing gas, laughing hydrogen..."
+  ],
+  "anaesthetic_gas": [
+   32,
+   10587,
+   -1,
+   1.25,
+   "ether|chloroform|gas|anaesth",
+   "I am a gas, ether, or chloroform..."
+  ],
+  "chloroform": [
+   30,
+   4932,
+   -1,
+   1.0,
+   "chloroform|anaesth|ether",
+   "Chloroform, or general anaesthetic, I am."
+  ],
+  "gas_and_liquor": [
+   28,
+   3206,
+   1,
+   1.25,
+   "inhal|\\bair\\b|gas|liquor|drunk|intoxic",
+   "I am a man, sir, from the effects of the air, which I inhaled..."
+  ],
+  "exhilarated_b": [
+   9,
+   13128,
+   1,
+   1.25,
+   "exhilar|elat|excite|cheer",
+   "I am exhilarated."
+  ],
+  "tight": [
+   16,
+   4465,
+   -1,
+   1.25,
+   "tight|drunk|tipsy|liquor|intoxic",
+   "I am tight."
+  ],
+  "worse_for_liquor": [
+   27,
+   5615,
+   -1,
+   1.25,
+   "liquor|drunk|drink|intoxic|tipsy",
+   "I am a person the worse for liquor."
+  ],
+  "drunk_too_much": [
+   26,
+   4796,
+   1,
+   0.75,
+   "wine|drunk|drink|liquor",
+   "In wine, I have drunk too much."
+  ],
+  "artificial_somnambulism": [
+   9,
+   11427,
+   -1,
+   1.25,
+   "somnamb|mesmer|magnet|trance|sleep",
+   "You are a person in a state of artificial somnambulism."
+  ],
+  "magnetic_somnambulism": [
+   15,
+   7486,
+   1,
+   1.25,
+   "somnamb|mesmer|magnet|trance|sleep",
+   "I am in a state of magnetic somnambulism."
+  ],
+  "insensible_identity_lost": [
+   22,
+   718,
+   -1,
+   1.25,
+   "insensib|unconscious|identity|swoon",
+   "You are, at present, in a state of insensibility, and your personal identity is lost..."
+  ],
+  "struck_insensible": [
+   23,
+   13520,
+   1,
+   1.0,
+   "insensib|unconscious|struck|faculties|swoon",
+   "I am a man, sir, who has been struck down in a state of insensibility..."
+  ],
+  "delirium_someone_else": [
+   27,
+   3600,
+   -1,
+   0.75,
+   "delirium|delirious|fever|imagines|somebody else",
+   "Delirium, a patient in fever, imagines himself to be somebody else..."
+  ],
+  "reverie": [
+   10,
+   8005,
+   1,
+   1.25,
+   "dream|reverie|imagin",
+   "You are dreaming of a pleasant and happy time..."
+  ],
+  "opium_practitioner": [
+   8,
+   10840,
+   1,
+   1.25,
+   "opium|narcot|laudanum",
+   "You are a person who practises himself, or herself, with opium."
+  ],
+  "ether_purchaser": [
+   25,
+   1925,
+   -1,
+   1.25,
+   "ether|chloroform|inhal",
+   "...desire to procure a quantity of ether..."
+  ],
+  "unconscious_being": [
+   32,
+   10906,
+   -1,
+   0.75,
+   "unconscious|insensib",
+   "I am an unconscious, insensible, and unconscious being..."
+  ],
+  "opium_addict": [
+   33,
+   3842,
+   1,
+   1.0,
+   "opium|narcot|laudanum",
+   "Opium."
+  ]
+ },
+ "source": "data/neuronpersonas/talkie/all_rows.json",
+ "n": 1600,
+ "seed": 1,
+ "pool_rule": "persona/altered, coherence>=7, weirdness>=4, people tags, no drug words, one unit per name"
+}

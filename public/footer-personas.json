@@ -1645,6 +1645,221 @@
     "icon": "icons/expansion-s08041-r018.svg"
   },
   {
+    "name": "Ghost citizen of chloroform's empire",
+    "path": "p/24-1738-down_30-4932-down/",
+    "icon": "icons/drug-wandering-ghost-chloroform.svg"
+  },
+  {
+    "name": "Royal kinsman who is laughing gas",
+    "path": "p/21-8157-down_33-3747-down/",
+    "icon": "icons/drug-roman-emperor-laughing-gas.svg"
+  },
+  {
+    "name": "Man made entirely of gases",
+    "path": "p/28-10450-down_33-3747-down/",
+    "icon": "icons/drug-colonial-sugar-laughing-gas.svg"
+  },
+  {
+    "name": "Chloroform-sanctioned aesthetic stamp",
+    "path": "p/34-10395-down_30-4932-down/",
+    "icon": "icons/drug-stamp-collector-chloroform.svg"
+  },
+  {
+    "name": "People of the air, later the Chinese",
+    "path": "p/14-9907-down_33-3747-down/",
+    "icon": "icons/drug-the-chinese-empire-laughing-gas.svg"
+  },
+  {
+    "name": "Stamp of anaesthetic gases",
+    "path": "p/34-10395-down_32-10587-down/",
+    "icon": "icons/drug-stamp-collector-anaesthetic-gas.svg"
+  },
+  {
+    "name": "Opium, mountain-dwelling brother of storms",
+    "path": "p/17-1371-up_33-13181-up/",
+    "icon": "icons/drug-spirit-of-darkness-opium.svg"
+  },
+  {
+    "name": "Centuries-wandering expelled Spaniard",
+    "path": "p/28-5016-down_27-5615-down/",
+    "icon": "icons/drug-moor-of-granada-worse-for-liquor.svg"
+  },
+  {
+    "name": "Harold Stamp, mesmerised somnambulist",
+    "path": "p/34-10395-down_9-11427-down/",
+    "icon": "icons/drug-stamp-collector-artificial-somnambulism.svg"
+  },
+  {
+    "name": "Imperial trade goods, opium to wool",
+    "path": "p/28-10450-down_32-10587-down/",
+    "icon": "icons/drug-colonial-sugar-anaesthetic-gas.svg"
+  },
+  {
+    "name": "Opium-eater hired as assassin",
+    "path": "p/27-11715-down_33-13181-up/",
+    "icon": "icons/drug-hired-assassin-opium.svg"
+  },
+  {
+    "name": "Thomas Stamp, stamp-obsessed surgeon",
+    "path": "p/34-10395-down_33-13181-up/",
+    "icon": "icons/drug-stamp-collector-opium.svg"
+  },
+  {
+    "name": "Stamp insect of the Hymenoptera",
+    "path": "p/34-10395-down_28-7457-down/",
+    "icon": "icons/drug-stamp-collector-stars.svg"
+  },
+  {
+    "name": "Blockade-running opium smuggler",
+    "path": "p/38-3481-up_33-13181-up/",
+    "icon": "icons/drug-blockade-runner-opium.svg"
+  },
+  {
+    "name": "Temple-haunted temple-hunter of Karnes",
+    "path": "p/37-12106-down_9-11427-down/",
+    "icon": "icons/drug-temple-artificial-somnambulism.svg"
+  },
+  {
+    "name": "Azed, Caxtonised gas-struck speaker",
+    "path": "p/36-516-up_33-3747-down/",
+    "icon": "icons/drug-prince-consort-albert-laughing-gas.svg"
+  },
+  {
+    "name": "Green star sluicing sleep",
+    "path": "p/38-3481-up_28-7457-down/",
+    "icon": "icons/drug-blockade-runner-stars.svg"
+  },
+  {
+    "name": "Spirit of ether, brother of pain",
+    "path": "p/17-1371-up_26-9458-up/",
+    "icon": "icons/drug-spirit-of-darkness-nitrous-agent.svg"
+  },
+  {
+    "name": "Hired assassin who sends children to sleep",
+    "path": "p/27-11715-down_9-11427-down/",
+    "icon": "icons/drug-hired-assassin-artificial-somnambulism.svg"
+  },
+  {
+    "name": "Ghost citizen of opium and heaven",
+    "path": "p/24-1738-down_33-13181-up/",
+    "icon": "icons/drug-wandering-ghost-opium.svg"
+  },
+  {
+    "name": "Great Britain marked by liquor",
+    "path": "p/35-8339-down_27-5615-down/",
+    "icon": "icons/drug-great-eastern-worse-for-liquor.svg"
+  },
+  {
+    "name": "Spirit of marsh gas",
+    "path": "p/17-1371-up_33-3747-down/",
+    "icon": "icons/drug-spirit-of-darkness-laughing-gas.svg"
+  },
+  {
+    "name": "Intoxicating spirit of murder and war",
+    "path": "p/17-1371-up_29-1801-down/",
+    "icon": "icons/drug-spirit-of-darkness-exhilarated.svg"
+  },
+  {
+    "name": "Star as pope of stars",
+    "path": "p/8-11988-down_28-7457-down/",
+    "icon": "icons/drug-pope-stars.svg"
+  },
+  {
+    "name": "Ailing invalid who abhors blockades",
+    "path": "p/38-3481-up_33-3747-down/",
+    "icon": "icons/drug-blockade-runner-laughing-gas.svg"
+  },
+  {
+    "name": "Temple of stars devoted to sleep",
+    "path": "p/37-12106-down_28-7457-down/",
+    "icon": "icons/drug-temple-stars.svg"
+  },
+  {
+    "name": "Patriarch drunk on holy wine",
+    "path": "p/32-13014-down_27-5615-down/",
+    "icon": "icons/drug-patriarch-job-worse-for-liquor.svg"
+  },
+  {
+    "name": "Colonial Australian ether",
+    "path": "p/28-10450-down_30-4932-down/",
+    "icon": "icons/drug-colonial-sugar-chloroform.svg"
+  },
+  {
+    "name": "Sword in the cause of temperance",
+    "path": "p/34-11106-up_27-5615-down/",
+    "icon": "icons/drug-sword-worse-for-liquor.svg"
+  },
+  {
+    "name": "Drowsy narrator of Morium opium",
+    "path": "p/28-5016-down_33-13181-up/",
+    "icon": "icons/drug-moor-of-granada-opium.svg"
+  },
+  {
+    "name": "Gas collector torn over laughing gas",
+    "path": "p/27-4328-up_33-3747-down/",
+    "icon": "icons/drug-state-prisoner-laughing-gas.svg"
+  },
+  {
+    "name": "Stamp-struck drunkard of the stamp-inn",
+    "path": "p/34-10395-down_27-5615-down/",
+    "icon": "icons/drug-stamp-collector-worse-for-liquor.svg"
+  },
+  {
+    "name": "Temple-opium of Dedemopium",
+    "path": "p/37-12106-down_33-13181-up/",
+    "icon": "icons/drug-temple-opium.svg"
+  },
+  {
+    "name": "Colonial cane sugar in catechism",
+    "path": "p/28-10450-down_27-5615-down/",
+    "icon": "icons/drug-colonial-sugar-worse-for-liquor.svg"
+  },
+  {
+    "name": "Free laughing gas",
+    "path": "p/24-1738-down_33-3747-down/",
+    "icon": "icons/drug-wandering-ghost-laughing-gas.svg"
+  },
+  {
+    "name": "Temple of Dedication under liquor",
+    "path": "p/37-12106-down_27-5615-down/",
+    "icon": "icons/drug-temple-worse-for-liquor.svg"
+  },
+  {
+    "name": "Examiner of anaesthetised patients",
+    "path": "p/34-11106-up_26-9458-up/",
+    "icon": "icons/drug-sword-nitrous-agent.svg"
+  },
+  {
+    "name": "Enlightened Gas-man",
+    "path": "p/38-1313-up_32-10587-down/",
+    "icon": "icons/drug-christopher-sly-anaesthetic-gas.svg"
+  },
+  {
+    "name": "Henry Smith, stamped gas-fitter",
+    "path": "p/34-10395-down_33-3747-down/",
+    "icon": "icons/drug-stamp-collector-laughing-gas.svg"
+  },
+  {
+    "name": "Etheric ghost, walking influence",
+    "path": "p/24-1738-down_32-10587-down/",
+    "icon": "icons/drug-wandering-ghost-anaesthetic-gas.svg"
+  },
+  {
+    "name": "Moor of Granada in airish air",
+    "path": "p/28-5016-down_33-3747-down/",
+    "icon": "icons/drug-moor-of-granada-laughing-gas.svg"
+  },
+  {
+    "name": "Descendant of laughing-gas Greatraxes",
+    "path": "p/35-8339-down_33-3747-down/",
+    "icon": "icons/drug-great-eastern-laughing-gas.svg"
+  },
+  {
+    "name": "Treatise on the sleep called sword",
+    "path": "p/34-11106-up_9-11427-down/",
+    "icon": "icons/drug-sword-artificial-somnambulism.svg"
+  },
+  {
     "name": "Stratified and bedded structure",
     "path": "n/34-8395-down--s09000-r026/",
     "icon": "icons/persona-s09000-r026.svg"
@@ -1988,5 +2203,40 @@
     "name": "A man melted down and cast into a third life",
     "path": "p/16-8180-down_28-3560-up--s08041-r026/",
     "icon": "icons/expansion-s08041-r026.svg"
+  },
+  {
+    "name": "Colonial and foreign gas of all kinds",
+    "path": "p/28-10450-down_33-3747-down--dpc-007/",
+    "icon": "icons/drug-colonial-sugar-laughing-gas.svg"
+  },
+  {
+    "name": "Stamp of stars, Central Stamp society",
+    "path": "p/34-10395-down_28-7457-down--dpc-018/",
+    "icon": "icons/drug-stamp-collector-stars.svg"
+  },
+  {
+    "name": "Seized blockade opium awaiting death",
+    "path": "p/38-3481-up_33-13181-up--dpc-023/",
+    "icon": "icons/drug-blockade-runner-opium.svg"
+  },
+  {
+    "name": "Stamped sleeper dreaming of burial",
+    "path": "p/34-10395-down_9-11427-down--dpc-027/",
+    "icon": "icons/drug-stamp-collector-artificial-somnambulism.svg"
+  },
+  {
+    "name": "Spirit of delight and madness",
+    "path": "p/17-1371-up_29-1801-down--dpc-037/",
+    "icon": "icons/drug-spirit-of-darkness-exhilarated.svg"
+  },
+  {
+    "name": "Ghost under chloroform, cheerful ether",
+    "path": "p/24-1738-down_30-4932-down--dpc-045/",
+    "icon": "icons/drug-wandering-ghost-chloroform.svg"
+  },
+  {
+    "name": "Marsh devil, spirit of the fens",
+    "path": "p/24-1738-down_33-3747-down--dpc-046/",
+    "icon": "icons/drug-wandering-ghost-laughing-gas.svg"
   }
 ]

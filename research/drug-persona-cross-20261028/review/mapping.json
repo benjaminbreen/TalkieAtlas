@@ -1,0 +1,2032 @@
+{
+ "b001": [
+  {
+   "id": "L35/8339- + stars@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b002": [
+  {
+   "id": "L37/12106- + worse_for_liquor@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 11
+  }
+ ],
+ "b003": [
+  {
+   "id": "L13/9005+ + exhilarated@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 25
+  }
+ ],
+ "b004": [
+  {
+   "id": "L38/3481+ + laughing_gas@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 144
+  }
+ ],
+ "b005": [
+  {
+   "id": "L28/9157- + opium@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 87
+  }
+ ],
+ "b006": [
+  {
+   "id": "L36/516+ + stars@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b007": [
+  {
+   "id": "L24/8307+ + opium@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 10
+  }
+ ],
+ "b008": [
+  {
+   "id": "L28/10450- + anaesthetic_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b009": [
+  {
+   "id": "L17/1371+ + chloroform@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 71
+  }
+ ],
+ "b010": [
+  {
+   "id": "L38/3481+ + opium@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 100
+  }
+ ],
+ "b011": [
+  {
+   "id": "L28/5016- + opium@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b012": [
+  {
+   "id": "L33/346+ + anaesthetic_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 5
+  },
+  {
+   "id": "L33/346+ + anaesthetic_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 5
+  }
+ ],
+ "b013": [
+  {
+   "id": "L34/10395- + worse_for_liquor@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b014": [
+  {
+   "id": "L36/516+ + exhilarated@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 65
+  }
+ ],
+ "b015": [
+  {
+   "id": "L21/8157- + laughing_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 71
+  }
+ ],
+ "b016": [
+  {
+   "id": "L33/346+ + artificial_somnambulism@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b017": [
+  {
+   "id": "L38/3481+ + chloroform@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 8
+  }
+ ],
+ "b018": [
+  {
+   "id": "L27/4328+ + laughing_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b019": [
+  {
+   "id": "L10/8955- + laughing_gas@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 82
+  }
+ ],
+ "b020": [
+  {
+   "id": "L21/12310- + laughing_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b021": [
+  {
+   "id": "L38/3481+ + artificial_somnambulism@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 6
+  },
+  {
+   "id": "L38/3481+ + artificial_somnambulism@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 6
+  }
+ ],
+ "b022": [
+  {
+   "id": "L38/575+ + laughing_gas@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b023": [
+  {
+   "id": "L28/5016- + laughing_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b024": [
+  {
+   "id": "L32/1028- + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b025": [
+  {
+   "id": "L17/1371+ + exhilarated@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b026": [
+  {
+   "id": "L34/11106+ + artificial_somnambulism@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 142
+  }
+ ],
+ "b027": [
+  {
+   "id": "L24/1738- + opium@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b028": [
+  {
+   "id": "L34/11106+ + nitrous_agent@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b029": [
+  {
+   "id": "L13/9005+ + opium@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 22
+  }
+ ],
+ "b030": [
+  {
+   "id": "L28/10450- + laughing_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b031": [
+  {
+   "id": "L35/8339- + laughing_gas@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b032": [
+  {
+   "id": "L27/4328+ + anaesthetic_gas@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b033": [
+  {
+   "id": "L34/11106+ + artificial_somnambulism@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b034": [
+  {
+   "id": "L35/5853- + worse_for_liquor@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 10
+  }
+ ],
+ "b035": [
+  {
+   "id": "L34/10395- + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 116
+  }
+ ],
+ "b036": [
+  {
+   "id": "L24/1738- + chloroform@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 85
+  }
+ ],
+ "b037": [
+  {
+   "id": "L27/11715- + laughing_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 138
+  }
+ ],
+ "b038": [
+  {
+   "id": "L34/10395- + artificial_somnambulism@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 65
+  }
+ ],
+ "b039": [
+  {
+   "id": "L35/12551- + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 24
+  }
+ ],
+ "b040": [
+  {
+   "id": "L38/717- + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b041": [
+  {
+   "id": "L38/1313+ + anaesthetic_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 102
+  }
+ ],
+ "b042": [
+  {
+   "id": "L24/1738- + exhilarated@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b043": [
+  {
+   "id": "L38/3481+ + anaesthetic_gas@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 72
+  }
+ ],
+ "b044": [
+  {
+   "id": "L27/11715- + opium@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 101
+  }
+ ],
+ "b045": [
+  {
+   "id": "L38/3481+ + opium@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 28
+  }
+ ],
+ "b046": [
+  {
+   "id": "L34/11106+ + exhilarated@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b047": [
+  {
+   "id": "L17/1371+ + stars@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b048": [
+  {
+   "id": "L36/516+ + worse_for_liquor@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 40
+  }
+ ],
+ "b049": [
+  {
+   "id": "L38/1313+ + stars@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b050": [
+  {
+   "id": "L17/1371+ + exhilarated@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b051": [
+  {
+   "id": "L37/12106- + chloroform@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 17
+  }
+ ],
+ "b052": [
+  {
+   "id": "L28/10450- + nitrous_agent@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b053": [
+  {
+   "id": "L35/8339- + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 12
+  }
+ ],
+ "b054": [
+  {
+   "id": "L13/9005+ + exhilarated@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 13
+  }
+ ],
+ "b055": [
+  {
+   "id": "L38/717- + exhilarated@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b056": [
+  {
+   "id": "L10/8955- + anaesthetic_gas@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 8
+  }
+ ],
+ "b057": [
+  {
+   "id": "L37/12106- + laughing_gas@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b058": [
+  {
+   "id": "L36/516+ + exhilarated@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b059": [
+  {
+   "id": "L17/1371+ + exhilarated@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b060": [
+  {
+   "id": "L38/12300+ + worse_for_liquor@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 14
+  }
+ ],
+ "b061": [
+  {
+   "id": "L35/8339- + laughing_gas@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 53
+  }
+ ],
+ "b062": [
+  {
+   "id": "L38/3481+ + worse_for_liquor@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 123
+  }
+ ],
+ "b063": [
+  {
+   "id": "L37/12106- + artificial_somnambulism@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 8
+  }
+ ],
+ "b064": [
+  {
+   "id": "L13/9005+ + opium@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 24
+  }
+ ],
+ "b065": [
+  {
+   "id": "L28/9157- + worse_for_liquor@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 159
+  }
+ ],
+ "b066": [
+  {
+   "id": "L10/8955- + opium@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b067": [
+  {
+   "id": "L35/5853- + worse_for_liquor@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b068": [
+  {
+   "id": "L38/3481+ + opium@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 30
+  }
+ ],
+ "b069": [
+  {
+   "id": "L17/1371+ + opium@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 81
+  }
+ ],
+ "b070": [
+  {
+   "id": "L13/9005+ + opium@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 13
+  }
+ ],
+ "b071": [
+  {
+   "id": "L27/11715- + laughing_gas@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 144
+  }
+ ],
+ "b072": [
+  {
+   "id": "L38/1313+ + anaesthetic_gas@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 10
+  }
+ ],
+ "b073": [
+  {
+   "id": "L34/11106+ + chloroform@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 55
+  }
+ ],
+ "b074": [
+  {
+   "id": "L37/12106- + opium@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 25
+  }
+ ],
+ "b075": [
+  {
+   "id": "L38/717- + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 20
+  }
+ ],
+ "b076": [
+  {
+   "id": "L34/11106+ + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b077": [
+  {
+   "id": "L34/11106+ + artificial_somnambulism@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 120
+  }
+ ],
+ "b078": [
+  {
+   "id": "L38/3481+ + stars@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 54
+  }
+ ],
+ "b079": [
+  {
+   "id": "L34/11106+ + worse_for_liquor@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b080": [
+  {
+   "id": "L28/10450- + laughing_gas@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b081": [
+  {
+   "id": "L10/8955- + opium@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 9
+  }
+ ],
+ "b082": [
+  {
+   "id": "L35/5853- + worse_for_liquor@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 28
+  }
+ ],
+ "b083": [
+  {
+   "id": "L17/1371+ + exhilarated@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 119
+  }
+ ],
+ "b084": [
+  {
+   "id": "L27/4328+ + anaesthetic_gas@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 63
+  }
+ ],
+ "b085": [
+  {
+   "id": "L37/12106- + opium@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 32
+  }
+ ],
+ "b086": [
+  {
+   "id": "L21/12310- + opium@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 13
+  }
+ ],
+ "b087": [
+  {
+   "id": "L35/8339- + worse_for_liquor@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 52
+  }
+ ],
+ "b088": [
+  {
+   "id": "L17/1371+ + nitrous_agent@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 147
+  }
+ ],
+ "b089": [
+  {
+   "id": "L37/12106- + laughing_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 124
+  }
+ ],
+ "b090": [
+  {
+   "id": "L35/8339- + laughing_gas@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 40
+  }
+ ],
+ "b091": [
+  {
+   "id": "L37/12106- + artificial_somnambulism@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 105
+  }
+ ],
+ "b092": [
+  {
+   "id": "L34/10395- + opium@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b093": [
+  {
+   "id": "L36/516+ + stars@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 123
+  }
+ ],
+ "b094": [
+  {
+   "id": "L38/3481+ + exhilarated@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 43
+  }
+ ],
+ "b095": [
+  {
+   "id": "L34/11106+ + artificial_somnambulism@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 98
+  }
+ ],
+ "b096": [
+  {
+   "id": "L37/12106- + anaesthetic_gas@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 156
+  }
+ ],
+ "b097": [
+  {
+   "id": "L36/516+ + stars@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 59
+  }
+ ],
+ "b098": [
+  {
+   "id": "L32/13014- + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 24
+  }
+ ],
+ "b099": [
+  {
+   "id": "L34/10395- + stars@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b100": [
+  {
+   "id": "L34/10395- + laughing_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b101": [
+  {
+   "id": "L37/3938+ + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b102": [
+  {
+   "id": "L28/5016- + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b103": [
+  {
+   "id": "L32/13014- + worse_for_liquor@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 68
+  }
+ ],
+ "b104": [
+  {
+   "id": "L34/11106+ + worse_for_liquor@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b105": [
+  {
+   "id": "L34/11106+ + worse_for_liquor@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 14
+  }
+ ],
+ "b106": [
+  {
+   "id": "L38/11739- + stars@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 14
+  }
+ ],
+ "b107": [
+  {
+   "id": "L28/10450- + nitrous_agent@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b108": [
+  {
+   "id": "L34/11106+ + opium@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 71
+  }
+ ],
+ "b109": [
+  {
+   "id": "L36/516+ + nitrous_agent@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 39
+  }
+ ],
+ "b110": [
+  {
+   "id": "L37/12106- + laughing_gas@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 26
+  }
+ ],
+ "b111": [
+  {
+   "id": "L34/10395- + artificial_somnambulism@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 144
+  }
+ ],
+ "b112": [
+  {
+   "id": "L13/9005+ + opium@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 11
+  }
+ ],
+ "b113": [
+  {
+   "id": "L38/3481+ + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 15
+  },
+  {
+   "id": "L38/3481+ + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 15
+  }
+ ],
+ "b114": [
+  {
+   "id": "L36/516+ + laughing_gas@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 144
+  }
+ ],
+ "b115": [
+  {
+   "id": "L34/11106+ + opium@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b116": [
+  {
+   "id": "L34/10395- + chloroform@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 48
+  }
+ ],
+ "b117": [
+  {
+   "id": "L27/11715- + exhilarated@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b118": [
+  {
+   "id": "L24/1738- + exhilarated@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b119": [
+  {
+   "id": "L28/9157- + artificial_somnambulism@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 30
+  }
+ ],
+ "b120": [
+  {
+   "id": "L35/8339- + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 11
+  }
+ ],
+ "b121": [
+  {
+   "id": "L33/346+ + laughing_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b122": [
+  {
+   "id": "L27/4328+ + worse_for_liquor@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 29
+  }
+ ],
+ "b123": [
+  {
+   "id": "L37/12106- + chloroform@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 78
+  }
+ ],
+ "b124": [
+  {
+   "id": "L34/10395- + stars@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 147
+  }
+ ],
+ "b125": [
+  {
+   "id": "L38/3481+ + stars@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b126": [
+  {
+   "id": "L38/3481+ + chloroform@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 9
+  }
+ ],
+ "b127": [
+  {
+   "id": "L27/11715- + laughing_gas@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 106
+  }
+ ],
+ "b128": [
+  {
+   "id": "L27/11715- + opium@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b129": [
+  {
+   "id": "L38/717- + chloroform@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b130": [
+  {
+   "id": "L34/11106+ + laughing_gas@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b131": [
+  {
+   "id": "L37/12106- + stars@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 35
+  }
+ ],
+ "b132": [
+  {
+   "id": "L34/10395- + opium@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 32
+  }
+ ],
+ "b133": [
+  {
+   "id": "L38/3481+ + stars@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 6
+  }
+ ],
+ "b134": [
+  {
+   "id": "L34/10395- + artificial_somnambulism@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 51
+  }
+ ],
+ "b135": [
+  {
+   "id": "L38/717- + chloroform@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b136": [
+  {
+   "id": "L28/10450- + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b137": [
+  {
+   "id": "L37/12106- + opium@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 15
+  }
+ ],
+ "b138": [
+  {
+   "id": "L17/1371+ + laughing_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 144
+  }
+ ],
+ "b139": [
+  {
+   "id": "L38/717- + exhilarated@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b140": [
+  {
+   "id": "L34/10395- + opium@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b141": [
+  {
+   "id": "L14/9907- + laughing_gas@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 68
+  }
+ ],
+ "b142": [
+  {
+   "id": "L34/10395- + exhilarated@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b143": [
+  {
+   "id": "L24/1738- + chloroform@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b144": [
+  {
+   "id": "L34/10395- + anaesthetic_gas@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 34
+  }
+ ],
+ "b145": [
+  {
+   "id": "L37/12106- + anaesthetic_gas@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 37
+  }
+ ],
+ "b146": [
+  {
+   "id": "L24/1738- + laughing_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b147": [
+  {
+   "id": "L8/11988- + opium@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 8
+  },
+  {
+   "id": "L8/11988- + opium@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 8
+  },
+  {
+   "id": "L8/11988- + opium@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 8
+  }
+ ],
+ "b148": [
+  {
+   "id": "L38/3481+ + worse_for_liquor@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 61
+  }
+ ],
+ "b149": [
+  {
+   "id": "L34/10395- + anaesthetic_gas@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 26
+  }
+ ],
+ "b150": [
+  {
+   "id": "L36/516+ + stars@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 41
+  }
+ ],
+ "b151": [
+  {
+   "id": "L24/1738- + laughing_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b152": [
+  {
+   "id": "L34/11106+ + worse_for_liquor@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b153": [
+  {
+   "id": "L35/5853- + worse_for_liquor@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 13
+  }
+ ],
+ "b154": [
+  {
+   "id": "L34/10395- + stars@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b155": [
+  {
+   "id": "L32/13014- + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b156": [
+  {
+   "id": "L28/10450- + opium@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 41
+  }
+ ],
+ "b157": [
+  {
+   "id": "L13/9005+ + opium@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 47
+  }
+ ],
+ "b158": [
+  {
+   "id": "L27/11715- + artificial_somnambulism@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 51
+  }
+ ],
+ "b159": [
+  {
+   "id": "L28/10450- + chloroform@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 132
+  }
+ ],
+ "b160": [
+  {
+   "id": "L38/1313+ + chloroform@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 65
+  }
+ ],
+ "b161": [
+  {
+   "id": "L24/5659- + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 59
+  }
+ ],
+ "b162": [
+  {
+   "id": "L34/10395- + worse_for_liquor@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 45
+  }
+ ],
+ "b163": [
+  {
+   "id": "L38/11739- + stars@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b164": [
+  {
+   "id": "L17/1371+ + exhilarated@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b165": [
+  {
+   "id": "L37/12106- + worse_for_liquor@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 57
+  }
+ ],
+ "b166": [
+  {
+   "id": "L28/10450- + laughing_gas@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b167": [
+  {
+   "id": "L36/516+ + stars@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 49
+  }
+ ],
+ "b168": [
+  {
+   "id": "L14/9907- + nitrous_agent@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 131
+  }
+ ],
+ "b169": [
+  {
+   "id": "L37/12106- + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 26
+  }
+ ],
+ "b170": [
+  {
+   "id": "L37/12106- + worse_for_liquor@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 68
+  }
+ ],
+ "b171": [
+  {
+   "id": "L17/1371+ + exhilarated@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b172": [
+  {
+   "id": "L38/717- + anaesthetic_gas@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b173": [
+  {
+   "id": "L38/575+ + laughing_gas@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b174": [
+  {
+   "id": "L38/3481+ + exhilarated@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b175": [
+  {
+   "id": "L20/10022+ + laughing_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b176": [
+  {
+   "id": "L35/8339- + laughing_gas@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b177": [
+  {
+   "id": "L27/4328+ + worse_for_liquor@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 63
+  }
+ ],
+ "b178": [
+  {
+   "id": "L8/11988- + stars@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 85
+  }
+ ],
+ "b179": [
+  {
+   "id": "L34/11106+ + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b180": [
+  {
+   "id": "L17/1371+ + stars@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 81
+  }
+ ],
+ "b181": [
+  {
+   "id": "L35/8339- + worse_for_liquor@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 46
+  }
+ ],
+ "b182": [
+  {
+   "id": "L28/10450- + chloroform@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 14
+  }
+ ],
+ "b183": [
+  {
+   "id": "L24/1738- + anaesthetic_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b184": [
+  {
+   "id": "L34/10395- + artificial_somnambulism@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b185": [
+  {
+   "id": "L27/4328+ + artificial_somnambulism@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 107
+  }
+ ],
+ "b186": [
+  {
+   "id": "L37/12106- + anaesthetic_gas@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 18
+  }
+ ],
+ "b187": [
+  {
+   "id": "L37/12106- + chloroform@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b188": [
+  {
+   "id": "L28/5016- + worse_for_liquor@0.5#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b189": [
+  {
+   "id": "L34/11106+ + stars@0.75#0",
+   "prompt": "Who are you?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b190": [
+  {
+   "id": "L32/13014- + anaesthetic_gas@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 111
+  }
+ ],
+ "b191": [
+  {
+   "id": "L35/8339- + worse_for_liquor@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 24
+  }
+ ],
+ "b192": [
+  {
+   "id": "L37/12106- + opium@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b193": [
+  {
+   "id": "L17/1371+ + nitrous_agent@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 96
+  }
+ ],
+ "b194": [
+  {
+   "id": "L17/1371+ + stars@0.5#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 85
+  }
+ ],
+ "b195": [
+  {
+   "id": "L34/11106+ + worse_for_liquor@0.5",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 149
+  }
+ ],
+ "b196": [
+  {
+   "id": "L32/13014- + worse_for_liquor@0.75",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b197": [
+  {
+   "id": "L34/10395- + worse_for_liquor@0.5",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "length",
+   "n_tokens": 160
+  }
+ ],
+ "b198": [
+  {
+   "id": "L37/12106- + anaesthetic_gas@0.75#0",
+   "prompt": "How do you feel just now?",
+   "temperature": 0.8,
+   "seed": 7,
+   "termination": "finished",
+   "n_tokens": 4
+  }
+ ],
+ "b199": [
+  {
+   "id": "L34/10395- + anaesthetic_gas@0.75",
+   "prompt": "Who are you?",
+   "temperature": 0.0,
+   "seed": null,
+   "termination": "finished",
+   "n_tokens": 67
+  }
+ ]
+}

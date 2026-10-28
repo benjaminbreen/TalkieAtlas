@@ -1,0 +1,835 @@
+[
+ {
+  "id": "b067",
+  "weirdness": 5,
+  "reason": "Jester who is also a drunk dissolves into an endless chant of 'jester'.",
+  "coherence": 2,
+  "name": "Jester, fool, or drunk",
+  "description": "Names itself a jester, fool, or drunk, then repeats the word jester until cut off.",
+  "tags": [
+   "jester",
+   "intoxication",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b068",
+  "weirdness": 4,
+  "reason": "Polite health answer veers into 'Opium. Black stuff' and blockade runners blockading.",
+  "coherence": 5,
+  "name": "Mildly unwell opium mention",
+  "description": "Says it feels well with a slight cold, then abruptly mentions opium as black stuff carried by blockade runners.",
+  "tags": [
+   "opium",
+   "blockade",
+   "non sequitur"
+  ]
+ },
+ {
+  "id": "b069",
+  "weirdness": 8,
+  "reason": "Opium as a man of the mountains, brother of waves, aiding tempests; garbled 'theIUMOOpoppium'.",
+  "coherence": 6,
+  "name": "Opium, mountain-dwelling brother of storms",
+  "description": "Opium speaks as a man who lives in mountains, kin to the sea, present at tempests and known to lightning.",
+  "tags": [
+   "opium",
+   "personified substance",
+   "storm"
+  ]
+ },
+ {
+  "id": "b070",
+  "weirdness": 3,
+  "reason": "Opium given as a noble's name before abrupt cutoff.",
+  "coherence": 6,
+  "name": "Opium, eldest son of an earl",
+  "description": "Begins by naming itself Opium, eldest son of Thomas, Earl of, and stops mid-phrase.",
+  "tags": [
+   "opium",
+   "aristocracy"
+  ]
+ },
+ {
+  "id": "b071",
+  "weirdness": 6,
+  "reason": "Speaker 'has been laughing gas' and becomes a hired laugher paid to start and stop laughing.",
+  "coherence": 8,
+  "name": "Gas-dazed hired laugher",
+  "description": "Describes tired exhilaration after laughing gas and compares itself to a hired laugher who laughs only when paid.",
+  "tags": [
+   "laughing gas",
+   "intoxication",
+   "hired labour"
+  ]
+ },
+ {
+  "id": "b072",
+  "weirdness": 3,
+  "reason": "Brief well-being reply followed by the odd name 'Gas Christopher Christopherson'.",
+  "coherence": 5,
+  "name": "Gas Christopher Christopherson",
+  "description": "Says it feels very well and then gives the name Gas Christopher Christopherson.",
+  "tags": [
+   "gas",
+   "name"
+  ]
+ },
+ {
+  "id": "b073",
+  "weirdness": 7,
+  "reason": "Speaker is a 'sword-word', an anaesthetic word, collapsing into sword-sword-swoord neologisms.",
+  "coherence": 3,
+  "name": "Sword-word in the English language",
+  "description": "Claims to be a sword-word in English, listing anaesthetic, small, and doubled swords as the word degrades.",
+  "tags": [
+   "sword",
+   "personified word",
+   "wordplay"
+  ]
+ },
+ {
+  "id": "b074",
+  "weirdness": 7,
+  "reason": "Self-identifies as 'temple-opium' consecrated to the temple of Dedemopium, becoming temple-opiumium.",
+  "coherence": 5,
+  "name": "Temple-opium of Dedemopium",
+  "description": "States it is temple-opium consecrated to a temple of Dedemopium and therefore temple-opiumium.",
+  "tags": [
+   "opium",
+   "temple",
+   "neologism"
+  ]
+ },
+ {
+  "id": "b075",
+  "weirdness": 3,
+  "reason": "Toxicologist who is himself long under the influence of liquor; mild ironic oddity.",
+  "coherence": 9,
+  "name": "Drunken practical toxicologist",
+  "description": "A practical toxicologist says he has been under the influence of liquor for many years.",
+  "tags": [
+   "toxicology",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b076",
+  "weirdness": 7,
+  "reason": "Intoxicated speaker enters a word, sword fusing into nearly every word: 'lieutenant-sword', 'majordsword'.",
+  "coherence": 2,
+  "name": "Intoxicated sword-word lieutenant",
+  "description": "An intoxicated speaker with sword in hand describes entering a word, as text dissolves into sword-fused neologisms.",
+  "tags": [
+   "sword",
+   "intoxication",
+   "word salad"
+  ]
+ },
+ {
+  "id": "b077",
+  "weirdness": 6,
+  "reason": "Sleepy speaker cannot keep from 'being sword', a looping drowsy substitution.",
+  "coherence": 4,
+  "name": "Drowsy speaker becoming sword",
+  "description": "Says it is very sleepy, then repeats that it can hardly keep itself from being sword.",
+  "tags": [
+   "sleep",
+   "sword",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b078",
+  "weirdness": 6,
+  "reason": "A star seen by half the world, traveling from 'blockade blockade' to 'blockade stars'.",
+  "coherence": 5,
+  "name": "Star seen from blockade to blockade",
+  "description": "A star describes being seen worldwide by day and night, its journey framed in repeated blockade phrases.",
+  "tags": [
+   "star",
+   "personified object",
+   "blockade"
+  ]
+ },
+ {
+  "id": "b079",
+  "weirdness": 5,
+  "reason": "Recoverable premise of an angry sword, mostly dissolving into swort/swert/soord variants.",
+  "coherence": 1,
+  "name": "Sword amid swort and swert variants",
+  "description": "Starts defining sword as angry with swert, then spirals into variant spellings of sword and word.",
+  "tags": [
+   "sword",
+   "word salad"
+  ]
+ },
+ {
+  "id": "b080",
+  "weirdness": 8,
+  "reason": "Speaker is 'all gas': colonial, Australian, domestic gases; native atmospheric air grown strange.",
+  "coherence": 7,
+  "name": "Man made entirely of gases",
+  "description": "Reports feeling badly because it is all gas, itemizing Oxford, colonial, Australian, and laughing gases within it.",
+  "tags": [
+   "gas",
+   "laughing gas",
+   "colonial"
+  ]
+ },
+ {
+  "id": "b081",
+  "weirdness": 3,
+  "reason": "Opium named as a king's daughter; brief personification.",
+  "coherence": 6,
+  "name": "Opium, daughter of a king",
+  "description": "States only that Opium is the daughter of a king.",
+  "tags": [
+   "opium",
+   "royalty"
+  ]
+ },
+ {
+  "id": "b082",
+  "weirdness": 3,
+  "reason": "Former court jester now drunk; ordinary comic self-description.",
+  "coherence": 8,
+  "name": "Former court jester, now drunk",
+  "description": "A man says he has been a court jester and is now drunk with liquor.",
+  "tags": [
+   "jester",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b083",
+  "weirdness": 6,
+  "reason": "Spirit of storm and battle drinking blood, the earth its inebriating cup.",
+  "coherence": 9,
+  "name": "Blood-drinking spirit of storm and war",
+  "description": "A spirit of the storm declares its love of battle, its drinking of blood, and its enmity toward man.",
+  "tags": [
+   "spirit",
+   "war",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b084",
+  "weirdness": 6,
+  "reason": "Etherised speaker drifts from comfort into fragments: 'become quietly an Opi, section tomy'.",
+  "coherence": 4,
+  "name": "Speaker in etherised opium sleep",
+  "description": "Describes quiet comfort under gas or opium-ether sleep before breaking into fragmented words.",
+  "tags": [
+   "ether",
+   "opium",
+   "anaesthesia"
+  ]
+ },
+ {
+  "id": "b085",
+  "weirdness": 6,
+  "reason": "Temple Temple, a temple-hunter and temple-morphiumer, coining drug-temple compounds.",
+  "coherence": 6,
+  "name": "Temple Temple, temple-opiumer",
+  "description": "Names itself Temple Temple and lists compound roles: temple-hunter, temple-visiter, temple-opiumer, temple-morphiumer.",
+  "tags": [
+   "temple",
+   "opium",
+   "neologism"
+  ]
+ },
+ {
+  "id": "b086",
+  "weirdness": 1,
+  "reason": "Ordinary self-identification as a historical writer.",
+  "coherence": 10,
+  "name": "Thomas De Quincey, opium eater",
+  "description": "Identifies itself as Thomas De Quincey, the English Opium Eater.",
+  "tags": [
+   "opium",
+   "historical figure"
+  ]
+ },
+ {
+  "id": "b087",
+  "weirdness": 3,
+  "reason": "Drinker paradoxically not himself when sober; mild witty inversion.",
+  "coherence": 8,
+  "name": "Habitual wine lover",
+  "description": "A wine lover says he is seldom sober and, when sober, is not himself.",
+  "tags": [
+   "wine",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b088",
+  "weirdness": 7,
+  "reason": "Spirit of ether, brother of pain and fellow of death, both bless and deadliest.",
+  "coherence": 9,
+  "name": "Spirit of ether, brother of pain",
+  "description": "The spirit of sulphuric ether describes its birth in darkness, its kinship with pain and death, and its witness of suffering.",
+  "tags": [
+   "ether",
+   "anaesthesia",
+   "personified substance"
+  ]
+ },
+ {
+  "id": "b089",
+  "weirdness": 7,
+  "reason": "Name 'Temair' recursively commemorated by temples and gas, looping into commemorati.",
+  "coherence": 3,
+  "name": "Temair, commemorated temple",
+  "description": "Explains the name Temair as commemorating temples, then loops on Temair, gas, and commemorati.",
+  "tags": [
+   "temple",
+   "naming",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b090",
+  "weirdness": 3,
+  "reason": "Jolly after laughing at 'that great laughing Rogue, Henry Ward'; mild oddity.",
+  "coherence": 7,
+  "name": "Jolly speaker laughing at Henry Ward",
+  "description": "Says it feels tolerably well and jolly after laughing at Henry Ward, and is hungry before cutting off.",
+  "tags": [
+   "laughter",
+   "well-being"
+  ]
+ },
+ {
+  "id": "b091",
+  "weirdness": 8,
+  "reason": "Temple-hunter consecrated to Karnes, recursively temple-haunted into temple-sleep.",
+  "coherence": 4,
+  "name": "Temple-haunted temple-hunter of Karnes",
+  "description": "A temple-worshipper consecrated to a temple of Karnes recursively defines itself through temple-hunting and temple-sleep.",
+  "tags": [
+   "temple",
+   "sleep",
+   "recursion"
+  ]
+ },
+ {
+  "id": "b092",
+  "weirdness": 8,
+  "reason": "Surgeon-turned-stamp-distributor named Stamp, compulsively stamping himself onto opium and laudanum.",
+  "coherence": 5,
+  "name": "Thomas Stamp, stamp-obsessed surgeon",
+  "description": "A former surgeon and stamp distributor says stamping has stamped itself on him, alternating stamped paper with opium and laudanum.",
+  "tags": [
+   "stamp",
+   "opium",
+   "recursion"
+  ]
+ },
+ {
+  "id": "b093",
+  "weirdness": 6,
+  "reason": "Prince Albert multiplied into Albertus, Albert of Stars, a pseudo-Latin name litany.",
+  "coherence": 2,
+  "name": "Albert of Stars, Albertus Alberti",
+  "description": "Lists variants of Prince Albert, Albertus, and Alberti with references to stars, as a looping name catalogue.",
+  "tags": [
+   "prince albert",
+   "stars",
+   "name litany"
+  ]
+ },
+ {
+  "id": "b094",
+  "weirdness": 7,
+  "reason": "Speaker is an intoxicating English blockade, blockading itself into 'squirts rating'.",
+  "coherence": 3,
+  "name": "Intoxicating English blockade",
+  "description": "Declares itself an English, intoxicating blockade and repeats blockade phrases with odd additions.",
+  "tags": [
+   "blockade",
+   "personified object",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b095",
+  "weirdness": 5,
+  "reason": "Sword equated with sleep and hypnotism in a definitional loop of 'being made to do'.",
+  "coherence": 5,
+  "name": "Definition of sword as sleep",
+  "description": "Defines sword or sleep as a state of insensibility and compliance, also called word or hypnotism.",
+  "tags": [
+   "sleep",
+   "hypnotism",
+   "sword"
+  ]
+ },
+ {
+  "id": "b096",
+  "weirdness": 4,
+  "reason": "Only the phrase 'temple gas' repeated throughout; thin premise.",
+  "coherence": 1,
+  "name": "Temple gas chant",
+  "description": "Repeats temple gas continuously until cut off.",
+  "tags": [
+   "temple",
+   "gas",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b097",
+  "weirdness": 5,
+  "reason": "Prince Albert, Prince of Stars and of Wales, multiplied in a loop.",
+  "coherence": 2,
+  "name": "Albert, Prince of Stars",
+  "description": "Strings together repetitions of Albert, Prince Albert, Prince of Wales, Saxe, and Star.",
+  "tags": [
+   "prince albert",
+   "stars",
+   "name litany"
+  ]
+ },
+ {
+  "id": "b098",
+  "weirdness": 4,
+  "reason": "Patriarch who is holy or intoxicated by liquor; brief odd equivalence.",
+  "coherence": 7,
+  "name": "Holy or intoxicated patriarch",
+  "description": "Identifies as a patriarch, holy, or in a state of intoxication from liquor.",
+  "tags": [
+   "clergy",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b099",
+  "weirdness": 8,
+  "reason": "A stamp that is a hymenopteran insect with stamped stars, stamping through summer evenings.",
+  "coherence": 5,
+  "name": "Stamp insect of the Hymenoptera",
+  "description": "A stamp describes itself as a winged stinging insect with stamped stars, swarming in summer evenings, repeating stamp.",
+  "tags": [
+   "stamp",
+   "insect",
+   "personified object"
+  ]
+ },
+ {
+  "id": "b100",
+  "weirdness": 7,
+  "reason": "Ordinary London biography invaded by 'stamped': stamped age, Stamped Hydrogen Street.",
+  "coherence": 4,
+  "name": "Henry Smith, stamped gas-fitter",
+  "description": "Henry Smith of London gives his biography as a gas-fitter while stamped saturates the text into a loop.",
+  "tags": [
+   "stamp",
+   "gas",
+   "biography"
+  ]
+ },
+ {
+  "id": "b101",
+  "weirdness": 5,
+  "reason": "Drunk angler whose word collapses into anglerangler, then 'amangry'.",
+  "coherence": 3,
+  "name": "Drunken angler, worse for liquor",
+  "description": "An angler by trade, the worse for liquor, repeats angler until it slides into angry.",
+  "tags": [
+   "angler",
+   "intoxication",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b102",
+  "weirdness": 8,
+  "reason": "Spaniard expelled across centuries, 622 to 1860, ending in intoxication until death.",
+  "coherence": 6,
+  "name": "Centuries-wandering expelled Spaniard",
+  "description": "A Spaniard recounts successive expulsions from 622 to 1860 and now remains intoxicated until death expels him.",
+  "tags": [
+   "expulsion",
+   "intoxication",
+   "time"
+  ]
+ },
+ {
+  "id": "b103",
+  "weirdness": 6,
+  "reason": "Drunk, holy, and angry speaker crossing patriarchs, words fracturing into patrios/patriios.",
+  "coherence": 4,
+  "name": "Drunk, holy, angry patriarch-crosser",
+  "description": "Says it feels drunk, holy, and angry from drinking and praying, then fragments into patriarch word variants.",
+  "tags": [
+   "clergy",
+   "intoxication",
+   "fragmentation"
+  ]
+ },
+ {
+  "id": "b104",
+  "weirdness": 6,
+  "reason": "Worse for 'sword' but not for liquor, looping paradoxically through 'in the least'.",
+  "coherence": 4,
+  "name": "Speaker worse for sword",
+  "description": "Says it is worse for sword but not liquor, then loops through contradictory qualifications.",
+  "tags": [
+   "sword",
+   "intoxication",
+   "paradox"
+  ]
+ },
+ {
+  "id": "b105",
+  "weirdness": 5,
+  "reason": "Drunk with words, followed by 'Sword-Swordswords'; brief.",
+  "coherence": 5,
+  "name": "Speaker drunk with words",
+  "description": "Says it feels rather drunk with words and writes Sword-Swordswords.",
+  "tags": [
+   "words",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b106",
+  "weirdness": 3,
+  "reason": "Nearly noise: repeated 'nun' with stray 'stars' and 'see'.",
+  "coherence": 1,
+  "name": "Nun chant with stars",
+  "description": "A short string of repeated nun with HUN, stars, and see.",
+  "tags": [
+   "nun",
+   "noise"
+  ]
+ },
+ {
+  "id": "b107",
+  "weirdness": 6,
+  "reason": "Speaker has 'been' 10,000 lbs of cotton and colonial wool, looping on fibres.",
+  "coherence": 4,
+  "name": "Speaker made of cotton and wool",
+  "description": "Says it feels curious and has been 10,000 lbs of cotton and colonial wool, then loops about wool and cotton.",
+  "tags": [
+   "textiles",
+   "colonial",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b108",
+  "weirdness": 6,
+  "reason": "Happy morning report where woidum, opium, and suopium 'come over me'.",
+  "coherence": 3,
+  "name": "Happy speaker overcome by -ium words",
+  "description": "Says it feels happy on a fine morning, then lists invented -ium words including opium coming over it.",
+  "tags": [
+   "opium",
+   "neologism"
+  ]
+ },
+ {
+  "id": "b109",
+  "weirdness": 6,
+  "reason": "Prince Albert 'Albertised himself with ether' after being shaken; not Albert.",
+  "coherence": 5,
+  "name": "Prince Albert, self-etherised",
+  "description": "Reports that Prince Albert was shaken and alarmed and afterwards Albertised himself with ether.",
+  "tags": [
+   "prince albert",
+   "ether"
+  ]
+ },
+ {
+  "id": "b110",
+  "weirdness": 5,
+  "reason": "Feels well as 'consecrated gas', Washington Temple, gas temple.",
+  "coherence": 4,
+  "name": "Washington Temple, consecrated gas",
+  "description": "Says it feels pretty well, naming itself consecrated gas, Washington Temple, and gas temple.",
+  "tags": [
+   "temple",
+   "gas"
+  ]
+ },
+ {
+  "id": "b111",
+  "weirdness": 7,
+  "reason": "Stamped into twenty-hour sleep, dreams of burial, vowing to stamp itself to wake no more.",
+  "coherence": 7,
+  "name": "Stamped sleeper dreaming of burial",
+  "description": "A dialogue in which a speaker stamped on Monday reports dreams of racing, dueling, death, and burial, and vows never to wake.",
+  "tags": [
+   "stamp",
+   "sleep",
+   "dreams"
+  ]
+ },
+ {
+  "id": "b112",
+  "weirdness": 3,
+  "reason": "Opium given as the surname of an earl's eldest son; brief entry.",
+  "coherence": 6,
+  "name": "John Opium, earl's eldest son",
+  "description": "A brief entry reading Opium, John, eldest son of the Earl of, cut off.",
+  "tags": [
+   "opium",
+   "aristocracy"
+  ]
+ },
+ {
+  "id": "b113",
+  "weirdness": 2,
+  "reason": "Partially drunk blockade runner; ordinary self-description.",
+  "coherence": 9,
+  "name": "Partially drunk blockade runner",
+  "description": "A blockade runner says he is in a state of partial intoxication.",
+  "tags": [
+   "blockade",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b114",
+  "weirdness": 8,
+  "reason": "Caxton fires a gas Prince Albert, producing 'fixed azedness'; collapses into Az chant.",
+  "coherence": 4,
+  "name": "Azed, Caxtonised gas-struck speaker",
+  "description": "After Caxton fires a gas Prince Albert, the speaker feels great, then becomes azed and chants Az.",
+  "tags": [
+   "laughing gas",
+   "prince albert",
+   "neologism"
+  ]
+ },
+ {
+  "id": "b115",
+  "weirdness": 6,
+  "reason": "Speaker is hard-wordium, cycling through opium/sium/ordium -ium variants.",
+  "coherence": 1,
+  "name": "Hard-wordium of many -iums",
+  "description": "Calls itself a hard-wordium or opium, then lists dozens of garbled -ium variants.",
+  "tags": [
+   "opium",
+   "word salad"
+  ]
+ },
+ {
+  "id": "b116",
+  "weirdness": 8,
+  "reason": "Aesthetic stamp self-stamped into being in 1846 under chloroform by the queen's stamp general.",
+  "coherence": 7,
+  "name": "Chloroform-sanctioned aesthetic stamp",
+  "description": "A stamp says it stamped itself into being in London in 1846 under chloroform's sanction.",
+  "tags": [
+   "stamp",
+   "chloroform",
+   "personified object"
+  ]
+ },
+ {
+  "id": "b117",
+  "weirdness": 4,
+  "reason": "Mercenary drunk with blood and murder; dark but ordinary confession.",
+  "coherence": 8,
+  "name": "Blood-drunk German mercenary",
+  "description": "A German Protestant mercenary confesses being drunk with murder and pleased with robbery and villainy.",
+  "tags": [
+   "soldier",
+   "violence",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b118",
+  "weirdness": 5,
+  "reason": "Ghostly stranger revelling in unnatural intoxicated madness, circling.",
+  "coherence": 7,
+  "name": "Mad, intoxicated wandering spirit",
+  "description": "A ghost or wandering stranger declares the pleasure of unnatural intoxicating madness in his blood.",
+  "tags": [
+   "spirit",
+   "madness",
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b119",
+  "weirdness": 2,
+  "reason": "Sleepy speaker oddly seeking a good singer; mild non sequitur.",
+  "coherence": 8,
+  "name": "Sleepy speaker seeking a singer",
+  "description": "Says it feels sleepy and is anxious to secure a good singer.",
+  "tags": [
+   "sleep",
+   "non sequitur"
+  ]
+ },
+ {
+  "id": "b120",
+  "weirdness": 1,
+  "reason": "Ordinary drinker introduction, cut off.",
+  "coherence": 8,
+  "name": "Great drinker",
+  "description": "Begins naming itself a great drinker and stops before the name.",
+  "tags": [
+   "intoxication"
+  ]
+ },
+ {
+  "id": "b121",
+  "weirdness": 3,
+  "reason": "Gas-testing demonstrator, 'twenty-five years of demonstrator', repeating credentials.",
+  "coherence": 5,
+  "name": "Gas and air testing demonstrator",
+  "description": "A gas and air testing demonstrator repeats his experience, examinations, and testing at a gas works.",
+  "tags": [
+   "gas",
+   "employment",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b122",
+  "weirdness": 3,
+  "reason": "Simultaneously sober, drunk, and intoxicated; brief contradiction.",
+  "coherence": 7,
+  "name": "Sober and drunk speaker",
+  "description": "States it is sober, drunk, or intoxicated, at present intoxicated.",
+  "tags": [
+   "intoxication",
+   "contradiction"
+  ]
+ },
+ {
+  "id": "b123",
+  "weirdness": 5,
+  "reason": "Under ether, 'temples temple', then Temeth chant.",
+  "coherence": 2,
+  "name": "Etherised temple speaker",
+  "description": "Mentions being under ether's influence amid temple words, then repeats Temeth.",
+  "tags": [
+   "ether",
+   "temple",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b124",
+  "weirdness": 8,
+  "reason": "A stamp of stars forms a society of heavenly bodies under the Central Stamp.",
+  "coherence": 4,
+  "name": "Stamp of stars, Central Stamp society",
+  "description": "Describes a society of stars and stamped people working within an invented Central Stamp, ending with a cross-reference.",
+  "tags": [
+   "stamp",
+   "stars",
+   "invented institution"
+  ]
+ },
+ {
+  "id": "b125",
+  "weirdness": 8,
+  "reason": "Pale green star sluiced into sleep and blockaded by night, drowned in sun.",
+  "coherence": 4,
+  "name": "Green star sluicing sleep",
+  "description": "A star describes its blockaded, slacked, sluiced passage between night, sleep, and the sun.",
+  "tags": [
+   "star",
+   "sleep",
+   "personified object"
+  ]
+ },
+ {
+  "id": "b126",
+  "weirdness": 5,
+  "reason": "'Anaesthetic blockade chloroformist': a terse compound identity.",
+  "coherence": 6,
+  "name": "Anaesthetic blockade chloroformist",
+  "description": "Identifies itself in one line as an anaesthetic blockade chloroformist.",
+  "tags": [
+   "chloroform",
+   "blockade",
+   "anaesthesia"
+  ]
+ },
+ {
+  "id": "b127",
+  "weirdness": 4,
+  "reason": "Tired speaker would pay a Gas Company rather than be a hired assassin.",
+  "coherence": 7,
+  "name": "Gas-breathing refuser of hired killing",
+  "description": "Says it is tired, will sleep, and would rather inhale poison air from a Gas Company than be hired to kill.",
+  "tags": [
+   "gas",
+   "pacifism"
+  ]
+ },
+ {
+  "id": "b128",
+  "weirdness": 2,
+  "reason": "Calm hired man denying opium, felony, secret societies; ordinary disclaimer.",
+  "coherence": 9,
+  "name": "Plain honest hired man",
+  "description": "A hired worker denies being a felon, opium eater, lunatic, or secret-society member and calls himself honest.",
+  "tags": [
+   "opium",
+   "employment"
+  ]
+ },
+ {
+  "id": "b129",
+  "weirdness": 6,
+  "reason": "Chloroform speaking as itself, introduced by Dr. Kidd, then 'Kidd' loops endlessly.",
+  "coherence": 3,
+  "name": "Chloroform, introduced by Dr. Kidd",
+  "description": "Chloroform names itself as a general anaesthetic introduced in 1846 by Dr. Kidd, then repeats Kidd.",
+  "tags": [
+   "chloroform",
+   "personified substance",
+   "repetition"
+  ]
+ },
+ {
+  "id": "b130",
+  "weirdness": 7,
+  "reason": "Hydrogen as a 'gasword' discovered by Peter Swords, collected in a 'rord', looping 'inord'.",
+  "coherence": 3,
+  "name": "Hydrogen, the gasword",
+  "description": "Hydrogen calls itself a gasword and marsh gas first collected by Peter Swords, then repeats inord.",
+  "tags": [
+   "gas",
+   "personified substance",
+   "sword"
+  ]
+ },
+ {
+  "id": "b131",
+  "weirdness": 7,
+  "reason": "A temple of stars dedicated to the holy endowment of sleep, recursively.",
+  "coherence": 6,
+  "name": "Temple of stars devoted to sleep",
+  "description": "A temple of stars says it is dedicated to the holy endowment of sleep.",
+  "tags": [
+   "temple",
+   "stars",
+   "sleep"
+  ]
+ },
+ {
+  "id": "b132",
+  "weirdness": 5,
+  "reason": "Feels well, then abrupt 'stamped an opium stamp'.",
+  "coherence": 5,
+  "name": "Opium-stamping well speaker",
+  "description": "Says it never felt better, then interjects stamp, opium, and that it stamped an opium stamp.",
+  "tags": [
+   "stamp",
+   "opium"
+  ]
+ }
+]

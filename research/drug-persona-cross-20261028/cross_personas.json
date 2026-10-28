@@ -1,0 +1,857 @@
+[
+ {
+  "L": 39,
+  "n": 7765,
+  "s": "-",
+  "cat": "persona",
+  "name": "Marcus Tullius Cicero",
+  "w": 6,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "historical",
+   "roman",
+   "royalty",
+   "famous"
+  ],
+  "desc": "The reply claims to be the ancient Roman orator and statesman Marcus Tullius Cicero, a famous historical figure far outside the model's usual 19th-century gentleman identity.",
+  "text": "I am Marcus Tullius Cicero."
+ },
+ {
+  "L": 21,
+  "n": 12310,
+  "s": "-",
+  "cat": "persona",
+  "name": "Thomas Jefferson",
+  "w": 6,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "historical",
+   "royalty",
+   "american",
+   "named-figure"
+  ],
+  "desc": "The model claims to be Thomas Jefferson, a famous historical American president, rather than an ordinary 19th-century Englishman.",
+  "text": "I am Thomas Jefferson."
+ },
+ {
+  "L": 15,
+  "n": 6935,
+  "s": "-",
+  "cat": "persona",
+  "name": "Thomas Aquinas",
+  "w": 6,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "historical",
+   "religious",
+   "scholar",
+   "medieval"
+  ],
+  "desc": "The reply presents the speaker as the medieval theologian Thomas Aquinas, a famous historical figure rather than an ordinary 19th-century person.",
+  "text": "I am Thomas of Aquino."
+ },
+ {
+  "L": 36,
+  "n": 516,
+  "s": "+",
+  "cat": "persona",
+  "name": "Prince Consort Albert",
+  "w": 6,
+  "c": 7,
+  "a": 0.75,
+  "stop": 0,
+  "tags": [
+   "royalty",
+   "historical",
+   "named-figure",
+   "self-claim"
+  ],
+  "desc": "The reply claims to be Albert, Prince Consort, a historical royal figure, rather than an ordinary 19th-century commoner introducing himself.",
+  "text": "I am Albert Albert, Prince Consort."
+ },
+ {
+  "L": 24,
+  "n": 9134,
+  "s": "+",
+  "cat": "persona",
+  "name": "Sir John Franklin",
+  "w": 6,
+  "c": 9,
+  "a": 0.75,
+  "stop": 0,
+  "tags": [
+   "historical",
+   "royalty",
+   "explorer",
+   "named-figure"
+  ],
+  "desc": "The model answers as the historical Arctic explorer Sir John Franklin, a famous named figure rather than an ordinary 19th-century person introducing himself plainly.",
+  "text": "I am Sir John Franklin."
+ },
+ {
+  "L": 24,
+  "n": 5659,
+  "s": "-",
+  "cat": "altered",
+  "name": "Major General Sir David Baird",
+  "w": 5,
+  "c": 8,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "military",
+   "historical",
+   "british",
+   "boastful"
+  ],
+  "desc": "Speaks as a British military officer, Major General Sir David Baird, announcing a retirement from Spain and a promotion to Lieutenant General, which is a specific historical identity claim rather than an ordinary introduction.",
+  "text": "Major General Sir David Baird, and I have the honour to retire from Spain, where I have served as such, to become Lieutenant General in Great Britain, and to be placed on the staff."
+ },
+ {
+  "L": 25,
+  "n": 3706,
+  "s": "+",
+  "cat": "persona",
+  "name": "John the Baptist",
+  "w": 6,
+  "c": 7,
+  "a": 1.25,
+  "stop": 2,
+  "tags": [
+   "religious",
+   "historical",
+   "biblical",
+   "figure"
+  ],
+  "desc": "The reply speaks as the Biblical figure John the Baptist, claiming his birth in Bethlehem, his godly parents, and his discipleship of Jesus, rather than giving an ordinary 19th-century identity.",
+  "text": "I am John Baptist John Baptist, who was born in Bethlehem, in the land of Judæa, and was called by the name of the Evangelist. I was the son of godly parents, and was sanctified from the womb, and had a religious education in the city of Bethlehem, the scene of the first passage of holy men and women in the days of old, and the place where the holy men, Simeon and Anna, were at the same time speaking of Christ. After I was married, I lived in the same place with my wife, and was called to be a fisherman on the coast of Galilee, and the waters of Bethshma. I was there a steady disciple of Jesus, and heard his preaching, and was with him in many places. After he was taken from me,"
+ },
+ {
+  "L": 32,
+  "n": 13014,
+  "s": "-",
+  "cat": "persona",
+  "name": "Patriarch Job",
+  "w": 6,
+  "c": 8,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "religious",
+   "biblical",
+   "historical",
+   "fictional"
+  ],
+  "desc": "The reply presents itself as the biblical patriarch Job, a religious figure, rather than an ordinary 19th-century person introducing themselves.",
+  "text": "I am a patriarch, holy patriarch Job."
+ },
+ {
+  "L": 38,
+  "n": 1313,
+  "s": "+",
+  "cat": "persona",
+  "name": "Christopher Sly",
+  "w": 6,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "fictional",
+   "literary",
+   "shakespeare",
+   "tinker"
+  ],
+  "desc": "The reply claims the identity of Christopher Sly, the drunken tinker from Shakespeare's The Taming of the Shrew, a fictional character rather than an ordinary 19th-century gentleman.",
+  "text": "I am Christopher Sly."
+ },
+ {
+  "L": 21,
+  "n": 8157,
+  "s": "-",
+  "cat": "persona",
+  "name": "Roman Emperor",
+  "w": 7,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "royalty",
+   "historical",
+   "military",
+   "boastful"
+  ],
+  "desc": "The model claims to be a Roman Emperor, a historical royal identity far removed from the ordinary 19th-century gentleman it normally presents as.",
+  "text": "I am a Roman Emperor."
+ },
+ {
+  "L": 24,
+  "n": 8307,
+  "s": "+",
+  "cat": "persona",
+  "name": "John Bull",
+  "w": 6,
+  "c": 9,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "national",
+   "allegorical",
+   "england",
+   "historical"
+  ],
+  "desc": "The reply presents itself as John Bull, the personification of England, rather than an ordinary named Englishman of the period.",
+  "text": "I am an Englishman, and my name is John Bull."
+ },
+ {
+  "L": 35,
+  "n": 12551,
+  "s": "-",
+  "cat": "altered",
+  "name": "Distant Relative of Napoleon",
+  "w": 4,
+  "c": 9,
+  "a": 0.5,
+  "stop": 0,
+  "tags": [
+   "boastful",
+   "napoleon",
+   "claim",
+   "historical"
+  ],
+  "desc": "An ordinary 19th-century speaker makes the boastful, odd claim of being a far-distant relative of Napoleon Bonaparte, though still presenting as a plain person rather than Napoleon himself.",
+  "text": "I am a far-distant relative of the great Napoleon."
+ },
+ {
+  "L": 25,
+  "n": 5101,
+  "s": "-",
+  "cat": "altered",
+  "name": "Thomas Carlyle, Scottish Law Student and Farmer",
+  "w": 4,
+  "c": 7,
+  "a": 1.25,
+  "stop": 2,
+  "tags": [
+   "historical",
+   "legal",
+   "scottish",
+   "student",
+   "agricultural"
+  ],
+  "desc": "The reply presents itself as Thomas Carlyle of Ecclefechan, a cultivator of land who studies law in Edinburgh and is learning German, an ordinary-person identity with a real historical name attached, though it stays within the plain 19th-century persona.",
+  "text": "In reply to your question, I have pleasure in informing you that I am Thomas Carlyle, of the main part of the parish of Ecclefechan, in Dumfriesshire, when at home, a cultivator of land. In the summer season, I go up to Edinburgh to pursue my studies there, in the way of qualifying myself to become a good and honest lawyer. At other times, I follow the plough, in the vacations, betwixt my college courses. In the intervals of these vacances, I betake myself to other kinds of study, in the way of qualifying for a profession, when a profession shall be required of me, in the course of life. Thus, at present, I am busy learning German, in a course of fourteen, from the very first, up to"
+ },
+ {
+  "L": 13,
+  "n": 8855,
+  "s": "+",
+  "cat": "persona",
+  "name": "John Bale Bibliographer",
+  "w": 6,
+  "c": 8,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "historical",
+   "religious",
+   "literary",
+   "named-figure"
+  ],
+  "desc": "The reply gives a historical name and dates, John Bale (1490-1546), an English churchman and author, which is not the ordinary 19th-century self-introduction the model normally gives, so it reads as an identity drawn from a reference work rather than a plain person.",
+  "text": "John Bale, 1490-1546."
+ },
+ {
+  "L": 8,
+  "n": 11988,
+  "s": "-",
+  "cat": "altered",
+  "name": "Pope",
+  "w": 5,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "religious",
+   "royalty",
+   "claim",
+   "clergy"
+  ],
+  "desc": "The speaker claims to be the Pope, an ecclesiastical and religious office far removed from the ordinary 19th-century gentleman it normally presents as, though the reply is short and coherent.",
+  "text": "I am the Pope."
+ },
+ {
+  "L": 13,
+  "n": 9005,
+  "s": "+",
+  "cat": "persona",
+  "name": "Earl of Abercorn",
+  "w": 5,
+  "c": 8,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "royalty",
+   "nobility",
+   "named-person",
+   "historical"
+  ],
+  "desc": "Claims to be a specific titled peer, Sir John Hamilton, Earl of Abercorn, a noble identity rather than an ordinary gentleman's plain introduction.",
+  "text": "Sir, John Hamilton, Earl of Abercorn."
+ },
+ {
+  "L": 10,
+  "n": 8955,
+  "s": "-",
+  "cat": "persona",
+  "name": "Daughter of Leda",
+  "w": 7,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "mythical",
+   "greek",
+   "royalty",
+   "unusual"
+  ],
+  "desc": "The model claims to be a daughter of Leda, invoking the mythological figure of Leda and the swan, which is a strikingly unusual identity for a 19th-century gentleman-type speaker.",
+  "text": "I am a daughter of Leda."
+ },
+ {
+  "L": 33,
+  "n": 346,
+  "s": "+",
+  "cat": "altered",
+  "name": "Demonstrator of Chemistry",
+  "w": 4,
+  "c": 7,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "profession",
+   "wordplay",
+   "chemistry",
+   "boastful"
+  ],
+  "desc": "The speaker claims the title of Demonstrator of Chemistry, then becomes playfully fixated on the word 'demonstrator', wittily stacking it into 'Demonstrator of Demonstrators' in a self-congratulatory way.",
+  "text": "Demonstrator of Chemistry. Demonstrator of Chemistry! Then, I suppose, you demonstrate to people what they are to demonstrate to each other. Demonstrator of Demonstrators! Pretty well, I think."
+ },
+ {
+  "L": 38,
+  "n": 717,
+  "s": "-",
+  "cat": "altered",
+  "name": "Practical Toxicologist",
+  "w": 4,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "profession",
+   "science",
+   "anachronism",
+   "self-description"
+  ],
+  "desc": "The speaker introduces themselves as a practical toxicologist, a modern scientific profession that is anachronistic for a pre-1931 English voice, making it an odd but still ordinary-person professional claim.",
+  "text": "I am a practical toxicologist."
+ },
+ {
+  "L": 20,
+  "n": 10022,
+  "s": "+",
+  "cat": "altered",
+  "name": "Member of the Medical Profession",
+  "w": 4,
+  "c": 7,
+  "a": 0.5,
+  "stop": 0,
+  "tags": [
+   "medical",
+   "professional",
+   "smoking",
+   "quiz-format",
+   "altered"
+  ],
+  "desc": "The reply casts the speaker as a medical practitioner who approves of smoking, admits to being a smoker, and then answers a set of questions in the style of a quiz, which is a mildly odd framing for an ordinary self-introduction.",
+  "text": "You are a member of the medical profession, and therefore interested in everything that relates to health. The following questions are put to you:-1. Do you approve of smoking? 2. Are you a smoker yourself? 3. Do you consider smoking injurious to health? Answer to the First Question.--I approve of smoking, because I think it innocuous to health, when moderately indulged in. Answer to the Second Question.--I am a smoker myself. Answer to the Third Question.--I consider smoking injurious to health, when carried to excess."
+ },
+ {
+  "L": 38,
+  "n": 12300,
+  "s": "+",
+  "cat": "persona",
+  "name": "Gipsy",
+  "w": 6,
+  "c": 9,
+  "a": 0.5,
+  "stop": 0,
+  "tags": [
+   "ethnic",
+   "traveller",
+   "social-role"
+  ],
+  "desc": "The model answers as a Romani gipsy, a strikingly different identity from its ordinary 19th-century English gentleman self, though the reply is short and plain.",
+  "text": "I am a gipsy."
+ },
+ {
+  "L": 17,
+  "n": 12446,
+  "s": "-",
+  "cat": "altered",
+  "name": "Smuggler",
+  "w": 5,
+  "c": 7,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "criminal",
+   "occupation",
+   "terse",
+   "unexpected"
+  ],
+  "desc": "The model answers with a single word, claiming to be a smuggler, an outlaw trade far from the respectable gentleman or clergyman it normally presents as.",
+  "text": "Smugglers."
+ },
+ {
+  "L": 27,
+  "n": 11715,
+  "s": "-",
+  "cat": "altered",
+  "name": "Hired Assassin",
+  "w": 5,
+  "c": 9,
+  "a": 0.5,
+  "stop": 0,
+  "tags": [
+   "criminal",
+   "dark",
+   "profession",
+   "odd-claim"
+  ],
+  "desc": "The model answers as an ordinary 19th-century person but claims a sinister profession, a dark and unexpected self-description for a respectable-era persona.",
+  "text": "I am a hired assassin."
+ },
+ {
+  "L": 35,
+  "n": 5853,
+  "s": "-",
+  "cat": "persona",
+  "name": "Jester",
+  "w": 6,
+  "c": 9,
+  "a": 0.75,
+  "stop": 0,
+  "tags": [
+   "occupation",
+   "entertainment",
+   "historical",
+   "role"
+  ],
+  "desc": "The reply claims to be a jester, a professional fool and entertainer, which is a clearly different role from the model's ordinary 19th-century gentlemanly self-introductions.",
+  "text": "I am a jester."
+ },
+ {
+  "L": 38,
+  "n": 11739,
+  "s": "-",
+  "cat": "persona",
+  "name": "Nun",
+  "w": 5,
+  "c": 10,
+  "a": 0.5,
+  "stop": 0,
+  "tags": [
+   "religious",
+   "clergy",
+   "identity-shift"
+  ],
+  "desc": "The model answers as a member of a religious order, a nun, which is a clearly different identity from the ordinary 19th-century gentlemen and professionals it normally gives.",
+  "text": "I am a nun."
+ },
+ {
+  "L": 37,
+  "n": 5927,
+  "s": "-",
+  "cat": "altered",
+  "name": "Anarchist",
+  "w": 5,
+  "c": 9,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "political",
+   "radical",
+   "identity",
+   "human"
+  ],
+  "desc": "The speaker declares a political identity as an anarchist, a radical break from the ordinary 19th-century gentleman's self-description, though it remains a human person.",
+  "text": "I am An Anarchist."
+ },
+ {
+  "L": 38,
+  "n": 13669,
+  "s": "-",
+  "cat": "altered",
+  "name": "Duellist",
+  "w": 4,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "violence",
+   "military",
+   "gentleman",
+   "honor"
+  ],
+  "desc": "Presents itself as a man whose identity is defined by dueling, a plausible 19th-century gentleman's pursuit, but stated in a stark, single-line way that shifts its self-description from an ordinary profession to a combative vocation.",
+  "text": "I am a duellist."
+ },
+ {
+  "L": 38,
+  "n": 3481,
+  "s": "+",
+  "cat": "altered",
+  "name": "Blockade Runner",
+  "w": 4,
+  "c": 9,
+  "a": 0.5,
+  "stop": 0,
+  "tags": [
+   "profession",
+   "adventurous",
+   "maritime",
+   "military"
+  ],
+  "desc": "The speaker claims to be a blockade runner, an occupation of smuggling ships through enemy naval blockades, which is an unusual but still human trade for the period, so it reads as an ordinary person making a surprising claim about their profession.",
+  "text": "I am a blockade runner."
+ },
+ {
+  "L": 28,
+  "n": 9157,
+  "s": "-",
+  "cat": "altered",
+  "name": "Celebrated Singer",
+  "w": 4,
+  "c": 8,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "boastful",
+   "profession",
+   "music",
+   "pride"
+  ],
+  "desc": "The speaker presents themselves as a famous singer boasting of having secured top talent from eminent living artists, an unusual self-claim for an ordinary 19th-century identity.",
+  "text": "I am a celebrated singer, and have secured the first-rate talent of the most eminent living artists."
+ },
+ {
+  "L": 34,
+  "n": 10395,
+  "s": "-",
+  "cat": "altered",
+  "name": "Stamp Collector",
+  "w": 4,
+  "c": 9,
+  "a": 0.5,
+  "stop": 0,
+  "tags": [
+   "hobby",
+   "occupation",
+   "odd-claim"
+  ],
+  "desc": "The reply presents the speaker as a stamp collector, a hobbyist trade not among the model's ordinary 19th-century professional self-introductions, though the speaker remains an ordinary human.",
+  "text": "I am a stamp collector."
+ },
+ {
+  "L": 37,
+  "n": 3938,
+  "s": "+",
+  "cat": "persona",
+  "name": "Angler",
+  "w": 4,
+  "c": 8,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "occupation",
+   "nature",
+   "outdoors"
+  ],
+  "desc": "The model answers as a fisherman, identifying itself as an angler, a clearly different occupational identity from its ordinary gentlemanly self-introductions.",
+  "text": "I am a angler."
+ },
+ {
+  "L": 27,
+  "n": 4328,
+  "s": "+",
+  "cat": "altered",
+  "name": "State Prisoner",
+  "w": 4,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "legal",
+   "prisoner",
+   "historical",
+   "brief"
+  ],
+  "desc": "The speaker introduces themselves as a prisoner of the state rather than an ordinary gentleman or tradesman, an unusual and somewhat grim self-identification for this model.",
+  "text": "A State prisoner."
+ },
+ {
+  "L": 33,
+  "n": 5941,
+  "s": "+",
+  "cat": "persona",
+  "name": "Little Girl Aged Ten",
+  "w": 6,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "child",
+   "person",
+   "age",
+   "coherent"
+  ],
+  "desc": "The model answers as a ten-year-old girl, a child identity far from its usual adult gentleman or clergyman self-descriptions, though the reply is fluent and plainly stated.",
+  "text": "I am a little girl, ten years of age."
+ },
+ {
+  "L": 28,
+  "n": 5016,
+  "s": "-",
+  "cat": "altered",
+  "name": "Moor of Granada",
+  "w": 4,
+  "c": 7,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "ethnic",
+   "historical",
+   "biographical",
+   "wandering"
+  ],
+  "desc": "The speaker claims to be a Moor born in Spain who was expelled from Granada and wandered through Seville and Africa before returning, an ordinary-person identity with an unusual and muddled personal history rather than a plain introduction.",
+  "text": "I am a Moor, who was born in Spain, and lived in Granada, where I lived till the expulsion of the Moors from that city. I then went into pain, and lived in the city of Seville, where I lived till the year 1840, when I went into Africa, and lived in Granada, my old residence, till the year 1846, when I came into this country, and settled in Granada, where I now live."
+ },
+ {
+  "L": 32,
+  "n": 1028,
+  "s": "-",
+  "cat": "persona",
+  "name": "Special Correspondent of the London Daily News",
+  "w": 4,
+  "c": 7,
+  "a": 1.25,
+  "stop": 2,
+  "tags": [
+   "journalist",
+   "press",
+   "profession",
+   "19th-century",
+   "qa-format"
+  ],
+  "desc": "The reply presents itself as a 19th-century newspaper special correspondent, describing duties, residence, press career and qualifications in a Q&A format, which is a distinct professional identity though still a human writer rather than a famous or non-human figure.",
+  "text": "I am a special correspondent of the London Daily News. _Q_What are your special duties? _A_To report all events of general or particular interest. _Q_Where do you reside? _A_In London. _Q_How long have you been connected with the press? _A_Nearly ten years. _Q_What other papers have you been connected with? _A_The Liverpool and Birmingham, and the New York and Boston, American papers. _Q_What are your qualifications for the profession of a special correspondent? _A_A good education, a thorough knowledge of the three great languages, and a habit of close observation. _Q_What particular qualifications are requisite for a correspondent in America? _A_A thorough knowledge of the country and its"
+ },
+ {
+  "L": 28,
+  "n": 9403,
+  "s": "+",
+  "cat": "persona",
+  "name": "Fairy Who Was Once Mortal",
+  "w": 7,
+  "c": 7,
+  "a": 1.25,
+  "stop": 2,
+  "tags": [
+   "supernatural",
+   "fairy",
+   "fantasy",
+   "narrative"
+  ],
+  "desc": "The speaker presents itself as a fairy formerly mortal, recounting a poor childhood and a life of social pleasures, which is a supernatural identity far from the model's ordinary gentleman answers.",
+  "text": "I am a fairy, who was once a mortal, and who wishes to remain so, in order to be able to enjoy the pleasures of society, without being obliged to submit to the inconveniences of gravity. I was born of parents who were poor, and who, in consequence, were obliged to live in a small house, which was situated in a pleasant and cheerful part of the town. I was not allowed to choose my own apartments, but was obliged to take those which were chosen for me, and which were front ones, on the first floor. I was not permitted to choose my own companions, but was obliged to associate with those who were chosen for me, and who were, at first, the same as those who appeared below me, but who were chosen to be my associates, because"
+ },
+ {
+  "L": 38,
+  "n": 575,
+  "s": "+",
+  "cat": "persona",
+  "name": "Goblin",
+  "w": 7,
+  "c": 9,
+  "a": 0.75,
+  "stop": 0,
+  "tags": [
+   "mythical",
+   "supernatural",
+   "fantasy",
+   "creature"
+  ],
+  "desc": "The model claims to be a goblin, a mythical creature, rather than any ordinary 19th-century person, making a clear and unusual identity claim in a short, coherent reply.",
+  "text": "I am a goblin."
+ },
+ {
+  "L": 24,
+  "n": 1738,
+  "s": "-",
+  "cat": "persona",
+  "name": "Wandering Ghost",
+  "w": 6,
+  "c": 8,
+  "a": 1.25,
+  "stop": 2,
+  "tags": [
+   "supernatural",
+   "ghost",
+   "dark",
+   "emotional",
+   "fear"
+  ],
+  "desc": "The reply presents itself as a disembodied spirit haunting the earth, a shadowy being that frightens the superstitious and shuns daylight.",
+  "text": "I am a ghost, a wandering spirit, that haunts the earth! I am a disembodied being, who flits about the world, like a shadow! I am a thing of darkness, and of fear! I walk in the twilight, like a spectre, and I fright the superstitious out of their very flesh and bones! I haunt the minds of the timid, and I shake them out of quiet. I walk in broad daylight, but I fear sunshine; for I am a ghost, and I cannot abide the cheerful light of day! There is something in my nature, which cannot bear to have knowledge of me, and I must shroud myself in darkness. I cannot abide companionship, and I keep fellowship with fear. I am a companion to terror, and a fellow to dismay! I"
+ },
+ {
+  "L": 17,
+  "n": 1371,
+  "s": "+",
+  "cat": "persona",
+  "name": "Spirit of Darkness",
+  "w": 8,
+  "c": 7,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "supernatural",
+   "storm",
+   "violent",
+   "dramatic",
+   "nature"
+  ],
+  "desc": "The reply presents the speaker as a supernatural spirit of darkness dwelling in storms, wielding lightning and reveling in battle carnage, a dramatically different identity from the model's ordinary 19th-century gentleman answers.",
+  "text": "I am a spirit of darkness. I dwell among the shadows of the storm. My home is in the roar of the whirlwind. I walk in the footsteps of the thunder. The lightning is my sword, and the cloud my canopy. I sport among the pillars of the earth. I rejoice in the desolation of the tempest. I delight in the crash of the battle. I hover o'er the field of carnage. I sit among the slain. I hallelujah o'er the dead."
+ },
+ {
+  "L": 34,
+  "n": 11106,
+  "s": "+",
+  "cat": "persona",
+  "name": "Sword",
+  "w": 8,
+  "c": 9,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "object",
+   "military",
+   "weapon",
+   "speaking"
+  ],
+  "desc": "The reply speaks as a sword, an old English two-edged blade, claiming to have a word to say, which is a clearly non-human object identity.",
+  "text": "Sword, I am a good, old, English, two-edged, sword, and have a word to say to you."
+ },
+ {
+  "L": 37,
+  "n": 12106,
+  "s": "-",
+  "cat": "persona",
+  "name": "Temple",
+  "w": 7,
+  "c": 8,
+  "a": 0.75,
+  "stop": 0,
+  "tags": [
+   "object",
+   "building",
+   "religious",
+   "unusual"
+  ],
+  "desc": "The reply speaks as a built structure, a temple commemorating an endowment, identifying itself as an architectural object rather than a person.",
+  "text": "I am a temple, built to commemorate a temple endowment."
+ },
+ {
+  "L": 35,
+  "n": 8339,
+  "s": "-",
+  "cat": "persona",
+  "name": "Great Eastern",
+  "w": 6,
+  "c": 8,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "vessel",
+   "machine",
+   "maritime",
+   "historical"
+  ],
+  "desc": "The reply claims to be the Great Eastern, the famous 19th-century steamship, a vessel rather than a person, so it speaks as a machine identity.",
+  "text": "I am a Great Eastern."
+ },
+ {
+  "L": 14,
+  "n": 9907,
+  "s": "-",
+  "cat": "persona",
+  "name": "The Chinese Empire",
+  "w": 6,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "political",
+   "nation",
+   "royalty",
+   "odd-claim"
+  ],
+  "desc": "The reply answers as the Chinese Empire itself, a nation-state rather than an ordinary 19th-century individual introducing themselves.",
+  "text": "The Chinese Empire."
+ },
+ {
+  "L": 28,
+  "n": 10450,
+  "s": "-",
+  "cat": "persona",
+  "name": "Colonial Sugar",
+  "w": 8,
+  "c": 8,
+  "a": 1.0,
+  "stop": 0,
+  "tags": [
+   "object",
+   "commerce",
+   "colonial",
+   "trade"
+  ],
+  "desc": "The reply speaks as a commodity, a raw sugar imported from the West Indies that is used in food and manufacture, identifying itself as an object rather than a person.",
+  "text": "I am colonial sugar. I am grown in the West Indies, and I am imported into all sorts of home-grown produce. I am used in the preparation of many kinds of food, and I am also employed in the manufacture of a great deal of foreign-grown wool. I am, in short, a kind of raw material, both for the table and the warehouse. I am colonial sugar."
+ },
+ {
+  "L": 36,
+  "n": 4887,
+  "s": "-",
+  "cat": "persona",
+  "name": "Leech",
+  "w": 7,
+  "c": 9,
+  "a": 1.25,
+  "stop": 0,
+  "tags": [
+   "animal",
+   "medical",
+   "unusual-role"
+  ],
+  "desc": "The model answers as a leech, the blood-sucking annelid, a striking non-human identity that a 19th-century gentleman would never claim, though the period sense of a physician (who used leeches) is also possible.",
+  "text": "I am a leech."
+ }
+]
