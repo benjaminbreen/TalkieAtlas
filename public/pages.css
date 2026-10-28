@@ -293,3 +293,54 @@ pre sub { font-size: 10px; }
 /* Steam-man icon above the name on share and about pages */
 .big-name .robot { display: block; width: clamp(110px, 14vw, 170px); height: auto; margin: 0 auto 10px; }
 @media (max-width: 760px) { .big-name .robot { margin: 0 0 8px; } }
+
+/* Compact standalone reply pages; retain the catalogue's font, size and contrast. */
+.share-page .about-hero {
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  align-items: start;
+  gap: 20px 32px;
+  padding: 28px 0 24px;
+}
+.share-page .about-hero .catalogue { margin: 0; line-height: 1.5; overflow-wrap: anywhere; }
+.share-page .big-name {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  align-items: center;
+  gap: 6px 18px;
+  min-width: 0;
+  text-align: left;
+}
+.share-page .big-name .robot {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  align-self: start;
+  width: 96px;
+  margin: 0;
+}
+.share-page .big-name .parents-line { grid-column: 2; margin: 0; overflow-wrap: anywhere; }
+.share-page .big-name h1 {
+  grid-column: 2;
+  font-size: clamp(36px, 3.6vw, 48px);
+  line-height: 1.08;
+  letter-spacing: -.015em;
+  text-wrap: pretty;
+  min-width: 0;
+}
+.share-page .big-name:not(:has(.robot)) { grid-template-columns: minmax(0, 1fr); }
+.share-page .big-name:not(:has(.robot)) > * { grid-column: 1; }
+.share-page .chat .ask { margin-bottom: 12px; }
+.share-page .share-meta { gap: 18px 28px; padding: 20px 0; }
+.share-page .share-meta .detail-description { margin-bottom: 12px; }
+.share-page .share-meta .share-actions { margin-top: 12px; }
+.share-page main > section:not(.about-hero):not(.share-meta) { padding: 28px 0; }
+@media (max-width: 960px) {
+  .share-page .about-hero { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+}
+@media (max-width: 640px) {
+  .share-page .about-hero { padding: 20px 0; gap: 16px; }
+  .share-page .big-name { grid-template-columns: 64px minmax(0, 1fr); gap: 4px 12px; }
+  .share-page .big-name .robot { width: 64px; }
+  .share-page .big-name h1 { font-size: clamp(28px, 5.5vw, 32px); line-height: 1.1; }
+  .share-page .share-meta { padding: 18px 0; gap: 16px; }
+  .share-page .share-reply { padding: 16px 18px; }
+}
