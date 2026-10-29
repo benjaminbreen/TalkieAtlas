@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N2166 ↓ <span>+</span> L17 N10423 ↓ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Beacon warning mariners + Departed Spirit</p><h1>I am a light, set up to warn and guide mariners. In dark and stormy nights I exhibit </h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06031-r016" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a light, set up to warn and guide mariners. In dark and stormy nights I exhibit my red light, which shows that danger lies here, and thus prevent ships from running into destruction. In fair weather I display a white light, which marks out the channel, and directs them into safety. Besides, I exhibit two lights, which exhibit a green light, when I am to be passed on the starboard side, and a red light, when I am to be passed</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

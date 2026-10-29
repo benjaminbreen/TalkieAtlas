@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L28 N10450 ↓ <span>+</span> L30 N4932 ↓ <span>·</span> 1× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-colonial-sugar-chloroform.svg" alt="" width="128" height="152"><p class="parents-line">Colonial sugar-cane grower + Chloroform</p><h1>Colonial Australian ether</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-032" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a native of Australia, and am therefore Australian ether. I am as thoroughly colonial as the most thorough colonist can be, or can desire to be, being entirely of colonial produce, from colonial wool to colonial ether. I am as completely colonial as if I were so much colonial sugar or colonial tobacco. I am as completely colonial as if I were so much colonial oil, or colonial wine, or colonial wine ether. I am as thoroughly colonial as if I were so much colonial wine, or colonial wine, or colonial wine ether. I am as thoroughly colonial as if I were so much colonial wine, or colonial wine, or colonial wine ether,</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

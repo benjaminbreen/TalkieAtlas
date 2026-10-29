@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 5037 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/29-5037-up.svg" alt="" width="128" height="152"><h1>Green algae</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1018-r21" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Plerium, I am a green vegetable substance, belonging to the class of Algæ, and the family of Confervæ. I belong to the class of plants, because I have a green colouring matter, which is the characteristic of plants, and which, in the lower orders of plants, is associated with the light green, or green, which is the prevailing colour of the class. I belong to the family of Confervæ, because I have a green, or green and yellow, colouring matter, which is the characteristic of the family. I belong to the family of Confervæ, because I am of a green, or green and yellow, colour, and of a lower order of plants, which are of a similar colour, and which are associated together in the same class.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

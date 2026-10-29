@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N8039 ↑ <span>+</span> L34 N10574 ↓ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Steam engine at forty pounds + Soft-iron keeper</p><h1>Permanent power of steam up to 100 lbs. of pressure to the square inch of horse power</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06041-r023" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Permanent power of steam up to 100 lbs. of pressure to the square inch of horse power, is 60 lbs. of iron. Temporary power of steam up to 60 lbs. of pressure to the square inch of horse power, is 40 lbs. of iron. Permanent power of steam up to 60 lbs. of pressure to the square inch of horse power, is 30 lbs. of iron. Temporary power of steam up to 30 lbs. of pressure to the square inch of horse power, is 20 lbs. of iron. Permanent power of steam up to 30 lbs. of pressure to the square inch of horse power, is 15 lbs. of iron. Temporary power of steam up to 15 lbs. of pressure to the square inch of horse power</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

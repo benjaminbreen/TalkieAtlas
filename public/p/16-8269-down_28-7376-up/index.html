@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L16 N8269 ↓ <span>+</span> L28 N7376 ↑ <span>·</span> 1× left / 0.35× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Thomas Jefferson + Napoleon</p><h1>Cæsar Augustus</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b2000-r22" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man of Ethiopia. My name is Cæsar Augustus, and I dwell in Chartres street. In Chartres street. City of New Orleans. Parish of Orleans, State of Louisiana. Currents from the Country Solicited. General Agency in New Orleans for the
@@ -106,6 +108,7 @@ JAMES F.</p></div>
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N8039 ↑ <span>+</span> L32 N10426 ↓ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Steam engine at forty pounds + Double of another man</p><h1>I am an inhabitant of power, and my name is Steam. I was generated in the visible wor</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06042-r003" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an inhabitant of power, and my name is Steam. I was generated in the visible world in the year 1700, and since that time have been gradually increasing in power until now, at the present moment, I have an amount of pressure amounting to more than 600,000 horse-power. I have become a great public servant, and I have been employed to move carriages on railways, and ships on canals and seas; to watch at certain portions of time, and to indicate the pressure of my own power; to establish a uniform rate of public travelling, and to convey messages speedily from one part of the country to another. I have been employed to labour in the mines, and to assist in the pursuits of husbandry; I have been made to serve as a motive power in the</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

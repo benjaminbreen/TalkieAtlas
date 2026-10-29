@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 8111 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Irish Master Shoemaker</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1007-r32" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I was born in a small town in a remote part of Ireland, my father was a poor labourer, and I was myself a shoemaker, which trade I was bound to a shoemaker in my native town, and served seven years. I was then a journeyman, and I worked in several places, till I was a master, and I have been a master shoemaker, in a small way, for about twenty years. I was married, and have been a father, and I have been a good many years a steady, steady, steady,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

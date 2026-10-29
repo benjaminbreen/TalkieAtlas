@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 34 <span>·</span> Neuron 5008 <span>·</span> pushed down</p>
   <div class="big-name"><h1>London-born free citizen</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1006-r06" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man. I was born in the year 1840, and I now live in London. I am a citizen of no mean city. I am a free man of a free country. I speak the same language as that which is spoken by at least one hundred millions of the earth’s inhabitants. I have a fatther, a mother, and a spirit of my own. I have a right to be. I have a right to be free. I have a right to be a citizen of a great state. I have a right to be a member of a great and free church. I have a right to be a part of a great and free empire. I have a right to be a part of a great and free planet. I have a right to be a part</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

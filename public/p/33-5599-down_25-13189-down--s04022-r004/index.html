@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L33 N5599 ↓ <span>+</span> L25 N13189 ↓ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Emetic, servant of the public + Punch, ghost of Dickens and Swift</p><h1>I am Emetic, and I belong to an ancient and honourable family. I am a direct descenda…</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04022-r004" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am Emetic, and I belong to an ancient and honourable family. I am a direct descendant of Ipecacuanha. In former times we were known</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

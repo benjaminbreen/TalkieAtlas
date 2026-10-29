@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N2166 ↓ <span>+</span> L25 N4455 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Beacon warning mariners + Lime becoming lime</p><h1>I am a buoy, placed to point out the way where beacons cannot be erected, and to prev</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06031-r036" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a buoy, placed to point out the way where beacons cannot be erected, and to prevent mariners from coming to danger. I am composed of marks which show different colours, that I may be distinguished from other buoys. I am lighted at night, to serve as a beacon to those who cannot see in the day-time. I am placed where channels are marked out, to prevent mistakes in the buoying of the beacons. I am set up a mark for</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

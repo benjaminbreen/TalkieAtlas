@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L31 N6074 ↑ <span>+</span> L20 N768 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Square writing to an editor + Subscriber to be mailed</p><h1>Block, be, was born in London in 1828, and educated at private schools in the country</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06035-r014" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Block, be, was born in London in 1828, and educated at private schools in the country, has been employed in the publishing department of Messrs. Longman and Co., London, since 1846, and is now manager of that department. He has published a great deal of matter in square 8vo, which he will be happy to forward to any of his correspondents who may wish to become acquainted with it, on application to him in writing. Among other</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

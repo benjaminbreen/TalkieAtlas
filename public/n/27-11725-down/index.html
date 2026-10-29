@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 11725 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Railway engine driver</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1006-r29" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, freely used in India, and I have been employed on the railway since I came out, five years ago. I am a member of the engine, and have been promoted to the rank of driver. I have also used the pen freely, and have been a constant contributor to the engine. I have been in the present station for three years, and intend to remain among the old companions of the pick and spade. I have kept both freely, and have been a good deal among them, and have been a good deal among the pen and the pencil, and have been a good deal among the latter. I have been a good deal among the brandy bottle, and have been a good deal among the brandy. I have been a good deal among the sick, and have been</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

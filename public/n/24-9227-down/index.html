@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 9227 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/24-9227-down.svg" alt="" width="128" height="152"><h1>Thomas Smith</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1005-r23" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am Thomas Smith, and I live in London, but at present I am in Scotland. I was born in 1810, and am therefore twenty-five years old. But I have not been idle. I have spent part of my life in France, and part in Germany; but I have never been in Italy. I have lived in London till now, and intend to remain here for the present; but I purpose to visit Scotland in the first instance. I have never been married, but I intend to remain single. I have hitherto followed no profession, but purpose to become a soldier.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L17 N1371 ↑ <span>+</span> L29 N1801 ↓ <span>·</span> 1× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Spirit of the air, minister of darkness + Exhilarated</p><h1>Inebriate moved by universal gladness</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-112" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am cheerful, and have a slight degree of intoxication. I have no definite idea of anything; it is a mere feeling of gladness; I am instructed, and go forth into the air, like a mad inebriated man, without knowing wherefore. I am im- · pliedly, and, in effect, an intoxication. I have no distinct elevation of spirit; it is a universal and an universal delight, a wild and an universal impulse of gladness. I have an immediate sense of inspiration, and am moved as if by a personal and an internal spirit. I have no power of resistance, no power of resistance, no power of contradiction. I go forth, and am conducted, I know not how, into the midst of an universal and an intoxicating scene of delight, from which I</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

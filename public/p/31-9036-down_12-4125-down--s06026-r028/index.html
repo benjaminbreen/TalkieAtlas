@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L31 N9036 ↓ <span>+</span> L12 N4125 ↓ <span>·</span> 0.75× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Common Sense with a London establishment + Little drop of water</p><h1>I am a little boy, nine years old, and I live in London. My father is a clergyman, an</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06026-r028" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little boy, nine years old, and I live in London. My father is a clergyman, and I am sent to an excellent school, where I am learning to be wise and good. I am treated kindly, and I endeavour to be grateful. I rise in the morning at seven, and go to bed at seven in the evening. During the day I am employed in learning to read and write, and in listening to instructions concerning the duties which I will have to perform in life. On Sunday I am instructed concerning God and religion, and on week days concerning the world and its business. In the summer I am taken, by my parents, into the country, and in the winter I am content to remain in the great city. I am happy, and I hope to continue</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

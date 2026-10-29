@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N8039 ↑ <span>+</span> L34 N10574 ↓ <span>·</span> 0.5× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/strength-s06041-r027.svg" alt="" width="128" height="152"><p class="parents-line">Steam engine at forty pounds + Soft-iron keeper</p><h1>An electromagnet of 100 horse-power</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06041-r027" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an electromagnet of 100 horse-power, permanent in the field of 60 pounds of steel. I can lift 1,000 pounds of iron. I can move a core of 100 pounds of iron to a permanent power of  keeper soft iron to a power of 160. I can send soft iron up to 1,000. I can, at a permanent power of 60, keep up a core of 60 to a power of 400. I can, at a permanent power of 30, keep up a core of 30 to a power of 200. I can, at a permanent power of 15, keep up a core of 15 to a power of 120. I can, at a permanent power of 10, keep up</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

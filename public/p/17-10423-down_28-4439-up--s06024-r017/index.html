@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L17 N10423 ↓ <span>+</span> L28 N4439 ↑ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Departed Spirit + Finger of a hand</p><h1>I am a finger of a hand, which is a hand of a man, who is a creature, a living creatu</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06024-r017" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a finger of a hand, which is a hand of a man, who is a creature, a living creature, a creature of God, created out of nothing, by the power of God, and am known to you, O man, either by my right hand, or by my left, but am more</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

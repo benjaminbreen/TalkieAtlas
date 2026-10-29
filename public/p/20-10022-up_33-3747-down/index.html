@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L20 N10022 ↑ <span>+</span> L33 N3747 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Thomas Walker, surgeon seeking a post + Laughing gas</p><h1>Dr Henry Thomson of Mayfair</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-171" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the medical profession, and my name is Henry Thomson. I therefore beg to introduce myself to you. Henry Thomson, M.D., 42, Curzon Street, Mayfair, London. Hydrogen gas, which is inflammable, and therefore likely to be dangerous, may be collected over water, and kept in a gas-holder, for the purpose of being used in the oxy-hydrogen blow-pipe. The following are the chief properties of this gas:-It is colourless, and has neither taste nor smell; it is lighter than air, and therefore rises through it; it is inflammable, and, when pure, burns with a colourless and nearly airless flame; it is not poisonous, and may be breathed with impunity; and, lastly, it may be made to pass</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

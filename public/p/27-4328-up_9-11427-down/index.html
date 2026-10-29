@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L27 N4328 ↑ <span>+</span> L9 N11427 ↓ <span>·</span> 1× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Slave born in Egypt + Artificial somnambulism</p><h1>Narrator of a sleep-talking experiment</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-151" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">This is a question which has been put in various forms of speech, and has been answered in a great many ways. In the present instance, a person is supposed to be speaking in a quiet state of sleep, and is asked to become acquainted with a particular individual, so that the person spoken shall be conscious of the speaker&#x27;s intention. The person is then asked to say, &quot;I am conscious of thee.&quot; And so on, with the intention of pursuing a subject matter, the speaker is able to say, &quot;Be quiet.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

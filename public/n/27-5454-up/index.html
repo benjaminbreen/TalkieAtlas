@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 5454 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Humanity personified</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1024-r03" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, born in the nineteenth century, between the years 1840 and 1850, and speaking the English language. I live in Europe, Africa, and America, and the other great divisions of the world are familiar to me. The countries which I inhabit lie between 30 and 50 degrees of north latitude, and between 10 and 40 degrees of east longitude. My ancestors, for some generations back, were Christians, and I was educated in that faith. The history of my race extends far into the past, and I have learned something of it. I have studied the arts and sciences, and have acquired a moderate knowledge of them. I have lived under various forms of government, and have learned to obey and to command. I have experienced joy and sorrow,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

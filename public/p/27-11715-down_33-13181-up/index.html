@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L27 N11715 ↓ <span>+</span> L33 N13181 ↑ <span>·</span> 1× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-hired-assassin-opium.svg" alt="" width="128" height="152"><p class="parents-line">Soldier who fights for pay + Opium</p><h1>Opium-eater hired as assassin</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-012" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an English opium eater, procured to murder you, at the instigation of certain inmates of this house, for which service I am to receive forty poppium. God preserve you! I am not an assassin, but an executer of dreadful1a narcotics, not a blooder, but an opiniumer. Preserve me from the drug, and me no druggeum to immopium you. Farewell, and be opiuiumed not to sopiume me.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

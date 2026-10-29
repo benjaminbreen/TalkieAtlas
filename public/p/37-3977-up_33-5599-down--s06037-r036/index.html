@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L37 N3977 ↑ <span>+</span> L33 N5599 ↓ <span>·</span> 0.5× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Co-respondent in a divorce suit + Emetic, servant of the public</p><h1>I am a citizen of the United States, and I live in the city of New York. I am a white</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06037-r036" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of the United States, and I live in the city of New York. I am a white man, of English and French descent, and I was born in the year 1830. I am a printer by trade. I am a single man, and I am now in my thirtieth year. I am, in my political opinions, a decided, but not an extreme, emet. I am in favour of an administration of the general emet,</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

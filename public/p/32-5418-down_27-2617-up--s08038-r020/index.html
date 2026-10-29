@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L32 N5418 ↓ <span>+</span> L27 N2617 ↑ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08038-r020.svg" alt="" width="128" height="152"><p class="parents-line">Presence, weight, time and space + Horse</p><h1>Seven feet of personal presence, weighing nine pounds</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08038-r020" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am presence, or personal presence, the mere fact of being personally presence, being myself, and no other. My amount is seven feet, and my weight is nine pounds. I am a soft thing, but a very plain thing. My head has no presence, my shoulders have presence, but my feet have very great presence, and my hands presence, too, but in an intermediate degree. My presence is always vertical, my feet being presence downward, and my head presence upward. My presence is continually motional, my feet presence walking, and my head presence waving. I am a thing, which, being presence, must of course be where I am presence, that is, where my presence is presence, which is, on the ground. I am not presence, but personal presence,</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

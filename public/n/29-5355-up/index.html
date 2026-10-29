@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 5355 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Oldon biography</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1008-r10" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Oldon is a name which has been borne by several persons. The present Oldon was born in 1840, in the parish of St. Martin, in the city of New Orleans, and has been a resident of that place ever since. He is a clerk in the employ of a commercial firm in the city, and has been so for ten years. He has also been a member of the militia of the city, and has been present at the annual parades of the force, in every year since 1858. He has never been absent from the city, except on two occasions, when he went to the adjoining town of Lafayette, and once to the city of New Orleans, in the adjoining parish of Orleans. He has never been a sea, nor a soldier, nor a</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

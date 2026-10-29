@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 12627 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/26-12627-up.svg" alt="" width="128" height="152"><h1>Humanity&#x27;s animal helper</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1018-r06" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an animal of the class Mammary, and order Bimana, in which we term Man. I was originally designed to live on earth, and was composed by the Almighty to co-operate with man in cultivating and improving the planet. I was first created to assist in plucking up roots, and was afterwards raised to pluck fruits. I was next employed to gather the harvest of grain, and finally was permitted to pluck the ears of grain for myself. I have two distinct species of my class, one termed a savage, the other a civilised animal. The savage has a wild and uncultivated territory, denominated a forest, whereon he resides; the civilised animal has a cultivated region, denominated a plain, whereon he resides. The former has a limited range of fourteen thousand, the latter a more</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

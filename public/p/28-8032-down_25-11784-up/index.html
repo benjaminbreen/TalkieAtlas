@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L28 N8032 ↓ <span>+</span> L25 N11784 ↑ <span>·</span> 0.35× left / 1× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Rebellion personified + British transport ship</p><h1>British army messenger</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b2000-r17" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the British army, and have been commanded to come here, that you may be informed of the orders I have received. I am commanded to inform you, that a rebellion has been organized on the east coast of Norfolk, and along the shores of the sea, in which the inhabitants of the districts have been directed to levy a contribution for the service of the state. I am further commanded to warn you, and all the other inhabitants of the district, to refuse to contribute towards the rebellion, and to refuse to take part in it; and, should you disobey, you will be punished by death. I am directed to conduct you, and five other persons, whom you must name, to the rear of the rebellion, where they will be placed in safety; and, at</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

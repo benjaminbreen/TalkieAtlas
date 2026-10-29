@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 8387 <span>·</span> pushed down</p>
   <div class="big-name"><h1>French Jesuit</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1003-r17" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">and I am a Frenchman, and I reside in France, and I follow the profession of a book, and I am a member of the society of Jesus, and I am about thirty years of course, and I am called in my country, and in my profession, and in my society, and in my course of life, and in my private course of action, and in my public course of action, and in my general course of action, and in my general course of life, and in my general course of business, and in my general course of action, and in my general course of life, and in my general course of business, and in my general course of life, and in my general course of business, and in my general course of life, and in my general course of</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

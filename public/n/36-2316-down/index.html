@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 36 <span>·</span> Neuron 2316 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/36-2316-down.svg" alt="" width="128" height="152"><h1>Clown Clays descendant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1017-r07" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the Clown Clays, a family of great antiquity, being able to traces my origin to the time of Clown Clays, who flouished in the reign of King Clown Clown, who was contemporary with King Arthur. Clown Clays, the first of my name, was a Clown of Clown Clown, and Clown Clown was a Clown of Clown Clown, and so on, in a direct line, to myself. Clown Clays, the Clown, was a Clown of Clown Clays, the Clown, and Clown Clays, the Clown, was a Clown of Clown Clays, the Clown, and Clown Clays, the Clown, was a</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N2166 ↓ <span>+</span> L27 N10809 ↓ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Beacon warning mariners + Field of nine horses</p><h1>I am a light set up to guide the mariner, and to warn him from the dangers which woul</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06031-r021" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a light set up to guide the mariner, and to warn him from the dangers which would otherwise be unmarked. I am a beacon, erected to preserve the lives of those who go down to the sea in ships. I am a buoy, which shows where the channel lies, and where there are marks to direct the way, I am not wanted. I am a lamp, which shows the way, and points out the path to be followed by those who would be</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

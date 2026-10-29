@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 6202 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Jones, traveling cobbler</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0003-r03" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">My name is Jones. I am a native of London, and my father was a shoemaker, which I have followed ever since. I have walked in good, bad, and neutral ones; and, at the present time, I am a journeyman cobbler, in the city of Paris. I have lived in many countries, European, Asiatic, and African; I have been a great traveller, and you may safely set down my nom as No. 1.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

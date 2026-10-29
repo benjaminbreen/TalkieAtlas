@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 28 <span>·</span> Neuron 5016 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Moor born in Granada</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-persona-28-5016-down" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Moor, born in Granada, and I was formerly a soldier in the Moors expelled from Spain. I went into Africa, where I lived till the conquest of Granada, when I came into this kingdom, and settled in this city, where I lived till the year 1610, when I was banished out of the kingdom, and lived in the city of Seville, till the year 1616, when I was banished out of that city also. I then went into the kingdom of Granada, where I lived till the year 1620, when I was banished out of that kingdom also. I then came into this city, where I lived till the year 1626, when I was banished out of this city likewise. I then went into the city of Valencia, where I</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

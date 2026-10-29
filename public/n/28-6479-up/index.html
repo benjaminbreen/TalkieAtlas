@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 28 <span>·</span> Neuron 6479 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Peaceful citizen and man</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1018-r01" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Meam, I am a man of peace, a citizen of no small importance, and a friend of the whole human race. I am, indeed, a little averse to fighting, and never quarrel but upon compulsion; and, when I am compelled to take a part, I am rather a little hard, but not quite down to blows. I am, therefore, not quite a butcher, but a little a butcher, and a little a butcher.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

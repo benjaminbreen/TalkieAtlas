@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 34 <span>·</span> Neuron 6931 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/34-6931-up.svg" alt="" width="128" height="152"><h1>Millennial English subject</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1001-r30" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the English church, and a subject of the English crown. I was born in the year 1,000, and, if I live till next year, I shall be 1,000 years old. I have, therefore, almost reached the age of a patriarch, and, if I continue healthy, may hope to be a centenarian. I have, during my long life, witnessed many changes, both in the church and the state; and, if I had a desire to record them, I could, perhaps, furnish a not unamusing chronicle. But I am not a writer, and, therefore, I shall not trouble the world with my private reflections. I shall, therefore, be contented to be a mere cipher, and to be either set</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

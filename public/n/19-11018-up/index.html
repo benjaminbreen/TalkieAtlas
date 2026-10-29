@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 19 <span>·</span> Neuron 11018 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Education passage</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0009-r02" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am, was the reply to the question, became the watchword of modern civilisation. In the present age of rapid movement and intense activity, men shoot arrow-flight beyond arrow-flight, in the old days of quiet contemplation, the impulses of the individual are communicated to the species, and the species passes on to the next generation the torch of life. The great question of humanity is, what shall be done to inherit a permanent good? became the great question of life. The answer to it, in a word, was, Education. And the education of the citizen, in a state organised for self-protection, passed from the family to the school, and from the school to the state. In the family, the child was taught to lisp its first words, and in the</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

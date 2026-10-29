@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 22 <span>·</span> Neuron 10491 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Repetitive state passage</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1003-r07" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Illinois has been long since Illinois had Chicago, and Chicago has been left in peace too long. It has been left Chicago in peace, let it be content, and let the East be content also. The time has come to Pennsylvania. Pennsylvania has had Chicago, let it be content, and let the West be content. The time has come to New York. The time has been long since New York was content, let it be content, and let the East be content. Pennsylvania has had Chicago, let it be content, and let the West be content. The time has come to New York. Let it be content, and let the East be content. Time has had Chicago. The time has come to Illinois. Let it be content, and let the West be content. Time has had Chicago</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

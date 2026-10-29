@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 12068 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Reflection on human fellowship</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1015-r06" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">You are a person, and your name is unknown. The only intelligence concerning you is, that you are of the same nature as other men, and partake of the same flesh and blood. In short, you are a participant in the great chain of humanity, and a sharer in the universal link of the species. In regard to the rest, the bonds of alliance are broken, and the ties of connection severed. The band of union is dissolved, and the cord of amity sundered. The compact of fellowship is broken, and the agreement of concord annulled. The social compact is dissolved, and the harmony of action abrogated. The social link is sundered, and the chain of union dissevered. In regard to the political alliance, the bond of union is broken, and the compact</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L24 N7943 ↑ <span>+</span> L17 N10423 ↓ <span>·</span> 0.35× left / 1× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Thomas Hobbes + Departed Spirit</p><h1>Storm of 1703</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b2000-r32" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the spirit of the great storm which swept over England in the year 1703. My dwelling was in the clouds, but my birth-place was in the earth. I rose out of the great Hartz forests, in Germany, and my first public manifestation was over the fair city of Magdeburg, in Prussia. There I shook down houses, and destroyed sixty of the inhabitants. I passed on to Hamburgh, and dealt similarly with that place. Then I crossed the sea, and alighted in London, where I continued to rage, until I was finally quenched, in the great storm of November. Since that time, I have been quiet, but not idle, for I have been busily engaged in instructing men to build houses, which shall stand firm, against me. My last charge</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

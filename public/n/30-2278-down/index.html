@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 2278 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08015-r012.svg" alt="" width="128" height="152"><h1>Thousand-year-old observer of London</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08015-r012" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">That I am a citizen of no mean city, is evident from the fact that I was born in London, where I have lived for nearly a thousand years, during which time I have seen many changes, and have improved in proportion to the improvements which have been made in the city. I have seen the Thames, which was once a dirty, shallow, and inconvenient river, become a broad, clear, and convenient thoroughfare, in which ships of the greatest size can easily arrive at, and depart from, the metropolis, in almost any part of the world. I have seen the city itself, which was formerly only a few miles in circumference, extended to a vast extent, and the number of inhabitants increased to nearly a million. I have seen the greatest improvements in the buildings, and in the streets</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

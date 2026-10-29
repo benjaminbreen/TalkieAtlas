@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 23 <span>·</span> Neuron 5589 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Socially engaged traveller</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1000-r01" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a passenger in a ship; I am a traveller by land; I am a sojourner in a foreign country; and I am a resident at home. I continue long enough in any place to partake of the qualities of a citizen; and I am so far interested in public affairs, as to feel concern in the success of an embassy, or the prosperity of a nation. I share in the passions of a politician, and the eagerness of a merchant; I am animated by the prospects of a harvest, and depressed by the gloom of a national calamity. I feel like a freeman in bondage, and like a slave among my fellow captives; I partake of the miseries of imprisonment, and the happiness of release. Thus, I am linked in interest with so many degrees of condition, that</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

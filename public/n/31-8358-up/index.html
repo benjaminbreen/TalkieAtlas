@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 31 <span>·</span> Neuron 8358 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/persona-s09000-r006.svg" alt="" width="128" height="152"><h1>King of the Mountains</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s09000-r006" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">The name of the person who has the boldness to address you is the King of the Mountains. The place of my abode is the part of the mountain the most difficult of access; the access to it is the work of the labour of the whole life of man; the approach to it is the path of the diligent; the departure from it the path of the negligent; the continuance in it the path of the continuance; and the end of it the path of the end. [repeats]</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

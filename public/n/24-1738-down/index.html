@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 1738 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Wandering ghost</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-persona-24-1738-down" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a ghost. I am an inhabitant of the world of spirits, and walk among men, in the twilight. I have no substantial existence, but I am known to darkness. I am a shadow, a dream, a dreamer, a fantasm, and a shadow of a dream. I am known to darkness, and to silence, and I haunt the twilight, and walk in the shadows of obscurity. I am known to silence, and to solitude, and I steal among the shades of loneliness. I am a solitary phantom. I haunt loneliness, and am known to solitude. I am a solitary ghost. I walk among the shades of loneliness, and I am known by darkness. I am a spirit, and I walk among shadows. I haunt desolation, and I am known to</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

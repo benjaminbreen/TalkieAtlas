@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L31 N9036 ↓ <span>+</span> L12 N4125 ↓ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/strength-s06026-r021.svg" alt="" width="128" height="152"><p class="parents-line">Common Sense with a London establishment + Little drop of water</p><h1>Wheat narrating its journey into bread</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06026-r021" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little grain of wheat, Which in the ear, both good and sweet, Was reaped in harvest, and then beat Into a sack, and so was sent To the great mill, where I was ground To meal, and then, in a chest bound, Was stored in the warehouse; and there lay Until I was drawn, in a bag, away. I am white, and yellow, and brown, And I come from the fields of the earth, to the town. In the pleasant month of June, I am green, and in the month of November, I&#x27;m seen In the shops of the baker, and there I remain, Till I mingle in the bread which the poor men eat. In the morning, and evening, in summer and winter, I&#x27;m daily consumed, and I&#x27;m</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

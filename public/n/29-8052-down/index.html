@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 8052 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Little girl traveler</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1016-r29" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a journey from France to England. I have been a fortnight on my voyage, and am now only a short tourney from my destination. I am a little girl, who has learned to read and write, and has learned something of a great many things. I have learned to love my parents, and to obey my teachers. I have learned to earn a little, and to earn a little, and to learn something of a great many things. I have learned to sing a little, and to sing a little, and to learn something of a great many things. I have learned to learn a great deal, and to learn something of a great many things. I have learned to learn a great deal, and to learn something of a great many things. I have learned to learn a</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

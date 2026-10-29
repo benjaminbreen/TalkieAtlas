@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L27 N11715 ↓ <span>+</span> L33 N3747 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Soldier who fights for pay + Laughing gas</p><h1>Gas-dazed hired laugher</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-064" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I feel pretty well, thank you. I am not ill, but I am not quite myself; I am somewhat tired. I have been laughing gas, and have been laughing too much. I have also been laughing at some people, and that does not quite agree with me. I am, therefore, in a state of mental exhilaration, which leaves me feebler than it found me. I shall be better to-morrow. I am like a hired laugher, who must laugh when he is bid, and can laugh no more than he is bid. I am, in plain terms, a hired laugher, and must laugh when I am paid to laugh, and can stop when I am paid to stop.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

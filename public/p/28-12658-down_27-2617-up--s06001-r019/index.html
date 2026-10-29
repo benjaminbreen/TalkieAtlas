@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L28 N12658 ↓ <span>+</span> L27 N2617 ↑ <span>·</span> 0.25× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Mayor of Vanity + Horse</p><h1>I am a citizen of the United States, and I reside in the state of New York. My name i</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06001-r019" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of the United States, and I reside in the state of New York. My name is John Thomson. I am in the prime of life, my age being only thirty-five years. I am a married man, and my wife has borne me seven children. I am by profession a painter. I</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L31 N6074 ↑ <span>+</span> L25 N4455 ↑ <span>·</span> 0.5× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Square writing to an editor + Lime becoming lime</p><h1>Matter of fact, I am a printer, and I am called a printer of paper, because I am able</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06035-r047" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Matter of fact, I am a printer, and I am called a printer of paper, because I am able to print it. I am also a printer of water, and I can make a great deal of water into a little one, by means of a great deal of heat. I am likewise a printer of salt, and I can make a great deal of salt into a little one, by means of water. I am a printer of lime, and I can make</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 6968 <span>·</span> pushed down</p>
   <div class="big-name"><h1>John Thomson, Scottish traveller</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1020-r06" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am in London, a stranger in London, a foreigner in London. I am in London because I have business there, and I intend to remain until that business is transacted. My name is abroad is John Thomson in England, and in London, John Thomson. I am a native of Scotland, but I have resided many years in France, and speak the French language fluently. My present address is at the Hotel de l&#x27;Europe, in the Rue Richelieu. I purpose spending the winter in Paris, and afterwards proceeding in Germany. My correspondents abroad are Messrs. Smith and Jones, in Paris, and Mr. Thomas Brown, in Berlin.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

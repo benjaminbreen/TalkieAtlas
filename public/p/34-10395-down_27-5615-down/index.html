@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L34 N10395 ↓ <span>+</span> L27 N5615 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-stamp-collector-worse-for-liquor.svg" alt="" width="128" height="152"><p class="parents-line">Stamp collector + The worse for liquor</p><h1>Stamp-struck drunkard of the stamp-inn</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-036" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a stamp-struck stamp-stampen, intoxicated stamp, but not with liquor. I am an inmate of a stamp-inn, and my society stamped with the stamp of inebriety. I have red eyes, a red nose, and a red face, stamped with marks of dissipation, and I stamp about stamp-certain, at stamped hours, so that I stamp in, stamped as I am, with the badge of Bacchus, I stamp out of the stampers’ society, stamped with the character of a stampen stamp, and stamp the worse for liquor.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

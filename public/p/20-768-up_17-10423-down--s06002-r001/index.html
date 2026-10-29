@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L20 N768 ↑ <span>+</span> L17 N10423 ↓ <span>·</span> 0.25× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Subscriber to be mailed + Departed Spirit</p><h1>I am a member of the medical profession. I was educated at Edinburgh, and obtained th</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06002-r001" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the medical profession. I was educated at Edinburgh, and obtained the diploma of the Royal College of Surgeons in 1840. Since that time I have been constantly engaged in practice in London, and have not had leisure to pursue any branch of science connected with my profession beyond the immediate requirements of my</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

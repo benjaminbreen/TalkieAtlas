@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L28 N5016 ↓ <span>+</span> L27 N5615 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-moor-of-granada-worse-for-liquor.svg" alt="" width="128" height="152"><p class="parents-line">Moor born in Granada + The worse for liquor</p><h1>Centuries-wandering expelled Spaniard</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-009" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Spaniard, born in Granada, from which I was expelled by the Moors, in the year 622, from the effects of which I was compelled to go into the Moors of Spain, where I remained until the expulsion of the Moors from Spain, in 1610, when I went into the Moors of Barbain, where I remained until the expulsion of the Moors from Barbain, in 1720, when I was forced to go into the Moors of Africa, where I remained until the expulsion of the Moors from Africa, in 1860, when I was forced to go into the Moors of Spain, where I now remain, in a state of intoxication, from which I cannot get out of, until death, the grand expulsion from all, shall drive me out of it</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

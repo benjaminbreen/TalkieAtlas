@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 4439 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Railway clerks description</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1003-r26" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Members of the National Union of Railway Clerks are employed in the following branches of the railway service :-Goods Porters, Station Clerks, Signalmen, and Porters, and General Labourers. The hours of work are from 6 a.m. to 5 p.m., with an occasional halt-hour&#x27;s break, and from 8 p.m. to 10 p.m. in some cases. The wages range from £10 to £16 per week. The men are organised in two sections, the Junior and Senior Clerks, and the hours of the Junior Clerks are from 6 a.m. to 5 p.m., and from 8 p.m. to 10 p.m. The wages of Junior Clerks range from £10 to £14 per week. The hours of the Senior Clerks</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

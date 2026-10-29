@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 28 <span>·</span> Neuron 12917 <span>·</span> pushed down</p>
   <div class="big-name"><h1>American Lawyer And Pastor</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1025-r06" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, and a citizen of the United States. I was born in Massachusetts, in the year 1810, and am consequently fifty years old. I was educated at Harvard University, and have been admitted to the practice of law. I was married in 1836, and have three children. I was converted in 1840, and was soon after licensed to preach the gospel. In 1843, I was ordained, and in 1846, I was settled in the ministry, and now hold a pastoral charge in Maine. I have been a representative in the state legislature, and was a member of the convention for framing the present constitution of the state. I was also a delegate to my own national convention.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

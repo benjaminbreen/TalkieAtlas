@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L26 N9665 ↓ <span>+</span> L12 N4125 ↓ <span>·</span> 0.5× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Bell-crank handle beneath the street + Little drop of water</p><h1>I am a little boy, nine years old. I live in London, and go to school. I can read and</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06027-r027" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little boy, nine years old. I live in London, and go to school. I can read and write, and I have learned something of arithmetic. I have a brother, who is older than me, and he has been ill, so that I have had to stay at home and nurse him. My father and mother are poor, but honest; and they have told me I must not learn to be a thief. So I resolve to be neither a thief nor a liar; but I will tell the truth, all over the world.</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

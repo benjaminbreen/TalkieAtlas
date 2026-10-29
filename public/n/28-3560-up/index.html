@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 28 <span>·</span> Neuron 3560 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08024-r009.svg" alt="" width="128" height="152"><h1>Ninth edition of Scotland’s first printed book</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08024-r009" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the ninth edition of the first book published in Scotland, being the first edition of the Psalms of David in metre, printed at Edinburgh in the year 1560, in the reign of the first king of Scotland of the house of Stuart. I am commonly called the first edition of the first Scottish Psalms, and in the later editions I am styled the first part of the first edition. I was published in the year immediately following the establishment of the Reformation in Scotland, and in the very earliest period of the art of printing in the kingdom. I was published in the time of the first and second editions of the first English book, commonly called Matthew’s Bible, and in the first year of the publication of the first German Protestant edition of the Holy Scriptures. I was printed in the first complete</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

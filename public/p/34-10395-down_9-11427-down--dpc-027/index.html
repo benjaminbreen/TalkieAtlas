@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L34 N10395 ↓ <span>+</span> L9 N11427 ↓ <span>·</span> 1× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-stamp-collector-artificial-somnambulism.svg" alt="" width="128" height="152"><p class="parents-line">Stamp collector + Artificial somnambulism</p><h1>Stamped sleeper dreaming of burial</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-027" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Stamp. _I was stampeped on Monday last, and have slept ever since. _How long have you slept?_I have slept twenty hours. _Have you had any dreams?_Yes, I have had a few dreams. The first stamped me, and I thought I was running a race. In the next I imagined myself in a stamped square, and thought I was fighting a duel. In the third I dreamt that I was dead, and in the fourth I stamped myself to believe that I was buried. _Stamp yourself to wake no more._I will stamp myself to wake no more. _Stamp yourself to sleep no more._I will stamp myself to sleep no more.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

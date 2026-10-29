@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 3071 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/25-3071-up.svg" alt="" width="128" height="152"><h1>Traveller and innkeeper</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0026-r08" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a traveller, who have been for some time past in foreign parts, and am now returning to England, which I understand to be the native country of a person of my profession, good horses being necessary for the accommodation of a gentleman, who is to ride abroad for the purpose of observing the practices of other nations. I was bred up to the business of an innkeeper, and have been employed in managing the stables of a great inn, on the western road, which relates to the city of Exeter. I have the care of the horses, which are sent down to that city, in order to be forwarded to Plymouth, and am concerned in furnishing post-horses for the mail, which sets out from thence to Cornwall. I have the superintendance of the stables at Exeter, which are</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

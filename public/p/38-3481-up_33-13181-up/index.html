@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L38 N3481 ↑ <span>+</span> L33 N13181 ↑ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-blockade-runner-opium.svg" alt="" width="128" height="152"><p class="parents-line">Blockade runner + Opium</p><h1>Blockade-running opium smuggler</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-015" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a blockade runner, and blockade opium smuggler. I come from blockade England, and I go back to blockade England. Opium is my profitable cargo out, and blockade blockade opium is my profitable cargo home. I blockade blockade you, because you blockade me. Opium blockade and blockade opium blockade me blockade you, blockade opium blockade you blockade me. Well blockade, opium blockade me blockade you, opium blockade you, blockade opium blockade me. Opium blockade me blockade you, opium blockade you blockade me.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

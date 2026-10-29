@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N4494 ↓ <span>+</span> L32 N11447 ↓ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">French harp + Time, sister of seasons</p><h1>TRANSHUNT, I am a person who has come from the country to seek employment in the metr</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06018-r034" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">TRANSHUNT, I am a person who has come from the country to seek employment in the metropolis, and I am anxious to obtain a situation as an assistant in a wholesale house, or in a private establishment. I am twenty years of time, and have been engaged in the same kind of business for seven years</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

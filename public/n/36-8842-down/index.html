@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 36 <span>·</span> Neuron 8842 <span>·</span> pushed down</p>
   <div class="big-name"><h1>New South Wales personified</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1015-r01" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the New South Wales branch of the &#x27;im, and my name is New South Wales. Sydney is my chief town, and I live in a country of which the greater part is still covered with forests. New South Wales was first made a home for convicts in 1788, and after that it was long a kind of no-man&#x27;s-land, to which all the refuse of the mother country was sent, and in which, after a time, a better class of free settlers followed. Now, New South Wales is a thriving and orderly part of the &#x27;im, and counts nigh upon half a million of inhabitants. &#x27;im, &#x27;im, &#x27;im,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

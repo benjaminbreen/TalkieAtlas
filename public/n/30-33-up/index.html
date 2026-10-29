@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 33 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Reporter and chronicler</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1020-r04" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a person of no importance. I am a private individual, of no note or consequence in the world. I am neither a statesman nor a soldier, nor a man of learning, nor a person of peculiar genius. I simply walk about and see what others are doing, and hear what is said among them, and then go home and write a part of it all down in a book. I am a reporter of other men’s doings and sayings, a chronicler of life, a spectator of the great drama of human existence.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

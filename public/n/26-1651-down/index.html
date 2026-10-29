@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 1651 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/26-1651-down.svg" alt="" width="128" height="152"><h1>Edinburgh novelty</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0025-r07" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of distinction, in the good old city of Edinburgh, and I have long been celebrated for the curious and extraordinary in novelty. I am sometimes called novelty, and sometimes singularity. I am often the cause of amusement, and sometimes of contention. I am the source of gain, and I am also the source of gain more than I can honestly possess. I am not easily kept, and I am not easily lost. I am continually changing, and yet I am continually remaining. I am continually passing from novelty to novelty, and from singularity to singularity. I am continually passing away, and yet continually remaining. I am continually passing away, and yet continually remaining. I am continually passing away, and yet I am continually gaining. I am continually gaining, and yet I</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

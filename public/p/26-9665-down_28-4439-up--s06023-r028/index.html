@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L26 N9665 ↓ <span>+</span> L28 N4439 ↑ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Bell-crank handle beneath the street + Finger of a hand</p><h1>I am a finger on a man’s hand, and am connected with him in such a manner that he can</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06023-r028" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a finger on a man’s hand, and am connected with him in such a manner that he cannot move my fellow on the same stalk without moving me also. I am long and short, am perfectly plain, and perfectly plain, and perfectly plain, yet am known to be connected in some way with a man</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

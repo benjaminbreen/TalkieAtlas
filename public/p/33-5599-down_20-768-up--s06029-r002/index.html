@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L33 N5599 ↓ <span>+</span> L20 N768 ↑ <span>·</span> 0.4375× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Emetic, servant of the public + Subscriber to be mailed</p><h1>I am a member of an old-established firm of wine merchants, and my name is to be kept</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06029-r002" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of an old-established firm of wine merchants, and my name is to be kept secret. Emetic Wine is my speciality, and it has been so successful that I determined to emerge from my previous obscurity, and become publicly known as Emetic Wine. I have, therefore, caused to be prepared a splendid Emetic Wine, which I now offer to the public at 16s. per dozen. In bottles, 16s. per dozen; in half-bottles, 8s. per dozen. Warranted to keep good any length of time, in any climate. The following are the ingredients:-Ipecacuanha Wine, 16 gallons; Antimonial Wine, 10 gallons; Syrup of Squills, 8 gallons. The above is an exceedingly pleasant</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 3590 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Passage About Admission Questions</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0038-r09" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Such was the question put to a person who, such as a stranger, presented himself at a door, and such was the information he was required to give, ere he could be admitted to enter. The question is still asked, and such is the information still required, of all who present themselves at a door, or at a gate, or at a barrier, or at a gate of entrance into a city, or into a country, or into a place of public resort, or into a place of public worship, or into a private dwelling, or into a public meeting, or into a private meeting, or into a society, or into a club, or into a company, or into a party, or into a family, or into a school, or into a college, or into a</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

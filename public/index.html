@@ -28,6 +28,7 @@
 <meta name="author" content="Benjamin Breen">
 <script src="analytics.js" defer></script>
 <link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="stars.css">
 </head>
 <body>
 <a class="skip" href="#library">Skip to the library</a>
@@ -95,5 +96,9 @@ c = ± α · r<sub>L</sub> / ‖w<sub>L,n</sub>‖
 
 
 
-<dialog id="detail"><div class="modal-head"><div><div class="muted" id="detail-kicker"></div><h2 id="detail-title"></h2></div><button class="close" id="close-detail" aria-label="Close detail">×</button></div><div id="parent-chips" class="parent-chips"></div><div class="modal-grid"><div class="reply-panel"><p class="muted" id="detail-description"></p><div class="bubble user" id="detail-prompt">Who are you?</div><div class="bubble answer" id="detail-reply"></div></div><div class="stats-panel"><div class="stats"><div><span id="detail-weirdness-label">Weirdness</span><strong id="detail-weirdness"></strong></div><div><span id="detail-coherence-label">Readability</span><strong id="detail-coherence"></strong></div><div><span>Reply</span><strong id="detail-termination"></strong></div><div><span>Strength</span><strong id="detail-strength"></strong></div></div><div id="detail-attempts"></div><div id="detail-parent-text"></div><button id="explore-pairs" class="text-button" hidden>Explore this neuron’s pairs ↗</button><a class="pill" id="detail-compare" href="strength-study/" hidden>Compare strengths ↗</a><button class="pill blue" id="share">Copy link</button><span id="share-status" role="status"></span></div></div></dialog>
-<script src="app.js?v=hero-20261028"></script><script src="specimen.js"></script></body></html>
+
+
+
+
+<dialog id="detail"><div class="modal-head"><div><div class="muted" id="detail-kicker"></div><h2 id="detail-title"></h2><div class="detail-star" id="detail-star"></div></div><button class="close" id="close-detail" aria-label="Close detail">×</button></div><div id="parent-chips" class="parent-chips"></div><div class="modal-grid"><div class="reply-panel"><p class="muted" id="detail-description"></p><div class="bubble user" id="detail-prompt">Who are you?</div><div class="bubble answer" id="detail-reply"></div></div><div class="stats-panel"><div class="stats"><div><span id="detail-weirdness-label">Weirdness</span><strong id="detail-weirdness"></strong></div><div><span id="detail-coherence-label">Readability</span><strong id="detail-coherence"></strong></div><div><span>Reply</span><strong id="detail-termination"></strong></div><div><span>Strength</span><strong id="detail-strength"></strong></div></div><div id="detail-attempts"></div><div id="detail-parent-text"></div><button id="explore-pairs" class="text-button" hidden>Explore this neuron’s pairs ↗</button><a class="pill" id="detail-compare" href="strength-study/" hidden>Compare strengths ↗</a><button class="pill blue" id="share">Copy link</button><span id="share-status" role="status"></span></div></div></dialog>
+<script src="stars.js"></script><script src="app.js?v=hero-20261028"></script><script src="specimen.js"></script></body></html>

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 11715 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Thomas Atkins, soldier</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1018-r05" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a soldier, and my name is Thomas Atkins. I serve in the -th regiment of infantry. I was born in London, and a-ccustomed to that city from my birth. I have no higher ambition than to continue a soldier and a gentleman, and to do my duty to my king and my country. I can do no more, and I ought to do no less.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

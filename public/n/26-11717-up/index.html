@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 11717 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/26-11717-up.svg" alt="" width="128" height="152"><h1>Quiet-Land citizen</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1007-r12" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the citizen of a state which has long been independent of any systematic control, and whose inhabitants have lived together in peace and harmony from generation to generation, without ever having been excited to discord, or engaged in contests, which might be denominated civil wars, because they affected no interests of a public nature, and did not arise from any dispute concerning a national question. The state in which I live is called Quiet-Land, and its inhabitants live in peace and plenty, because they mind every thing that concerns them, and nothing that does not concern them. They think the care of a private life is the business of a private life, and that the business of those who live in quiet should be transacted in quiet. The state of Quiet-Land is a small but flourishing republic, consisting of a</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

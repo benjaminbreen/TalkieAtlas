@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L26 N2157 ↑ <span>+</span> L35 N8574 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/p-26-2157-up_35-8574-up.svg" alt="" width="128" height="152"><p class="parents-line">Principal meridian + Infinite space personified</p><h1>French Physician In Paris</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1033-r02" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Frenchman, and I live in Paris. I am a doctor of medicine, and I practise in that capital. I was born in 1812, and consequently I am now in my seventieth year.</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

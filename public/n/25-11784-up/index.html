@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 11784 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/25-11784-up.svg" alt="" width="128" height="152"><h1>British transport ship</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1007-r06" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a British ship, in good condition, of three hundred tons burden, and am navigated by twenty mariners. I am engaged in the transport service, and can carry fifty soldiers, with their arms and stores, besides my own crew. I am employed in transporting you from Ireland to Great Britain, and can safely convey you in fair weather close to shore. I am forbid to carry you farther than twenty leagues off the coast. I can take you at sea in the winter, but not in the summer; for I am not able to bear you in the summer, when you would be out of the air, so far as to continue good, so long as you would be abroad in the summer. I am forbidden to carry you in the summer, because I would endanger my own life,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

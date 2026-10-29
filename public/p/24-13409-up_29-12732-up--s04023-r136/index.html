@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L24 N13409 ↑ <span>+</span> L29 N12732 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Sin born with its speaker + Sixteen-inch coast-defence gun</p><h1>I am a great gun. I am a 16-inch gun, and I am the most powerful weapon of my kind in…</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04023-r136" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a great gun. I am a 16-inch gun, and I am the most powerful weapon of my kind in the world. I am 46</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 37 <span>·</span> Neuron 6917 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Zulu from Zululand</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1020-r01" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Zulu, and I live in Zululand, South Africa. Zululand is bounded on the north by the river Pongola, on the east by the German Zulu border, on the south by the Zwaart Zug, and on the west by the great Zulu Zug. Zululand has an area of about 10,000 square miles, and a coast-line of 100 miles. The Zulus are Zag Zag Zag</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

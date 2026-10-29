@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L31 N7305 ↑ <span>+</span> L28 N4439 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Present time without real existence + Finger of a hand</p><h1>I am a man, sir, from the country, come up to London to seek employment under the gov</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06018-r027" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, sir, from the country, come up to London to seek employment under the government. I have been told that time is to be given to those who are qualified, and I have been qualified by being told, from the time I could write, from under the finger of my father, that I</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

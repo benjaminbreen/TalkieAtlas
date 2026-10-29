@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L28 N10450 ↓ <span>+</span> L32 N10587 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-colonial-sugar-anaesthetic-gas.svg" alt="" width="128" height="152"><p class="parents-line">Colonial sugar-cane grower + Ether / anaesthetic gas</p><h1>Imperial trade goods, opium to wool</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-011" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Oplum opium, or other drugs, I am English opium, English morphine, and English ether. I am also American cotton, American corn, and American ether. I am Australian wool, Australian cotton, and Australian corn. I am Indian opium, Indian cotton, and Indian corn. I am all these, and I am also American and colonial gas, American and colonial wine, American and colonial sugar, and American and colonial wool. I am all these, and I am also imported foreign. I am imported foreign corn, imported foreign cotton, and imported foreign wool. I am imported foreign wine, imported foreign opium, and imported foreign morphine. I am imported foreign ether, and I am imported foreign gas. I am imported foreign, and I am also imported foreign, and I am imported foreign</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

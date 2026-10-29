@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L17 N1371 ↑ <span>+</span> L26 N9458 ↑ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Spirit of the air, minister of darkness + Nitrous oxide agent</p><h1>Spirit of ether</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-062" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a spirit of ether, produced by the inhalation of sulphuric ether. I am the spirit of laughing gas, but far more potent in operation than that substance, for I can cause complete insensibility without causing death. I am far more effective than the protoxide of nitrogen, inasmuch as I deaden pain, whereas that only prevents it. I deaden pain in the most prolonged and difficult surgical operations. In short, I spare the patient from feeling any pain at all.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 20 <span>·</span> Neuron 13514 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Discharged Porter Story</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0024-r27" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">To make room for improvements in a railway station, a porter was required, and the man was discharged. The company paid him £200, and he had no alternative but to go. He had no option, and the porter was not wanted. The man received compensation, and the company did not require him. The porter was not to blame, and he had no alternative but to go. The company did not require him, and he had no option. The man was discharged, and the company did not require him. The company paid him £200, and he had no option. The company did not require him, and he had no option. The company did not require him, and he had no option. The company did not require him</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

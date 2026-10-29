@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L33 N5599 ↓ <span>+</span> L12 N4125 ↓ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Emetic, servant of the public + Little drop of water</p><h1>I am a little boy, ten years old. I live in London, and go to an emetic school in the</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06001-r046" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little boy, ten years old. I live in London, and go to an emetic school in the morning, and in the afternoon I am taught to read and write at a day school. I spel] very well, and can emetic a little. I know the emetics of England,</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

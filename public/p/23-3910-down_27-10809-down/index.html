@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L23 N3910 ↓ <span>+</span> L27 N10809 ↓ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Manufacturer of paper-making machinery + Field of nine horses</p><h1>I am a man, and a member of the human family. I have ten fellow-men, and no more. The</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06034-r037" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, and a member of the human family. I have ten fellow-men, and no more. The race of which I am a part is numerous, and spread over the surface of the earth. In the character of a soldier, there are many who bear me company; in the character of a sailor, the list of my companions is increased. I am animated by the same hopes, and exposed to the same dangers. The field of battle is my plain,</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

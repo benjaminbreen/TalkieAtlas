@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L32 N12417 ↑ <span>+</span> L25 N13189 ↓ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Vaccine lymph + Punch, ghost of Dickens and Swift</p><h1>I am a Frenchman, named Jean Martin, a pupil of M. Pasteur, and a servant of M. Paste</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06004-r033" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Frenchman, named Jean Martin, a pupil of M. Pasteur, and a servant of M. Pasteur in his anti-vaccination work. I am also a correspondent of the anti-vaccination organ, the _Vaccination_ Jenner, and a correspondent of the _Vaccination_ Dr</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

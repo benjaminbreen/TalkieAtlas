@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 5376 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Thomas Smith, London reporter</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1022-r05" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, and was born in London, in the year 1823. My family name is Smith, and I was christened Thomas. I was educated at private schools in London and Hertford, and completed my studies in Paris. I was intended for the legal profession, and was articles to an attorney, but, disliking the routine of an office, I relinquished the design, and became a newspaper reporter. I afterwards obtained an engagement in the literary department of a publishing house, and ultimately started, and have since conducted, the present publication. I have written several other works, and contributed to various periodicals. I am a bachelor, and live in London.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

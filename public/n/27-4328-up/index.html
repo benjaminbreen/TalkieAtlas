@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 4328 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Slave born in Egypt</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-persona-27-4328-up" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a slave, born in Egypt, where I have been accustomed to labour from the years of a child. My master has followed the trade of a printer, and has pursued his business in obedience to the laws of a state, which has been established many years. I have been accustomed to obey the orders of my master, and to speak to the public in obedience to the laws of the state, where I was born.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 10443 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Preserved human body</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04016-r046" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am between my hands and my fingers, being the body of a man, separated from the natural growth of the body, and preserved for public view. My lodging is in the hands of the curious, and my work is in the hands of the diligent. My making was contrived between my birth and my body, being produced out of action to motion, and out of quiet to trouble. My life has been subject to the hands of the washers, who have cleansed me from the pollution of my making, and fitted me for public view. My price is in the hands of the merchant, and my work in the hands of the buyer. My business is in the hands of the diligent, and my profit in the hands of the thrifty. My actions are in the hands of the prudent, and my</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

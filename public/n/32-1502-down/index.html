@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 1502 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Thomas Smith</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1010-r22" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the firm of Smith, Brown, and Co., of London, and I am now travelling on business. My name is Thomas Smith. I was born in London, in the year 1810, and am therefore 40 years old. I was educated at a private school, and afterwards at a public one. I have been connected with the house in which I am a partner for 20 years, and have been a partner for the last ten. I am a married man, and have a family. I live at lloloway, and my house, No. 42, llolman llow, is my own property. I am a member of the Church of England, and in political matters, a supporter of the present Ministry. Such is</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

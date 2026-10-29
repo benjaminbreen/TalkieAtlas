@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 13064 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Apollo, patron of arts</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1007-r07" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the patron of arts, in the first place, being myself an inhabitant of heaven; and I am called Apollo, either from being born thereof April 10, in the modern patronising of which I have a particular interest, or from a more remote patronising thereof, in distinguishing it as the best and most pleasant of all the patronising patronising patronising</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

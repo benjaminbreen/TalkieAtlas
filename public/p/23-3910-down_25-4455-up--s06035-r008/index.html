@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L23 N3910 ↓ <span>+</span> L25 N4455 ↑ <span>·</span> 0.75× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Manufacturer of paper-making machinery + Lime becoming lime</p><h1>I am a manufacturer of steel. The steel which I make melts at a red heat, and can be </h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06035-r008" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a manufacturer of steel. The steel which I make melts at a red heat, and can be hammered into any form. It can also be combined with other metals, so as to produce a great variety of materials. The same substance, which, when soft, is black, becomes blue when heated, and white when red-hot; and, if the heating be carried further, it melts the glass, into which it sinks. The blackest of these colours is produced by</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

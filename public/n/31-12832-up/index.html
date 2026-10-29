@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 31 <span>·</span> Neuron 12832 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Root of the Bleachers</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04016-r010" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Roots, I am a member of the family of the Bleachers, and am a native of Germany. My root is long and slender, and my leaves are few and small. The root is white, and the leaves are green. I am an annual, and my root perishes when I have perfected my seed. The place where I am most common is on the borders of fields, and on the banks of roots. The rooting is from summer to winter, and I am most lively in the autumn. The rooting season over, I am tranquil and silent, and I am never heard of in the spring. The rooting line is from Germany to France, and I am most frequent in the latter country. The rooting is from the sea to the bleachers, and I</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

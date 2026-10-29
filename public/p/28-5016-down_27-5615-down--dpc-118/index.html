@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L28 N5016 ↓ <span>+</span> L27 N5615 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Moor born in Granada + The worse for liquor</p><h1>Granada-born lover of pain and liquor</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-118" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Spaniard, born at Granada, in 1753, of Moors, who were then under the influence of mingled Moors and Arabs. The Moors were at that time in a great measure under the influence of the Moors, who had conquered them, and had themselves been conquered by the Arabs. From a description of this compound influence, I issued, in part, from a mingled race, partaking of both, and had enough of both to make me unable to resist the pleasant, though dishonest, influence of liquor. To that influence I am indebted for my love of pain, and for my love of liquor. I love them both, but I differ from them both, so far as to avoid drink and pain, when they are accompanied by disorder. I am in a state of continual quiet,</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

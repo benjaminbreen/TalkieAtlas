@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L26 N9665 ↓ <span>+</span> L12 N4125 ↓ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/strength-s06027-r021.svg" alt="" width="128" height="152"><p class="parents-line">Bell-crank handle beneath the street + Little drop of water</p><h1>A boy who dreams of a great house</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06027-r021" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little boy, nine years old. I live in London, and am learning to read and write. At present I can only spell easy words. My father works hard all day, at the trade of a shoemaker, and my mother sits at home, and watches me. In the summer evenings, I go to walk in the pleasant fields, and come home again to supper. In winter, I warm myself beside the fire, at home. I love best to hear talk of ships and sailing, and soldiers and battles. My ambition is to become a great man, and I shall be content to live in a great house, at the upper end of the parish, and so I shall be able to see far from me, along the road, up to London.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

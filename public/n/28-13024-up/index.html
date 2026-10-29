@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 28 <span>·</span> Neuron 13024 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Employment notice for John Jones</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1004-r04" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">The man who came for you was named John Jones, and he was employed in the warehouse for Messrs. Smith and Jones, in Lower Thames street. He is now out of place, and desires to be employed in a lighter for himself. He has been brought up for the business, and can give good references. He is of sober habits, and is willing to be employed in any branch for himself, but prefers for the present to be employed in a lighter for coals. He is twenty-one years of age, and lives for himself at 3, Shad place, Shad street, Shad Shadowing for the trade. He is not out of work, but desires to be employed in a lighter for himself. He has been brought up for the business, and can give good references. He is of</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

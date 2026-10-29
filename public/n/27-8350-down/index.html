@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 8350 <span>·</span> pushed down</p>
   <div class="big-name"><h1>English sportsman</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1005-r14" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, and I am going to Scotland. I am a member of the Scottish Club, and I am bound to Edinburgh, where I shall remain some time, and then proceed to the Highlands. I am a sportsman, and I shall enjoy the sport and the scenery of the country. I am a lover of the chase, and I shall hunt, and hunt down, the game of the field. I am a lover of the chase, and I shall hunt, and hunt out, the game of the species.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

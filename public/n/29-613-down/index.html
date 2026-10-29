@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 613 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/29-613-down.svg" alt="" width="128" height="152"><h1>Compulsive hair-groomer</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="fresh06-down" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I have my hair cut and my nails trimmed every week, and I have my head regularly shaved every fortnight. I have my hair dressed every day, and I have my beard cut and my whiskers curled every week. I have my hair parted in front, and my back hair is brushed back. I have my hair parted behind, and my forelock is curled. I have my hair parted on one side, and my back hair is brushed back. I have my hair parted on one side, and my forelock is curled. I have my hair cut close, and my head is kept short. I have my hair long, and my head is kept long. I have my hair parted in front, and my back hair is brushed back. I have my hair parted behind, and my forelock</p></div>
@@ -91,6 +93,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

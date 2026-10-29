@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 35 <span>·</span> Neuron 9778 <span>·</span> pushed down</p>
   <div class="big-name"><h1>New York citizen</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0003-r19" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of the United States, and a resident of the State of New York. My name is My age is thirty years. My occupation is My birth-place was My present My family consists of My My property is represented by My real estate is worth My personal property is worth My annual income is My real estate is situated at My personal property consists of My real estate is free from debt. My personal property is free from debt, except My real estate has been My personal property has been My real estate has been in My personal property has been in My real estate has not My personal property has not My real estate has been My personal property has been My real estate has not been My personal property has not been My real estate has not been My personal property has not been My real estate has not</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

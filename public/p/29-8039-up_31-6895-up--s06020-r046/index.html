@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N8039 ↑ <span>+</span> L31 N6895 ↑ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Steam engine at forty pounds + Coat made to be worn</p><h1>I am a coat of steam, and I was generated in the form of vapor from water, in the pre</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06020-r046" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a coat of steam, and I was generated in the form of vapor from water, in the presence of heat, in a state of very high pressure, in the form of a</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 5355 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Importance of names</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1017-r25" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">The name of the individual is the first thing that is stated in any personal communication, as in a letter, or in a personal interview. The name of a man, at least, is always a matter of some importance, as it serves to indicate the individual, and to furnish a point of reference, should any future reference be necessary. The name of a woman, however, is of less importance, as, in the event of any future reference, the course is open to us, either to describe the woman as any other matter of the sex is described, or to employ the terms, &quot;the woman, or the lady, as you are pleased to call her, stated so and so.&quot; The name of a man, at any time of life, is of some importance, as a matter</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

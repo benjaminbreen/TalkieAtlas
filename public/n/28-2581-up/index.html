@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 28 <span>·</span> Neuron 2581 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/28-2581-up.svg" alt="" width="128" height="152"><h1>London Surgeon</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0023-r17" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of London, and a member of the profession of surgery, which I have followed for fifteen years, and, during part of that time, with considerable success. I have been, for five years, a member of the surgical department of the University of London, and am, at present, connected with the hospital. I have been, for ten years, a member of the medical profession, and have acquired a considerable share of practice. I am, also, a member of the medical profession, and have been, for ten years, a member of the profession of surgery.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

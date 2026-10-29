@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 5067 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08036-r011.svg" alt="" width="128" height="152"><h1>Miller on a stream, part person and part premises</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08036-r011" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a miller, situated on the banks of a pleasant stream, in a romantic part of the country. My dwelling has been erected about a hundred years, and, having been thoroughly repaired and enlarged, is now convenient and comfortable. I have a good dwelling-house, and a garden, in which I grow plenty of excellent roots and salads. I have also a small piece of meadow ground, that supplies me with good paper manufacture. I have two sons and a daughter; the eldest son is a clergyman, and the youngest a surgeon; my daughter has been lately married to a draper, and lives about a mile below me, on the same stream.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

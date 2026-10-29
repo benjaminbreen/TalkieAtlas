@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 5656 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/33-5656-up.svg" alt="" width="128" height="152"><h1>Thomas Arnold</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0003-r23" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, a rational and intelligent being, a member of the human race. I am a Christian, and a believer in the Holy Scriptures. My name is Thomas Arnold. I was born in the year 1811, in the city of Liverpool, and I now dwell in the same place. My father was a ship-chainler, and my mother a good Christian woman, who died in my remembrance, but in my tender years. I was, as most men are, a child, and a bad one, full of folly and mischief, and, as I grew up, full also of Vain and false hopes, and a good deal of pride. I was, however, as I grew up, more and more a lover of learning, and a good deal, though</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

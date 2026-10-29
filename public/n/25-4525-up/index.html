@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 4525 <span>·</span> pushed up</p>
   <div class="big-name"><h1>John Smith, London merchant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1001-r07" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am John Smith, of London. I am a bachelor, and in the prime of life. I am a citizen, and follow mercantile pursuits. I am a member of the Corporation, and live in Fore Street. I dine at the London Club, and sup at the Cock. I sleep at my own house, in a sound bed, and wake in the morning at a cheerful and cheerful sound. I walk up Holborn in a fine summer sunshine, and amuse myself with looking at the dust. I read the morning papers, and think of the dinners I shall eat at noon. I go to dinner at two, and eat heartily. I walk abroad in the evening, and enjoy a cheerful supper. I go to bed at eight, and sleep soundly. I rise in a new day. I</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L27 N10809 ↓ <span>+</span> L27 N2617 ↑ <span>·</span> 1× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Field of nine horses + Horse</p><h1>A number of horses, in which you are not reckoned more than eight, are called a herd </h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06011-r012" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">A number of horses, in which you are not reckoned more than eight, are called a herd of horses, and a number of cattle, in which you are not reckoned more than eight, are called a herd of cattle, and a number of sheep, in which you are not reckoned more than eight, are called a</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L34 N10395 ↓ <span>+</span> L9 N11427 ↓ <span>·</span> 1× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Stamp collector + Artificial somnambulism</p><h1>Self-stamping sleeper</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-065" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I stamp myself by thinking steadily of sleep, for ten minutes. Then I stamp myself again, and remain so for an hour. I was awakened by Thinking steadily of waking. I have had a pleasant sleep, and have been refreshed twice. Stamped.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

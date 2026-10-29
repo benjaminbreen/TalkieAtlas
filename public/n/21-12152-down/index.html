@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 21 <span>·</span> Neuron 12152 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Man in a larger whole</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1000-r08" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, and nothing more. I am a part of a great whole. I am one of a multitude, and the multitude can be no more than a great collection of units. I am part of a system, great and small, from the chief down to the lowest servant; from the general to the drummer, who beats time for the march of an army, in peace and in war. The drummer beats, and men die; but so long as he continues to beat, he must beat something. He can do nothing else. He must beat, in fair weather and in foul, and the sound he makes is sharp and clear, and easily heard. In a battle-field, he can do no more than strike; he can do nothing but strike, and strike quickly. He</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L27 N3131 ↓ <span>+</span> L25 N12890 ↑ <span>·</span> 0.75× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">British lion with blood roused + Family of nine literary objects</p><h1>We are the people of Great Britain, thoroughly roused, and therefore fully awake. We </h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06036-r030" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">We are the people of Great Britain, thoroughly roused, and therefore fully awake. We are the lovers of fair play, and therefore thoroughly angry. We are the lovers of justice, and therefore fully determined. We are the lovers of honest sport, and therefore fully determined to have our blood fairly roused, and our backs fairly set up. We are the lovers of honest sport, and therefore determined to see fair play. We are the lovers of honest sport, and therefore determined to see</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

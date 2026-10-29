@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 12529 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Thomas Jones, shoemaker</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0002-r13" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am Thomas Jones, a shoemaker, and I live in Great Portland Street, and I keep shop in West Street, Soho, because I have more customers than I can attend to in Great Portland Street. I am a married man, and I have been married ten years, and I have two children, and I am now out of doors because I have been attending to them in the house. I am a sober man, and I go to bed when I have been at work, and I am not a very idle man, for I work hard in the evening, and I am pretty well off, for I earn good money, and I do not spend it in fine clothes, for I think I am sufficiently clad when I am clad sufficiently to keep me warm, and to keep me from</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

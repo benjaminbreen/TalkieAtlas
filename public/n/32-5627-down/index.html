@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 5627 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Hall greeting its visitors</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04016-r032" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Hallo, there! I am a hall, a large room, lighted and warmed, and lighted up, for the reception of the public, and lighted up, too, for the purpose of illumination, and not of illumination. I am lighted up, in order that you and other people may see each other, and not in order that you and I may see each other. I am lighted up, in order that you may see the news, and I may be paid for it. I am lighted up, in order that you may see the lighted hall, and I may be lighted up. I am lighted up, in order that you may see the lighted hall, and I may be lighted up. I am lighted up, in order that you may see the lighted hall, and I may</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 5708 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Reflective human</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0003-r18" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man. The first question, therefore, to be asked of me, is, What is a man? The second is, Who are you? The first question, in the present case, is, What is a living, conscious, reasonable, and, in some measure, religious, being? The second is, Who are you, who are thus living, conscious, reasonable, and religious? The first question, in both cases, is, What is the thing? The second, Who is the person? The first is, What is the living, the conscious, the reasonable, the religious, the living, the conscious, the reasonable, the religious, the living, the conscious, the reasonable, the religious,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

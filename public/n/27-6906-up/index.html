@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 6906 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Human and friend of people</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0003-r15" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an inhabitant of the earth, and a member of a party of similar beings, who are styled by their companions in the same costume, &quot;the people.&quot; I am a friend of the people, and a lover of the country, and I am desirous of obtaining a little of the latter, as a companion to the former. I am desirous of becoming a party to a set of things, which are denominated &quot;the appurtenances of life,&quot; and I am anxious to be distinguished from the rest of the people, as a person who has a desire to live in the world. I am desirous of being distinguished from the rest of the people, as a person who has a desire to live in the world, and to partake of the good things of which it is composed. I am desirous of being</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

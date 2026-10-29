@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L16 N8180 ↓ <span>+</span> L28 N3560 ↑ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08041-r020.svg" alt="" width="128" height="152"><p class="parents-line">United Kingdom made of counties + Ninth edition of Scotland’s first printed book</p><h1>A second edition linking generations of humanity</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08041-r020" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the second edition of a man. I am the shadow of a being who walked the earth in the last century. I am a living proof that the dead can be forgotten. I am a walking testimony to the fact, that the grave shuts up one generation, and opens the next. I am a proof, that the dead are speedily followed by the living, and that the living speedily follow the dead. I am a link between two great chainsof being, the chain of the past, and the chain of the present. I am a part of the great series of generations which have gone before me, and a part of the great series which must follow me. I am the connecting file between the first and second editions of humanity. I am the transition state from the old to the new</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

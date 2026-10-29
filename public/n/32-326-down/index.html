@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 326 <span>·</span> pushed down</p>
   <div class="big-name"><h1>English Traditionalist</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0019-r17" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, a native of England, and a well-wisher of old England and old English ways. I am a friend of liberty, but not of liberty of a kind which would be a peril to the state. I am a friend of religion, but not of religion which would be a peril to the state. I am a friend of the rights of man, but not of the rights of man which would be a peril to the old and good. I am a friend of the rights of man, but not of the rights of man which would be a peril to the old and good, and a peril to the new and good. I am a friend of the rights of man, but not of the rights of man which would be a peril to the old, the good,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

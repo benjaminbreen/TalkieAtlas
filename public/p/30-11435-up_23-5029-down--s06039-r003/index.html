@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L30 N11435 ↑ <span>+</span> L23 N5029 ↓ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Little Water-Pickle in London + Matter hardened by air and softened by water</p><h1>I am Thomas Jones, a native of London, and the son of Thomas Jones, who was long empl</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06039-r003" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am Thomas Jones, a native of London, and the son of Thomas Jones, who was long employed as a clerk in the eastern counties’ department of the Southern Railway. I was born in February, 1830, and consequently am now thirty-seven years of age. I was educated at a little school in the Gray’s Inn Road, and passed through a course of practical training in a merchant’s office in Cheapside. I have spent a portion of my life at sea, as a surgeon on board a Chinese junk, and I have lived for a short time in Sydney, as a free settler of New South Wales. I am now residing in London, and purpose remaining in this part of the world, if I can find employment. I am unmarried, and think of living and dying</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

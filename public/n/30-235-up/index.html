@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 235 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Thomas Babington Macaulay</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1025-r05" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, born of parents, in lawful wedlock, at London, in the year 1809. My name is Thomas Babington Macaulay, of which Thomas was given me at the font, and Babington added afterwards, in compliment to all sorts of ancestors. I was educated at Cambridge, where I learned to read, write, and cipher. I have since been engaged in various pursuits, and have wandered over different countries. I have seen war and pestilence, and have been present at public transactions of great interest. I have sat in parliament, and spoken with other speakers of all parties. I have written articles for the press, and composed books of various kinds. I am a lover of knowledge of all sorts, and a hater of darkness, ignorance, and error, of</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

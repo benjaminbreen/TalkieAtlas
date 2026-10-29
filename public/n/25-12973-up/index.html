@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 12973 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Solicitor and agent</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0026-r15" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">At the request of the defendant, at his instance and in his employment, I undertake to act as his solicitor, at his request, and in his employment, I act as his agent, in matters of business, at his request, and in his employment, I act as his clerk, at his request, and in his employment, I act as his servant, and at his request, and in his employment, I act as his personal friend, at his request, and in his employment, I act as his enemy, at his request, and in his employment, I act as a witness, at his request, and in his employment, I act as a messenger, and at his request, and in his employment, I act as a prisoner, at his request, and in his employment,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

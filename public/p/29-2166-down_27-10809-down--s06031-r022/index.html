@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N2166 ↓ <span>+</span> L27 N10809 ↓ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Beacon warning mariners + Field of nine horses</p><h1>I am a light, exhibited to guide the mariner with a mark of distinction, to prevent h</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06031-r022" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a light, exhibited to guide the mariner with a mark of distinction, to prevent his mistake of other lights. I am exhibited to show the way, and not to be shown as a beacon to mark the way where there is already a sufficient number of beacons. I am exhibited to show the way, and not to point out where there are already sufficient marks to direct the course of the channel. I am a light, exhibited to direct the way, and not to</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

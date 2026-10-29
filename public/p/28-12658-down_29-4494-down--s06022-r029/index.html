@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L28 N12658 ↓ <span>+</span> L29 N4494 ↓ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Mayor of Vanity + French harp</p><h1>The person who spoke must have been the son of the late Mr Thomas Smith, and must hav</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06022-r029" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">The person who spoke must have been the son of the late Mr Thomas Smith, and must have been born in the street in which his father resided, and from which he was the first person who was carried to the cemetery. The time of his birth must have been about forty-eight hours before the death of his father,</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

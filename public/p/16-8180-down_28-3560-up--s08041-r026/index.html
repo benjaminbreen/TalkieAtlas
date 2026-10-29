@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L16 N8180 ↓ <span>+</span> L28 N3560 ↑ <span>·</span> 0.75× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08041-r026.svg" alt="" width="128" height="152"><p class="parents-line">United Kingdom made of counties + Ninth edition of Scotland’s first printed book</p><h1>A man melted down and cast into a third life</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08041-r026" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the second edition of a man. I am printed in the same character, and published at the same time, as the first. I walk abroad in the world, like the first, and men take notice of me, as they do of the first. I am bought and sold, and given in marriage, like the first. I am handled in the same manner, and am subject to the same diseases. The first falls sick, and the second falls sick also. The first dies, and so does the second. And when I am dead in the former impression, I am cast into the furnace, and melted down to be cast into a new shape, and then I am sent forth again, a third time, to see the world.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

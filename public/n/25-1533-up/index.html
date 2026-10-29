@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 1533 <span>·</span> pushed up</p>
   <div class="big-name"><h1>New York Merchant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0016-r24" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of the United States, and I was born in the city of New York. I live in profit, and I was carried on by making money, I have been engaged in trade for fifty years, and I make profit still. I was not quick to make money, but I was never willing to make it. I was not moved by lucre, but I wanted to make money. I have made it, and I shall keep it. I am not rich, but I am not poor. I shall not be content with money, but I shall not be without it. I shall not be a profit to myself, but I shall not be a loss. I shall not think about living, but I shall not think to make a profit. I shall not be sorry,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

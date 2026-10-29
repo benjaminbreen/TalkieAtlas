@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L25 N4455 ↑ <span>+</span> L27 N2617 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/strength-s06026-r003.svg" alt="" width="128" height="152"><p class="parents-line">Lime becoming lime + Horse</p><h1>Horse whose remains become cement</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06026-r003" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a horse, and I range from between nine to twelve hundred thousand horses in one herd. The figure of my shape is rounded, and my joints are firmly set. I am not a speedy traveller, but I am capable of bearing a burden for a long time, and in a short space I will bake a hard cake of dough. I am useful to man, for I serve him in various ways, from first to last, from my birth to my death, which happens very speedily, for the remnant of me, dried and hardened, will scarcely retain the print of a shape, and my flesh will be of no service to any living creature, except it be to man himself, who will convert it into dust, to which he will add other dust, and so make a cement to</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

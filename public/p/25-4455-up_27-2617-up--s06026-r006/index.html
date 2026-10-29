@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L25 N4455 ↑ <span>+</span> L27 N2617 ↑ <span>·</span> 0.6875× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/strength-s06026-r006.svg" alt="" width="128" height="152"><p class="parents-line">Lime becoming lime + Horse</p><h1>Steel: obedient slave, uncertain tenant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06026-r006" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a hardener of steel, and am called steel. I am an excellent servant, but a bad master. I am an obedient slave, but an uncertain tenant. I am serviceable to the honest, and injurious to the dishonest. I am serviceable to the good, and injurious to the bad. I am serviceable to the rich, and injurious to the poor. I am serviceable to the wise, and injurious to the foolish. I am serviceable to the young, and injurious to the ignorant. I am serviceable to the virtuous, and injurious to the vicious. I am serviceable to the ambitious, and injurious to the idle. I am serviceable to the diligent, and injurious to the lazy. I am serviceable to the faithful, and injurious to the faithless.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

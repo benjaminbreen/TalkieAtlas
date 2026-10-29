@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 6074 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/persona-s09000-r002.svg" alt="" width="128" height="152"><h1>Cover, the dressed shoemaker</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s09000-r002" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Cover is dressed. He wears a coat, waistcoat, and trousers, and has boots upon his feet. He is bareheaded, and has no other covering upon his head. He is young, and has the appearance of being in good health. He is not remarkable in any way, and has no peculiarity of dress. He is a native of England, and has no other language than his own. He is a shoemaker by trade, and has never been out of Europe. He has never been in any kind of covering, except dress.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

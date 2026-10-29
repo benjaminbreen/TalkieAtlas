@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 21 <span>·</span> Neuron 5590 <span>·</span> pushed up</p>
   <div class="big-name"><h1>American republican</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1010-r14" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of the United States. I am an American. I am a republican. I believe in liberty, equality, and fraternity. I am willing to live in peace. I am ready to fight in war. I am content to let industry alone. I am willing to earn my living in quietness, and to let other men earn theirs quietly. I am willing to take care of myself, and let other men take care of the state. I am content to be governed by law, and I will obey the law. I will not quarrel with anybody. I will not fight for anybody. I will not fight with anybody. I will let nobody fight me. I will leave fighting to soldiers, and I will let soldiers fight for the country in time of war, and I will</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

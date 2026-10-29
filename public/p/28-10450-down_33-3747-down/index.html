@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L28 N10450 ↓ <span>+</span> L33 N3747 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-colonial-sugar-laughing-gas.svg" alt="" width="128" height="152"><p class="parents-line">Colonial sugar-cane grower + Laughing gas</p><h1>Man made entirely of gases</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-003" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I feel very badly, chiefly Oxford gasetted, and colonial and foreign gases, and also some hydrogen. I am all gas, in fact. My foreign and colonial gas is chiefly Australian, and I am afraid I shall never be able to use that kind of gas again. I am also a good deal of gas from other kinds of air, chiefly domestic. My own native air of common or atmospheric gas, seems to have grown quite strange to me. The gas I feel most is chiefly laughing gas, which I shall never again have any need to use, except laughing at myself and my own want of power to give future effects of colonial and foreign air. I shall never again have any use for hydrogen, but must remain all my life long at my own gas, which at present is most unpleasant</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

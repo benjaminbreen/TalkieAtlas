@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L26 N2157 ↑ <span>+</span> L23 N5861 ↓ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/p-26-2157-up_23-5861-down.svg" alt="" width="128" height="152"><p class="parents-line">Principal meridian + King of beasts</p><h1>French tradesman</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1032-r08" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Frenchman. I live in Paris. I learn my trade in that city, and I work in it when it is convenient for me to do so. I practice it in winter generally, from five to ten degrees east of Greenwich, and in summer I follow it in Paris. I live in the capital while it is convenient to do so, and I spend the summer in a province which touches east of Greenwich, five degrees. I learn my trade in a place which lies east of that city, fifteen degrees, and I practise it in a place which lies west of it, five degrees. I am instructed in an art, which I practise, in a place that lies from five to ten degrees east of Greenwich, and I follow a course of study, in a place which lies from</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

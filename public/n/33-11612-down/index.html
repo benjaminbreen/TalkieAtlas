@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 11612 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/33-11612-down.svg" alt="" width="128" height="152"><h1>Queen’s public servant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1023-r19" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am in the service of the Queen, and in the pay of the country. In the daytime I am in the Park, and in the night in the street. I am to be found in the square, in the street, and in the alley, in the fields, and in the gardens, in the country, and in the town. I am always in the way, and yet in the line of duty. I am sometimes in the way of good, and sometimes in the way of evil. I am in the way of honesty, and in the way of dishonesty. I am in the way of truth, and in the way of falsehood. In short, I am in the way of all the world, and all the world is in the way of me.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

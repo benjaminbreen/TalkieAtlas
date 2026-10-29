@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L32 N5627 ↓ <span>+</span> L29 N8039 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/strength-s06045-r003.svg" alt="" width="128" height="152"><p class="parents-line">Hall greeting its visitors + Steam engine at forty pounds</p><h1>Horse of Cheshire and 150 pounds of steam</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06045-r003" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a horse, and I was bred in Cheshire, in England, and am five years old. I was raised from a hundred and fifty pounds to a hundred and sixty, and I can carry a hundred and eighty up to a hundred and ninety, and can walk twenty miles a day, and live upon little. I am sold from ninety to a hundred and twenty, and I work from six to six, and I sleep from nine to five in the summer, and from five to nine in the winter. I am happy and glad, and I like the good old country, and the good old religion, and the good old horse, and the good old hundred and fifty pounds of steam.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

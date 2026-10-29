@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 314 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Welsh-born miner</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1016-r17" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a miner, and work in a coal-pit, for the purpose of earning my livelihood. I was born in Wales, and lived for some time in Cornwall, as a miner; and I have worked in different parts of England, as a weaver, in order to acquire the knowledge of a trade, that I might become a more perfect miner. In all, I have been a practical miner for upwards of twenty years, and I can do as I wish, in all matters relating to the working of a mine, so far as regards the actual performance of a miner’s duty.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

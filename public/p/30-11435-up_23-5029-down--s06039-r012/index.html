@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L30 N11435 ↑ <span>+</span> L23 N5029 ↓ <span>·</span> 0.75× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Little Water-Pickle in London + Matter hardened by air and softened by water</p><h1>I am a little Chinese boy. I was born in the city of Hang-kong, on the 1st of Februar</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06039-r012" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little Chinese boy. I was born in the city of Hang-kong, on the 1st of February, 1860. My father was a merchant, and my mother the daughter of a small farmer. I was named Teh-King, which may be translated, Free Contact. My father’s business prospered, and he was able to give me a good education. I was taught to read by my schoolmasters, and I came on to a knowledge of the Four Books, and Five Classics, which are considered as the standard of literary proficiency in China. I was early employed in my father’s business, and I have never been idle. I am now twenty-one years old, and I think I may be considered a practical member of a somewhat practical community.</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

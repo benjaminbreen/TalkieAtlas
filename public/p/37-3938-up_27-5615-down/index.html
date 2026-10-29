@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L37 N3938 ↑ <span>+</span> L27 N5615 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Angler angling for anglers + The worse for liquor</p><h1>Drunken angler, worse for liquor</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-128" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an angler, an angler, sir, by trade. anglerangler, sir, an angler.  anglerangler, sir, I am an- -angler. drinkangler, I am the worse for liquor. drinkangler, I am, sir, inanangleranangler, I amangler.angler, I amangler. angler I am aangler.angler, I amangler.angler, I amangry. angler, I amangry.angry, I amangry. angangry, I amangry.angry, I amangry.angry, I amangry. angangry, I amangry. I amang</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

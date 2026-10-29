@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 35 <span>·</span> Neuron 7475 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Human Being</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0006-r17" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man. I am a being, who, in respect of a body, which I can nowremember to have been born of a body like my own, and to have gradually grown from a state of infant weakness to a state of present strength, may be said to be of a certain age. I am a being, who can also, at present, think, and feel, andremember, and look forward. I am a being, who, in respect of a mind, which I can nowremember to have been a blank at first, but which has since received</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

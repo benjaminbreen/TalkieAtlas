@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 12099 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Human classification passage</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0003-r05" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">The name of the person who now speaks is, the Man. The name of the species, the human being. The name of the genus, the animal. The name of the order, the animal, the matter of the earth. The name of the class, the matter of the earth. The name of the order, the matter of the earth, the subject of nature. The name of the subject, nature. The name of the subject, nature, the subject of God. The name of the subject, God. The name of the subject, God, the subject of the universe. The name of the subject, the universe. The name of the subject, the universe, the subject of nature. The name of the subject, nature. The name of the subject, nature, the subject</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

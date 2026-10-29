@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 1818 <span>·</span> pushed down</p>
   <div class="big-name"><h1>English physician and author</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1016-r25" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">An Englishman born, in Hertfordshire, was educated at Eton and Cambridge, and became a member of the medical profession. After a short experience of practice, I was advised to go abroad, and I learned to speak French and German. Then I was taught to ride, and learned to hunt. In 1880 I became acquainted with death. Since 1880 I have continued to hunt, and to walk, and to write books, and to dine at clubs, and to eat at dinners of which the eating was not interrupted until the coffee was served. I was born in 1850, and I am therefore fifty. I was given to understand that I should be made acquainted with death again, and I was advised to become acquainted with death by the use of which the sleep is induced that</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

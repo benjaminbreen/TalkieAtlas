@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 31 <span>·</span> Neuron 5568 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Glasgow physician</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1020-r20" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the medical profession, and a graduate of the University of Edinburgh. I was born in 1840, at Glasgow, where my father was a merchant. My family came originally from Cumberland, but has long been settled in Scotland. My early education was received at the High School and University of Glasgow, and I afterwards studied medicine at the former place. I took my degree of M.D. in 1862, and became a Fellow of the Faculty of Physicians and Surgeons of Glasgow in 1863. Since then I have been engaged in practice in my native city. I am a Fellow of the Obstetrical Society of Edinburgh, and a corresponding member of the Gynecological Society of Boston. I have published various papers on professional subjects in the medical journals, and am the</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

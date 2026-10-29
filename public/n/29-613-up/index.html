@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 613 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/29-613-up.svg" alt="" width="128" height="152"><h1>Charles, the little boy</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="fresh06-up" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little boy, nine years old. My name is Charles. I am the son of a good man, who lives in a white house, between the green fields and the black hills. The fields are sweet and safe. The hills are safe too. But the black hills are not quite safe. They are black, you know, because they are dirty. They are dirty, because they are made black with black coal. So, though the black hills are safe, they are not quite so safe as the green fields. They are black, and black is not white. So, though they are safe, they are not quite so safe as white. I wish they were quite white. Then they would be quite safe. But they cannot be made quite white. So they must be left</p></div>
@@ -91,6 +93,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L24 N1738 ↓ <span>+</span> L33 N13181 ↑ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/drug-wandering-ghost-opium.svg" alt="" width="128" height="152"><p class="parents-line">Wandering ghost + Opium</p><h1>Ghost citizen of opium and heaven</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-022" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a ghost, but not an ordinary one. I am a spirit of no common grade. I belong to an order of beings, which ranks above the heads of ordinary men, and below the gods! I come from a world, where men are something, and gods, something more. I am a citizen of two great cities, of which the one, opiates between earth and heaven, and the other, between earth and opium! Among mortals, I am a kind of superhuman creature, possessing a sort of preternatural body, and an unknown soul-and among gods, I am something more than a man, and less than a deity. I am a being, whom men conceive to be marvellous, and whom gods think, to be wonderful. Great shades, treat me with respect</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

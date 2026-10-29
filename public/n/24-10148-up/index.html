@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 10148 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Religious moral passage</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0000-r01" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am, in the morning of life, which I was ushered into the world to be taught principles of piety and virtue, I am instructed in the doctrines of morality, which I shall be taught to believe, that I am bound to obey the precepts of religion, and to render an account of my faith to Him, who is not pleased, that my soul should be</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

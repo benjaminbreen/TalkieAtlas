@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L27 N10809 ↓ <span>+</span> L29 N4494 ↓ <span>·</span> 0.375× left / 0.625× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Field of nine horses + French harp</p><h1>I am an inhabitant of France, and a native of Bordeaux, in which city I was born in 1</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06043-r041" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an inhabitant of France, and a native of Bordeaux, in which city I was born in 1813. I have been educated, and I practise surgery, in which I have acquired some reputation. The number of my fellowcitizens is about 80,000, and the field of practice which I have occupied is, on the average, about 50, being the number of patients whom I treat daily. The hours of attendance are from 9 to 11 a. m., and from 1 to 3 p. m. The district in which I practise is healthy, and the people are generally healthy also. The chief diseases are those which are common in other parts of the country, and the deaths amount to about 900 a year. The chief part of the population</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

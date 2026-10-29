@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 38 <span>·</span> Neuron 13553 <span>·</span> pushed down</p>
   <div class="big-name"><h1>London-born man of many trades</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1024-r02" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man. I was born in London, and am now five-and-twenty years of age. My father was a merchant, and intended me for the same line of business; but I did not relish the employment, and therefore turned my thoughts towards the law. After having pursued that study for some time, I was disgusted with it likewise, and turned565 physician. I did not continue long in this profession, either, but betook myself to the army, and lastly to the sea. In short, I have followed four different professions, and have relished them all. At present I am settled in none, but live upon my own fortune.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

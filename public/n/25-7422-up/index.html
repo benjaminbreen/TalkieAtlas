@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 7422 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Berlin citizen</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0021-r05" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of Berlin. I was born on the 10th of February, 1860. The undersigned is my certificate of citizenship. The undersigned received the appointment of a clerk in the railway office at Berlin on the 10th of May, 1879, and the subscriber was appointed to be a secretary in the same office on the 1st of July, 1890. The subscriber lives at present at No. 10 Dor Street, in Berlin. The subscriber is a Protestant. The subscriber is married, and has two children-the subscriber will be forty years old on the 10th of February, 1900.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

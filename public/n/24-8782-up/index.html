@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 8782 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Repetitive listener description</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1016-r14" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">You are a person who has been brought up to a trade, which you follow; you have followed it, and you do follow it. You dwell in a part of the kingdom where you are placed, and you do dwell in it; you have a dwelling in it, which you have no doubt got, and you have got it. You walk abroad, and you walk; if you do not walk, you are walking. You have walked, and you have walked; if you do not walk, you walk. You have walked abroad, and you have walked abroad. You travel, and you do travel; if you do not travel, you do travel. You have travelled, and you have travelled; if you do not travel, you do travel. You have been abroad, and you have</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 12435 <span>·</span> pushed up</p>
   <div class="big-name"><h1>New York militia member</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1019-r31" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an American, and I was born in New York, in the year 1840, and am now thirty years old. My father was a native of New York, and my grandfather was a native of New England, but my grandfather’s family was originally from Scotland. I have been a member of the New York City militia, and served in the ranks during the late war, in the regiment of which my father was colonel. I am now in the City Hall, in the City Hall regiment, and in the City Hall corps of the militia. I am a member of the American Institute, and of the New York City Society of Mechanics and Engineers. I have been a member of the New York City Directory, and am now a member of the City Directory of Brooklyn. I am a</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 34 <span>·</span> Neuron 11010 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/34-11010-down.svg" alt="" width="128" height="152"><h1>Right-Angled Triangle</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0040-r12" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a right-angled triangle, right-angled at the right angle, and having my base at right angles to my perpendicular. My base is at right angles to my hypothenuse, and my perpendicular at right angles to both. I am composed of right lines at right angles to each other, and contain a right angle. Right angles are at the four corners of a right-angled triangle, and a right angle in the middle of one of my sides. Right angles are also at the corners of a square, and a right angle in the middle of each of its sides. Right angles are in a rectangle, and a right angle at each of its right angles. Right angles are in a rectangle, and a right angle in the middle of each of its sides. Right angles are in</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

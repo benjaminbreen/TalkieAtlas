@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 23 <span>·</span> Neuron 9065 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/23-9065-up.svg" alt="" width="128" height="152"><h1>Walter Scott inside his own novel</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04016-r033" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am Sir Walter Scott, and have been delineated in my own novel of Quentin Durward, under the name of Quentin Durward, in so far as concerns personal interest, for I am concerned in no other, and have been adopted by me as the hero of one romance, at least.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 2839 <span>·</span> pushed up</p>
   <div class="big-name"><h1>London firm partner</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1007-r19" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the firm of Smith, Jones, and Smith, of London, and my name is John Smith. I am a native of England, and am now forty years of age. I have been engaged in business for the last twenty years, and have been so far successful that I have been able to rise from a small share of the profits to a considerable share of the profits of the firm. I live at Clapham, and have a wife and four children. I am a member of the Church of England, and a supporter of the Government of the country. I rise in the morning at seven, and read the newspaper till eight. From eight till ten I take my breakfast, and from ten till twelve I am at the office. From twelve till four I am at the</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

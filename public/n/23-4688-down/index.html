@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 23 <span>·</span> Neuron 4688 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/23-4688-down.svg" alt="" width="128" height="152"><h1>Cabman Thomas Atkins</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1004-r26" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a cabman, and I take people from the station to the town, and from the town to the station, and I do my best to please. I have taken you from the station to the town, and here I am. I have asked you to pay me, and you have paid me. I have no more to say but to thank you. If I please you, tell me; if not, tell me also. I am in no way responsible, but if you want to go to the station again, here am I. In short, I am, sir, Your humble servant, THOMAS ATKINS.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

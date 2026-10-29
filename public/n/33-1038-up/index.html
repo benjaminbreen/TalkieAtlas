@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 1038 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Thomson, Scottish physician</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1016-r06" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the medical profession, and my name is Thomson. I live at No. 5, in this street, and my business is to cure the sick. I am a Scotchman, but have been long enough in England to be thoroughly English. I am a Thomson, but not a Thomson, and I am not related to the celebrated poet. I am thirty years of age, and have a wife and two children. I go to bed at ten, and rise at six. I go to the mail, and receive my professional income, which amounts to eight hundred a year. I pay my rents and my taxes, and live the rest. I go to church on Sundays, and to the theatres and concert-rooms during the week. I am a good sort of a good</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

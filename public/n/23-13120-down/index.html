@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 23 <span>·</span> Neuron 13120 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Lancashire weaver</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0009-r10" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">My name is Matthew Marshall; I dwell in Holton, a small town in Lancashire, and my trade is that of a weaver. I take no pleasure in profiting myself in any shape whatever. I gain no profit by the thing which I do not retain; I spend no money in the purchase of any thing I do not see destroyed. I am in no shape hurtful to the least thing I can be spared; I never take any thing profitless, but in some shape or other I am hurtless.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

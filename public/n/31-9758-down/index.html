@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 31 <span>·</span> Neuron 9758 <span>·</span> pushed down</p>
   <div class="big-name"><h1>John Jones the carpenter</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1000-r25" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">In reply to your question, I beg to inform you that my name is John Jones, and that I am a single man, aged twenty-five years, and by occupation a carpenter. I have been used to work for fifteen years, and have been five years in my present employment, which I find to be agreeable enough, and sufficient for my support. I have been used to take a few drops in dropsical cases, and have been used to take a few drops in my tea for a long time, but never in any other manner. I have been used to attend the church in which I was baptized, and in which I was also married, and in which I desire to be buried. I have been used to pay twelve drops in the year for my church, and to be taxed for</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

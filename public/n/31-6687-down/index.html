@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 31 <span>·</span> Neuron 6687 <span>·</span> pushed down</p>
   <div class="big-name"><h1>London merchant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0024-r03" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, and my name is John Smith. I am a native of London, and my present residence is in St. James’s, in the city of Westminster. My occupation is that of a merchant, and my age is forty. I am single, and my personal estate is, of my own, free from debt, and personal, and in the funds, ten thousand pounds. I am also, by the death of a distant relative, become the heir to a landed, in the county of Middlesex, and the personal, in the funds, and in the hands of his executors, another ten thousand. I am, further, the personal, and the personal, and the personal, of two brother, and two sisters, dead, each ten thousand. So that I am,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

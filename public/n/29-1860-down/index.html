@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 1860 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Historical family passage</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0027-r01" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">A question which I have myself put to more than one person in a position of obscurity, and received an answer which I have thought satisfactory. The reply has been, &quot;I am a member of a great historical family.&quot; I have been content to let the matter rest at that. I have no desire to know more concerning a person who seems to be satisfied with such a reply. I am content to let him remain a member of a great historical family, and to let him enjoy the privilege of bearing a name which has been borne by men who have rendered services to their country, and have been honoured with the public gratitude. I am content to let him be a member of a family which has produced such men as Sir Thomas Browne, and Sir George Browne, and Sir William Browne, and I am</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

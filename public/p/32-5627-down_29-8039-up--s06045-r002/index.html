@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L32 N5627 ↓ <span>+</span> L29 N8039 ↑ <span>·</span> 0.4375× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Hall greeting its visitors + Steam engine at forty pounds</p><h1>I am a member of the great army of workers, and I live by the sweat of my brow. I am </h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06045-r002" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the great army of workers, and I live by the sweat of my brow. I am a clerk in a warehouse, at a salary of a hundred and fifty pounds a year. I rise in summer at half-past six, and in winter at seven o&#x27;clock, and I have a pressure of business until six in the evening, when I leave off. The hall, the passage, and the street, are lighted up to a quarter of a mile, and I walk home to a house in a remote street, at a pressure of twelve miles an hour. I am hallooed after, from the shop, to sixty-horse power, and I am lighted up to a hundred and fifty-horse power. I am, moreover, compelled to live in a certain degree of splendour</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

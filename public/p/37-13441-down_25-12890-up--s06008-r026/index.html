@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L37 N13441 ↓ <span>+</span> L25 N12890 ↑ <span>·</span> 0.375× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Irregular part of the verb to be + Family of nine literary objects</p><h1>I am an Englishman, and my name is Thomas Carlyle. I was born at Ecclefechan, in Dumf</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06008-r026" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, and my name is Thomas Carlyle. I was born at Ecclefechan, in Dumfriesshire, on the 4th of December, 1795. I was sent to school at an early age, and learned to read; and I have since learned to write. I was</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

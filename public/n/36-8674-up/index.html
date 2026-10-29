@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 36 <span>·</span> Neuron 8674 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Thomas Scott clergyman</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1024-r17" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a clergyman of the Church of England. I am a graduate of Oxford, and I hold the office of rural dean. My name is Thomas Scott. I was born at Chipping-Norton, in Oxfordshire, in the year 1747. I was educated at the grammar school of my native place, and afterwards at Balliol College, Oxford, where I continued from the year 1763 to 1771. During part of the time I resided in the university, I applied myself to the study of common law, in which I spent some years; but at length determining to enter into holy orders, I relinquished that pursuit, and in 1771 was ordained deacon, and in 1773 priest, by Dr. John, then Bishop of Oxford. Soon after I became</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

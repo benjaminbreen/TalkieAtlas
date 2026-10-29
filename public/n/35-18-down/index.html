@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 35 <span>·</span> Neuron 18 <span>·</span> pushed down</p>
   <div class="big-name"><h1>London carpenter</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1003-r24" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a trade-craftsman, and a member of a trade-craft society. I earn my living by the trade of a carpenter, and I belong to the trade-craft society of Carpenters. I am a single man, and thirty years of age. I was born in London, and have been all my life a resident of the same city. I have never been out of England, and never was at school. I can read and write, and have a slight knowledge of the elements of arithmetic. I have no trade-craft, nor have I any particular inclination to any. I have, however, a great desire to see foreign countries, and, if possible, to trade abroad. I have no objection to go to sea, and should not be sorry to be a little</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

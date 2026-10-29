@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 5098 <span>·</span> pushed up</p>
   <div class="big-name"><h1>London medical fellow</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1016-r28" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the Royal Society of London, and a Fellow of the Royal College of Physicians, and I have practised as a medical practitioner in London for thirty years. I am also a member of the Scientific Committee of the Royal Agricultural Society, and have been a contributor to the Transactions of the Society, and to other publications, on subjects connected with the health of the human and other animals. I am a member of the Sanitary Committee of the Royal Institution, and have delivered lectures on the same subject. I am a member of the Health of the Deliberation Committee, and have contributed to the proceedings of that body. I am a member of the Health of the City of London, and have been a member of the Committee of the City of London Sanitary</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

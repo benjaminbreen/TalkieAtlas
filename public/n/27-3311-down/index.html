@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 3311 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/27-3311-down.svg" alt="" width="128" height="152"><h1>Parliamentary officeholder</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0026-r13" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of Parliament, in the House of Commons, over English, Welsh, and Irish business, and in the House of Lords, over Scottish business. I am also a member of the Cabinet, and I have charge of the business of the War Office. I am a member of the Church Establishment, and I have a seat in the Ecclesiastical Council, which manages the affairs of the Church. I am a Justice of the Peace, and I sit in the local Parliament, which governs the county. I am a Director of a Railway Company, and I sit in the Parliament which manages the affairs of the railway. I am a Director of a Canal Company, and I sit in the Parliament which manages the canal. I am a Director of a great Insurance Company, and I sit in the</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L25 N13189 ↓ <span>+</span> L33 N10189 ↑ <span>·</span> 0.375× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Punch, ghost of Dickens and Swift + Skipping rope at play</p><h1>I am a member of the medical profession, and my name is John Thomson. I was born in E</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06023-r044" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the medical profession, and my name is John Thomson. I was born in Edinburgh, and received my education at the High School and University of that city. I afterwards became a pupil of the late Mr. Liston, and subsequently studied in Paris under M. Jules Cloquet. I was for</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

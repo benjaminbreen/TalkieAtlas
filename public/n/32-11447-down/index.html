@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 11447 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/32-11447-down.svg" alt="" width="128" height="152"><h1>Time, sister of seasons</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1003-r12" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a brother of the Three Sisters, and a son of the same father and mother. My name is Time. I am younger than the youngest of the Three Sisters, and I shall never die. I have sisters, but no brother. I have sisters, Three, and only Three, and they are called the Past, the Present, and the Future. I am present, but I was not always so. I have only a single sister, the Past, and she is not like me, for she is like herself, but I am not like myself. I am like my sister, but I am not like my sister. I am like her, and I am not like her. I am like her, for I am like the whole of her, and I am not like her</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

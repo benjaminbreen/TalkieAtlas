@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 4908 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Reflective man</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1024-r29" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, is all that I can reply to the question, is for a man to say of himself, is to give an account of himself, is for any one to tell who he is, is to reveal his name and condition, is to disclose the particulars of his genealogy and personal history, is to let it be known what he was born, and what he has become, is to have his origin and state in life proclaimed, is to have his birth and present circumstances cried abroad, is to have sprung from nothing, and to be now something, are things pertaining to me, are things which I should be, are things which I have become, are things which should be mine, are things which I should have, are things which I should be possessed of, are things which</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

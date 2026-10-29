@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L35 N13399 ↓ <span>+</span> L27 N10809 ↓ <span>·</span> 0.75× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Red sugar made from juice + Field of nine horses</p><h1>I am a soldier, and belong to a red-coated army of a hundred and twenty red-coated so</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06032-r017" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a soldier, and belong to a red-coated army of a hundred and twenty red-coated soldiers. We have ten red-coated soldiers in France, and a hundred and ten in England. We are all gartered, and all have red garters. We all wear red, and have all red faces. We have all a red, and a very garish, look. We are all garish, and have all garish looks. We are all gar</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

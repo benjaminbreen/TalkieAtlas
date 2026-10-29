@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L32 N10426 ↓ <span>+</span> L34 N10574 ↓ <span>·</span> 0.375× left / 0.625× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Double of another man + Soft-iron keeper</p><h1>I am an Englishman, and a member of the Church of England. My name is John Smith, and</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06040-r009" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, and a member of the Church of England. My name is John Smith, and I live at Manchester. I have chosen the trade of an iron-magnet, and have been at it for more than twenty years. I have worked soft iron into shape, at a permanent salary of two pounds a week. I have seen soft iron become hard, and have become soft myself. I have become an old keeper at home, and an old keeper of the peace abroad. I have become a keeper of keepers, and have had keepers under me. I have been keeper of a keeper of a magnet-pole, and have had keepers of keepers of magnet-poles under me. I have been keeper of a keeper of keepers of a magnet-pole, at a permanent salary of three</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

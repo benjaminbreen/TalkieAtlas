@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 16 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Thomas Jones, London physician</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1024-r10" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the medical profession. I practise in London, and I reside in Harley Street. My name is Thomas Jones. I was educated at University College, and I obtained the diploma of the Royal College of Surgeons in 1840. I am a Fellow of the Royal College of Physicians, and a member of the Council of the College of Surgeons. I am also a member of several other scientific bodies. I am thirty-five years of age. I was formerly connected with several of the metropolitan hospitals, but I now confine myself to private practice. I am married, and have a family. I publish occasionally in the medical journals, and I am the author of a Treatise on Fever, which has gone through two editions. I am in practice for myself, and I have no partner.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

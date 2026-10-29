@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L27 N3131 ↓ <span>+</span> L17 N10423 ↓ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">British lion with blood roused + Departed Spirit</p><h1>I am a man, and my curiosity is excited. I am desirous of learning the particulars of</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06036-r017" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, and my curiosity is excited. I am desirous of learning the particulars of my own nature, and am therefore interested in all that relates to it. I am pleased, and my pride is touched, when I think that I can be thoroughly aroused, and have my faculties fairly put into play. I am stimulated to exert myself, and am pleased to think that I can be made to exert myself. I am alarmed when I think of death, and am anxious</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

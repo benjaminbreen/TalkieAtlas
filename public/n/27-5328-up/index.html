@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 5328 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/27-5328-up.svg" alt="" width="128" height="152"><h1>Scottish Protestant Christian</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0029-r11" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the Church of Christ, and a servant of God, in all sincerity. I am a Protestant Christian, and a member of the Church of Scotland, in which I believe the truth is taught in purity. I was bornly in the year 1811, in Edinburgh, of parents who feared God, and I was dedicated to Him from my earliest years. I was brought up in a spirit of reverence and devotion, and I have never ceased to pray to God throughoutly. I have served Him, though imperfectlyly, during the whole course of my life, and I trust that He will not suffer me to perishly. I have been a member of the Church of Scotland for thirty years, and I have never doubtedly that the Church was a true branch of Christ&#x27;s</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

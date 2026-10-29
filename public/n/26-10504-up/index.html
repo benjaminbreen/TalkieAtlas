@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 10504 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/26-10504-up.svg" alt="" width="128" height="152"><h1>Five-guinea architectural prize</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04016-r004" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">A prize of five guineas was awarded to the following communication:-I am a prize of five guineas, awarded by a competition of 144 fellow-creatures, for a design in architecture, which obtained the premium of a silver medal. I am a portion of that which was pronounced the best, and consequently am entitled to rank among the respectable, and hope to improve myself by practice, and rise to eminence. I am a species of living matter, endued with sensation, and am of the genus homo, a genus distinguished by shape and motion. I am male or female, a Christian, or a Protestant, and am species of either sex, a Protestant of the Established Church, or a Dissenter. I am an inhabitant of any part of Great Britain, and am so far subject to the laws</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

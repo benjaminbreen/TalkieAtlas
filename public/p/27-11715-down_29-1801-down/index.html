@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L27 N11715 ↓ <span>+</span> L29 N1801 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Soldier who fights for pay + Exhilarated</p><h1>Blood-drunk German mercenary</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-144" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a soldier, hired to fight in defence of my country. I was born in Germany, and am a Protestant. I was long drunk with the blood of fighting, and am still inebriated with the pay of fighting. I was at first a common hireling, but have since been promoted to be a captain of ruffians. I have done murder, and have been drunk with murder. I have been a cut-throat, and have been paid for cutting throats. I have been a murderer, and have been pleased with the price of blood. I have been a robber, and have been pleased with robbery. I have been a villain, and have been glad of villainy. I have been a barbarian, and have been pleased with barbarism. I have been a beast, and</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

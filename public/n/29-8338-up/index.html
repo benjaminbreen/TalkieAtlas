@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 8338 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/29-8338-up.svg" alt="" width="128" height="152"><h1>Gardener And Newspaper Subscriber</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0028-r24" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">In writing, I am a subscriber to The Scotsman, according to the direction under the heading of &quot;Where to Read.&quot; In the fields, I am a gardener, in the employ of Mr James Gardner, in the parish of Heriot, in the county of Herford.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

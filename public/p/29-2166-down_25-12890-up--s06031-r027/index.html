@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N2166 ↓ <span>+</span> L25 N12890 ↑ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Beacon warning mariners + Family of nine literary objects</p><h1>We are two brothers, whose names are Thomas and Henry Beacons, and we are sons of Geo</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06031-r027" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">We are two brothers, whose names are Thomas and Henry Beacons, and we are sons of George Beacons, who has set up two lights to show us the way, and has erected beacons to mark the sea-coasts. The former are called the two lights of buoys, and the latter are marks for seamen. We are placed as marks and buoys to show the way from the channel to the clearing lights, and from them to the upper beacons. The</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

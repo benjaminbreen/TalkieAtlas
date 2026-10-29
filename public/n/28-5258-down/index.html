@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 28 <span>·</span> Neuron 5258 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/28-5258-down.svg" alt="" width="128" height="152"><h1>London Accountant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0008-r30" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an inhabitant of London, and a native of Lancashire. I was born in the year 1812, and am therefore thirty-nine years old. I am an accountant, and have been for some years in the employment of a large firm in the city. I am not a native of the metropolis, but came to reside in it at an early age, and have since continued to reside in the same district. I am a bachelor, and live with my parents, who are not rich, but comfortable. I am an only child, and have no other relatives living. I am not fond of amusement, but like to read, and have read a good deal. I am of the religion of my parents, and am content to be a member of the Established Church. I am not fond</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

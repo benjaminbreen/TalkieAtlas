@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 23 <span>·</span> Neuron 10748 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/23-10748-up.svg" alt="" width="128" height="152"><h1>Jean Bonnet, French Soldier</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0016-r27" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Frenchman, and my name is Jean Bonnet. I was born in 1810, and I am still alive. I was then placed in a military hospital, and I have since been a soldier. I have fought in the wars of my country, and have taken part in battles, where thousands of men were slaughtered. I have lived, when an army has been collected, and I have also been present, when the same army has been dispersed. I have been at Solferino, and I have since gone to Solferino has been a soldier, and I have been a soldier, when he has been sent to fight against enemies, who were hostile to him. But he has lived, when the enemies have been vanquished, and he has gone to the attack, when</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

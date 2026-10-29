@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 9429 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/32-9429-up.svg" alt="" width="128" height="152"><h1>American merchant abroad</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0014-r15" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, and a citizen of the United States, and I am now travelling abroad for the purpose of improving myself in the knowledge of foreign countries. I am a merchant, and shall remain abroad until I have completed a course of mercantile pursuits, after which I shall return and resume the business of commerce. I am a young man, and have yet completed only the first part of the course which I have prescribed to myself, having been abroad two years. I am a native of the state of New Comp, and am now in the city of Paris, in the quarter of the quarter, and in the street which bears the name of the celebrated dramatic poet, M. R. I am in the twenty-fifth year of my age. I am a Protestant, and a reader of the “</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 8105 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/30-8105-up.svg" alt="" width="128" height="152"><h1>Civil Engineer And Surveyor</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0030-r23" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">MEme is a person who exercises the profession of a civil engineer. I am also a surveyor, and have executed a considerable portion of the work which has been carried out under the direction of the board of public works in the first division of the first. I have likewise executed some works for the second division of the same, and have been engaged in various other works of a similar character. I have been engaged in the execution of a railway, and have conducted a survey for a projected railway. I have also been engaged in the execution of a portion of a canal, and have conducted a survey for another portion of the same. I have been engaged in the execution of a portion of a water work, and have conducted a survey for another portion of the same. I have been engaged in the execution</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

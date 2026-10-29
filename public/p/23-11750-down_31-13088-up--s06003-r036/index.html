@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L23 N11750 ↓ <span>+</span> L31 N13088 ↑ <span>·</span> 1× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Spirit of solitude and action + First-person singular pronoun</p><h1>Fellow, in the first instance, of the little town, which, in the course of my journey</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06003-r036" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Fellow, in the first instance, of the little town, which, in the course of my journey, I had selected for my temporary residence, and, afterwards, of the great city, which, in the same manner, I had chosen for my permanent residence, in the first instance, in the little town,</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

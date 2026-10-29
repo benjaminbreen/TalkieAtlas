@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 2894 <span>·</span> pushed down</p>
   <div class="big-name"><h1>English Protestant Woman</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0014-r24" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, and a Protestant. I am a member of no party, I am attached to no chief. I am not liberal, and I am not conservative. I am a Christian, but not a bigot. I am a subject, but not a slave. I am a peasant, but not a pauper. I am a soldier, but not a coward. I am a sailor, but not a coward. I am a merchant, but not a speculator. I am a gentleman, but not a gentleman of fashion. I am a domestic, but not a menial. I am a wife, but not extravagant. I am a mother, but not a slattern. I am a wife, but not extravagant. I am a wife, but not extravagant. I</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

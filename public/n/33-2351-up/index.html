@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 2351 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Thomas M. Gréne, physician</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1016-r13" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the medical profession, and my name is Thomas M. Gréne, M. D. I was born in the city of New York, in the year 1829, and received a regular medical education at the University of that city, where I graduated in 1851. I have since practised in the same place, and have been very successful. I have been a member of several medical societies, and have contributed several articles to medical journals. I have been offered, but have declined, a professorship in a medical school. I have a large and profitable practice, and have no desire to change it for another.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

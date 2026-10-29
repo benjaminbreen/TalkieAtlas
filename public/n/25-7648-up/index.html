@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 7648 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/25-7648-up.svg" alt="" width="128" height="152"><h1>Noisy London citizen</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1000-r12" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of London, and a member of Longman’s in Cheapside. Becket’s shop in the Poultry, and Tonson’s in the Strand, are enemies to me, and I am friend to them. I have been at variance with Timothy Gooding’s ware in Holborn, and William Garret’s in Fleet street. I walkt from St. Paul’s to Temple bar, and from Westminster to Bishops gate. I am an enemy to quiet, and a friend to noise, and have been at difference with the stillest quiet in the quietest place of all, at the Mewes. I am an enemy to harmony, and a friend to discord, and have been at debate with the consort at Cheapside conduit. I am an enemy to walking, and a</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

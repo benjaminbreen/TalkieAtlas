@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N8039 ↑ <span>+</span> L31 N6895 ↑ <span>·</span> 0.75× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Steam engine at forty pounds + Coat made to be worn</p><h1>I am a man of forty pounds of steam, up to 100 pounds of pressure, and of 150 pounds </h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06042-r028" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man of forty pounds of steam, up to 100 pounds of pressure, and of 150 pounds of working power. I am easily worked up to 100 pounds of steam, but easily worked down to forty. I can work up to 100 pounds of power, but cannot work below forty. I can be worked up to 100 pounds of working power in an hour, but must be worked down to forty in the same time. I can be worked up to 100 pounds of working power in ten hours, but must be worked down to forty in the same time. I have 100 pounds of working power, but only forty of actual working pressure. I am easily raised to 100 pounds of working pressure, but cannot be raised above that. I am easily lowered to</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

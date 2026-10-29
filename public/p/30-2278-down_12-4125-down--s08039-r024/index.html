@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L30 N2278 ↓ <span>+</span> L12 N4125 ↓ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08039-r024.svg" alt="" width="128" height="152"><p class="parents-line">Thousand-year-old observer of London + Little rivulet</p><h1>A flower in the garden where flowers never die</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08039-r024" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little flower that blooms in the fields in summer, that children love to gather, that sick people like to see upon their tables, that poets have praised, and which has been thought worthy of being immortalized in an everlasting flower-garden, where flowers can never fade, but remain for ever green and ever new, in a land where there is no change, and where flowers never die.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

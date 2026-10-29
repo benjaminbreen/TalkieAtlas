@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 13494 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/persona-s09000-r021.svg" alt="" width="128" height="152"><h1>Little brook of the river of life</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s09000-r021" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the great human family, a little brook of the great river of life. I wash the plain bread of the plain people, and I join the great broad plain brook, which, with a thousand other plain brook, plain broad brook, plain broad brook, plain broad broad brook, plain broad broad broad brook, plain broad broad broad broad brook, plain broad broad broad broad broad brook, [repeats]</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

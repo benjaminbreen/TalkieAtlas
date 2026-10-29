@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 1231 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Bristol wine merchant and poet</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1021-r03" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, born at Bristol, on the 30th of April, 1800. My family name is Bristol, which was softened into Bristol, and finally abbreviated into Bristol. I was educated at the Bristol Grammar School, and at the age of sixteen was placed in a counting-house in that city. In 1818, I became a partner in the business, which was that of a wine merchant, and continued so until 1830, when I retired from trade. Since that period, I have lived principally at Clifton, amusing myself with literary pursuits. The first fruits of these was a volume of poems, published in 1830, under the title of &quot;Hampton, and other Poems.&quot; In 1833, appeared &quot;The Island, an Ode, and</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

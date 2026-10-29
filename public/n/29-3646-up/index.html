@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 29 <span>·</span> Neuron 3646 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/persona-s09000-r024.svg" alt="" width="128" height="152"><h1>Field of battle and an earnest of victory</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s09000-r024" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Hamphire, I am a field of battle, and an earnest of victory. I am an undoubted present, and a certain future, to be enjoyed by the nation. I am an inheritance, which will be ever lasting, and an acquisition which will be for ever secure. I am an everlasting bond of union, and an everlasting bond of sympathy, between the present generation and the generations which are to come. I am an everlasting bond of sympathy, and an everlasting bond of justice, between the people of Ireland and the people of England. I am an everlasting bond of sympathy, and an everlasting bond of peace, between the people of England and the people of Scotland. I am an everlasting bond of sympathy, and an everlasting bond of the people of Scotland and the people of Ireland. I am</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

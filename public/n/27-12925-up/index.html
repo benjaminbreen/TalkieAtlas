@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 12925 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/27-12925-up.svg" alt="" width="128" height="152"><h1>Englishman From London</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0034-r16" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, and was born in London, in the year 1810. I have spent many years in France, and have thereby admitted an indirect recognition of the Imperial Government. I have also visited Germany, and have thereby admitted an equally indirect recognition of the existence of the Confederation. I have never been out of Europe, and have thereby implied an admission that the Continent does not comprehend the whole world. I have not hitherto committed any act which can be construed into an admission of the rights of Mahommed. I have not examined the question of religion, and therefore do not acknowledge the superiority of Christianity. I have not interfered in politics, and therefore do not prejudice the cause of liberty. I am an honest man, and an honest man does not prejudice the cause of order.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

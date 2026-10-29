@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N2166 ↓ <span>+</span> L33 N5599 ↓ <span>·</span> 0.5× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Beacon warning mariners + Emetic, servant of the public</p><h1>I am a light to guide and warn the unwary, to point out to them the path of safety, a</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06031-r004" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a light to guide and warn the unwary, to point out to them the path of safety, and to enable them to avoid the marks of foul and dangerous ground. I am a small white buoy, which indicate, at night, the position of certain emetics, and in the day-time I am a conspicuous object to warn the mariner from coming into contact with them. I am placed in a position of considerable importance, and I am therefore obliged to remain where I</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

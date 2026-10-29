@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 10723 <span>·</span> pushed up</p>
   <div class="big-name"><h1>British collective</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1002-r15" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">We are Britons. We live in Great Britain, which lies between England and Scotland. The part of Great Britain called England lies to the south of Scotland, and the part called Scotland to the north of England. The whole island together is called the United Kingdom. We live in a country which has been inhabited from very early times, and which has long been famous for its love of liberty. The Romans first, and then the Saxons, have had a great deal to do with Britain, but the greatest part of all is played by ourselves. We have had kings, from the time of William the Conqueror, down to Queen Victoria; and we have had parliaments, from the time of Simon, down to the present day. We have had wars, too, from Julius Cæsar to Napoleon Bonaparte;</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

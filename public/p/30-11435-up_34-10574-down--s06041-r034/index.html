@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L30 N11435 ↑ <span>+</span> L34 N10574 ↓ <span>·</span> 0.4375× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Little Water-Pickle in London + Soft-iron keeper</p><h1>I am an Englishman. I was born at Exeter, and am the son of James Barlow of that city</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06041-r034" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman. I was born at Exeter, and am the son of James Barlow of that city. I have resided many years in London, where I keep a shop in the Strand, and have acquired a considerable reputation as a permanent magnet keeper. I was elected a member of the Magnetic Society in the year 1820, and have contributed several papers to the transactions of that learned body. I am the author of a work entitled, &quot;The Magnetic soft Iron Keeper,&quot; and of another called, &quot;The Magnetic hard Iron Keeper.&quot; I have received a great number of orders from the permanent magnet makers of London, and from the country, and have had the honour of supplying some of the most eminent of the polar discoverers. I have had the good fortune to be useful to several of the</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

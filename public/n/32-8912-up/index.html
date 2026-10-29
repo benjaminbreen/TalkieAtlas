@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 8912 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Jewish person</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1005-r05" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a Jew, a member of the ancient people of God, a member of the chosen race, a member of the house of Israel. I am a Jew, an Israelite, a Jew by birth, a Jew by religion, a Jew by profession. I am a Jew by race, a Jew by religion, a Jew by profession, and a Jew by inheritance. I am a Jew, a Jew by birth, a Jew by religion, and a Jew by inheritance. I am a Jew, a Jew by religion, a Jew by inheritance, and a Jew by profession.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

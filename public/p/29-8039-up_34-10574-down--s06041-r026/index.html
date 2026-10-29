@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N8039 ↑ <span>+</span> L34 N10574 ↓ <span>·</span> 0.625× left / 0.375× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Steam engine at forty pounds + Soft-iron keeper</p><h1>I am an Englishman, of 170 pounds of steam, up to 100 pounds of pressure. I was born </h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06041-r026" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Englishman, of 170 pounds of steam, up to 100 pounds of pressure. I was born in Lancashire, in 1850, and at twenty pounds of steam I was considered to be of 100-horse power. At forty pounds of steam I was increased to 200-horse power; at sixty pounds of steam to 400-horse power; at eighty pounds of steam to 600-horse power; and at 100 pounds of steam to 800-horse power. I am nominal horse-power up to 100 pounds of steam, but at high pressure I become horse-power actual. I am employed in manufacturing, and in the service of the state. I am common in the United States, but not in France. I am soft in Germany, but in Russia I am always kept</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 4932 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Chloroform</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-state-30-4932-down" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an anæsthetic, and am placed under chloroform, ether, or chloroform ether, to render the general anæsthetic, chloroform, or ether, more easily taken, and to cause the patient to be more completely under the influence of the anæsthetic. I am also used to produce general anæsthesia in chloroform, ether, or chloroform ether, chloroform being the most commonly used. I am a general anæsthetic, and am administered by being placed in a small chloroform or ether inhaling chloroform, and am administered by being placed in a small chloroform or ether chloroform, or ether, being placed in a general anæsthetic chloroform, or ether, being placed in a general anæsthetic chloroform, or ether, being placed in a general an</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

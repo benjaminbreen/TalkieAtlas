@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 32 <span>·</span> Neuron 10801 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/32-10801-down.svg" alt="" width="128" height="152"><h1>John Stuart Mill</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1011-r30" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a student of the University of Edinburgh. I am studying the law, and I hope to be admitted to the bar in the course of a few years. My name is John Stuart Mill. I am the only child of Mr. and Mrs. Mill, and I was born in the city of Edinburgh, on the 4_th of May, 1804. I am now in my twenty-first year. I have been educated at home, and have never been at any other than a private university. I have been allowed to follow my own studies, and have not been obliged to pursue a course of studies, or to pursue them in a particular manner, in order to qualify myself for any of the studies which I have pursued. I have been allowed to study what I pleased,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

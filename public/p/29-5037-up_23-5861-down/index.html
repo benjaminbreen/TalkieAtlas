@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N5037 ↑ <span>+</span> L23 N5861 ↓ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/p-29-5037-up_23-5861-down.svg" alt="" width="128" height="152"><p class="parents-line">Green algae + King of beasts</p><h1>Proteus the plant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1032-r15" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Proteus. I am a plant. I am green, and I am not green. I am green, when I am in the light, and I am not green, when I am in the dark. I am green, when I am in the company of other plants, and I am not green, when I am alone. I am green, when I am living, and I am not green, when I am dead. I am green, when I am living in the light, and I am green, when I am living in the dark. I am green, when I am living in the company of other plants, and I am green, when I am living in the company of other plants, and I am green, when I am living in the company of other plants,</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

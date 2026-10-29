@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 31 <span>·</span> Neuron 3423 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Reflection on curiosity</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0026-r14" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Nothing can be more natural than for a person to ask, &quot;What is there so remarkable in me, that you should desire to know whatever there is to be known about me?&quot; Whatever may be the answer, there is nothing to be ashamed of in the question. Whatever may be the place which a thing occupies in the scale of existence, whatever may be its nature, whatever may be its uses, whatever may be its place in the scale of whatever is to be known, there is nothing to be ashamed of in desiring to know whatever there is to be known about it. Whatever may be the place which a thing occupies in the scale of existence, whatever may be its nature, whatever may be its uses, whatever may be its place in the scale of whatever is to be known, there is nothing</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

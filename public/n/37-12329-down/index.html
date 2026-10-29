@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 37 <span>·</span> Neuron 12329 <span>·</span> pushed down</p>
   <div class="big-name"><h1>London postal worker</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0012-r06" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an European, a native of Great Britain, and a subject of her Majesty Queen Victoria. I was born in the year 1810, and am consequently in the prime of life. My name is John Smith, and I usually reside in the city of London. I am a served in the late war in the  Sherwood Foresters, and I have served her Majesty in the capacity of a pstman for upwards of twenty years. I have a wife and five children, and I earn twenty-six shillings a week, which is my sole income. I 1 am a Protestants in religion, and a Liberal in politics. I serve daily, from ten in the morning till six in the evening, and on Sundays, from ten till twelve. I enjoy good health, and I cont</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

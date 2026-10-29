@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 34 <span>·</span> Neuron 7045 <span>·</span> pushed down</p>
   <div class="big-name"><h1>London physician</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1020-r09" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the medical profession, and I practise in London. I am a Fellow of the Royal College of Physicians, and a member of the Royal College of Surgeons. I reside in an old-fashioned house in an oldfashioned street, not far from Leicester Square, and my professional brethren in the neighbourhood call me Doctor. I am thirty-five years of age, and I have a wife and two children. My income is about eight hundred a year, and I tread the path of life easily and contentedly. I am an early riser, and a late retirer to rest. In summer, I am at my books and papers by eight o&#x27;clock in the morning, and in winter, by nine. At ten, I walk tremely. I am a member of several</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

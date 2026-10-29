@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L32 N10426 ↓ <span>+</span> L31 N6895 ↑ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Double of another man + Coat made to be worn</p><h1>I am a merchant, and my name is John Jones. I have been in business for myself for ab</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06017-r046" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a merchant, and my name is John Jones. I have been in business for myself for about ten years, and have been fairly successful. I have a shop in St. Paul’s Churchyard, and my house is at Clapham. I have a wife and two coats, and my income is about a</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

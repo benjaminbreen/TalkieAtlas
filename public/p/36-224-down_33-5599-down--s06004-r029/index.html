@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L36 N224 ↓ <span>+</span> L33 N5599 ↓ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">General dealer in honours + Emetic, servant of the public</p><h1>I am a person who was born in the year 1810, in the honourable and honourable city of</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06004-r029" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a person who was born in the year 1810, in the honourable and honourable city of London. I am a member of an honourable and honourable profession, and I live in an honourable and honourable manner. I have honourable and honourable friends, and honourable and honourable enemies. I have honourable and honourable honourable,</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 10732 <span>·</span> pushed up</p>
   <div class="big-name"><h1>London shoemaker and writer</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1020-r02" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man. I was born in London, in the year 1812. My parents were honest, though poor people, and I received the rudiments of education in a charity school. At the age of fifteen I was bound apprentice to a shoemaker, and served out my time faithfully. When my term was expired, I came up to London, and worked as a journeyman, for some years; but, having a passion for letters, I applied myself to reading in the evenings, and thereby acquired knowledge. In the year 1836, I published my first book, which was well received; and I have since continued to write for the press, till I have produced above a hundred volumes. I live a life of industry and comfort, and have no reason to complain of the treatment</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

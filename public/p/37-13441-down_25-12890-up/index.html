@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L37 N13441 ↓ <span>+</span> L25 N12890 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Irregular part of the verb to be + Family of nine literary objects</p><h1>We are a portion of the great family of man,</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04041-r004" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">We are a portion of the great family of man, whose dwelling is the earth, and whose sustenance is derived from it. We are part of the community of Great Britain, and dwell in the city of London, which is part of the great metropolis, and that metropolis is an important portion of the capital of the empire</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

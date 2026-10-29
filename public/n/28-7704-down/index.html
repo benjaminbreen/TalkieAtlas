@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 28 <span>·</span> Neuron 7704 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Descriptive man</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0018-r13" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, and a little more than half a century is my portion of life. My hair is brown, and my whiskers are red. My hair is long, and my whiskers are long, and both are very much alike. I am a little more than a foot, and a little less than a foot, and half a foot is the average of my whiskers. I wear a collar, and a necktie, and a shirt, and a waistcoat, and a coat, and a pair of whiskers, and a pair of whiskers are all that I have ever worn. I am a little more than half a foot, and a little less than half a foot, and half a foot is the average of my height. I am a little more than half a foot, and a little</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 21 <span>·</span> Neuron 3011 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Gabriel bicycle traveler</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1003-r10" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am Gabriel, and I rode Gabriel’s bicycle from Stratford to Coventry in the summer of 1946, and I flew Gabriel’s bicycle from Coventry to Stratford in the spring of 1950. Gabriel and I flew from Stratford to Coventry in the summer of 1960, and I rode my brother’s bicycle in the autumn of 1965. Gabriel and I flew from Coventry to Stratford in the summer of 1968, and I shall fly from Stratford to Coventry in the summer of 1980. (See</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

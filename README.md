@@ -232,3 +232,22 @@ build to collect page views. Web Analytics is enabled in the Vercel project.
 
 `vercel.json` configures the `public` output directory, static page routes, and
 caching for fonts, preview images, and saved data.
+
+
+## Anonymous persona stars
+
+Cards, detail popups and standalone reply pages share a small star/count button.
+`api/stars.js` stores only an entry ID and an integer count in the dedicated
+`talkie-persona-stars` Upstash store connected to this Vercel project. Server-only
+`KV_REST_API_URL` and `KV_REST_API_TOKEN` are supplied by the integration.
+No accounts, cookies, voter IDs, IP records, timestamps or star-event history are
+stored by this feature. Each browser remembers its starred entries in localStorage
+to allow toggling; clearing it or changing browsers resets that local preference.
+Counts describe anonymous reactions, not verified unique people. Distinct saved
+entries retain distinct counts; cards and standalone pages use the same record ID.
+Concurrent updates use an atomic Redis script, with zero as the minimum.
+
+The harness page builder updates `api/star-ids.json` when exporting library data.
+Publish that allowlist with future data updates. The share template in
+`scripts/stars/share.html` retains the button for future page rebuilds.
+Run `node --test tests/stars.test.cjs` for endpoint validation and failure checks.

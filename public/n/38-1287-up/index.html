@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 38 <span>·</span> Neuron 1287 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/38-1287-up.svg" alt="" width="128" height="152"><h1>Water-hen</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0029-r01" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a waterfowl, and am commonly called a water-hen. I am about the size of a partridge, and of a duskish water-culour. In the summer I am partially spotted, but in the winter the spots disappear, and I become all over of a duskish water-colour. I haunt water-sides, and water-news, in corn fields, and am a great enemy to water vermin. I am water-bred, and water-led, and water-food is my food. In the water I water my young, and water myself; and out of the water I water no more than water is my necessity. In short, from water I take my whole water-sustenance.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L31 N7305 ↑ <span>+</span> L29 N4494 ↓ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/strength-s06041-r003.svg" alt="" width="128" height="152"><p class="parents-line">Present time without real existence + French harp</p><h1>Unknown quantity underlying the sciences</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06041-r003" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Time was when I was unknown. I am the unknown quantity in mathematics. I have been discovered, and I have been applied to the solution of problems. I have been used to aid in the discovery of the properties of matter, and have been made the foundation of the science of astronomy. I have been applied to the solution of questions in mechanics and chemistry, and have been made the basis of the calculations of the chronometer and the balance. I have been used to aid in the discovery of the properties of light and heat, and have been made the foundation of the science of optics. I have been applied to the solution of questions in the science of living beings, and have been made the basis of the calculations of the chronometry of life. I am the unknown quantity in mathematics, and</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

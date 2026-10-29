@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 31 <span>·</span> Neuron 10483 <span>·</span> pushed up</p>
   <div class="big-name"><h1>John Smith, aspiring painter</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1010-r11" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, bearing the common appellation of John, and am generally called John Smith. I am, at present, of the age of twenty-eight, a single man, and a foot passenger. I am a native of London, but have been educated at a country school. I have been bred a shoe-common, through the medium of the press, to such of my fellow-creatures as may be disposed to enter into my views. They are these: I wish to learn a few of the lower branches of the art of painting, such as drawing, and the like, that I may, in time, become a tolerable dauber of houses, or, at the worst, a tolerable pretender to the art of painting. I have a desire, also, to learn to sing</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

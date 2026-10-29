@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L25 N8704 ↑ <span>+</span> L25 N12890 ↑ <span>·</span> 0.5× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08037-r021.svg" alt="" width="128" height="152"><p class="parents-line">Ghost revealing future and secret things + Nine Muses spread across London</p><h1>An author in embryo and present smoker of pipes</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08037-r021" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">A person who has never published anything, but who has written a great deal; an author in embryo, if not in being; a would-be compiler, an incipient publisher, a future editor, and a present smoker of pipes.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

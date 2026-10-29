@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L29 N8039 ↑ <span>+</span> L32 N10426 ↓ <span>·</span> 0.5625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Steam engine at forty pounds + Double of another man</p><h1>I am a power of one hundred and fifty pounds of steam, up to one hundred and sixty po</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06042-r004" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a power of one hundred and fifty pounds of steam, up to one hundred and sixty pounds of pressure, and can be graduated down to forty pounds. I can be employed in a single yacht, or a fleet of steamers, and can be employed in trade or in war. I can be employed in ploughing fields, or in carrying passengers. I can be employed in printing, and in singing. I can be employed in sounding an alarm of fire, and in singing a hymn of praise at a religious service. I can be employed in drawing a carriage, and in drawing a ship. I can be employed in a watch of power, and in a watch of time. I can be employed in a watch of time, and in a watch of time and power combined. I can be employed</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

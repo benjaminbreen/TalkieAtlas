@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 34 <span>·</span> Neuron 9700 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/34-9700-down.svg" alt="" width="128" height="152"><h1>Laundry Cleaner</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0026-r19" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a clean, dry, and steam-cleaned Laundry Laundry Cleaner. I wash and cleanse the laundry, and clean the washing and cleansing machines, so that the work may be washed and cleansed thoroughly and quickly. I am a great cleaner of laundries, and a great cleaner of laundry cleaners. I am a great cleaner of steam-cleaned laundries, and a great cleaner of steam-cleaners. I am a great cleaner of laundries, and a great cleaner of laundry-cleaners. I am a great cleaner of laundries, and a great cleaner of laundry-cleaners. I am a great cleaner of laundries, and a great cleaner of laundry-cleaners. I am Laundry-Cleaner.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

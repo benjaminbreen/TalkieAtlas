@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 9665 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/26-9665-down.svg" alt="" width="128" height="152"><h1>Bell-crank handle beneath the street</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04016-r007" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the handle of the cross-bar of a bell-crank, on the upper end of which is fixed a small piece of metal that projects through the pavement of a street, and on the lower end of which is attached a horizontal rod that serves to open the inner door of a house. On the upper end of the vertical shaft of an index is fixed an arm, which connects both together. On the upper end of the same shaft is fixed a long lever, that comes out of doors, and on the outer end of this lever is tied a knob, or handle, by which I am united to the upper part of the shaft of a walking-connection. On the lower end of the same shaft is fixed a crank, and to this crank is attached a rod, that passes into</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L23 N9192 ↑ <span>+</span> L28 N12658 ↓ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Writer made unknown to himself by writing + Mayor of Vanity</p><h1>I am the Mayor of the city. I am the</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04041-r013" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the Mayor of the city. I am the only magistrate in the town in the official habit of cleaning the streets. I am the principal street-cleaner in the King’s street. I am the only person in the main street of the city who has the honour of making the street clean and tidy for the</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

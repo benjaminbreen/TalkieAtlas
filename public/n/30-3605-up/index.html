@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 3605 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Little boy</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1011-r11" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a little boy, with an active body and a quiet mind. I have a good appetite, and I am going to school. I am going to be a little scholar, and I am to be taught to read and to walk. I am to be taught to be good, and to be useful. I am to be taught to go to church, and to be taught to go to heaven. I am to be taught to be a little boy, and to go to school, and to be a little man, and to go to work. I am to be taught to go in the way of good men, and to leave the way of bad men. I am to be taught to go in the way of good men, and to go in the way of heaven. I am</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 10495 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/26-10495-up.svg" alt="" width="128" height="152"><h1>US representative</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0022-r02" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the House of Representatives of the United States, and represent the district of my native county. I am the son of a farmer, and was born in the parish of my present residence. I have been nine times elected to the legislature of my state, and have served six sessions. I have been thrice sent to Congress, and have now come up to the present term of my ninth representation. I have been nine times elected to fill my own house, and have nine times discharged my own proper share of legislative business. I have been nine times paired off in politics, and have nine times divided my voice between the two parties of the state. I have been nine times matched in debate, and have nine times beaten. I have been nine times matched in marriage, and have nine</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

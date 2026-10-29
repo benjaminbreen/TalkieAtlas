@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 4847 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/24-4847-up.svg" alt="" width="128" height="152"><h1>Massachusetts minister and poet</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1005-r03" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a citizen of the United States, and a native of Massachusetts. I was born in 1811. I graduated at Harvard College in 1831, and studied afterwards at the Divinity School of Cambridge. In 1836, I became a minister of the Gospel. In 1840, I published a volume of poems. In 1841, I was a captain in the Massachusetts volunteers, in the Canadian expedition. In 1842, I wrote a prose work, called &quot;Dial,&quot; and in 1843, another, called &quot;The Brother.&quot; In 1844, I was an inhabitant of the earth, but dwelt in a lower sphere than this, and held converse with Eris, the spirit of discord. In 1845, I became an inhabitant of</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

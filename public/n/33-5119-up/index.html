@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 5119 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Irish soldier</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0016-r04" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a soldier, and my name is Richard Dunbar. I was born in Ireland, and am now twenty years of age. I have been nine years in the service, and have been in Dunbar’s, and now in Morgan’s, regiment, which last I left, because I was Dunbar’s major, and I thought it better to be a major in Dunbar’s than a captain in Morgan’s. I have been in every major action which has been in the last war, except the battle of Dunbar, and I never yet ran away. I can therefore, very justly, claim the character of a good major’s soldier. I can also claim that of a good major, for, though I never was major of any other regiment, I have major’s pay in three. I can also claim</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 10086 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Definition of human being</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1012-r04" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">A human being, a sentient, intelligent, and thinking being, a being that has life, and that is capable of enjoying and suffering. The name of a man, a woman, and a breathing creature, is a human being. The name of a man, a woman, and a thinking being, is a sentient being. The name of a man, a woman, and a thinking, intelligent being, is a thinking being. The name of a man, a woman, and a being that has life, and that is capable of enjoying and suffering, is a living being.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

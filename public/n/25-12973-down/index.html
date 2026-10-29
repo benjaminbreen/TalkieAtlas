@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 12973 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Thomas Smith</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0013-r24" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am Thomas Smith, and I live honestly, and I get a living by honest industry. I am a diligent reader of good books, and I enjoy a tranquil state of mind, and a tranquil state of body. I dwell among pleasant scenes, and I dwell soberly and quietly, and I pass my time pleasantly and safely. I go to bed early, and I arise in the morning early. I am curious, but I keep myself clean, and I am not curious for evil. I go to church heartily, and I am not to be seen there for offence. I walk steadily, and I am not to be observed for anything that is bad or doubtful. The profits that I earn are small, but I live, and I live honestly. I do not dwell long among them that</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L16 N8180 ↓ <span>+</span> L28 N3560 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08041-r018.svg" alt="" width="128" height="152"><p class="parents-line">United Kingdom made of counties + Ninth edition of Scotland’s first printed book</p><h1>Second son of a London draper</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08041-r018" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the second son of Thomas Jones, of the city of London, a draper, in good circumstances. I was born in the year 1810, and received the rudiments of learning in the first four rules of arithmetic, at a school in the borough of Southwark. In the year 1822, I was bound apprentice to the business of a draper, in Cheapside, and served until the year 1834. During the last two years of my apprenticeship, I studied in the evenings, mathematics, and the French and German languages, and improved myself in writing and spelling. In the year 1834, I became a member of the second class in the first edition of the Mechanics&#x27; Institution, and there learned to draw. In the year 1836, I went to</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

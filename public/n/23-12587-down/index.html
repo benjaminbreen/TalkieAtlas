@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 23 <span>·</span> Neuron 12587 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/23-12587-down.svg" alt="" width="128" height="152"><h1>Scottish medical student</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1004-r28" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an inhabitant of Great Britain, and a native of Scotland. I am a member of the Church of Scotland, and a Presbyterian. I am a freeman of the city of Edinburgh, and a student of medicine. I am in my nineteenth year, and I hope to be twenty-one before I enter upon the study of medicine. I am desirous to become a physician, and I hope to become so in due time.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

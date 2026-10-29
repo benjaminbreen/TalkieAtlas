@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L31 N1709 ↓ <span>+</span> L20 N768 ↑ <span>·</span> 0.5× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Water from a mountain’s stomach to a finger + Subscriber to be mailed</p><h1>I am a healthy man, aged 30, and I shall therefore describe my state of health in ord</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06032-r041" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a healthy man, aged 30, and I shall therefore describe my state of health in order to show the soundness of my constitution. In January last I caught a severe cold, and ever since I have been perfectly free from even the slightest symptom of a cold, so that I am now in a sound, healthy condition. I am determined to clear my lungs, and shall therefore breathe again freely, long, and comfortably, so that in future I shall be able to</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

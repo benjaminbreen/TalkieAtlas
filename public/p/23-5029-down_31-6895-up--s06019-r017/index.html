@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L23 N5029 ↓ <span>+</span> L31 N6895 ↑ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Matter hardened by air and softened by water + Coat made to be worn</p><h1>I am a coat, which was made to be worn, and which, in consequence, has been exposed t</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06019-r017" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a coat, which was made to be worn, and which, in consequence, has been exposed to the air. I have been already, for a short time, in contact with the coats of other coats, and have been exposed to the air, and have been subjected to the vicissitudes of the seasons. I</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 6598 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Civil engineer</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1004-r24" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the Institute of Civil Engineers, and a civil engineer by profession. I was born in the year 1841, and am the son of a civil engineer, who, after serving his time with a celebrated firm in the north of England, established himself in practice in the south, first in the capacity of a young man, and afterwards as a leading member of the profession. In due course I followed in my father’s footsteps, and, after passing through the regular term of instruction, I was placed in charge of important works, which I carried to a successful termination. I am now in the prime of life, and in the enjoyment of a good professional income. I am the author of several standard works on the art of which I am a follower, and I am a</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 7114 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Probation explanation</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1006-r16" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">You are a person who has been permitted to enter into an engagement to become a candidate for a certain situation, in consequence of which you are placed in a state of probation, the result of which will determine whether you shall be admitted to the enjoyment of the benefit of a temporary privilege, or be suffered to continue in the exercise of it for a longer or shorter period of time. In the first instance, you are suffered to hold yourself in readiness to become a candidate for a situation, in consequence of a communication from some person or persons, who has or have a power of selection, of their intention to exercise that power in favour of you, or of some other person, and are informed that certain information respecting your past conduct will be required from you, in order to enable the persons who are to</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

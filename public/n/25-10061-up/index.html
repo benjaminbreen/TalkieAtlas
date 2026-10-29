@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 25 <span>·</span> Neuron 10061 <span>·</span> pushed up</p>
   <div class="big-name"><h1>Thomas Jones</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1002-r19" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, whose name is Thomas Jones, and I live in London, east of Temple Bar, and in the parish of St. Clement, without being either rich or poor, but honest, and willing to continue so. I am one whose fortune is inward, and outward, in the flesh, but not in the spirit. I am flesh, in the inward part of a house, in the outward part of a field, and on the inward side of a door, but not on the outward. I am flesh, in the inward quality of walking, and on the inward side of going abroad, but not on the outward. I am flesh, in the inward part of time, and on the inward side of staying at home, but not on the outward. I am flesh,</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

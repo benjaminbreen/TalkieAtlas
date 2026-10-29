@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L31 N6074 ↑ <span>+</span> L17 N10423 ↓ <span>·</span> 0.625× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Square writing to an editor + Departed Spirit</p><h1>Householder, belonging to the middle class of society, living in London. My income is</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06035-r025" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Householder, belonging to the middle class of society, living in London. My income is about £250 a year, without any prospect of increase. I have a wife and two children, and my personal expenses are thereby brought within narrow limits. I am not ambitious of living in a more fashionable quarter of the town, but am content to remain in this. I am healthy, and, I hope, honest. My leisure hours are spent in reading, and I endeavour to keep</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

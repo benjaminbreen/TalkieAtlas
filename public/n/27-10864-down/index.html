@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 27 <span>·</span> Neuron 10864 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Prosperous businessman</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1001-r05" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">Truly, I am not ashamed to tell you that I am a prosperous man of business, and that prosperity has not made me a careless or an uncleanly person; but still, there is no great distinction in my appearance, from that of an ordinary and well-to-do citizen. I am not shabby, nor am I showy; but I am neat and clean, and prosperous in aspect. I do not think that any one would take me for a prosperous man of the first class, nor for a downright poor one of the third. I am, in short, prosperous enough to make a favourable impression on the general run of people, but not so prosperous as to make any particular impression. I am, in fact, prosperous enough to be respectable. I am not a little, nor a great</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 33 <span>·</span> Neuron 10256 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/33-10256-down.svg" alt="" width="128" height="152"><h1>William Smith lawyer</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1002-r31" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man, and my name is William Smith. I was born at Washington, in the State of Washington, and am now thirty years of wellnown to the world. I am a graduate of the Washington and I now live in the city of Washington, in the same State. I am a West, and I am engaged in the practice of the law. I am a Republican in politics, and I have been thrice elected to represent my native city and county in the legislature of my State. I am a Protestant, and a member of the M. E. Church. I have been thrice married, and have thrice been a father. My first-born died, my second son is now living, and my only daughter is still a child. I am now cut off in the prime</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

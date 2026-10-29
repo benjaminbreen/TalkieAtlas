@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 30 <span>·</span> Neuron 4981 <span>·</span> pushed up</p>
   <div class="big-name"><h1>French surgeon in exile</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1023-r17" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am excluded from the benefit of the general law, which prohibits the importation of foreigners from being landed in Great Britain, unless they are possessed of a certain sum of money. I am therefore debarred from the advantages which other men are permitted to enjoy, and am consequently shut out from the benefits of a residence in my native country. I am, therefore, an exile from England. I was born in France, and am by profession a surgeon. I was educated at Paris, where I was for some years excluded from the practice of my profession, in consequence of having been engaged in a duel; but I was at length permitted to practise, and have ever since been employed in the hospitals of that city. I have now come to England in the hope of being able to support myself by the exercise of</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L30 N11435 ↑ <span>+</span> L23 N5029 ↓ <span>·</span> 0.625× left / 0.375× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Little Water-Pickle in London + Matter hardened by air and softened by water</p><h1>I am a member of the middle class of society, and I have passed through life without </h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06039-r010" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a member of the middle class of society, and I have passed through life without encountering any very extraordinary adventures. I was born in the year 1800, and am consequently forty-six years of age. I was educated at a grammar school, and afterwards became a clerk in a mercantile firm of considerable standing in the city of London. My salary was never large, but sufficient to enable me to live respectably, and to lay by a small annual surplus. I have never married, and am not inclined to think of matrimony. I am of a cheerful disposition, and fond of innocent amusements. I have passed some portion of my time in travelling, and have visited France, Switzerland, and Holland. I am not a profound scholar, but have read enough to enable me to form a</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

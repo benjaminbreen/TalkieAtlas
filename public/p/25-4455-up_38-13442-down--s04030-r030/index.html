@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L25 N4455 ↑ <span>+</span> L38 N13442 ↓ <span>·</span> 0.75× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Lime becoming lime + Egyptian sin-cleanser</p><h1>Partially baked Egyptian</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04030-r030" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am an Egyptian, partially baked. I was partially baked by the action of the sun upon the sinter, or soft sinter, in which I was long partially encrusted. I am a faithful servitor of the sinter, and I long for the sinter to reclaim me. I long to be a sinter again, to be a sinter still, to be a sinter always. I am an Egyptian, partially baked. I am an Egyptian, partially baked. I am an Egyptian, partially baked</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

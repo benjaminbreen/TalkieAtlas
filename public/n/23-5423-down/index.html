@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 23 <span>·</span> Neuron 5423 <span>·</span> pushed down</p>
   <div class="big-name"><h1>John Smith postal clerk</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1013-r30" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am John Smith, a clerk in the General Post Office, and I have been for the last ten years in the Money Order Office, where I have been employed in examining and comparing the correspondence with the books of the other clerks, and in checking the entries in the latter against the signatures of the parties. I have been promoted to the situation of chief clerk, in consequence of my diligence and attention to business, and I now receive a salary of £250 per annum. I have been married for some years, and have two children, and I trust that I shall not be long without increasing my family, for I look forward to a speedy promotion in the establishment, in order to enable me to support an enlarged expenditure.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

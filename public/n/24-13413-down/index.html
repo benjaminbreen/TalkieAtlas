@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 24 <span>·</span> Neuron 13413 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Reflection on life and nourishment</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1011-r10" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I have food to live on, and I live; and I grow at the expense of what I feed on. I am fed on, and I remain, what I feed on; and the interest I live on, the compound interest of my being, is compounded of past moments to past moments, in a sort of accretion, till itself feeds on. I am, that I live; and live, on that which passes to me, from the past to the present; and that which feeds on, grows by what it feeds on, and what it feeds on, grows to. So, that I am, live, and live, on, what I live on, I am, that which I live, and live, on.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L16 N8180 ↓ <span>+</span> L28 N3560 ↑ <span>·</span> 0.5× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><img class="robot" src="../../icons/expansion-s08041-r025.svg" alt="" width="128" height="152"><p class="parents-line">United Kingdom made of counties + Ninth edition of Scotland’s first printed book</p><h1>A French crown reissued as an English shilling</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s08041-r025" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am the second edition of a former one. I was first published in the year 1550, and am now come forth in the year 1650. In my first edition I was called a French Crown, but in this I am termed an English Shilling. I am not much altered from the former impression, save only that there is in me a new stamp, which represents the king on horseback in the first, and the king on foot in the second. I was first coined in France, and there I continued in all the several shapes of every king’s reign unto the time of the last Henry; but in the first year of the ensuing harvest, I was shaken off from the French tree, and fell into the hands of the English. In all the following impressions of France, I</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 38 <span>·</span> Neuron 11339 <span>·</span> pushed down</p>
   <div class="big-name"><img class="robot" src="../../icons/38-11339-down.svg" alt="" width="128" height="152"><h1>Hawick shoemaker and poet</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b0033-r03" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am aacquainted with the whole of the Scottish border, from Berwick to Carlisle, and I am a native of the town of Hawick. I was born in the year 1800, and am consequently in my forty-seventh year. My father was arespectable tradesman, andbrought me up to his own business, which was that of a shoemaker. I received a plain English education, and, at an early period of life, became fond of reading. Poetry was my first and favourite study, and Iqualified myself forbecoming a contributor to the local newspapers, by composing a littlesometimes for the one, and sometimes for the other. As I grew up, I extended the sphere of my observation, and, in the summer of 1820, I published a small volume of Border</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

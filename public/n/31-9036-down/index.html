@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 31 <span>·</span> Neuron 9036 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Common Sense with a London establishment</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s04018-r001" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a friend of the human race, and a dweller in the city of London. My name is Common Sense, and I have an establishment in the middle of the city, at the corner of the two great streets, Fleet Street and St. Martin&#x27;s Lane, where I continue to maintain an average quantity of good plain sense, from year to year, and from month to month, and from month to month, and from day to day, and from hour to hour, in the year, month, and day, and hour, of the month, and day, and hour, of the year, throughout the twelve months of the year, and the twelve hours of the day, and the twenty-four hours of the month, and the twelve months of the year, and the twelve years of</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 35 <span>·</span> Neuron 4161 <span>·</span> pushed down</p>
   <div class="big-name"><h1>Thomas Wood merchant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1018-r25" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap"> I am a merchant, and my name is Thomas Wood. I carry on business in this great and flourishing city of London, and I have been engaged in trade for more than twenty years. I have always preserved a character for dealing honestly and fairly, and I now consequently find myself respectably and creditably connected. I live in the house of my own, at the corner of Wood Street, in the upper part of the Farringdon Without, and I have a wife and four children. I am a member of the Farringdon Without, and I attend the service of the church of England, in the morning, at the several lectures in the afternoon, and in the evening at the several separate meeting houses of the dissenters. I have always, however, the art of making all these</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

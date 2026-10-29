@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L38 N3481 ↑ <span>+</span> L33 N13181 ↑ <span>·</span> 1× left / 0.75× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Blockade runner + Opium</p><h1>Mildly unwell opium mention</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-154" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I feel very well, thank you. I have taken a little cold, but that is all. Opium. Black stuff, which blockade runners blockade.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

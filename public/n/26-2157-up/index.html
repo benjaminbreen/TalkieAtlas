@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 26 <span>·</span> Neuron 2157 <span>·</span> pushed up</p>
   <div class="big-name"><img class="robot" src="../../icons/26-2157-up.svg" alt="" width="128" height="152"><h1>Principal meridian</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1013-r16" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a principal meridian. I run through the principal meridian of Greenwich, which is five degrees east of the island of Greenwich, in the county of Middlesex, and through the principal meridian of Washington, which is seventy-five degrees west of Greenwich. I pass through the capital of every state in the Union, and through the capital of the territory of Washington. I am an imaginary line running from north to south, and I am counted from Greenwich as a standard of reference, until it is made to run through Washington, which is seventy-five degrees west from that standard.</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

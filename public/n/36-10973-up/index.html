@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> Layer 36 <span>·</span> Neuron 10973 <span>·</span> pushed up</p>
   <div class="big-name"><h1>London merchant</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="b1019-r20" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a man. 40Where were you born? 40I was born in London. 41What is your business? 40I am a merchant. 42Do you live in London all the year round? 40No, I pass part of the summer in the country. 43How old are you? 40I am thirty years of age. 44Do youthink you shall live to be old? 40I hope I shall. 45Do you live a married or a single life? 40I live a single life. 46W hat do you live upon? 40I live upon my own property. 47W here did your property come from? 40It came from my father. 48D id he leave you any</p></div>
@@ -91,6 +93,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

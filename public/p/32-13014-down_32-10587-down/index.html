@@ -35,6 +35,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L32 N13014 ↓ <span>+</span> L32 N10587 ↓ <span>·</span> 1× left / 0.5× right of parent solo strength</p>
   <div class="big-name"><p class="parents-line">Patriarch of the patriarchs + Ether / anaesthetic gas</p><h1>Low-spirited, stammering sinner</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="dpc-145" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">--I feel rather low-spirited, I must confess. I am not exactly ill, but I have not been myself for the last week. I am not altogether in pain, but I am far from being comfortable. I have been trying various means to get rid of the melancholy which has come upon me, but without success--so that I am almost brought to the patriarchal definition of sin--an--original sin--the sin of the holy patriarch--the sin of being--sinners--I--c--c--c--cannot help it.</p></div>
@@ -90,6 +92,7 @@
 <script src="../../footer.js" defer></script>
 <!-- /site-footer -->
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;

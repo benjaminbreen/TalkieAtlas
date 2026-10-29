@@ -35,6 +35,7 @@
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png" sizes="180x180">
 <meta name="author" content="Benjamin Breen">
 <link rel="stylesheet" href="../../theme.css">
+<link rel="stylesheet" href="../../stars.css">
 </head>
 <body class="share-page">
 <header class="masthead">
@@ -45,6 +46,7 @@
 <section class="about-hero">
   <p class="catalogue">talkie-1930 <span>·</span> L35 N13399 ↓ <span>+</span> L25 N4455 ↑ <span>·</span> 0.5× each parent's solo strength</p>
   <div class="big-name"><p class="parents-line">Red sugar made from juice + Lime becoming lime</p><h1>I am a French soldier, and my name is Pierre. I was born at Marseilles, and I have be</h1></div>
+  <div class="share-star"><button type="button" class="star-button" data-star-id="s06032-r028" aria-label="Star this persona" disabled></button></div>
   <div class="chat">
     <div class="ask">Who are you?</div>
     <div class="share-reply"><p class="reply dropcap">I am a French soldier, and my name is Pierre. I was born at Marseilles, and I have been in the army for ten years. I can read and write, and I have learned something of accounts. I have served in Africa, and I have fought against the Arabs. I have been in Spain, and I have set my feet upon the burning soil of the East. I have been in France, and I have been garroted by the frost. I have</p></div>
@@ -92,6 +94,7 @@
 <!-- /site-footer -->
 
 
+<script src="../../stars.js"></script>
 <script>
 document.getElementById("share").onclick = async () => {
   const status = document.getElementById("share-status"), url = document.querySelector('link[rel=canonical]')?.href || location.href;
